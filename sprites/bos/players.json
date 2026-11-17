@@ -438,6 +438,176 @@
     51
    ],
    "look_source": "photo: short dark crop / clean-shaven"
+  },
+  {
+   "id": "no28",
+   "label": "#28",
+   "name": "",
+   "skin": [
+    232,
+    196,
+    172
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    44,
+    30,
+    24
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    122,
+    51
+   ],
+   "look_source": "photo: thick dark wavy hair / clean-shaven"
+  },
+  {
+   "id": "no52",
+   "label": "#52",
+   "name": "",
+   "skin": [
+    234,
+    196,
+    170
+   ],
+   "hair": "crop",
+   "hair_color": [
+    36,
+    26,
+    22
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    122,
+    51
+   ],
+   "look_source": "photo: short dark crop / clean-shaven"
+  },
+  {
+   "id": "no45",
+   "label": "#45",
+   "name": "",
+   "skin": [
+    150,
+    102,
+    74
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    18
+   ],
+   "headband": [
+    244,
+    244,
+    244
+   ],
+   "beard": "full",
+   "beard_color": [
+    26,
+    20,
+    18
+   ],
+   "sleeves": [
+    244,
+    244,
+    244
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    122,
+    51
+   ],
+   "look_source": "photo: short hair + white headband / full beard / white undershirt"
+  },
+  {
+   "id": "no12",
+   "label": "#12",
+   "name": "",
+   "skin": [
+    190,
+    134,
+    100
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    18
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    122,
+    51
+   ],
+   "look_source": "photo: short curly hair / clean-shaven"
+  },
+  {
+   "id": "no13",
+   "label": "#13",
+   "name": "",
+   "skin": [
+    140,
+    92,
+    66
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    18
+   ],
+   "beard": "full",
+   "beard_color": [
+    26,
+    20,
+    18
+   ],
+   "sleeve_arm": [
+    {
+     "side": "right",
+     "color": [
+      244,
+      244,
+      244
+     ]
+    }
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    122,
+    51
+   ],
+   "look_source": "photo: short curly hair / full beard / white arm sleeve"
   }
  ]
 }

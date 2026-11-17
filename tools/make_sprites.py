@@ -274,28 +274,36 @@ def main(team):
             im = make(p, kit)
             im.save(os.path.join(d, f'{p["id"]}_{k}.png'))
             out[(p["id"], k)] = im
-    # check sheet
-    z, cw, ch = 5, 140, 230
+    # check sheet (wraps at PER_ROW players, like the Hawks sheet)
+    PER_ROW = 8
+    z, cw, ch = 5, 140, 240
     n = len(cfg["players"])
-    sheet = Image.new('RGB', (40 + cw * max(n, 1), 60 + ch * len(kits)), (250, 250, 250))
+    lines = (n + PER_ROW - 1) // PER_ROW
+    sheet = Image.new('RGB', (40 + cw * min(n, PER_ROW), 60 + (ch * lines + 30) * len(kits)), (250, 250, 250))
     dr = ImageDraw.Draw(sheet)
     try:
         f = ImageFont.truetype(os.path.join(ROOT, 'fonts', 'Silkscreen-Regular.ttf'), 16)
+        fs = ImageFont.truetype(os.path.join(ROOT, 'fonts', 'Silkscreen-Regular.ttf'), 8)
         fb = ImageFont.truetype(os.path.join(ROOT, 'fonts', 'Silkscreen-Bold.ttf'), 24)
     except OSError:
-        f = fb = ImageFont.load_default()
+        f = fs = fb = ImageFont.load_default()
     dr.text((20, 14), f'{cfg["team"]} - chibi v2', font=fb, fill=(20, 20, 20))
     for ki, k in enumerate(kits):
-        y0 = 60 + ki * ch
-        dr.text((20, y0), k.upper(), font=f, fill=(120, 120, 120))
+        yk = 60 + ki * (ch * lines + 30)
+        dr.text((20, yk), k.upper(), font=f, fill=(120, 120, 120))
         for i, p in enumerate(cfg["players"]):
             im = out[(p["id"], k)]
             big = im.resize((im.width * z, im.height * z), Image.NEAREST)
-            x = 20 + i * cw + (cw - big.width) // 2
-            sheet.paste(big, (x, y0 + 20 + (190 - big.height)), big)
+            col, line = i % PER_ROW, i // PER_ROW
+            x0, y0 = 20 + col * cw, yk + line * ch
+            sheet.paste(big, (x0 + (cw - big.width) // 2, y0 + 20 + (190 - big.height)), big)
             lab = f'{p["label"]} {p.get("name", "")}'.strip()
             tw = dr.textlength(lab, font=f)
-            dr.text((20 + i * cw + (cw - tw) / 2, y0 + 212), lab, font=f, fill=(30, 30, 30))
+            dr.text((x0 + (cw - tw) / 2, y0 + 212), lab, font=f, fill=(30, 30, 30))
+            if ki == 0 and p.get("look_source"):
+                src = f'{p["look_source"].split(":")[0]}: {p.get("hair", "bald").replace("_", " ")} / {p.get("beard", "none")}'
+                tw = dr.textlength(src, font=fs)
+                dr.text((x0 + (cw - tw) / 2, y0 + 230), src, font=fs, fill=(140, 140, 140))
     sheet.save(os.path.join(d, 'sheet.png'))
     print(f'wrote {len(out)} sprites + sheet.png to sprites/{team}/')
 
