@@ -15,7 +15,9 @@ to `renders/`.
 sprites/<team>/       one folder per team (NBA 3-letter code, lower case), native pixel size
 sprites/<team>/source/  the original sprite sheet that team's PNGs were cut from
 sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / statement)
+sprites/bos/          Celtics — drawn by tools/make_sprites.py from sprites/bos/players.json (5 players so far)
 tools/extract_sprites.py   cuts a sheet into sprites/<team>/*.png
+tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
 fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
 episodes/NNN-name/    replay.py (visuals), audio.py (chiptune + SFX), render.sh
 renders/              finished MP4s
@@ -36,6 +38,18 @@ Upload the team's sprite sheet in a Claude Code session with this repo attached 
 it to be added. The sheet goes in `sprites/<team>/source/` and the cut-out sprites in
 `sprites/<team>/`. Once a team has sprites, replays can use them as real opponents instead
 of recoloured Hawks.
+
+### Drawing a team from photos
+
+Add each player's look to `sprites/<team>/players.json` (skin, hair style, beard style,
+headband, undershirt sleeves, armband, shoes) and run:
+
+```bash
+python3 tools/make_sprites.py bos
+```
+
+This writes `<id>_<kit>.png` for each kit plus `sheet.png`, a labelled check sheet.
+Hair styles: bald, curly_short, wavy_medium, afro_band. Beards: none, short, full, thick.
 
 ## Render a replay
 

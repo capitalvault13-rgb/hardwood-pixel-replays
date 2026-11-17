@@ -1,0 +1,23 @@
+{
+  "team": "Boston Celtics",
+  "kits": {
+    "home":      {"jersey": [246,246,242], "shade": [206,210,206], "trim": [0,122,51],   "trim2": [0,96,40],    "band": [0,122,51]},
+    "away":      {"jersey": [0,122,51],    "shade": [0,92,40],     "trim": [246,246,242], "trim2": [246,246,242], "band": [246,246,242]},
+    "statement": {"jersey": [24,24,28],    "shade": [46,46,52],    "trim": [0,122,51],   "trim2": [246,246,242], "band": [0,122,51]}
+  },
+  "players": [
+    {"id": "no27", "label": "#27", "name": "", "skin": [196,140,104], "hair": "bald", "beard": "none",
+     "shoes": [244,244,244], "shoe_accent": [0,122,51], "look_source": "photo: bald / clean-shaven"},
+    {"id": "no0", "label": "#0", "name": "", "skin": [150,98,70], "hair": "curly_short", "hair_color": [24,20,20],
+     "beard": "full", "beard_color": [30,24,22], "armband": [0,122,51],
+     "shoes": [244,244,244], "shoe_accent": [0,122,51], "look_source": "photo: short curls / full beard / green armband"},
+    {"id": "no55", "label": "#55", "name": "", "skin": [236,194,164], "hair": "wavy_medium", "hair_color": [118,76,44],
+     "beard": "none", "sleeves": [246,246,242],
+     "shoes": [244,244,244], "shoe_accent": [0,122,51], "look_source": "photo: wavy brown hair / clean-shaven / white undershirt"},
+    {"id": "no4", "label": "#4", "name": "", "skin": [104,66,50], "hair": "afro_band", "hair_color": [22,18,18],
+     "beard": "thick", "beard_color": [26,20,18], "headband": [244,244,244],
+     "shoes": [244,244,244], "shoe_accent": [0,122,51], "look_source": "photo: curly top + white headband / thick full beard"},
+    {"id": "no9", "label": "#9", "name": "", "skin": [188,132,98], "hair": "bald", "beard": "short", "beard_color": [40,30,26],
+     "shoes": [244,244,244], "shoe_accent": [0,122,51], "look_source": "photo: bald / short beard"}
+  ]
+}
