@@ -12,22 +12,30 @@ to `renders/`.
 ## Layout
 
 ```
-sprites/              Hawks chibi v2 — 19 players x 3 kits (home / away / statement), native pixel size
-sprites/source/       the original sprite sheet the PNGs were cut from
-tools/extract_sprites.py   re-cuts sprites/*.png from the sheet
+sprites/<team>/       one folder per team (NBA 3-letter code, lower case), native pixel size
+sprites/<team>/source/  the original sprite sheet that team's PNGs were cut from
+sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / statement)
+tools/extract_sprites.py   cuts a sheet into sprites/<team>/*.png
 fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
 episodes/NNN-name/    replay.py (visuals), audio.py (chiptune + SFX), render.sh
 renders/              finished MP4s
 reference/            earlier replays used as the style reference
 ```
 
-Sprite file names: `<player>_<kit>.png`, e.g. `kuminga_away.png`, `mccollum_home.png`.
-Players: naw, mccollum, johnson, okongwu, ejjofor, flemings, daniels, wiggins, kuminga,
+Sprite file names: `sprites/<team>/<player>_<kit>.png`, e.g. `sprites/atl/kuminga_away.png`.
+Hawks players: naw, mccollum, johnson, okongwu, ejjofor, flemings, daniels, wiggins, kuminga,
 dort, newell, veesaar, nembhard, hield, kispert, gilbert, landale, dennis, gueye.
 
 Opponents with no sprite set are drawn by recolouring Hawks home-kit sprites into the
 opponent's colours (see `load(..., recolor=True)` in `replay.py`). They are generic
 stand-ins and are never labelled.
+
+## Adding a team
+
+Upload the team's sprite sheet in a Claude Code session with this repo attached and ask for
+it to be added. The sheet goes in `sprites/<team>/source/` and the cut-out sprites in
+`sprites/<team>/`. Once a team has sprites, replays can use them as real opponents instead
+of recoloured Hawks.
 
 ## Render a replay
 

@@ -1,8 +1,16 @@
+"""Cut native-size sprites out of a chibi sprite sheet.
+Usage: python3 tools/extract_sprites.py <team> [sheet]
+The row/column boxes and player names below are for the Hawks chibi v2 sheet;
+a new team's sheet needs its own boxes and names."""
 import os
 from PIL import Image; import numpy as np
 from scipy import ndimage
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-im=np.array(Image.open(os.path.join(ROOT,'sprites','source','hawks-chibi-v2-sheet.webp')).convert('RGB')).astype(float)
+import sys
+TEAM=sys.argv[1] if len(sys.argv)>1 else 'atl'
+SHEET=sys.argv[2] if len(sys.argv)>2 else os.path.join(ROOT,'sprites',TEAM,'source','hawks-chibi-v2-sheet.webp')
+OUT=os.path.join(ROOT,'sprites',TEAM); os.makedirs(OUT,exist_ok=True)
+im=np.array(Image.open(SHEET).convert('RGB')).astype(float)
 g=np.zeros(im.shape[:2])
 g[:,1:]+=np.abs(np.diff(im,axis=1)).sum(2); g[1:,:]+=np.abs(np.diff(im,axis=0)).sum(2)
 bg=(im.min(axis=2)>232)
@@ -46,5 +54,5 @@ for ki,kit in enumerate(kits):
       yy,xx=np.where(al)
       a=a[yy.min():yy.max()+1, xx.min():xx.max()+1]
       # drop tiny disconnected components (label residue): remove rows at top separated by empty row
-      Image.fromarray(a).save(os.path.join(ROOT,'sprites',f'{names[n]}_{kit}.png'))
+      Image.fromarray(a).save(os.path.join(OUT,f'{names[n]}_{kit}.png'))
       if kit=='away' and names[n] in('kuminga','landale'): print(names[n],p,a.shape)

@@ -78,7 +78,7 @@ def build_court():
     return im
 
 # ---------- sprites ----------
-SP = os.path.join(HERE, 'sprites')
+SP = os.path.join(HERE, 'sprites', 'atl')
 SCALE = 3
 def load(name, recolor=False):
     a = np.array(Image.open(os.path.join(SP, name + '.png')).convert('RGBA'))
