@@ -1,0 +1,312 @@
+{
+ "team_id": 1610612746,
+ "abbr": "LAC",
+ "city": "LA",
+ "name": "Clippers",
+ "slug": "clippers",
+ "conference": "West",
+ "division": "Pacific",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612746/clippers",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "1",
+   "name": "Keaton Wagler",
+   "slug": "keaton-wagler",
+   "player_id": 1643413,
+   "position": "G",
+   "height": "6-6",
+   "weight": "175",
+   "birth_date": "FEB 03, 2007",
+   "age": 19,
+   "exp": "R",
+   "school": "Illinois",
+   "how_acquired": "#5 Pick in 2026 Draft"
+  },
+  {
+   "num": "3",
+   "name": "Bradley Beal",
+   "slug": "bradley-beal",
+   "player_id": 203078,
+   "position": "G",
+   "height": "6-4",
+   "weight": "207",
+   "birth_date": "JUN 28, 1993",
+   "age": 33,
+   "exp": "14",
+   "school": "Florida",
+   "how_acquired": "Signed on 07/18/25"
+  },
+  {
+   "num": "4",
+   "name": "Kobe Sanders",
+   "slug": "kobe-sanders",
+   "player_id": 1642920,
+   "position": "G",
+   "height": "6-8",
+   "weight": "207",
+   "birth_date": "MAY 30, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Nevada",
+   "how_acquired": "Draft Rights Traded from NYK on 06/26/25"
+  },
+  {
+   "num": "5",
+   "name": "Derrick Jones Jr.",
+   "slug": "derrick-jones-jr",
+   "player_id": 1627884,
+   "position": "F",
+   "height": "6-6",
+   "weight": "210",
+   "birth_date": "FEB 15, 1997",
+   "age": 29,
+   "exp": "10",
+   "school": "UNLV",
+   "how_acquired": "Signed on 07/09/24"
+  },
+  {
+   "num": "7",
+   "name": "Brandon Ingram",
+   "slug": "brandon-ingram",
+   "player_id": 1627742,
+   "position": "F",
+   "height": "6-8",
+   "weight": "190",
+   "birth_date": "SEP 02, 1997",
+   "age": 29,
+   "exp": "10",
+   "school": "Duke",
+   "how_acquired": "Traded from TOR on 09/14/26"
+  },
+  {
+   "num": "8",
+   "name": "Kris Dunn",
+   "slug": "kris-dunn",
+   "player_id": 1627739,
+   "position": "G",
+   "height": "6-3",
+   "weight": "205",
+   "birth_date": "MAR 18, 1994",
+   "age": 32,
+   "exp": "10",
+   "school": "Providence",
+   "how_acquired": "Traded from UTA on 07/18/24"
+  },
+  {
+   "num": "9",
+   "name": "Gradey Dick",
+   "slug": "gradey-dick",
+   "player_id": 1641711,
+   "position": "G-F",
+   "height": "6-7",
+   "weight": "200",
+   "birth_date": "NOV 20, 2003",
+   "age": 22,
+   "exp": "3",
+   "school": "Kansas",
+   "how_acquired": "Traded from TOR on 09/14/26"
+  },
+  {
+   "num": "10",
+   "name": "Darius Garland",
+   "slug": "darius-garland",
+   "player_id": 1629636,
+   "position": "G",
+   "height": "6-1",
+   "weight": "192",
+   "birth_date": "JAN 26, 2000",
+   "age": 26,
+   "exp": "7",
+   "school": "Vanderbilt",
+   "how_acquired": "Traded from CLE on 02/04/26"
+  },
+  {
+   "num": "11",
+   "name": "Brook Lopez",
+   "slug": "brook-lopez",
+   "player_id": 201572,
+   "position": "C",
+   "height": "7-1",
+   "weight": "282",
+   "birth_date": "APR 01, 1988",
+   "age": 38,
+   "exp": "18",
+   "school": "Stanford",
+   "how_acquired": "Signed on 07/06/25"
+  },
+  {
+   "num": "12",
+   "name": "Nick Martinelli",
+   "slug": "nick-martinelli",
+   "player_id": 1643568,
+   "position": "F",
+   "height": "6-7",
+   "weight": "220",
+   "birth_date": "APR 20, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Northwestern",
+   "how_acquired": "Draft Rights Traded from HOU on 06/24/26"
+  },
+  {
+   "num": "14",
+   "name": "Yanic Konan Niederhäuser",
+   "slug": "yanic-konan-niederhauser",
+   "player_id": 1642949,
+   "position": "C",
+   "height": "6-11",
+   "weight": "242",
+   "birth_date": "MAR 14, 2003",
+   "age": 23,
+   "exp": "1",
+   "school": "Penn State",
+   "how_acquired": "#30 Pick in 2025 Draft"
+  },
+  {
+   "num": "18",
+   "name": "Baba Miller",
+   "slug": "baba-miller",
+   "player_id": 1642394,
+   "position": "F",
+   "height": "6-11",
+   "weight": "204",
+   "birth_date": "FEB 07, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Cincinnati",
+   "how_acquired": "#36 Pick in 2026 Draft"
+  },
+  {
+   "num": "21",
+   "name": "Jalen Pickett",
+   "slug": "jalen-pickett",
+   "player_id": 1629618,
+   "position": "G",
+   "height": "6-2",
+   "weight": "202",
+   "birth_date": "OCT 22, 1999",
+   "age": 27,
+   "exp": "3",
+   "school": "Penn State",
+   "how_acquired": "Signed on 08/12/26"
+  },
+  {
+   "num": "22",
+   "name": "Jordan Miller",
+   "slug": "jordan-miller",
+   "player_id": 1641757,
+   "position": "G",
+   "height": "6-5",
+   "weight": "194",
+   "birth_date": "JAN 23, 2000",
+   "age": 26,
+   "exp": "3",
+   "school": "Miami",
+   "how_acquired": "#48 Pick in 2023 Draft"
+  },
+  {
+   "num": "23",
+   "name": "Isaiah Jackson",
+   "slug": "isaiah-jackson",
+   "player_id": 1630543,
+   "position": "F",
+   "height": "6-8",
+   "weight": "205",
+   "birth_date": "JAN 10, 2002",
+   "age": 24,
+   "exp": "5",
+   "school": "Kentucky",
+   "how_acquired": "Traded from IND on 02/05/26"
+  },
+  {
+   "num": "24",
+   "name": "Cam Christie",
+   "slug": "cam-christie",
+   "player_id": 1642353,
+   "position": "G",
+   "height": "6-5",
+   "weight": "190",
+   "birth_date": "JUL 24, 2005",
+   "age": 21,
+   "exp": "2",
+   "school": "Minnesota",
+   "how_acquired": "#46 Pick in 2024 Draft"
+  },
+  {
+   "num": "28",
+   "name": "Rui Hachimura",
+   "slug": "rui-hachimura",
+   "player_id": 1629060,
+   "position": "F",
+   "height": "6-8",
+   "weight": "230",
+   "birth_date": "FEB 08, 1998",
+   "age": 28,
+   "exp": "7",
+   "school": "Gonzaga",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "31",
+   "name": "Max Strus",
+   "slug": "max-strus",
+   "player_id": 1629622,
+   "position": "G-F",
+   "height": "6-5",
+   "weight": "215",
+   "birth_date": "MAR 28, 1996",
+   "age": 30,
+   "exp": "7",
+   "school": "DePaul",
+   "how_acquired": "Traded from CLE on 08/20/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Tyronn Lue",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Jeff Van Gundy",
+   "role": "Lead Assistant Coach"
+  },
+  {
+   "name": "Dahntay Jones",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Brian Shaw",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jay Larranaga",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Shaun Fein",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Chris Holguin",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Tim Dather",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Conor Dunleavy",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Larry Drew",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jasen Powell",
+   "role": "Trainer"
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "team_id": 1610612756,
+ "abbr": "PHX",
+ "city": "Phoenix",
+ "name": "Suns",
+ "slug": "suns",
+ "conference": "West",
+ "division": "Pacific",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612756/suns",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Ryan Dunn",
+   "slug": "ryan-dunn",
+   "player_id": 1642346,
+   "position": "F",
+   "height": "6-7",
+   "weight": "216",
+   "birth_date": "JAN 07, 2003",
+   "age": 23,
+   "exp": "2",
+   "school": "Virginia",
+   "how_acquired": "Draft Rights Traded from DEN on 06/26/24"
+  },
+  {
+   "num": "2",
+   "name": "Drew Timme",
+   "slug": "drew-timme",
+   "player_id": 1631166,
+   "position": "F",
+   "height": "6-9",
+   "weight": "235",
+   "birth_date": "SEP 09, 2000",
+   "age": 26,
+   "exp": "2",
+   "school": "Gonzaga",
+   "how_acquired": "Awarded on Waivers on 10/19/26"
+  },
+  {
+   "num": "3",
+   "name": "Dillon Brooks",
+   "slug": "dillon-brooks",
+   "player_id": 1628415,
+   "position": "G-F",
+   "height": "6-7",
+   "weight": "225",
+   "birth_date": "JAN 22, 1996",
+   "age": 30,
+   "exp": "9",
+   "school": "Oregon",
+   "how_acquired": "Traded from HOU on 07/06/25"
+  },
+  {
+   "num": "4",
+   "name": "Jalen Green",
+   "slug": "jalen-green",
+   "player_id": 1630224,
+   "position": "G",
+   "height": "6-4",
+   "weight": "186",
+   "birth_date": "FEB 09, 2002",
+   "age": 24,
+   "exp": "5",
+   "school": "NBA G League Ignite",
+   "how_acquired": "Traded from HOU on 07/06/25"
+  },
+  {
+   "num": "8",
+   "name": "Luke Kennard",
+   "slug": "luke-kennard",
+   "player_id": 1628379,
+   "position": "G",
+   "height": "6-5",
+   "weight": "206",
+   "birth_date": "JUN 24, 1996",
+   "age": 30,
+   "exp": "9",
+   "school": "Duke",
+   "how_acquired": "Signed on 07/14/26"
+  },
+  {
+   "num": "10",
+   "name": "Khaman Maluach",
+   "slug": "khaman-maluach",
+   "player_id": 1642863,
+   "position": "C",
+   "height": "7-1",
+   "weight": "250",
+   "birth_date": "SEP 14, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Duke",
+   "how_acquired": "Draft Rights Traded from HOU on 07/06/25"
+  },
+  {
+   "num": "11",
+   "name": "Oso Ighodaro",
+   "slug": "oso-ighodaro",
+   "player_id": 1642345,
+   "position": "F",
+   "height": "6-11",
+   "weight": "235",
+   "birth_date": "JUL 14, 2002",
+   "age": 24,
+   "exp": "2",
+   "school": "Marquette",
+   "how_acquired": "Draft Rights Traded from NYK on 06/27/24"
+  },
+  {
+   "num": "12",
+   "name": "Collin Gillespie",
+   "slug": "collin-gillespie",
+   "player_id": 1631221,
+   "position": "G",
+   "height": "6-1",
+   "weight": "195",
+   "birth_date": "JUN 25, 1999",
+   "age": 27,
+   "exp": "3",
+   "school": "Villanova",
+   "how_acquired": "Signed on 07/02/24"
+  },
+  {
+   "num": "15",
+   "name": "Devin Booker",
+   "slug": "devin-booker",
+   "player_id": 1626164,
+   "position": "G",
+   "height": "6-5",
+   "weight": "206",
+   "birth_date": "OCT 30, 1996",
+   "age": 30,
+   "exp": "11",
+   "school": "Kentucky",
+   "how_acquired": "#13 Pick in 2015 Draft"
+  },
+  {
+   "num": "17",
+   "name": "Jamaree Bouyea",
+   "slug": "jamaree-bouyea",
+   "player_id": 1631123,
+   "position": "G",
+   "height": "6-2",
+   "weight": "180",
+   "birth_date": "JUN 27, 1999",
+   "age": 27,
+   "exp": "4",
+   "school": "San Francisco",
+   "how_acquired": "Signed on 11/18/25"
+  },
+  {
+   "num": "18",
+   "name": "Koa Peat",
+   "slug": "koa-peat",
+   "player_id": 1643520,
+   "position": "F",
+   "height": "6-8",
+   "weight": "235",
+   "birth_date": "JAN 20, 2007",
+   "age": 19,
+   "exp": "R",
+   "school": "Arizona",
+   "how_acquired": "Draft Rights Traded from DAL on 06/24/26"
+  },
+  {
+   "num": "20",
+   "name": "Rasheer Fleming",
+   "slug": "rasheer-fleming",
+   "player_id": 1642853,
+   "position": "F",
+   "height": "6-9",
+   "weight": "240",
+   "birth_date": "JUL 10, 2004",
+   "age": 22,
+   "exp": "1",
+   "school": "St. Joseph's (PA)",
+   "how_acquired": "Draft Rights Traded from MIN on 07/06/25"
+  },
+  {
+   "num": "22",
+   "name": "Miles Bridges",
+   "slug": "miles-bridges",
+   "player_id": 1628970,
+   "position": "F",
+   "height": "6-7",
+   "weight": "225",
+   "birth_date": "MAR 21, 1998",
+   "age": 28,
+   "exp": "7",
+   "school": "Michigan State",
+   "how_acquired": "Traded from CHA on 07/13/26"
+  },
+  {
+   "num": "23",
+   "name": "Jordan Goodwin",
+   "slug": "jordan-goodwin",
+   "player_id": 1630692,
+   "position": "G",
+   "height": "6-3",
+   "weight": "215",
+   "birth_date": "OCT 23, 1998",
+   "age": 28,
+   "exp": "5",
+   "school": "St. Louis",
+   "how_acquired": "Awarded on Waivers on 07/23/25"
+  },
+  {
+   "num": "25",
+   "name": "Mark Williams",
+   "slug": "mark-williams",
+   "player_id": 1631109,
+   "position": "C",
+   "height": "7-1",
+   "weight": "240",
+   "birth_date": "DEC 16, 2001",
+   "age": 24,
+   "exp": "4",
+   "school": "Duke",
+   "how_acquired": "Traded from CHA on 06/30/25"
+  },
+  {
+   "num": "26",
+   "name": "Duop Reath",
+   "slug": "duop-reath",
+   "player_id": 1641871,
+   "position": "C",
+   "height": "6-10",
+   "weight": "245",
+   "birth_date": "JUN 26, 1996",
+   "age": 30,
+   "exp": "3",
+   "school": "Louisiana State",
+   "how_acquired": "Signed on 09/25/26"
+  },
+  {
+   "num": "61",
+   "name": "Pat Spencer",
+   "slug": "pat-spencer",
+   "player_id": 1630311,
+   "position": "G",
+   "height": "6-2",
+   "weight": "205",
+   "birth_date": "JUL 04, 1996",
+   "age": 30,
+   "exp": "3",
+   "school": "Northwestern",
+   "how_acquired": "Signed on 07/03/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Jordan Ott",
+   "role": "Head Coach"
+  },
+  {
+   "name": "DeMarre Carroll",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Mike Muscala",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jesse Mermuys",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Brian Randle",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Chaisson Allen",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "John Little",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Sean Dwyer",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "David Crewe",
+   "role": "Trainer"
+  }
+ ]
+}

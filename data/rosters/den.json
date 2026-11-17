@@ -1,0 +1,282 @@
+{
+ "team_id": 1610612743,
+ "abbr": "DEN",
+ "city": "Denver",
+ "name": "Nuggets",
+ "slug": "nuggets",
+ "conference": "West",
+ "division": "Northwest",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612743/nuggets",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Christian Braun",
+   "slug": "christian-braun",
+   "player_id": 1631128,
+   "position": "G",
+   "height": "6-6",
+   "weight": "220",
+   "birth_date": "APR 17, 2001",
+   "age": 25,
+   "exp": "4",
+   "school": "Kansas",
+   "how_acquired": "#21 Pick in 2022 Draft"
+  },
+  {
+   "num": "00",
+   "name": "Cam Whitmore",
+   "slug": "cam-whitmore",
+   "player_id": 1641715,
+   "position": "F",
+   "height": "6-6",
+   "weight": "230",
+   "birth_date": "JUL 08, 2004",
+   "age": 22,
+   "exp": "3",
+   "school": "Villanova",
+   "how_acquired": "Signed on 09/18/26"
+  },
+  {
+   "num": "1",
+   "name": "Julian Strawther",
+   "slug": "julian-strawther",
+   "player_id": 1631124,
+   "position": "G",
+   "height": "6-6",
+   "weight": "205",
+   "birth_date": "APR 18, 2002",
+   "age": 24,
+   "exp": "3",
+   "school": "Gonzaga",
+   "how_acquired": "Draft Rights Traded from IND on 06/23/23"
+  },
+  {
+   "num": "3",
+   "name": "Marvin Bagley III",
+   "slug": "marvin-bagley-iii",
+   "player_id": 1628963,
+   "position": "F",
+   "height": "6-10",
+   "weight": "235",
+   "birth_date": "MAR 14, 1999",
+   "age": 27,
+   "exp": "8",
+   "school": "Duke",
+   "how_acquired": "Signed on 07/15/26"
+  },
+  {
+   "num": "5",
+   "name": "Tyus Jones",
+   "slug": "tyus-jones",
+   "player_id": 1626145,
+   "position": "G",
+   "height": "6-1",
+   "weight": "196",
+   "birth_date": "MAY 10, 1996",
+   "age": 30,
+   "exp": "11",
+   "school": "Duke",
+   "how_acquired": "Signed on 03/05/26"
+  },
+  {
+   "num": "7",
+   "name": "Trevon Brazile",
+   "slug": "trevon-brazile",
+   "player_id": 1642350,
+   "position": "F",
+   "height": "6-10",
+   "weight": "220",
+   "birth_date": "JAN 07, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Arkansas",
+   "how_acquired": "#35 Pick in 2026 Draft"
+  },
+  {
+   "num": "9",
+   "name": "Ryan Nembhard",
+   "slug": "ryan-nembhard",
+   "player_id": 1642948,
+   "position": "G",
+   "height": "5-11",
+   "weight": "180",
+   "birth_date": "MAR 10, 2003",
+   "age": 23,
+   "exp": "1",
+   "school": "Gonzaga",
+   "how_acquired": "Signed on 09/30/26"
+  },
+  {
+   "num": "10",
+   "name": "DeMar DeRozan",
+   "slug": "demar-derozan",
+   "player_id": 201942,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "220",
+   "birth_date": "AUG 07, 1989",
+   "age": 37,
+   "exp": "17",
+   "school": "Southern California",
+   "how_acquired": "Signed on 09/08/26"
+  },
+  {
+   "num": "11",
+   "name": "Alpha Diallo",
+   "slug": "alpha-diallo",
+   "player_id": 1643813,
+   "position": "G",
+   "height": "6-7",
+   "weight": "210",
+   "birth_date": "JUN 29, 1997",
+   "age": 29,
+   "exp": "R",
+   "school": "Providence",
+   "how_acquired": "Signed on 07/13/26"
+  },
+  {
+   "num": "13",
+   "name": "Bryce Hopkins",
+   "slug": "bryce-hopkins",
+   "player_id": 1643624,
+   "position": "F",
+   "height": "6-7",
+   "weight": "225",
+   "birth_date": "SEP 07, 2002",
+   "age": 24,
+   "exp": "R",
+   "school": "St. John's",
+   "how_acquired": "#49 Pick in 2026 Draft"
+  },
+  {
+   "num": "14",
+   "name": "DaRon Holmes II",
+   "slug": "daron-holmes-ii",
+   "player_id": 1641747,
+   "position": "F",
+   "height": "6-9",
+   "weight": "225",
+   "birth_date": "AUG 15, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Dayton",
+   "how_acquired": "Draft Rights Traded from PHX on 06/26/24"
+  },
+  {
+   "num": "15",
+   "name": "Nikola Jokić",
+   "slug": "nikola-jokic",
+   "player_id": 203999,
+   "position": "C",
+   "height": "6-11",
+   "weight": "284",
+   "birth_date": "FEB 19, 1995",
+   "age": 31,
+   "exp": "11",
+   "school": "Mega Basket",
+   "how_acquired": "#41 Pick in 2014 Draft"
+  },
+  {
+   "num": "21",
+   "name": "Spencer Jones",
+   "slug": "spencer-jones",
+   "player_id": 1642461,
+   "position": "F",
+   "height": "6-7",
+   "weight": "225",
+   "birth_date": "JUN 14, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Stanford",
+   "how_acquired": "Signed on 07/30/24"
+  },
+  {
+   "num": "22",
+   "name": "Zeke Nnaji",
+   "slug": "zeke-nnaji",
+   "player_id": 1630192,
+   "position": "F-C",
+   "height": "6-10",
+   "weight": "240",
+   "birth_date": "JAN 09, 2001",
+   "age": 25,
+   "exp": "6",
+   "school": "Arizona",
+   "how_acquired": "#22 Pick in 2020 Draft"
+  },
+  {
+   "num": "23",
+   "name": "Cameron Johnson",
+   "slug": "cameron-johnson",
+   "player_id": 1629661,
+   "position": "F",
+   "height": "6-8",
+   "weight": "210",
+   "birth_date": "MAR 03, 1996",
+   "age": 30,
+   "exp": "7",
+   "school": "North Carolina",
+   "how_acquired": "Traded from BKN on 07/08/25"
+  },
+  {
+   "num": "27",
+   "name": "Jamal Murray",
+   "slug": "jamal-murray",
+   "player_id": 1627750,
+   "position": "G",
+   "height": "6-4",
+   "weight": "215",
+   "birth_date": "FEB 23, 1997",
+   "age": 29,
+   "exp": "10",
+   "school": "Kentucky",
+   "how_acquired": "#7 Pick in 2016 Draft"
+  },
+  {
+   "num": "32",
+   "name": "Aaron Gordon",
+   "slug": "aaron-gordon",
+   "player_id": 203932,
+   "position": "F",
+   "height": "6-8",
+   "weight": "235",
+   "birth_date": "SEP 16, 1995",
+   "age": 31,
+   "exp": "12",
+   "school": "Arizona",
+   "how_acquired": "Traded from ORL on 03/25/21"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "David Adelman",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Jared Dudley",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Chase Buford",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "John Beckett",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Ognjen Stojakovic",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Elvis Valcarcel",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Dan Shimensky",
+   "role": "Trainer"
+  }
+ ]
+}

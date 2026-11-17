@@ -1,0 +1,294 @@
+{
+ "team_id": 1610612757,
+ "abbr": "POR",
+ "city": "Portland",
+ "name": "Trail Blazers",
+ "slug": "blazers",
+ "conference": "West",
+ "division": "Northwest",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612757/blazers",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Damian Lillard",
+   "slug": "damian-lillard",
+   "player_id": 203081,
+   "position": "G",
+   "height": "6-2",
+   "weight": "200",
+   "birth_date": "JUL 15, 1990",
+   "age": 36,
+   "exp": "14",
+   "school": "Weber State",
+   "how_acquired": "Signed on 07/19/25"
+  },
+  {
+   "num": "00",
+   "name": "Scoot Henderson",
+   "slug": "scoot-henderson",
+   "player_id": 1630703,
+   "position": "G",
+   "height": "6-3",
+   "weight": "207",
+   "birth_date": "FEB 03, 2004",
+   "age": 22,
+   "exp": "3",
+   "school": "NBA G League Ignite",
+   "how_acquired": "#3 Pick in 2023 Draft"
+  },
+  {
+   "num": "1",
+   "name": "Ja Morant",
+   "slug": "ja-morant",
+   "player_id": 1629630,
+   "position": "G",
+   "height": "6-2",
+   "weight": "174",
+   "birth_date": "AUG 10, 1999",
+   "age": 27,
+   "exp": "7",
+   "school": "Murray State",
+   "how_acquired": "Traded from MEM on 06/29/26"
+  },
+  {
+   "num": "2",
+   "name": "John Tonje",
+   "slug": "john-tonje",
+   "player_id": 1642910,
+   "position": "G",
+   "height": "6-4",
+   "weight": "218",
+   "birth_date": "APR 23, 2001",
+   "age": 25,
+   "exp": "1",
+   "school": "Wisconsin",
+   "how_acquired": "Signed on 07/24/26"
+  },
+  {
+   "num": "5",
+   "name": "Jrue Holiday",
+   "slug": "jrue-holiday",
+   "player_id": 201950,
+   "position": "G",
+   "height": "6-4",
+   "weight": "220",
+   "birth_date": "JUN 12, 1990",
+   "age": 36,
+   "exp": "17",
+   "school": "UCLA",
+   "how_acquired": "Traded from BOS on 07/07/25"
+  },
+  {
+   "num": "8",
+   "name": "Deni Avdija",
+   "slug": "deni-avdija",
+   "player_id": 1630166,
+   "position": "F",
+   "height": "6-8",
+   "weight": "228",
+   "birth_date": "JAN 03, 2001",
+   "age": 25,
+   "exp": "6",
+   "school": "Maccabi Tel Aviv",
+   "how_acquired": "Traded from WAS on 07/06/24"
+  },
+  {
+   "num": "9",
+   "name": "Micah Potter",
+   "slug": "micah-potter",
+   "player_id": 1630695,
+   "position": "C",
+   "height": "6-9",
+   "weight": "248",
+   "birth_date": "APR 06, 1998",
+   "age": 28,
+   "exp": "5",
+   "school": "Wisconsin",
+   "how_acquired": "Awarded on Waivers on 07/10/26"
+  },
+  {
+   "num": "10",
+   "name": "Branden Carlson",
+   "slug": "branden-carlson",
+   "player_id": 1642382,
+   "position": "C",
+   "height": "7-0",
+   "weight": "220",
+   "birth_date": "JUN 14, 1999",
+   "age": 27,
+   "exp": "2",
+   "school": "Utah",
+   "how_acquired": "Signed on 07/01/26"
+  },
+  {
+   "num": "11",
+   "name": "Chris Youngblood",
+   "slug": "chris-youngblood",
+   "player_id": 1642959,
+   "position": "G",
+   "height": "6-4",
+   "weight": "222",
+   "birth_date": "FEB 09, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Alabama",
+   "how_acquired": "Signed on 03/03/26"
+  },
+  {
+   "num": "16",
+   "name": "Yang Hansen",
+   "slug": "hansen-yang",
+   "player_id": 1642905,
+   "position": "C",
+   "height": "7-1",
+   "weight": "270",
+   "birth_date": "JUN 26, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "Zibo",
+   "how_acquired": "Draft Rights Traded from MEM on 06/25/25"
+  },
+  {
+   "num": "17",
+   "name": "Shaedon Sharpe",
+   "slug": "shaedon-sharpe",
+   "player_id": 1631101,
+   "position": "G",
+   "height": "6-5",
+   "weight": "210",
+   "birth_date": "MAY 30, 2003",
+   "age": 23,
+   "exp": "4",
+   "school": "Kentucky",
+   "how_acquired": "#7 Pick in 2022 Draft"
+  },
+  {
+   "num": "23",
+   "name": "Donovan Clingan",
+   "slug": "donovan-clingan",
+   "player_id": 1642270,
+   "position": "C",
+   "height": "7-2",
+   "weight": "280",
+   "birth_date": "FEB 23, 2004",
+   "age": 22,
+   "exp": "2",
+   "school": "Connecticut",
+   "how_acquired": "#7 Pick in 2024 Draft"
+  },
+  {
+   "num": "27",
+   "name": "Vít Krejčí",
+   "slug": "vit-krejci",
+   "player_id": 1630249,
+   "position": "G",
+   "height": "6-8",
+   "weight": "195",
+   "birth_date": "JUN 19, 2000",
+   "age": 26,
+   "exp": "5",
+   "school": "Zaragoza",
+   "how_acquired": "Traded from ATL on 02/01/26"
+  },
+  {
+   "num": "29",
+   "name": "Jayson Kent",
+   "slug": "jayson-kent",
+   "player_id": 1643257,
+   "position": "F",
+   "height": "6-8",
+   "weight": "215",
+   "birth_date": "FEB 03, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Texas",
+   "how_acquired": "Signed on 03/03/26"
+  },
+  {
+   "num": "33",
+   "name": "Toumani Camara",
+   "slug": "toumani-camara",
+   "player_id": 1641739,
+   "position": "F",
+   "height": "6-7",
+   "weight": "230",
+   "birth_date": "MAY 08, 2000",
+   "age": 26,
+   "exp": "3",
+   "school": "Dayton",
+   "how_acquired": "Traded from PHX on 09/27/23"
+  },
+  {
+   "num": "35",
+   "name": "Robert Williams III",
+   "slug": "robert-williams-iii",
+   "player_id": 1629057,
+   "position": "C-F",
+   "height": "6-9",
+   "weight": "249",
+   "birth_date": "OCT 17, 1997",
+   "age": 29,
+   "exp": "8",
+   "school": "Texas A&M",
+   "how_acquired": "Traded from BOS on 10/01/23"
+  },
+  {
+   "num": "91",
+   "name": "Sidy Cissoko",
+   "slug": "sidy-cissoko",
+   "player_id": 1631321,
+   "position": "G",
+   "height": "6-6",
+   "weight": "220",
+   "birth_date": "APR 02, 2004",
+   "age": 22,
+   "exp": "3",
+   "school": "NBA G League Ignite",
+   "how_acquired": "Signed on 02/08/25"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Micah Nori",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Jay Triano",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Leron Black",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Quinton Crawford",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Mike Williams",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Gilbert Abraham",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jason Luhnow",
+   "role": "Assistant Coach for Player Development"
+  },
+  {
+   "name": "Geoff Clark",
+   "role": "Trainer"
+  },
+  {
+   "name": "Courtney Watson",
+   "role": "Trainer"
+  },
+  {
+   "name": "Jessica Cohen",
+   "role": "Trainer"
+  }
+ ]
+}

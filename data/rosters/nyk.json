@@ -1,0 +1,298 @@
+{
+ "team_id": 1610612752,
+ "abbr": "NYK",
+ "city": "New York",
+ "name": "Knicks",
+ "slug": "knicks",
+ "conference": "East",
+ "division": "Atlantic",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612752/knicks",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Andre Drummond",
+   "slug": "andre-drummond",
+   "player_id": 203083,
+   "position": "C",
+   "height": "6-10",
+   "weight": "279",
+   "birth_date": "AUG 10, 1993",
+   "age": 33,
+   "exp": "14",
+   "school": "Connecticut",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "00",
+   "name": "Jordan Clarkson",
+   "slug": "jordan-clarkson",
+   "player_id": 203903,
+   "position": "G",
+   "height": "6-5",
+   "weight": "194",
+   "birth_date": "JUN 07, 1992",
+   "age": 34,
+   "exp": "12",
+   "school": "Missouri",
+   "how_acquired": "Signed on 07/07/25"
+  },
+  {
+   "num": "1",
+   "name": "Dalton Knecht",
+   "slug": "dalton-knecht",
+   "player_id": 1642261,
+   "position": "F",
+   "height": "6-5",
+   "weight": "215",
+   "birth_date": "APR 19, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Tennessee",
+   "how_acquired": "Signed on 10/23/26"
+  },
+  {
+   "num": "2",
+   "name": "Miles McBride",
+   "slug": "miles-mcbride",
+   "player_id": 1630540,
+   "position": "G",
+   "height": "6-2",
+   "weight": "195",
+   "birth_date": "SEP 08, 2000",
+   "age": 26,
+   "exp": "5",
+   "school": "West Virginia",
+   "how_acquired": "Draft Rights Traded from OKC on 07/30/21"
+  },
+  {
+   "num": "3",
+   "name": "Josh Hart",
+   "slug": "josh-hart",
+   "player_id": 1628404,
+   "position": "G",
+   "height": "6-5",
+   "weight": "215",
+   "birth_date": "MAR 06, 1995",
+   "age": 31,
+   "exp": "9",
+   "school": "Villanova",
+   "how_acquired": "Traded from POR on 02/09/23"
+  },
+  {
+   "num": "4",
+   "name": "Pacôme Dadiet",
+   "slug": "pacome-dadiet",
+   "player_id": 1642359,
+   "position": "F",
+   "height": "6-9",
+   "weight": "210",
+   "birth_date": "JUL 27, 2005",
+   "age": 21,
+   "exp": "2",
+   "school": "Ratiopharm Ulm",
+   "how_acquired": "#25 Pick in 2024 Draft"
+  },
+  {
+   "num": "5",
+   "name": "Jose Alvarado",
+   "slug": "jose-alvarado",
+   "player_id": 1630631,
+   "position": "G",
+   "height": "6-0",
+   "weight": "179",
+   "birth_date": "APR 12, 1998",
+   "age": 28,
+   "exp": "5",
+   "school": "Georgia Tech",
+   "how_acquired": "Traded from NOP on 02/05/26"
+  },
+  {
+   "num": "8",
+   "name": "OG Anunoby",
+   "slug": "og-anunoby",
+   "player_id": 1628384,
+   "position": "F-G",
+   "height": "6-7",
+   "weight": "240",
+   "birth_date": "JUL 17, 1997",
+   "age": 29,
+   "exp": "9",
+   "school": "Indiana",
+   "how_acquired": "Traded from TOR on 12/30/23"
+  },
+  {
+   "num": "11",
+   "name": "Jalen Brunson",
+   "slug": "jalen-brunson",
+   "player_id": 1628973,
+   "position": "G",
+   "height": "6-2",
+   "weight": "190",
+   "birth_date": "AUG 31, 1996",
+   "age": 30,
+   "exp": "8",
+   "school": "Villanova",
+   "how_acquired": "Signed on 07/12/22"
+  },
+  {
+   "num": "13",
+   "name": "Tyler Kolek",
+   "slug": "tyler-kolek",
+   "player_id": 1642278,
+   "position": "G",
+   "height": "6-2",
+   "weight": "195",
+   "birth_date": "MAR 27, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Marquette",
+   "how_acquired": "Draft Rights Traded from POR on 06/27/24"
+  },
+  {
+   "num": "14",
+   "name": "Jaden Akins",
+   "slug": "jaden-akins",
+   "player_id": 1643022,
+   "position": "G",
+   "height": "6-2",
+   "weight": "195",
+   "birth_date": "FEB 25, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Michigan State",
+   "how_acquired": "Signed on 09/15/26"
+  },
+  {
+   "num": "25",
+   "name": "Mikal Bridges",
+   "slug": "mikal-bridges",
+   "player_id": 1628969,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "209",
+   "birth_date": "AUG 30, 1996",
+   "age": 30,
+   "exp": "8",
+   "school": "Villanova",
+   "how_acquired": "Traded from BKN on 07/06/24"
+  },
+  {
+   "num": "32",
+   "name": "Karl-Anthony Towns",
+   "slug": "karl-anthony-towns",
+   "player_id": 1626157,
+   "position": "C-F",
+   "height": "7-0",
+   "weight": "248",
+   "birth_date": "NOV 15, 1995",
+   "age": 31,
+   "exp": "11",
+   "school": "Kentucky",
+   "how_acquired": "Traded from MIN on 10/02/24"
+  },
+  {
+   "num": "35",
+   "name": "James Wiseman",
+   "slug": "james-wiseman",
+   "player_id": 1630164,
+   "position": "C",
+   "height": "7-0",
+   "weight": "240",
+   "birth_date": "MAR 31, 2001",
+   "age": 25,
+   "exp": "6",
+   "school": "Memphis",
+   "how_acquired": "Signed on 09/15/26"
+  },
+  {
+   "num": "44",
+   "name": "Landry Shamet",
+   "slug": "landry-shamet",
+   "player_id": 1629013,
+   "position": "G",
+   "height": "6-5",
+   "weight": "190",
+   "birth_date": "MAR 13, 1997",
+   "age": 29,
+   "exp": "8",
+   "school": "Wichita State",
+   "how_acquired": "Signed on 09/14/24"
+  },
+  {
+   "num": "51",
+   "name": "Mohamed Diawara",
+   "slug": "mohamed-diawara",
+   "player_id": 1642885,
+   "position": "F",
+   "height": "6-9",
+   "weight": "225",
+   "birth_date": "APR 29, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "Paris Basketball",
+   "how_acquired": "Draft Rights Traded from LAC on 06/26/25"
+  },
+  {
+   "num": "55",
+   "name": "Tyler Nickel",
+   "slug": "tyler-nickel",
+   "player_id": 1643589,
+   "position": "F",
+   "height": "6-7",
+   "weight": "220",
+   "birth_date": "SEP 05, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Vanderbilt",
+   "how_acquired": "#47 Pick in 2026 Draft"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Mike Brown",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Chris Jent",
+   "role": "Associate Head Coach"
+  },
+  {
+   "name": "Brendan O'Connor",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Mark Bryant",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Rick Brunson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Darren Erman",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "TJ Saint",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Riccardo Fois",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Charles Allen",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Maurice Cheeks",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Anthony Goenaga",
+   "role": "Trainer"
+  }
+ ]
+}

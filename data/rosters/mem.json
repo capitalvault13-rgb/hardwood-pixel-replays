@@ -1,0 +1,300 @@
+{
+ "team_id": 1610612763,
+ "abbr": "MEM",
+ "city": "Memphis",
+ "name": "Grizzlies",
+ "slug": "grizzlies",
+ "conference": "West",
+ "division": "Southwest",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612763/grizzlies",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Jaylen Wells",
+   "slug": "jaylen-wells",
+   "player_id": 1642377,
+   "position": "F",
+   "height": "6-7",
+   "weight": null,
+   "birth_date": "AUG 26, 2003",
+   "age": 23,
+   "exp": "2",
+   "school": "Washington State",
+   "how_acquired": "#39 Pick in 2024 Draft"
+  },
+  {
+   "num": "1",
+   "name": "Scotty Pippen Jr.",
+   "slug": "scotty-pippen-jr",
+   "player_id": 1630590,
+   "position": "G",
+   "height": "6-1",
+   "weight": "170",
+   "birth_date": "NOV 10, 2000",
+   "age": 26,
+   "exp": "4",
+   "school": "Vanderbilt",
+   "how_acquired": "Signed on 01/16/24"
+  },
+  {
+   "num": "2",
+   "name": "Ty Jerome",
+   "slug": "ty-jerome",
+   "player_id": 1629660,
+   "position": "G-F",
+   "height": "6-5",
+   "weight": "195",
+   "birth_date": "JUL 08, 1997",
+   "age": 29,
+   "exp": "7",
+   "school": "Virginia",
+   "how_acquired": "Signed on 07/14/25"
+  },
+  {
+   "num": "3",
+   "name": "Jerami Grant",
+   "slug": "jerami-grant",
+   "player_id": 203924,
+   "position": "F",
+   "height": "6-7",
+   "weight": "213",
+   "birth_date": "MAR 12, 1994",
+   "age": 32,
+   "exp": "12",
+   "school": "Syracuse",
+   "how_acquired": "Traded from POR on 06/29/26"
+  },
+  {
+   "num": "5",
+   "name": "Richie Saunders",
+   "slug": "richie-saunders",
+   "player_id": 1643563,
+   "position": "G",
+   "height": "6-5",
+   "weight": "200",
+   "birth_date": "SEP 19, 2001",
+   "age": 25,
+   "exp": "R",
+   "school": "Brigham Young",
+   "how_acquired": "#32 Pick in 2026 Draft"
+  },
+  {
+   "num": "10",
+   "name": "Javon Small",
+   "slug": "javon-small",
+   "player_id": 1642914,
+   "position": "G",
+   "height": "6-1",
+   "weight": "190",
+   "birth_date": "DEC 19, 2002",
+   "age": 23,
+   "exp": "1",
+   "school": "West Virginia",
+   "how_acquired": "#48 Pick in 2025 Draft"
+  },
+  {
+   "num": "14",
+   "name": "Zach Edey",
+   "slug": "zach-edey",
+   "player_id": 1641744,
+   "position": "C",
+   "height": "7-4",
+   "weight": "305",
+   "birth_date": "MAY 14, 2002",
+   "age": 24,
+   "exp": "2",
+   "school": "Purdue",
+   "how_acquired": "#9 Pick in 2024 Draft"
+  },
+  {
+   "num": "17",
+   "name": "Kris Murray",
+   "slug": "kris-murray",
+   "player_id": 1631200,
+   "position": "F",
+   "height": "6-8",
+   "weight": "218",
+   "birth_date": "AUG 19, 2000",
+   "age": 26,
+   "exp": "3",
+   "school": "Iowa",
+   "how_acquired": "Traded from POR on 06/29/26"
+  },
+  {
+   "num": "18",
+   "name": "Olivier-Maxence Prosper",
+   "slug": "olivier-maxence-prosper",
+   "player_id": 1641765,
+   "position": "F",
+   "height": "6-7",
+   "weight": "230",
+   "birth_date": "JUL 03, 2002",
+   "age": 24,
+   "exp": "3",
+   "school": "Marquette",
+   "how_acquired": "Signed on 09/04/25"
+  },
+  {
+   "num": "21",
+   "name": "Jahmai Mashack",
+   "slug": "jahmai-mashack",
+   "player_id": 1642942,
+   "position": "G",
+   "height": "6-4",
+   "weight": "203",
+   "birth_date": "NOV 10, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Tennessee",
+   "how_acquired": "Draft Rights Traded from GSW on 07/06/25"
+  },
+  {
+   "num": "22",
+   "name": "Taylor Hendricks",
+   "slug": "taylor-hendricks",
+   "player_id": 1641707,
+   "position": "F",
+   "height": "6-9",
+   "weight": "215",
+   "birth_date": "NOV 22, 2003",
+   "age": 22,
+   "exp": "3",
+   "school": "Central Florida",
+   "how_acquired": "Traded from UTA on 02/03/26"
+  },
+  {
+   "num": "23",
+   "name": "Cedric Coward",
+   "slug": "cedric-coward",
+   "player_id": 1642907,
+   "position": "G",
+   "height": "6-6",
+   "weight": "206",
+   "birth_date": "SEP 11, 2003",
+   "age": 23,
+   "exp": "1",
+   "school": "Washington State",
+   "how_acquired": "Draft Rights Traded from POR on 06/25/25"
+  },
+  {
+   "num": "24",
+   "name": "Cam Spencer",
+   "slug": "cam-spencer",
+   "player_id": 1642285,
+   "position": "G",
+   "height": "6-3",
+   "weight": "205",
+   "birth_date": "APR 06, 2000",
+   "age": 26,
+   "exp": "2",
+   "school": "Connecticut",
+   "how_acquired": "Draft Rights Traded from DET on 07/06/24"
+  },
+  {
+   "num": "27",
+   "name": "Cameron Boozer",
+   "slug": "cameron-boozer",
+   "player_id": 1643409,
+   "position": "F",
+   "height": "6-8",
+   "weight": "250",
+   "birth_date": "JUL 18, 2007",
+   "age": 19,
+   "exp": "R",
+   "school": "Duke",
+   "how_acquired": "#3 Pick in 2026 Draft"
+  },
+  {
+   "num": "28",
+   "name": "Isaiah Stewart",
+   "slug": "isaiah-stewart",
+   "player_id": 1630191,
+   "position": "F-C",
+   "height": "6-8",
+   "weight": "250",
+   "birth_date": "MAY 22, 2001",
+   "age": 25,
+   "exp": "6",
+   "school": "Washington",
+   "how_acquired": "Traded from DET on 07/08/26"
+  },
+  {
+   "num": "35",
+   "name": "Karim López",
+   "slug": "karim-lopez",
+   "player_id": 1643510,
+   "position": "F",
+   "height": "6-8",
+   "weight": "210",
+   "birth_date": "APR 12, 2007",
+   "age": 19,
+   "exp": "R",
+   "school": null,
+   "how_acquired": "Draft Rights Traded from DET on 06/24/26"
+  },
+  {
+   "num": "41",
+   "name": "Quinten Post",
+   "slug": "quinten-post",
+   "player_id": 1642366,
+   "position": "C",
+   "height": "7-0",
+   "weight": "238",
+   "birth_date": "MAR 21, 2000",
+   "age": 26,
+   "exp": "2",
+   "school": "Boston College",
+   "how_acquired": "Signed on 07/08/26"
+  },
+  {
+   "num": "45",
+   "name": "GG Jackson",
+   "slug": "gg-jackson",
+   "player_id": 1641713,
+   "position": "F",
+   "height": "6-9",
+   "weight": "210",
+   "birth_date": "DEC 17, 2004",
+   "age": 21,
+   "exp": "3",
+   "school": "South Carolina",
+   "how_acquired": "#45 Pick in 2023 Draft"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Tuomas Iisalo",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Erik Schmidt",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Julius Thomas",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Darnell Lazare",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Ryan Saunders",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jason March",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Brian Collins",
+   "role": "Assistant Coach for Player Development"
+  },
+  {
+   "name": "Mike Curtis",
+   "role": "Trainer"
+  }
+ ]
+}

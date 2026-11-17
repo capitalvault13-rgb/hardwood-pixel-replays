@@ -1,0 +1,316 @@
+{
+ "team_id": 1610612766,
+ "abbr": "CHA",
+ "city": "Charlotte",
+ "name": "Hornets",
+ "slug": "hornets",
+ "conference": "East",
+ "division": "Southeast",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612766/hornets",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Naz Reid",
+   "slug": "naz-reid",
+   "player_id": 1629675,
+   "position": "C-F",
+   "height": "6-9",
+   "weight": "241",
+   "birth_date": "AUG 26, 1999",
+   "age": 27,
+   "exp": "7",
+   "school": "Louisiana State",
+   "how_acquired": "Traded from MIN on 07/10/26"
+  },
+  {
+   "num": "00",
+   "name": "Royce O'Neale",
+   "slug": "royce-oneale",
+   "player_id": 1626220,
+   "position": "F",
+   "height": "6-6",
+   "weight": "220",
+   "birth_date": "JUN 05, 1993",
+   "age": 33,
+   "exp": "9",
+   "school": "Baylor",
+   "how_acquired": "Traded from PHX on 07/13/26"
+  },
+  {
+   "num": "2",
+   "name": "Grant Williams",
+   "slug": "grant-williams",
+   "player_id": 1629684,
+   "position": "F",
+   "height": "6-7",
+   "weight": "236",
+   "birth_date": "NOV 30, 1998",
+   "age": 27,
+   "exp": "7",
+   "school": "Tennessee",
+   "how_acquired": "Traded from DAL on 02/08/24"
+  },
+  {
+   "num": "3",
+   "name": "Coby White",
+   "slug": "coby-white",
+   "player_id": 1629632,
+   "position": "G",
+   "height": "6-5",
+   "weight": "206",
+   "birth_date": "FEB 16, 2000",
+   "age": 26,
+   "exp": "7",
+   "school": "North Carolina",
+   "how_acquired": "Traded from CHI on 02/04/26"
+  },
+  {
+   "num": "4",
+   "name": "Sion James",
+   "slug": "sion-james",
+   "player_id": 1642883,
+   "position": "G",
+   "height": "6-5",
+   "weight": "227",
+   "birth_date": "DEC 04, 2002",
+   "age": 23,
+   "exp": "1",
+   "school": "Duke",
+   "how_acquired": "#33 Pick in 2025 Draft"
+  },
+  {
+   "num": "5",
+   "name": "Christian Anderson",
+   "slug": "christian-anderson",
+   "player_id": 1643515,
+   "position": "G",
+   "height": "6-1",
+   "weight": "180",
+   "birth_date": "APR 02, 2006",
+   "age": 20,
+   "exp": "R",
+   "school": "Texas Tech",
+   "how_acquired": "#18 Pick in 2026 Draft"
+  },
+  {
+   "num": "7",
+   "name": "Kon Knueppel",
+   "slug": "kon-knueppel",
+   "player_id": 1642851,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "230",
+   "birth_date": "AUG 03, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "Duke",
+   "how_acquired": "#4 Pick in 2025 Draft"
+  },
+  {
+   "num": "8",
+   "name": "Grayson Allen",
+   "slug": "grayson-allen",
+   "player_id": 1628960,
+   "position": "G",
+   "height": "6-4",
+   "weight": "218",
+   "birth_date": "OCT 08, 1995",
+   "age": 31,
+   "exp": "8",
+   "school": "Duke",
+   "how_acquired": "Traded from PHX on 07/13/26"
+  },
+  {
+   "num": "10",
+   "name": "Michael Ajayi",
+   "slug": "michael-ajayi",
+   "player_id": 1642369,
+   "position": "G",
+   "height": "6-7",
+   "weight": "245",
+   "birth_date": "JUN 23, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Butler",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "11",
+   "name": "Ryan Kalkbrenner",
+   "slug": "ryan-kalkbrenner",
+   "player_id": 1641750,
+   "position": "C",
+   "height": "7-1",
+   "weight": "271",
+   "birth_date": "JAN 17, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Creighton",
+   "how_acquired": "#34 Pick in 2025 Draft"
+  },
+  {
+   "num": "14",
+   "name": "Moussa Diabaté",
+   "slug": "moussa-diabate",
+   "player_id": 1631217,
+   "position": "F",
+   "height": "6-10",
+   "weight": "230",
+   "birth_date": "JAN 21, 2002",
+   "age": 24,
+   "exp": "4",
+   "school": "Michigan",
+   "how_acquired": "Signed on 07/31/24"
+  },
+  {
+   "num": "16",
+   "name": "PJ Hall",
+   "slug": "pj-hall",
+   "player_id": 1641790,
+   "position": "C",
+   "height": "6-9",
+   "weight": "245",
+   "birth_date": "FEB 21, 2002",
+   "age": 24,
+   "exp": "2",
+   "school": "Clemson",
+   "how_acquired": "Signed on 12/24/25"
+  },
+  {
+   "num": "17",
+   "name": "Dennis Schröder",
+   "slug": "dennis-schroder",
+   "player_id": 203471,
+   "position": "G",
+   "height": "6-1",
+   "weight": "175",
+   "birth_date": "SEP 15, 1993",
+   "age": 33,
+   "exp": "13",
+   "school": "Braunschweig",
+   "how_acquired": "Traded from CLE on 08/20/26"
+  },
+  {
+   "num": "18",
+   "name": "Kylan Boswell",
+   "slug": "kylan-boswell",
+   "player_id": 1643573,
+   "position": "G",
+   "height": "6-1",
+   "weight": "226",
+   "birth_date": "APR 18, 2005",
+   "age": 21,
+   "exp": "R",
+   "school": "Illinois",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "22",
+   "name": "Hannes Steinbach",
+   "slug": "hannes-steinbach",
+   "player_id": 1643419,
+   "position": "F",
+   "height": "6-10",
+   "weight": "248",
+   "birth_date": "MAY 01, 2006",
+   "age": 20,
+   "exp": "R",
+   "school": "Washington",
+   "how_acquired": "#14 Pick in 2026 Draft"
+  },
+  {
+   "num": "24",
+   "name": "Brandon Miller",
+   "slug": "brandon-miller",
+   "player_id": 1641706,
+   "position": "F",
+   "height": "6-7",
+   "weight": "210",
+   "birth_date": "NOV 22, 2002",
+   "age": 23,
+   "exp": "3",
+   "school": "Alabama",
+   "how_acquired": "#2 Pick in 2023 Draft"
+  },
+  {
+   "num": "31",
+   "name": "Tidjane Salaün",
+   "slug": "tidjane-salaun",
+   "player_id": 1642275,
+   "position": "F",
+   "height": "6-10",
+   "weight": "230",
+   "birth_date": "AUG 10, 2005",
+   "age": 21,
+   "exp": "2",
+   "school": "Cholet",
+   "how_acquired": "#6 Pick in 2024 Draft"
+  },
+  {
+   "num": "33",
+   "name": "Liam McNeeley",
+   "slug": "liam-mcneeley",
+   "player_id": 1642862,
+   "position": "F",
+   "height": "6-8",
+   "weight": "224",
+   "birth_date": "OCT 10, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "Connecticut",
+   "how_acquired": "Draft Rights Traded from PHX on 06/30/25"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Charles Lee",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Matt Hill",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Kemba Walker",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Joshua Longstaff",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Lamar Skeeter",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Zach Peterson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Ryan Frazier",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Blaine Mueller",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jermaine Bucknor",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Kyle Neptune",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Patrick Chasse",
+   "role": "Trainer"
+  },
+  {
+   "name": "Peter Elliott",
+   "role": "Trainer"
+  }
+ ]
+}

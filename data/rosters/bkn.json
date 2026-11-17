@@ -1,0 +1,312 @@
+{
+ "team_id": 1610612751,
+ "abbr": "BKN",
+ "city": "Brooklyn",
+ "name": "Nets",
+ "slug": "nets",
+ "conference": "East",
+ "division": "Atlantic",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612751/nets",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Mikel Brown Jr.",
+   "slug": "mikel-brown-jr",
+   "player_id": 1643414,
+   "position": "G",
+   "height": "6-4",
+   "weight": "190",
+   "birth_date": "APR 03, 2006",
+   "age": 20,
+   "exp": "R",
+   "school": "Louisville",
+   "how_acquired": "#6 Pick in 2026 Draft"
+  },
+  {
+   "num": "00",
+   "name": "Josh Minott",
+   "slug": "josh-minott",
+   "player_id": 1631169,
+   "position": "F",
+   "height": "6-9",
+   "weight": "215",
+   "birth_date": "NOV 25, 2002",
+   "age": 23,
+   "exp": "4",
+   "school": "Memphis",
+   "how_acquired": "Traded from BOS on 02/05/26"
+  },
+  {
+   "num": "1",
+   "name": "Keon Ellis",
+   "slug": "keon-ellis",
+   "player_id": 1631165,
+   "position": "G",
+   "height": "6-4",
+   "weight": "180",
+   "birth_date": "JAN 08, 2000",
+   "age": 26,
+   "exp": "4",
+   "school": "Alabama",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "2",
+   "name": "Danny Wolf",
+   "slug": "danny-wolf",
+   "player_id": 1642874,
+   "position": "F",
+   "height": "6-11",
+   "weight": "256",
+   "birth_date": "MAY 05, 2004",
+   "age": 22,
+   "exp": "1",
+   "school": "Michigan",
+   "how_acquired": "#27 Pick in 2025 Draft"
+  },
+  {
+   "num": "4",
+   "name": "Drake Powell",
+   "slug": "drake-powell",
+   "player_id": 1642962,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "212",
+   "birth_date": "SEP 08, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "North Carolina",
+   "how_acquired": "Draft Rights Traded from ATL on 07/07/25"
+  },
+  {
+   "num": "8",
+   "name": "Egor Dëmin",
+   "slug": "egor-demin",
+   "player_id": 1642856,
+   "position": "G",
+   "height": "6-9",
+   "weight": "212",
+   "birth_date": "MAR 03, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Brigham Young",
+   "how_acquired": "#8 Pick in 2025 Draft"
+  },
+  {
+   "num": "9",
+   "name": "Joshua Jefferson",
+   "slug": "joshua-jefferson",
+   "player_id": 1643538,
+   "position": "F",
+   "height": "6-8",
+   "weight": "250",
+   "birth_date": "NOV 21, 2003",
+   "age": 22,
+   "exp": "R",
+   "school": "Iowa State",
+   "how_acquired": "Draft Rights Traded from MIN on 07/10/26"
+  },
+  {
+   "num": "10",
+   "name": "Nolan Traore",
+   "slug": "nolan-traore",
+   "player_id": 1642849,
+   "position": "G",
+   "height": "6-4",
+   "weight": "190",
+   "birth_date": "MAY 28, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Saint-Quentin",
+   "how_acquired": "#19 Pick in 2025 Draft"
+  },
+  {
+   "num": "13",
+   "name": "Moritz Wagner",
+   "slug": "moritz-wagner",
+   "player_id": 1629021,
+   "position": "F-C",
+   "height": "6-11",
+   "weight": "255",
+   "birth_date": "APR 26, 1997",
+   "age": 29,
+   "exp": "8",
+   "school": "Michigan",
+   "how_acquired": "Signed on 07/31/26"
+  },
+  {
+   "num": "14",
+   "name": "Terance Mann",
+   "slug": "terance-mann",
+   "player_id": 1629611,
+   "position": "G-F",
+   "height": "6-5",
+   "weight": "220",
+   "birth_date": "OCT 18, 1996",
+   "age": 30,
+   "exp": "7",
+   "school": "Florida State",
+   "how_acquired": "Traded from ATL on 07/07/25"
+  },
+  {
+   "num": "16",
+   "name": "Grant Nelson",
+   "slug": "grant-nelson",
+   "player_id": 1641761,
+   "position": "F",
+   "height": "6-10",
+   "weight": "240",
+   "birth_date": "MAR 18, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Alabama",
+   "how_acquired": "Signed on 10/15/25"
+  },
+  {
+   "num": "17",
+   "name": "Michael Porter Jr.",
+   "slug": "michael-porter-jr",
+   "player_id": 1629008,
+   "position": "F",
+   "height": "6-10",
+   "weight": "232",
+   "birth_date": "JUN 29, 1998",
+   "age": 28,
+   "exp": "7",
+   "school": "Missouri",
+   "how_acquired": "Traded from DEN on 07/08/25"
+  },
+  {
+   "num": "20",
+   "name": "Day'Ron Sharpe",
+   "slug": "dayron-sharpe",
+   "player_id": 1630549,
+   "position": "C",
+   "height": "6-10",
+   "weight": "265",
+   "birth_date": "NOV 06, 2001",
+   "age": 25,
+   "exp": "5",
+   "school": "North Carolina",
+   "how_acquired": "Draft Rights Traded from PHX on 08/06/21"
+  },
+  {
+   "num": "21",
+   "name": "Noah Clowney",
+   "slug": "noah-clowney",
+   "player_id": 1641730,
+   "position": "F-C",
+   "height": "6-10",
+   "weight": "240",
+   "birth_date": "JUL 14, 2004",
+   "age": 22,
+   "exp": "3",
+   "school": "Alabama",
+   "how_acquired": "#21 Pick in 2023 Draft"
+  },
+  {
+   "num": "30",
+   "name": "Julius Randle",
+   "slug": "julius-randle",
+   "player_id": 203944,
+   "position": "F-C",
+   "height": "6-9",
+   "weight": "256",
+   "birth_date": "NOV 29, 1994",
+   "age": 31,
+   "exp": "12",
+   "school": "Kentucky",
+   "how_acquired": "Traded from MIN on 07/10/26"
+  },
+  {
+   "num": "31",
+   "name": "Chaney Johnson",
+   "slug": "chaney-johnson",
+   "player_id": 1643052,
+   "position": "G-F",
+   "height": "6-7",
+   "weight": "235",
+   "birth_date": "JUN 20, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Auburn",
+   "how_acquired": "Signed on 12/26/25"
+  },
+  {
+   "num": "34",
+   "name": "Tyler Bilodeau",
+   "slug": "tyler-bilodeau",
+   "player_id": 1643548,
+   "position": "F",
+   "height": "6-8",
+   "weight": "230",
+   "birth_date": "APR 17, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "UCLA",
+   "how_acquired": "#43 Pick in 2026 Draft"
+  },
+  {
+   "num": "77",
+   "name": "Ben Saraf",
+   "slug": "ben-saraf",
+   "player_id": 1642879,
+   "position": "G",
+   "height": "6-5",
+   "weight": "212",
+   "birth_date": "APR 14, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Ratiopharm Ulm",
+   "how_acquired": "#26 Pick in 2025 Draft"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Jordi Fernandez",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Steve Hetzel",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jay Hernandez",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Travis Bader",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Ryan Forehan-Kelly",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Deividas Dulkys",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Dutch Gaitley",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Corey Vinson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Connor Griffin",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Juwan Howard",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Phil Nguyen",
+   "role": "Trainer"
+  }
+ ]
+}

@@ -1,0 +1,310 @@
+{
+ "team_id": 1610612753,
+ "abbr": "ORL",
+ "city": "Orlando",
+ "name": "Magic",
+ "slug": "magic",
+ "conference": "East",
+ "division": "Southeast",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612753/magic",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Anthony Black",
+   "slug": "anthony-black",
+   "player_id": 1641710,
+   "position": "G",
+   "height": "6-7",
+   "weight": "212",
+   "birth_date": "JAN 20, 2004",
+   "age": 22,
+   "exp": "3",
+   "school": "Arkansas",
+   "how_acquired": "#6 Pick in 2023 Draft"
+  },
+  {
+   "num": "1",
+   "name": "Jonathan Isaac",
+   "slug": "jonathan-isaac",
+   "player_id": 1628371,
+   "position": "F",
+   "height": "6-10",
+   "weight": "240",
+   "birth_date": "OCT 03, 1997",
+   "age": 29,
+   "exp": "9",
+   "school": "Florida State",
+   "how_acquired": "#6 Pick in 2017 Draft"
+  },
+  {
+   "num": "2",
+   "name": "Jevon Carter",
+   "slug": "jevon-carter",
+   "player_id": 1628975,
+   "position": "G",
+   "height": "6-1",
+   "weight": "190",
+   "birth_date": "SEP 14, 1995",
+   "age": 31,
+   "exp": "8",
+   "school": "West Virginia",
+   "how_acquired": "Signed on 02/06/26"
+  },
+  {
+   "num": "3",
+   "name": "Desmond Bane",
+   "slug": "desmond-bane",
+   "player_id": 1630217,
+   "position": "G",
+   "height": "6-6",
+   "weight": "215",
+   "birth_date": "JUN 25, 1998",
+   "age": 28,
+   "exp": "6",
+   "school": "TCU",
+   "how_acquired": "Traded from MEM on 06/15/25"
+  },
+  {
+   "num": "4",
+   "name": "Jalen Suggs",
+   "slug": "jalen-suggs",
+   "player_id": 1630591,
+   "position": "G",
+   "height": "6-5",
+   "weight": "207",
+   "birth_date": "JUN 03, 2001",
+   "age": 25,
+   "exp": "5",
+   "school": "Gonzaga",
+   "how_acquired": "#5 Pick in 2021 Draft"
+  },
+  {
+   "num": "5",
+   "name": "Paolo Banchero",
+   "slug": "paolo-banchero",
+   "player_id": 1631094,
+   "position": "F",
+   "height": "6-10",
+   "weight": "250",
+   "birth_date": "NOV 12, 2002",
+   "age": 24,
+   "exp": "4",
+   "school": "Duke",
+   "how_acquired": "#1 Pick in 2022 Draft"
+  },
+  {
+   "num": "8",
+   "name": "Jamal Cain",
+   "slug": "jamal-cain",
+   "player_id": 1631288,
+   "position": "F",
+   "height": "6-7",
+   "weight": "207",
+   "birth_date": "MAR 20, 1999",
+   "age": 27,
+   "exp": "4",
+   "school": "Oakland",
+   "how_acquired": "Signed on 07/25/25"
+  },
+  {
+   "num": "9",
+   "name": "Nikola Vučević",
+   "slug": "nikola-vucevic",
+   "player_id": 202696,
+   "position": "C",
+   "height": "6-11",
+   "weight": "265",
+   "birth_date": "OCT 24, 1990",
+   "age": 36,
+   "exp": "15",
+   "school": "Southern California",
+   "how_acquired": "Signed on 07/01/26"
+  },
+  {
+   "num": "11",
+   "name": "Jase Richardson",
+   "slug": "jase-richardson",
+   "player_id": 1642859,
+   "position": "G",
+   "height": "6-2",
+   "weight": "185",
+   "birth_date": "OCT 16, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "Michigan State",
+   "how_acquired": "#25 Pick in 2025 Draft"
+  },
+  {
+   "num": "14",
+   "name": "Colin Castleton",
+   "slug": "colin-castleton",
+   "player_id": 1630658,
+   "position": "C",
+   "height": "6-11",
+   "weight": "250",
+   "birth_date": "MAY 25, 2000",
+   "age": 26,
+   "exp": "3",
+   "school": "Florida",
+   "how_acquired": "Signed on 08/22/25"
+  },
+  {
+   "num": "22",
+   "name": "Franz Wagner",
+   "slug": "franz-wagner",
+   "player_id": 1630532,
+   "position": "F",
+   "height": "6-10",
+   "weight": "230",
+   "birth_date": "AUG 27, 2001",
+   "age": 25,
+   "exp": "5",
+   "school": "Michigan",
+   "how_acquired": "#8 Pick in 2021 Draft"
+  },
+  {
+   "num": "23",
+   "name": "Tristan da Silva",
+   "slug": "tristan-da-silva",
+   "player_id": 1641783,
+   "position": "F",
+   "height": "6-8",
+   "weight": "217",
+   "birth_date": "MAY 15, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Colorado",
+   "how_acquired": "#18 Pick in 2024 Draft"
+  },
+  {
+   "num": "25",
+   "name": "Izaiyah Nelson",
+   "slug": "izaiyah-nelson",
+   "player_id": 1643593,
+   "position": "F",
+   "height": "6-10",
+   "weight": "218",
+   "birth_date": "OCT 01, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "South Florida",
+   "how_acquired": "Draft Rights Traded from WAS on 06/24/26"
+  },
+  {
+   "num": "30",
+   "name": "Alex Morales",
+   "slug": "alex-morales",
+   "player_id": 1631457,
+   "position": "G",
+   "height": "6-6",
+   "weight": "195",
+   "birth_date": "NOV 21, 1997",
+   "age": 28,
+   "exp": "1",
+   "school": "Wagner",
+   "how_acquired": "Signed on 10/08/22"
+  },
+  {
+   "num": "34",
+   "name": "Wendell Carter Jr.",
+   "slug": "wendell-carter-jr",
+   "player_id": 1628976,
+   "position": "C-F",
+   "height": "6-10",
+   "weight": "262",
+   "birth_date": "APR 16, 1999",
+   "age": 27,
+   "exp": "8",
+   "school": "Duke",
+   "how_acquired": "Traded from CHI on 03/25/21"
+  },
+  {
+   "num": "35",
+   "name": "Goga Bitadze",
+   "slug": "goga-bitadze",
+   "player_id": 1629048,
+   "position": "C-F",
+   "height": "6-11",
+   "weight": "235",
+   "birth_date": "JUL 20, 1999",
+   "age": 27,
+   "exp": "7",
+   "school": "Mega Basket",
+   "how_acquired": "Signed on 02/13/23"
+  },
+  {
+   "num": "93",
+   "name": "Noah Penda",
+   "slug": "noah-penda",
+   "player_id": 1642869,
+   "position": "G-F",
+   "height": "6-7",
+   "weight": "242",
+   "birth_date": "JAN 07, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "Le Mans Sarthe",
+   "how_acquired": "Draft Rights Traded from BOS on 06/26/25"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Sean Sweeney",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Joe Prunty",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Greg Buckner",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Popeye Jones",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Josh Broghamer",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Tom Bialaszewski",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Riley Crean",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jon Harris",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Ben Johnson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jacqlyn Poss",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Mfon Udofia",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "DJ Bakker",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Shannan Lum",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Ernest Eugene",
+   "role": "Trainer"
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "team_id": 1610612754,
+ "abbr": "IND",
+ "city": "Indiana",
+ "name": "Pacers",
+ "slug": "pacers",
+ "conference": "East",
+ "division": "Central",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612754/pacers",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Tyrese Haliburton",
+   "slug": "tyrese-haliburton",
+   "player_id": 1630169,
+   "position": "G",
+   "height": "6-5",
+   "weight": "185",
+   "birth_date": "FEB 29, 2000",
+   "age": 26,
+   "exp": "6",
+   "school": "Iowa State",
+   "how_acquired": "Traded from SAC on 02/08/22"
+  },
+  {
+   "num": "1",
+   "name": "Obi Toppin",
+   "slug": "obi-toppin",
+   "player_id": 1630167,
+   "position": "F",
+   "height": "6-9",
+   "weight": "220",
+   "birth_date": "MAR 04, 1998",
+   "age": 28,
+   "exp": "6",
+   "school": "Dayton",
+   "how_acquired": "Traded from NYK on 07/07/23"
+  },
+  {
+   "num": "2",
+   "name": "Andrew Nembhard",
+   "slug": "andrew-nembhard",
+   "player_id": 1629614,
+   "position": "G-F",
+   "height": "6-4",
+   "weight": "191",
+   "birth_date": "JAN 16, 2000",
+   "age": 26,
+   "exp": "4",
+   "school": "Gonzaga",
+   "how_acquired": "#31 Pick in 2022 Draft"
+  },
+  {
+   "num": "3",
+   "name": "Braden Smith",
+   "slug": "braden-smith",
+   "player_id": 1643552,
+   "position": "G",
+   "height": "5-11",
+   "weight": "170",
+   "birth_date": "JUL 25, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Purdue",
+   "how_acquired": "Draft Rights Traded from CHI on 06/24/26"
+  },
+  {
+   "num": "5",
+   "name": "Jarace Walker",
+   "slug": "jarace-walker",
+   "player_id": 1641716,
+   "position": "F",
+   "height": "6-7",
+   "weight": "235",
+   "birth_date": "SEP 04, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Houston",
+   "how_acquired": "Draft Rights Traded from WAS on 06/23/23"
+  },
+  {
+   "num": "9",
+   "name": "T.J. McConnell",
+   "slug": "tj-mcconnell",
+   "player_id": 204456,
+   "position": "G",
+   "height": "6-1",
+   "weight": "190",
+   "birth_date": "MAR 25, 1992",
+   "age": 34,
+   "exp": "11",
+   "school": "Arizona",
+   "how_acquired": "Signed on 07/29/19"
+  },
+  {
+   "num": "10",
+   "name": "Kelly Oubre Jr.",
+   "slug": "kelly-oubre-jr",
+   "player_id": 1626162,
+   "position": "F-G",
+   "height": "6-7",
+   "weight": "210",
+   "birth_date": "DEC 09, 1995",
+   "age": 30,
+   "exp": "11",
+   "school": "Kansas",
+   "how_acquired": "Signed on 07/07/26"
+  },
+  {
+   "num": "12",
+   "name": "Johnny Furphy",
+   "slug": "johnny-furphy",
+   "player_id": 1642277,
+   "position": "G",
+   "height": "6-8",
+   "weight": "200",
+   "birth_date": "DEC 08, 2004",
+   "age": 21,
+   "exp": "2",
+   "school": "Kansas",
+   "how_acquired": "Draft Rights Traded from SAS on 07/06/24"
+  },
+  {
+   "num": "18",
+   "name": "Jalen Slawson",
+   "slug": "jalen-slawson",
+   "player_id": 1641771,
+   "position": "F",
+   "height": "6-7",
+   "weight": "215",
+   "birth_date": "OCT 22, 1999",
+   "age": 27,
+   "exp": "2",
+   "school": "Furman",
+   "how_acquired": "Signed on 09/09/25"
+  },
+  {
+   "num": "22",
+   "name": "Larry Nance Jr.",
+   "slug": "larry-nance-jr",
+   "player_id": 1626204,
+   "position": "F-C",
+   "height": "6-8",
+   "weight": "245",
+   "birth_date": "JAN 01, 1993",
+   "age": 33,
+   "exp": "11",
+   "school": "Wyoming",
+   "how_acquired": "Signed on 07/09/26"
+  },
+  {
+   "num": "23",
+   "name": "Aaron Nesmith",
+   "slug": "aaron-nesmith",
+   "player_id": 1630174,
+   "position": "G-F",
+   "height": "6-5",
+   "weight": "215",
+   "birth_date": "OCT 16, 1999",
+   "age": 27,
+   "exp": "6",
+   "school": "Vanderbilt",
+   "how_acquired": "Traded from BOS on 07/09/22"
+  },
+  {
+   "num": "24",
+   "name": "Kobe Brown",
+   "slug": "kobe-brown",
+   "player_id": 1641738,
+   "position": "F",
+   "height": "6-7",
+   "weight": "250",
+   "birth_date": "JAN 01, 2000",
+   "age": 26,
+   "exp": "3",
+   "school": "Missouri",
+   "how_acquired": "Traded from LAC on 02/05/26"
+  },
+  {
+   "num": "26",
+   "name": "Ben Sheppard",
+   "slug": "ben-sheppard",
+   "player_id": 1641767,
+   "position": "G",
+   "height": "6-6",
+   "weight": "190",
+   "birth_date": "JUL 16, 2001",
+   "age": 25,
+   "exp": "3",
+   "school": "Belmont",
+   "how_acquired": "#26 Pick in 2023 Draft"
+  },
+  {
+   "num": "29",
+   "name": "Quenton Jackson",
+   "slug": "quenton-jackson",
+   "player_id": 1631245,
+   "position": "G",
+   "height": "6-4",
+   "weight": "173",
+   "birth_date": "SEP 15, 1998",
+   "age": 28,
+   "exp": "4",
+   "school": "Texas A&M",
+   "how_acquired": "Signed on 03/04/24"
+  },
+  {
+   "num": "32",
+   "name": "Jay Huff",
+   "slug": "jay-huff",
+   "player_id": 1630643,
+   "position": "C",
+   "height": "7-1",
+   "weight": "240",
+   "birth_date": "AUG 25, 1997",
+   "age": 29,
+   "exp": "5",
+   "school": "Virginia",
+   "how_acquired": "Traded from MEM on 07/06/25"
+  },
+  {
+   "num": "40",
+   "name": "Ivica Zubac",
+   "slug": "ivica-zubac",
+   "player_id": 1627826,
+   "position": "C",
+   "height": "7-0",
+   "weight": "240",
+   "birth_date": "MAR 18, 1997",
+   "age": 29,
+   "exp": "10",
+   "school": "Mega Basket",
+   "how_acquired": "Traded from LAC on 02/05/26"
+  },
+  {
+   "num": "43",
+   "name": "Pascal Siakam",
+   "slug": "pascal-siakam",
+   "player_id": 1627783,
+   "position": "F",
+   "height": "6-9",
+   "weight": "245",
+   "birth_date": "APR 02, 1994",
+   "age": 32,
+   "exp": "10",
+   "school": "New Mexico State",
+   "how_acquired": "Traded from TOR on 01/17/24"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Rick Carlisle",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Lloyd Pierce",
+   "role": "Lead Assistant Coach"
+  },
+  {
+   "name": "Jim Boylen",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jenny Boucek",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jannero Pargo",
+   "role": "Assistant Coach for Player Development"
+  },
+  {
+   "name": "Maurice Baker",
+   "role": "Assistant Coach for Player Development"
+  },
+  {
+   "name": "Isaac Yacob",
+   "role": "Assistant Coach for Player Development"
+  },
+  {
+   "name": "Josh Corbeil",
+   "role": "Trainer"
+  },
+  {
+   "name": "Carl Eaton",
+   "role": "Assistant Trainer"
+  }
+ ]
+}

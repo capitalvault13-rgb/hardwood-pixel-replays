@@ -1,0 +1,304 @@
+{
+ "team_id": 1610612764,
+ "abbr": "WAS",
+ "city": "Washington",
+ "name": "Wizards",
+ "slug": "wizards",
+ "conference": "East",
+ "division": "Southeast",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612764/wizards",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Bilal Coulibaly",
+   "slug": "bilal-coulibaly",
+   "player_id": 1641731,
+   "position": "G",
+   "height": "6-7",
+   "weight": "195",
+   "birth_date": "JUL 26, 2004",
+   "age": 22,
+   "exp": "3",
+   "school": "Metropolitans 92",
+   "how_acquired": "Draft Rights Traded from IND on 06/23/23"
+  },
+  {
+   "num": "00",
+   "name": "Tristan Vukčević",
+   "slug": "tristan-vukcevic",
+   "player_id": 1641774,
+   "position": "F",
+   "height": "7-0",
+   "weight": "220",
+   "birth_date": "MAR 11, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Real Madrid",
+   "how_acquired": "#42 Pick in 2023 Draft"
+  },
+  {
+   "num": "1",
+   "name": "Tre Mann",
+   "slug": "tre-mann",
+   "player_id": 1630544,
+   "position": "G",
+   "height": "6-4",
+   "weight": "178",
+   "birth_date": "FEB 03, 2001",
+   "age": 25,
+   "exp": "5",
+   "school": "Florida",
+   "how_acquired": "Traded from CHA on 08/20/26"
+  },
+  {
+   "num": "3",
+   "name": "Trae Young",
+   "slug": "trae-young",
+   "player_id": 1629027,
+   "position": "G",
+   "height": "6-1",
+   "weight": "164",
+   "birth_date": "SEP 19, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "Oklahoma",
+   "how_acquired": "Traded from ATL on 01/09/26"
+  },
+  {
+   "num": "4",
+   "name": "AJ Dybantsa",
+   "slug": "aj-dybantsa",
+   "player_id": 1643407,
+   "position": "F",
+   "height": "6-9",
+   "weight": "210",
+   "birth_date": "JAN 29, 2007",
+   "age": 19,
+   "exp": "R",
+   "school": "Brigham Young",
+   "how_acquired": "#1 Pick in 2026 Draft"
+  },
+  {
+   "num": "5",
+   "name": "Jamir Watkins",
+   "slug": "jamir-watkins",
+   "player_id": 1642364,
+   "position": "F",
+   "height": "6-5",
+   "weight": "210",
+   "birth_date": "JUL 06, 2001",
+   "age": 25,
+   "exp": "1",
+   "school": "Florida State",
+   "how_acquired": "#43 Pick in 2025 Draft"
+  },
+  {
+   "num": "7",
+   "name": "Bub Carrington",
+   "slug": "bub-carrington",
+   "player_id": 1642267,
+   "position": "G",
+   "height": "6-4",
+   "weight": "190",
+   "birth_date": "JUL 21, 2005",
+   "age": 21,
+   "exp": "2",
+   "school": "Pittsburgh",
+   "how_acquired": "Draft Rights Traded from POR on 07/06/24"
+  },
+  {
+   "num": "8",
+   "name": "Deandre Ayton",
+   "slug": "deandre-ayton",
+   "player_id": 1629028,
+   "position": "C",
+   "height": "7-0",
+   "weight": "252",
+   "birth_date": "JUL 23, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "Arizona",
+   "how_acquired": "Traded from LAL on 07/07/26"
+  },
+  {
+   "num": "9",
+   "name": "Justin Champagnie",
+   "slug": "justin-champagnie",
+   "player_id": 1630551,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "206",
+   "birth_date": "JUN 29, 2001",
+   "age": 25,
+   "exp": "5",
+   "school": "Pittsburgh",
+   "how_acquired": "Signed on 02/22/24"
+  },
+  {
+   "num": "12",
+   "name": "Tre Johnson",
+   "slug": "tre-johnson",
+   "player_id": 1642848,
+   "position": "G",
+   "height": "6-5",
+   "weight": "190",
+   "birth_date": "MAR 07, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Texas",
+   "how_acquired": "#6 Pick in 2025 Draft"
+  },
+  {
+   "num": "16",
+   "name": "Anthony Gill",
+   "slug": "anthony-gill",
+   "player_id": 1630264,
+   "position": "F",
+   "height": "6-8",
+   "weight": "230",
+   "birth_date": "OCT 17, 1992",
+   "age": 34,
+   "exp": "6",
+   "school": "Virginia",
+   "how_acquired": "Signed on 11/30/20"
+  },
+  {
+   "num": "18",
+   "name": "Kyshawn George",
+   "slug": "kyshawn-george",
+   "player_id": 1642273,
+   "position": "F",
+   "height": "6-8",
+   "weight": "200",
+   "birth_date": "DEC 12, 2003",
+   "age": 22,
+   "exp": "2",
+   "school": "Miami",
+   "how_acquired": "Draft Rights Traded from NYK on 06/26/24"
+  },
+  {
+   "num": "20",
+   "name": "Alex Sarr",
+   "slug": "alex-sarr",
+   "player_id": 1642259,
+   "position": "C",
+   "height": "7-0",
+   "weight": "205",
+   "birth_date": "APR 26, 2005",
+   "age": 21,
+   "exp": "2",
+   "school": "Washington Wizards",
+   "how_acquired": "#2 Pick in 2024 Draft"
+  },
+  {
+   "num": "22",
+   "name": "Khris Middleton",
+   "slug": "khris-middleton",
+   "player_id": 203114,
+   "position": "F",
+   "height": "6-7",
+   "weight": "222",
+   "birth_date": "AUG 12, 1991",
+   "age": 35,
+   "exp": "14",
+   "school": "Texas A&M",
+   "how_acquired": "Traded from DAL on 07/08/26"
+  },
+  {
+   "num": "23",
+   "name": "Anthony Davis",
+   "slug": "anthony-davis",
+   "player_id": 203076,
+   "position": "F-C",
+   "height": "6-10",
+   "weight": "253",
+   "birth_date": "MAR 11, 1993",
+   "age": 33,
+   "exp": "14",
+   "school": "Kentucky",
+   "how_acquired": "Traded from DAL on 02/05/26"
+  },
+  {
+   "num": "26",
+   "name": "Reece Beekman",
+   "slug": "reece-beekman",
+   "player_id": 1641736,
+   "position": "G",
+   "height": "6-1",
+   "weight": "190",
+   "birth_date": "OCT 08, 2001",
+   "age": 25,
+   "exp": "1",
+   "school": "Virginia",
+   "how_acquired": "Signed on 09/27/26"
+  },
+  {
+   "num": "27",
+   "name": "Will Riley",
+   "slug": "will-riley",
+   "player_id": 1642860,
+   "position": "F",
+   "height": "6-9",
+   "weight": "180",
+   "birth_date": "FEB 10, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Illinois-Urbana-Champaign",
+   "how_acquired": "Draft Rights Traded from UTA on 06/25/25"
+  },
+  {
+   "num": "34",
+   "name": "Felix Okpara",
+   "slug": "felix-okpara",
+   "player_id": 1643590,
+   "position": "C",
+   "height": "6-11",
+   "weight": "235",
+   "birth_date": "APR 20, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Tennessee",
+   "how_acquired": "Draft Rights Traded from ORL on 06/24/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Brian Keefe",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Adam Caporn",
+   "role": "Lead Assistant Coach"
+  },
+  {
+   "name": "James Fraschilla",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "TJ Sorrentine",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "J.J. Outlaw",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Alexis Ajinca",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Patrick Ewing",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Cody Toppert",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Michael Ashton",
+   "role": "Trainer"
+  }
+ ]
+}

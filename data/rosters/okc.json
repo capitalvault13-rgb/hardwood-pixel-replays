@@ -1,0 +1,312 @@
+{
+ "team_id": 1610612760,
+ "abbr": "OKC",
+ "city": "Oklahoma City",
+ "name": "Thunder",
+ "slug": "thunder",
+ "conference": "West",
+ "division": "Northwest",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612760/thunder",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "2",
+   "name": "Shai Gilgeous-Alexander",
+   "slug": "shai-gilgeous-alexander",
+   "player_id": 1628983,
+   "position": "G",
+   "height": "6-6",
+   "weight": "195",
+   "birth_date": "JUL 12, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "Kentucky",
+   "how_acquired": "Traded from LAC on 07/10/19"
+  },
+  {
+   "num": "3",
+   "name": "Jared McCain",
+   "slug": "jared-mccain",
+   "player_id": 1642272,
+   "position": "G",
+   "height": "6-2",
+   "weight": "195",
+   "birth_date": "FEB 20, 2004",
+   "age": 22,
+   "exp": "2",
+   "school": "Duke",
+   "how_acquired": "Traded from PHI on 02/04/26"
+  },
+  {
+   "num": "6",
+   "name": "Jaylin Williams",
+   "slug": "jaylin-williams",
+   "player_id": 1631119,
+   "position": "F",
+   "height": "6-9",
+   "weight": "240",
+   "birth_date": "JUN 29, 2002",
+   "age": 24,
+   "exp": "4",
+   "school": "Arkansas",
+   "how_acquired": "#34 Pick in 2022 Draft"
+  },
+  {
+   "num": "7",
+   "name": "Chet Holmgren",
+   "slug": "chet-holmgren",
+   "player_id": 1631096,
+   "position": "C-F",
+   "height": "7-1",
+   "weight": "208",
+   "birth_date": "MAY 01, 2002",
+   "age": 24,
+   "exp": "3",
+   "school": "Gonzaga",
+   "how_acquired": "#2 Pick in 2022 Draft"
+  },
+  {
+   "num": "8",
+   "name": "Jalen Williams",
+   "slug": "jalen-williams",
+   "player_id": 1631114,
+   "position": "G-F",
+   "height": "6-5",
+   "weight": "211",
+   "birth_date": "APR 14, 2001",
+   "age": 25,
+   "exp": "4",
+   "school": "Santa Clara",
+   "how_acquired": "#12 Pick in 2022 Draft"
+  },
+  {
+   "num": "9",
+   "name": "Alex Caruso",
+   "slug": "alex-caruso",
+   "player_id": 1627936,
+   "position": "G",
+   "height": "6-5",
+   "weight": "186",
+   "birth_date": "FEB 28, 1994",
+   "age": 32,
+   "exp": "9",
+   "school": "Texas A&M",
+   "how_acquired": "Traded from CHI on 06/21/24"
+  },
+  {
+   "num": "12",
+   "name": "Thomas Sorber",
+   "slug": "thomas-sorber",
+   "player_id": 1642850,
+   "position": "C",
+   "height": "6-9",
+   "weight": "250",
+   "birth_date": "DEC 25, 2005",
+   "age": 20,
+   "exp": "R",
+   "school": "Georgetown",
+   "how_acquired": "#15 Pick in 2025 Draft"
+  },
+  {
+   "num": "14",
+   "name": "Bennett Stirtz",
+   "slug": "bennett-stirtz",
+   "player_id": 1642892,
+   "position": "G",
+   "height": "6-3",
+   "weight": "180",
+   "birth_date": "OCT 03, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Iowa",
+   "how_acquired": "Draft Rights Traded from MEM on 06/23/26"
+  },
+  {
+   "num": "15",
+   "name": "Aday Mara",
+   "slug": "aday-mara",
+   "player_id": 1643530,
+   "position": "C",
+   "height": "7-3",
+   "weight": "255",
+   "birth_date": "APR 07, 2005",
+   "age": 21,
+   "exp": "R",
+   "school": "Michigan",
+   "how_acquired": "#12 Pick in 2026 Draft"
+  },
+  {
+   "num": "16",
+   "name": "Micah Peavy",
+   "slug": "micah-peavy",
+   "player_id": 1642877,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "215",
+   "birth_date": "JUL 16, 2001",
+   "age": 25,
+   "exp": "1",
+   "school": "Georgetown",
+   "how_acquired": "Signed on 10/24/26"
+  },
+  {
+   "num": "18",
+   "name": "Nique Clifford",
+   "slug": "nique-clifford",
+   "player_id": 1642363,
+   "position": "G",
+   "height": "6-5",
+   "weight": "210",
+   "birth_date": "FEB 09, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Colorado State",
+   "how_acquired": "Traded from SAC on 11/08/26"
+  },
+  {
+   "num": "21",
+   "name": "Josh Dix",
+   "slug": "josh-dix",
+   "player_id": 1643717,
+   "position": "G",
+   "height": "6-5",
+   "weight": "210",
+   "birth_date": "JUN 29, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Creighton",
+   "how_acquired": "Signed on 07/03/26"
+  },
+  {
+   "num": "22",
+   "name": "Cason Wallace",
+   "slug": "cason-wallace",
+   "player_id": 1641717,
+   "position": "G",
+   "height": "6-3",
+   "weight": "195",
+   "birth_date": "NOV 07, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Kentucky",
+   "how_acquired": "Draft Rights Traded from DAL on 07/06/23"
+  },
+  {
+   "num": "23",
+   "name": "Brooks Barnhizer",
+   "slug": "brooks-barnhizer",
+   "player_id": 1642964,
+   "position": "G",
+   "height": "6-5",
+   "weight": "230",
+   "birth_date": "MAR 02, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Northwestern",
+   "how_acquired": "#44 Pick in 2025 Draft"
+  },
+  {
+   "num": "25",
+   "name": "Ajay Mitchell",
+   "slug": "ajay-mitchell",
+   "player_id": 1642349,
+   "position": "G",
+   "height": "6-4",
+   "weight": "190",
+   "birth_date": "JUN 25, 2002",
+   "age": 24,
+   "exp": "2",
+   "school": "California-Santa Barbara",
+   "how_acquired": "Draft Rights Traded from NYK on 06/27/24"
+  },
+  {
+   "num": "34",
+   "name": "Kenrich Williams",
+   "slug": "kenrich-williams",
+   "player_id": 1629026,
+   "position": "G-F",
+   "height": "6-7",
+   "weight": "210",
+   "birth_date": "DEC 02, 1994",
+   "age": 31,
+   "exp": "8",
+   "school": "TCU",
+   "how_acquired": "Traded from NOP on 11/23/20"
+  },
+  {
+   "num": "44",
+   "name": "Nikola Topić",
+   "slug": "nikola-topic",
+   "player_id": 1642260,
+   "position": "G",
+   "height": "6-6",
+   "weight": "200",
+   "birth_date": "AUG 10, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "Crvena zvezda",
+   "how_acquired": "#12 Pick in 2024 Draft"
+  },
+  {
+   "num": "55",
+   "name": "Isaiah Hartenstein",
+   "slug": "isaiah-hartenstein",
+   "player_id": 1628392,
+   "position": "C-F",
+   "height": "7-0",
+   "weight": "250",
+   "birth_date": "MAY 05, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "Zalgiris",
+   "how_acquired": "Signed on 07/06/24"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Mark Daigneault",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Dave Bliss",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Mike Wilks",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "David Akinyooye",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Grant Gibbs",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Kameron Woods",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Eric Maynor",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Zoe Vernon",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Bryce Alford",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Connor Johnson",
+   "role": "Assistant Coach for Player Development"
+  },
+  {
+   "name": "Donnie Strack",
+   "role": "Trainer"
+  }
+ ]
+}

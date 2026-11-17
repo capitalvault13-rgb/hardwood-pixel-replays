@@ -1,0 +1,294 @@
+{
+ "team_id": 1610612745,
+ "abbr": "HOU",
+ "city": "Houston",
+ "name": "Rockets",
+ "slug": "rockets",
+ "conference": "West",
+ "division": "Southwest",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612745/rockets",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "1",
+   "name": "Amen Thompson",
+   "slug": "amen-thompson",
+   "player_id": 1641708,
+   "position": "G-F",
+   "height": "6-7",
+   "weight": "227",
+   "birth_date": "JAN 30, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Overtime Elite",
+   "how_acquired": "#4 Pick in 2023 Draft"
+  },
+  {
+   "num": "2",
+   "name": "Bruce Thornton",
+   "slug": "bruce-thornton",
+   "player_id": 1643570,
+   "position": "G",
+   "height": "6-0",
+   "weight": "229",
+   "birth_date": "SEP 14, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Ohio State",
+   "how_acquired": "Draft Rights Traded from NYK on 06/24/26"
+  },
+  {
+   "num": "3",
+   "name": "Julian Phillips",
+   "slug": "julian-phillips",
+   "player_id": 1641763,
+   "position": "F",
+   "height": "6-7",
+   "weight": "205",
+   "birth_date": "NOV 05, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Tennessee",
+   "how_acquired": "Signed on 07/24/26"
+  },
+  {
+   "num": "5",
+   "name": "Fred VanVleet",
+   "slug": "fred-vanvleet",
+   "player_id": 1627832,
+   "position": "G",
+   "height": "6-0",
+   "weight": "213",
+   "birth_date": "FEB 25, 1994",
+   "age": 32,
+   "exp": "10",
+   "school": "Wichita State",
+   "how_acquired": "Signed on 07/07/23"
+  },
+  {
+   "num": "7",
+   "name": "Kevin Durant",
+   "slug": "kevin-durant",
+   "player_id": 201142,
+   "position": "F",
+   "height": "6-11",
+   "weight": "234",
+   "birth_date": "SEP 29, 1988",
+   "age": 38,
+   "exp": "19",
+   "school": "Texas",
+   "how_acquired": "Traded from PHX on 07/06/25"
+  },
+  {
+   "num": "8",
+   "name": "Jae'Sean Tate",
+   "slug": "jaesean-tate",
+   "player_id": 1630256,
+   "position": "F",
+   "height": "6-4",
+   "weight": "239",
+   "birth_date": "OCT 28, 1995",
+   "age": 31,
+   "exp": "6",
+   "school": "Ohio State",
+   "how_acquired": "Signed on 11/25/20"
+  },
+  {
+   "num": "9",
+   "name": "Oscar Tshiebwe",
+   "slug": "oscar-tshiebwe",
+   "player_id": 1631131,
+   "position": "F-C",
+   "height": "6-8",
+   "weight": "270",
+   "birth_date": "NOV 27, 1999",
+   "age": 26,
+   "exp": "3",
+   "school": "Kentucky",
+   "how_acquired": "Signed on 07/23/26"
+  },
+  {
+   "num": "10",
+   "name": "Jabari Smith Jr.",
+   "slug": "jabari-smith-jr",
+   "player_id": 1631095,
+   "position": "F",
+   "height": "6-11",
+   "weight": "231",
+   "birth_date": "MAY 13, 2003",
+   "age": 23,
+   "exp": "4",
+   "school": "Auburn",
+   "how_acquired": "#3 Pick in 2022 Draft"
+  },
+  {
+   "num": "12",
+   "name": "Steven Adams",
+   "slug": "steven-adams",
+   "player_id": 203500,
+   "position": "C",
+   "height": "6-11",
+   "weight": "279",
+   "birth_date": "JUL 20, 1993",
+   "age": 33,
+   "exp": "13",
+   "school": "Pittsburgh",
+   "how_acquired": "Traded from MEM on 02/01/24"
+  },
+  {
+   "num": "15",
+   "name": "Reed Sheppard",
+   "slug": "reed-sheppard",
+   "player_id": 1642263,
+   "position": "G",
+   "height": "6-2",
+   "weight": "189",
+   "birth_date": "JUN 24, 2004",
+   "age": 22,
+   "exp": "2",
+   "school": "Kentucky",
+   "how_acquired": "#3 Pick in 2024 Draft"
+  },
+  {
+   "num": "17",
+   "name": "Tari Eason",
+   "slug": "tari-eason",
+   "player_id": 1631106,
+   "position": "F",
+   "height": "6-8",
+   "weight": "229",
+   "birth_date": "MAY 10, 2001",
+   "age": 25,
+   "exp": "4",
+   "school": "Louisiana State",
+   "how_acquired": "#17 Pick in 2022 Draft"
+  },
+  {
+   "num": "25",
+   "name": "Quadir Copeland",
+   "slug": "quadir-copeland",
+   "player_id": 1643595,
+   "position": "G",
+   "height": "6-5",
+   "weight": "214",
+   "birth_date": "SEP 01, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "North Carolina State",
+   "how_acquired": "Signed on 07/07/26"
+  },
+  {
+   "num": "27",
+   "name": "Isaiah Crawford",
+   "slug": "isaiah-crawford",
+   "player_id": 1642384,
+   "position": "F",
+   "height": "6-6",
+   "weight": "225",
+   "birth_date": "NOV 01, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Louisiana Tech",
+   "how_acquired": "Signed on 07/26/25"
+  },
+  {
+   "num": "28",
+   "name": "Alperen Sengun",
+   "slug": "alperen-sengun",
+   "player_id": 1630578,
+   "position": "C",
+   "height": "6-11",
+   "weight": "271",
+   "birth_date": "JUL 25, 2002",
+   "age": 24,
+   "exp": "5",
+   "school": "Besiktas",
+   "how_acquired": "Draft Rights Traded from OKC on 07/30/21"
+  },
+  {
+   "num": "30",
+   "name": "Clint Capela",
+   "slug": "clint-capela",
+   "player_id": 203991,
+   "position": "C",
+   "height": "6-10",
+   "weight": "256",
+   "birth_date": "MAY 18, 1994",
+   "age": 32,
+   "exp": "12",
+   "school": "Elan Chalon",
+   "how_acquired": "Traded from ATL on 07/06/25"
+  },
+  {
+   "num": "31",
+   "name": "Bogdan Bogdanović",
+   "slug": "bogdan-bogdanovic",
+   "player_id": 203992,
+   "position": "G",
+   "height": "6-5",
+   "weight": "231",
+   "birth_date": "AUG 18, 1992",
+   "age": 34,
+   "exp": "9",
+   "school": "Fenerbahce",
+   "how_acquired": "Signed on 07/08/26"
+  },
+  {
+   "num": "36",
+   "name": "Marcus Smart",
+   "slug": "marcus-smart",
+   "player_id": 203935,
+   "position": "G",
+   "height": "6-3",
+   "weight": "220",
+   "birth_date": "MAR 06, 1994",
+   "age": 32,
+   "exp": "12",
+   "school": "Oklahoma State",
+   "how_acquired": "Signed on 07/10/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Ime Udoka",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Ben Sullivan",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Royal Ivey",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Garrett Jackson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Cam Hodges",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Mike Moser",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Robbie Lemons",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Chip Engelland",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Josh Bostic",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jason Biles",
+   "role": "Trainer"
+  }
+ ]
+}

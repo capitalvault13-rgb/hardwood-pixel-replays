@@ -1,0 +1,300 @@
+{
+ "team_id": 1610612740,
+ "abbr": "NOP",
+ "city": "New Orleans",
+ "name": "Pelicans",
+ "slug": "pelicans",
+ "conference": "West",
+ "division": "Southwest",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612740/pelicans",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Jeremiah Fears",
+   "slug": "jeremiah-fears",
+   "player_id": 1642847,
+   "position": "G",
+   "height": "6-3",
+   "weight": "188",
+   "birth_date": "OCT 14, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Oklahoma",
+   "how_acquired": "#7 Pick in 2025 Draft"
+  },
+  {
+   "num": "1",
+   "name": "Zion Williamson",
+   "slug": "zion-williamson",
+   "player_id": 1629627,
+   "position": "F",
+   "height": "6-6",
+   "weight": "277",
+   "birth_date": "JUL 06, 2000",
+   "age": 26,
+   "exp": "7",
+   "school": "Duke",
+   "how_acquired": "#1 Pick in 2019 Draft"
+  },
+  {
+   "num": "2",
+   "name": "Herbert Jones",
+   "slug": "herbert-jones",
+   "player_id": 1630529,
+   "position": "F",
+   "height": "6-7",
+   "weight": "210",
+   "birth_date": "OCT 06, 1998",
+   "age": 28,
+   "exp": "5",
+   "school": "Alabama",
+   "how_acquired": "#35 Pick in 2021 Draft"
+  },
+  {
+   "num": "3",
+   "name": "Jordan Poole",
+   "slug": "jordan-poole",
+   "player_id": 1629673,
+   "position": "G",
+   "height": "6-4",
+   "weight": "200",
+   "birth_date": "JUN 19, 1999",
+   "age": 27,
+   "exp": "7",
+   "school": "Michigan",
+   "how_acquired": "Traded from WAS on 07/06/25"
+  },
+  {
+   "num": "5",
+   "name": "Dejounte Murray",
+   "slug": "dejounte-murray",
+   "player_id": 1627749,
+   "position": "G",
+   "height": "6-4",
+   "weight": "188",
+   "birth_date": "SEP 19, 1996",
+   "age": 30,
+   "exp": "10",
+   "school": "Washington",
+   "how_acquired": "Traded from ATL on 07/06/24"
+  },
+  {
+   "num": "6",
+   "name": "DeAndre Jordan",
+   "slug": "deandre-jordan",
+   "player_id": 201599,
+   "position": "C",
+   "height": "6-11",
+   "weight": "280",
+   "birth_date": "JUL 21, 1988",
+   "age": 38,
+   "exp": "18",
+   "school": "Texas A&M",
+   "how_acquired": "Signed on 10/23/25"
+  },
+  {
+   "num": "8",
+   "name": "Malik Dia",
+   "slug": "malik-dia",
+   "player_id": 1643738,
+   "position": "F",
+   "height": "6-9",
+   "weight": "256",
+   "birth_date": "FEB 04, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Mississippi",
+   "how_acquired": "Signed on 08/18/26"
+  },
+  {
+   "num": "9",
+   "name": "Trendon Watford",
+   "slug": "trendon-watford",
+   "player_id": 1630570,
+   "position": "G-F",
+   "height": "6-9",
+   "weight": "244",
+   "birth_date": "NOV 09, 2000",
+   "age": 26,
+   "exp": "5",
+   "school": "Louisiana State",
+   "how_acquired": "Signed on 08/17/26"
+  },
+  {
+   "num": "10",
+   "name": "Jaron Pierre Jr.",
+   "slug": "jaron-pierre-jr",
+   "player_id": 1643555,
+   "position": "G",
+   "height": "6-6",
+   "weight": "206",
+   "birth_date": "JUL 12, 2002",
+   "age": 24,
+   "exp": "R",
+   "school": "Southern Methodist",
+   "how_acquired": "#58 Pick in 2026 Draft"
+  },
+  {
+   "num": "11",
+   "name": "Bryce McGowens",
+   "slug": "bryce-mcgowens",
+   "player_id": 1631121,
+   "position": "G",
+   "height": "6-6",
+   "weight": "202",
+   "birth_date": "NOV 08, 2002",
+   "age": 24,
+   "exp": "4",
+   "school": "Nebraska",
+   "how_acquired": "Signed on 07/30/25"
+  },
+  {
+   "num": "13",
+   "name": "Julian Reese",
+   "slug": "julian-reese",
+   "player_id": 1642882,
+   "position": "F",
+   "height": "6-11",
+   "weight": "230",
+   "birth_date": "JUN 30, 2003",
+   "age": 23,
+   "exp": "1",
+   "school": "Maryland",
+   "how_acquired": "Signed on 09/24/26"
+  },
+  {
+   "num": "14",
+   "name": "AJ Johnson",
+   "slug": "aj-johnson",
+   "player_id": 1642358,
+   "position": "G",
+   "height": "6-6",
+   "weight": "175",
+   "birth_date": "DEC 01, 2004",
+   "age": 21,
+   "exp": "2",
+   "school": "Illawarra",
+   "how_acquired": "Traded from MEM on 09/08/26"
+  },
+  {
+   "num": "17",
+   "name": "Karlo Matković",
+   "slug": "karlo-matkovic",
+   "player_id": 1631255,
+   "position": "F-C",
+   "height": "6-11",
+   "weight": "255",
+   "birth_date": "MAR 30, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Mega Basket",
+   "how_acquired": "#52 Pick in 2022 Draft"
+  },
+  {
+   "num": "21",
+   "name": "Yves Missi",
+   "slug": "yves-missi",
+   "player_id": 1642274,
+   "position": "C",
+   "height": "6-11",
+   "weight": "236",
+   "birth_date": "MAY 14, 2004",
+   "age": 22,
+   "exp": "2",
+   "school": "Baylor",
+   "how_acquired": "#21 Pick in 2024 Draft"
+  },
+  {
+   "num": "22",
+   "name": "Derik Queen",
+   "slug": "derik-queen",
+   "player_id": 1642852,
+   "position": "C",
+   "height": "6-11",
+   "weight": "225",
+   "birth_date": "DEC 27, 2004",
+   "age": 21,
+   "exp": "1",
+   "school": "Maryland",
+   "how_acquired": "Draft Rights Traded from ATL on 06/25/25"
+  },
+  {
+   "num": "24",
+   "name": "Bennedict Mathurin",
+   "slug": "bennedict-mathurin",
+   "player_id": 1631097,
+   "position": "G-F",
+   "height": "6-5",
+   "weight": "222",
+   "birth_date": "JUN 19, 2002",
+   "age": 24,
+   "exp": "4",
+   "school": "Arizona",
+   "how_acquired": "Signed on 09/10/26"
+  },
+  {
+   "num": "25",
+   "name": "Trey Murphy III",
+   "slug": "trey-murphy-iii",
+   "player_id": 1630530,
+   "position": "F",
+   "height": "6-9",
+   "weight": "220",
+   "birth_date": "JUN 18, 2000",
+   "age": 26,
+   "exp": "5",
+   "school": "Virginia",
+   "how_acquired": "Draft Rights Traded from MEM on 08/07/21"
+  },
+  {
+   "num": "41",
+   "name": "Saddiq Bey",
+   "slug": "saddiq-bey",
+   "player_id": 1630180,
+   "position": "F",
+   "height": "6-8",
+   "weight": "240",
+   "birth_date": "APR 09, 1999",
+   "age": 27,
+   "exp": "6",
+   "school": "Villanova",
+   "how_acquired": "Traded from WAS on 07/06/25"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Jamahl Mosley",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Dale Osbourne",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Bret Brielmaier",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Mike Hopkins",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Randy Gregory",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "God Shammgod",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Will Bynum",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Greg Monroe",
+   "role": "Assistant Coach"
+  }
+ ]
+}

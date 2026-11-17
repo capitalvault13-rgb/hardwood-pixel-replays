@@ -1,0 +1,312 @@
+{
+ "team_id": 1610612744,
+ "abbr": "GSW",
+ "city": "Golden State",
+ "name": "Warriors",
+ "slug": "warriors",
+ "conference": "West",
+ "division": "Pacific",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612744/warriors",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Gary Payton II",
+   "slug": "gary-payton-ii",
+   "player_id": 1627780,
+   "position": "G",
+   "height": "6-2",
+   "weight": "192",
+   "birth_date": "DEC 01, 1992",
+   "age": 33,
+   "exp": "10",
+   "school": "Oregon State",
+   "how_acquired": "Traded from POR on 02/09/23"
+  },
+  {
+   "num": "1",
+   "name": "Yaxel Lendeborg",
+   "slug": "yaxel-lendeborg",
+   "player_id": 1642865,
+   "position": "F",
+   "height": "6-9",
+   "weight": "247",
+   "birth_date": "SEP 30, 2002",
+   "age": 24,
+   "exp": "R",
+   "school": "Michigan",
+   "how_acquired": "#11 Pick in 2026 Draft"
+  },
+  {
+   "num": "2",
+   "name": "Brandin Podziemski",
+   "slug": "brandin-podziemski",
+   "player_id": 1641764,
+   "position": "G",
+   "height": "6-4",
+   "weight": "208",
+   "birth_date": "FEB 25, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Santa Clara",
+   "how_acquired": "#19 Pick in 2023 Draft"
+  },
+  {
+   "num": "3",
+   "name": "Will Richard",
+   "slug": "will-richard",
+   "player_id": 1642954,
+   "position": "G",
+   "height": "6-3",
+   "weight": "210",
+   "birth_date": "DEC 24, 2002",
+   "age": 23,
+   "exp": "1",
+   "school": "Florida",
+   "how_acquired": "Draft Rights Traded from MEM on 07/06/25"
+  },
+  {
+   "num": "4",
+   "name": "Moses Moody",
+   "slug": "moses-moody",
+   "player_id": 1630541,
+   "position": "G",
+   "height": "6-5",
+   "weight": "215",
+   "birth_date": "MAY 31, 2002",
+   "age": 24,
+   "exp": "5",
+   "school": "Arkansas",
+   "how_acquired": "#14 Pick in 2021 Draft"
+  },
+  {
+   "num": "7",
+   "name": "Kristaps Porziņģis",
+   "slug": "kristaps-porzingis",
+   "player_id": 204001,
+   "position": "F-C",
+   "height": "7-2",
+   "weight": "240",
+   "birth_date": "AUG 02, 1995",
+   "age": 31,
+   "exp": "11",
+   "school": "Cajasol Sevilla",
+   "how_acquired": "Traded from ATL on 02/05/26"
+  },
+  {
+   "num": "8",
+   "name": "De'Anthony Melton",
+   "slug": "deanthony-melton",
+   "player_id": 1629001,
+   "position": "G",
+   "height": "6-2",
+   "weight": "199",
+   "birth_date": "MAY 28, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "Southern California",
+   "how_acquired": "Signed on 10/01/25"
+  },
+  {
+   "num": "10",
+   "name": "Jimmy Butler III",
+   "slug": "jimmy-butler-iii",
+   "player_id": 202710,
+   "position": "F",
+   "height": "6-6",
+   "weight": "230",
+   "birth_date": "SEP 14, 1989",
+   "age": 37,
+   "exp": "15",
+   "school": "Marquette",
+   "how_acquired": "Traded from MIA on 02/06/25"
+  },
+  {
+   "num": "12",
+   "name": "Brandon Williams",
+   "slug": "brandon-williams",
+   "player_id": 1630314,
+   "position": "G",
+   "height": "6-1",
+   "weight": "185",
+   "birth_date": "NOV 22, 1999",
+   "age": 26,
+   "exp": "4",
+   "school": "Arizona",
+   "how_acquired": "Signed on 08/26/26"
+  },
+  {
+   "num": "15",
+   "name": "Gui Santos",
+   "slug": "gui-santos",
+   "player_id": 1630611,
+   "position": "F",
+   "height": "6-7",
+   "weight": "225",
+   "birth_date": "JUN 22, 2002",
+   "age": 24,
+   "exp": "3",
+   "school": "Minas",
+   "how_acquired": "#55 Pick in 2022 Draft"
+  },
+  {
+   "num": "18",
+   "name": "LJ Cryer",
+   "slug": "lj-cryer",
+   "player_id": 1643018,
+   "position": "G",
+   "height": "6-0",
+   "weight": "202",
+   "birth_date": "OCT 09, 2001",
+   "age": 25,
+   "exp": "1",
+   "school": "Houston",
+   "how_acquired": "Signed on 09/29/25"
+  },
+  {
+   "num": "20",
+   "name": "Al Horford",
+   "slug": "al-horford",
+   "player_id": 201143,
+   "position": "C",
+   "height": "6-8",
+   "weight": "260",
+   "birth_date": "JUN 03, 1986",
+   "age": 40,
+   "exp": "19",
+   "school": "Florida",
+   "how_acquired": "Signed on 10/01/25"
+  },
+  {
+   "num": "23",
+   "name": "Draymond Green",
+   "slug": "draymond-green",
+   "player_id": 203110,
+   "position": "F-C",
+   "height": "6-6",
+   "weight": "240",
+   "birth_date": "MAR 04, 1990",
+   "age": 36,
+   "exp": "14",
+   "school": "Michigan State",
+   "how_acquired": "#35 Pick in 2012 Draft"
+  },
+  {
+   "num": "28",
+   "name": "Charles Bassey",
+   "slug": "charles-bassey",
+   "player_id": 1629646,
+   "position": "F-C",
+   "height": "6-9",
+   "weight": "244",
+   "birth_date": "OCT 28, 2000",
+   "age": 26,
+   "exp": "5",
+   "school": "Western Kentucky",
+   "how_acquired": "Signed on 04/05/26"
+  },
+  {
+   "num": "30",
+   "name": "Stephen Curry",
+   "slug": "stephen-curry",
+   "player_id": 201939,
+   "position": "G",
+   "height": "6-2",
+   "weight": "205",
+   "birth_date": "MAR 14, 1988",
+   "age": 38,
+   "exp": "17",
+   "school": "Davidson",
+   "how_acquired": "#7 Pick in 2009 Draft"
+  },
+  {
+   "num": "32",
+   "name": "Georges Niang",
+   "slug": "georges-niang",
+   "player_id": 1627777,
+   "position": "F",
+   "height": "6-7",
+   "weight": "245",
+   "birth_date": "JUN 17, 1993",
+   "age": 33,
+   "exp": "10",
+   "school": "Iowa State",
+   "how_acquired": "Signed on 08/25/26"
+  },
+  {
+   "num": "33",
+   "name": "Malevy Leons",
+   "slug": "malevy-leons",
+   "player_id": 1642502,
+   "position": "F",
+   "height": "6-9",
+   "weight": "206",
+   "birth_date": "SEP 23, 1999",
+   "age": 27,
+   "exp": "2",
+   "school": "Bradley",
+   "how_acquired": "Signed on 12/08/25"
+  },
+  {
+   "num": "45",
+   "name": "Graham Ike",
+   "slug": "graham-ike",
+   "player_id": 1643633,
+   "position": "F-C",
+   "height": "6-10",
+   "weight": "245",
+   "birth_date": "AUG 03, 2002",
+   "age": 24,
+   "exp": "R",
+   "school": "Gonzaga",
+   "how_acquired": "Signed on 09/21/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Steve Kerr",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Frank Vogel",
+   "role": "Associate Head Coach"
+  },
+  {
+   "name": "Anthony Vereen",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Ron Adams",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Bruce Fraser",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Seth Cooper",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Kris Weems",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jacob Rubin",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Nicholas Kerr",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Khalid Robinson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Drew Yoder",
+   "role": "Trainer"
+  }
+ ]
+}

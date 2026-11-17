@@ -1,0 +1,304 @@
+{
+ "team_id": 1610612741,
+ "abbr": "CHI",
+ "city": "Chicago",
+ "name": "Bulls",
+ "slug": "bulls",
+ "conference": "East",
+ "division": "Central",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612741/bulls",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "2",
+   "name": "Noa Essengue",
+   "slug": "noa-essengue",
+   "player_id": 1642855,
+   "position": "F",
+   "height": "6-9",
+   "weight": "194",
+   "birth_date": "DEC 18, 2006",
+   "age": 19,
+   "exp": "1",
+   "school": "Ratiopharm Ulm (Germany)",
+   "how_acquired": "#12 Pick in 2025 Draft"
+  },
+  {
+   "num": "3",
+   "name": "Josh Giddey",
+   "slug": "josh-giddey",
+   "player_id": 1630581,
+   "position": "G",
+   "height": "6-8",
+   "weight": "214",
+   "birth_date": "OCT 10, 2002",
+   "age": 24,
+   "exp": "5",
+   "school": "NBA Global Academy",
+   "how_acquired": "Traded from OKC on 06/21/24"
+  },
+  {
+   "num": "5",
+   "name": "Dailyn Swain",
+   "slug": "dailyn-swain",
+   "player_id": 1643517,
+   "position": "F",
+   "height": "6-6",
+   "weight": "220",
+   "birth_date": "JUL 15, 2005",
+   "age": 21,
+   "exp": "R",
+   "school": "Texas",
+   "how_acquired": "#15 Pick in 2026 Draft"
+  },
+  {
+   "num": "7",
+   "name": "Orlando Robinson",
+   "slug": "orlando-robinson",
+   "player_id": 1631115,
+   "position": "C",
+   "height": "6-10",
+   "weight": "235",
+   "birth_date": "JUL 10, 2000",
+   "age": 26,
+   "exp": "4",
+   "school": "Fresno State",
+   "how_acquired": "Signed on 09/25/26"
+  },
+  {
+   "num": "7",
+   "name": "Buddy Hield",
+   "slug": "buddy-hield",
+   "player_id": 1627741,
+   "position": "G",
+   "height": "6-5",
+   "weight": "220",
+   "birth_date": "DEC 17, 1992",
+   "age": 33,
+   "exp": "10",
+   "school": "Oklahoma",
+   "how_acquired": "Traded from CHA on 09/27/26"
+  },
+  {
+   "num": "8",
+   "name": "Caleb Wilson",
+   "slug": "caleb-wilson",
+   "player_id": 1643410,
+   "position": "F",
+   "height": "6-10",
+   "weight": "215",
+   "birth_date": "JUL 18, 2006",
+   "age": 20,
+   "exp": "R",
+   "school": "North Carolina",
+   "how_acquired": "#4 Pick in 2026 Draft"
+  },
+  {
+   "num": "9",
+   "name": "Nic Claxton",
+   "slug": "nic-claxton",
+   "player_id": 1629651,
+   "position": "C",
+   "height": "6-11",
+   "weight": "215",
+   "birth_date": "APR 17, 1999",
+   "age": 27,
+   "exp": "7",
+   "school": "Georgia",
+   "how_acquired": "Traded from BKN on 07/10/26"
+  },
+  {
+   "num": "11",
+   "name": "Leonard Miller",
+   "slug": "leonard-miller",
+   "player_id": 1631159,
+   "position": "F",
+   "height": "6-10",
+   "weight": "220",
+   "birth_date": "NOV 26, 2003",
+   "age": 22,
+   "exp": "3",
+   "school": "NBA G League Ignite",
+   "how_acquired": "Traded from MIN on 02/05/26"
+  },
+  {
+   "num": "12",
+   "name": "Zach Collins",
+   "slug": "zach-collins",
+   "player_id": 1628380,
+   "position": "F-C",
+   "height": "6-9",
+   "weight": "240",
+   "birth_date": "NOV 19, 1997",
+   "age": 28,
+   "exp": "9",
+   "school": "Gonzaga",
+   "how_acquired": "Traded from SAS on 02/03/25"
+  },
+  {
+   "num": "14",
+   "name": "Matas Buzelis",
+   "slug": "matas-buzelis",
+   "player_id": 1641824,
+   "position": "F",
+   "height": "6-9",
+   "weight": "196",
+   "birth_date": "OCT 13, 2004",
+   "age": 22,
+   "exp": "2",
+   "school": "NBA G League Ignite",
+   "how_acquired": "#11 Pick in 2024 Draft"
+  },
+  {
+   "num": "15",
+   "name": "Jordan Hawkins",
+   "slug": "jordan-hawkins",
+   "player_id": 1641722,
+   "position": "G",
+   "height": "6-4",
+   "weight": "190",
+   "birth_date": "APR 29, 2002",
+   "age": 24,
+   "exp": "3",
+   "school": "Connecticut",
+   "how_acquired": "Signed on 10/05/26"
+  },
+  {
+   "num": "19",
+   "name": "Tobe Awaka",
+   "slug": "tobe-awaka",
+   "player_id": 1643591,
+   "position": "F",
+   "height": "6-8",
+   "weight": "250",
+   "birth_date": "JAN 30, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Arizona",
+   "how_acquired": "Signed on 07/03/26"
+  },
+  {
+   "num": "22",
+   "name": "Jaylin Sellers",
+   "slug": "jaylin-sellers",
+   "player_id": 1643637,
+   "position": "G",
+   "height": "6-4",
+   "weight": "205",
+   "birth_date": "JUN 03, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Providence",
+   "how_acquired": "Signed on 07/03/26"
+  },
+  {
+   "num": "24",
+   "name": "Norman Powell",
+   "slug": "norman-powell",
+   "player_id": 1626181,
+   "position": "G",
+   "height": "6-4",
+   "weight": "215",
+   "birth_date": "MAY 25, 1993",
+   "age": 33,
+   "exp": "11",
+   "school": "UCLA",
+   "how_acquired": "Signed on 07/10/26"
+  },
+  {
+   "num": "25",
+   "name": "Jalen Smith",
+   "slug": "jalen-smith",
+   "player_id": 1630188,
+   "position": "F-C",
+   "height": "6-9",
+   "weight": "244",
+   "birth_date": "MAR 16, 2000",
+   "age": 26,
+   "exp": "6",
+   "school": "Maryland",
+   "how_acquired": "Signed on 07/08/24"
+  },
+  {
+   "num": "30",
+   "name": "Tre Jones",
+   "slug": "tre-jones",
+   "player_id": 1630200,
+   "position": "G",
+   "height": "6-1",
+   "weight": "190",
+   "birth_date": "JAN 08, 2000",
+   "age": 26,
+   "exp": "6",
+   "school": "Duke",
+   "how_acquired": "Traded from SAS on 02/03/25"
+  },
+  {
+   "num": "35",
+   "name": "Isaac Okoro",
+   "slug": "isaac-okoro",
+   "player_id": 1630171,
+   "position": "F-G",
+   "height": "6-6",
+   "weight": "225",
+   "birth_date": "JAN 26, 2001",
+   "age": 25,
+   "exp": "6",
+   "school": "Auburn",
+   "how_acquired": "Traded from CLE on 07/06/25"
+  },
+  {
+   "num": "44",
+   "name": "Patrick Williams",
+   "slug": "patrick-williams",
+   "player_id": 1630172,
+   "position": "F",
+   "height": "6-7",
+   "weight": "235",
+   "birth_date": "AUG 26, 2001",
+   "age": 25,
+   "exp": "6",
+   "school": "Florida State",
+   "how_acquired": "#4 Pick in 2020 Draft"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Tiago Splitter",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Blake Ahearn",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Taj Gibson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jonah Herscu",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jamelle McMillan",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Wes Unseld",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Rex Kalamian",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jordan Brink",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Todd Campbell",
+   "role": "Trainer"
+  }
+ ]
+}

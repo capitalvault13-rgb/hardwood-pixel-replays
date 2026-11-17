@@ -1,0 +1,290 @@
+{
+ "team_id": 1610612762,
+ "abbr": "UTA",
+ "city": "Utah",
+ "name": "Jazz",
+ "slug": "jazz",
+ "conference": "West",
+ "division": "Northwest",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612762/jazz",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Kobe Bufkin",
+   "slug": "kobe-bufkin",
+   "player_id": 1641723,
+   "position": "G",
+   "height": "6-5",
+   "weight": "195",
+   "birth_date": "SEP 21, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Michigan",
+   "how_acquired": "Signed on 10/23/26"
+  },
+  {
+   "num": "00",
+   "name": "Harrison Ingram",
+   "slug": "harrison-ingram",
+   "player_id": 1631127,
+   "position": "F",
+   "height": "6-5",
+   "weight": "230",
+   "birth_date": "NOV 27, 2002",
+   "age": 23,
+   "exp": "2",
+   "school": "North Carolina",
+   "how_acquired": "Signed on 07/25/26"
+  },
+  {
+   "num": "2",
+   "name": "Kyle Filipowski",
+   "slug": "kyle-filipowski",
+   "player_id": 1642271,
+   "position": "C",
+   "height": "6-11",
+   "weight": "250",
+   "birth_date": "NOV 07, 2003",
+   "age": 23,
+   "exp": "2",
+   "school": "Duke",
+   "how_acquired": "#32 Pick in 2024 Draft"
+  },
+  {
+   "num": "3",
+   "name": "Keyonte George",
+   "slug": "keyonte-george",
+   "player_id": 1641718,
+   "position": "G",
+   "height": "6-5",
+   "weight": "185",
+   "birth_date": "NOV 08, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Baylor",
+   "how_acquired": "#16 Pick in 2023 Draft"
+  },
+  {
+   "num": "5",
+   "name": "Josh Green",
+   "slug": "josh-green",
+   "player_id": 1630182,
+   "position": "G",
+   "height": "6-6",
+   "weight": "200",
+   "birth_date": "NOV 16, 2000",
+   "age": 26,
+   "exp": "6",
+   "school": "Arizona",
+   "how_acquired": "Traded from MIN on 08/29/26"
+  },
+  {
+   "num": "8",
+   "name": "Isaiah Collier",
+   "slug": "isaiah-collier",
+   "player_id": 1642268,
+   "position": "G",
+   "height": "6-4",
+   "weight": "210",
+   "birth_date": "OCT 08, 2004",
+   "age": 22,
+   "exp": "2",
+   "school": "Southern California",
+   "how_acquired": "#29 Pick in 2024 Draft"
+  },
+  {
+   "num": "10",
+   "name": "Svi Mykhailiuk",
+   "slug": "svi-mykhailiuk",
+   "player_id": 1629004,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "205",
+   "birth_date": "JUN 10, 1997",
+   "age": 29,
+   "exp": "8",
+   "school": "Kansas",
+   "how_acquired": "Signed on 08/10/24"
+  },
+  {
+   "num": "11",
+   "name": "Jaxson Hayes",
+   "slug": "jaxson-hayes",
+   "player_id": 1629637,
+   "position": "C-F",
+   "height": "7-0",
+   "weight": "220",
+   "birth_date": "MAY 23, 2000",
+   "age": 26,
+   "exp": "7",
+   "school": "Texas",
+   "how_acquired": "Signed on 07/09/26"
+  },
+  {
+   "num": "13",
+   "name": "Tony Bradley",
+   "slug": "tony-bradley",
+   "player_id": 1628396,
+   "position": "C-F",
+   "height": "6-10",
+   "weight": "248",
+   "birth_date": "JAN 08, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "North Carolina",
+   "how_acquired": "Awarded on Waivers on 10/17/26"
+  },
+  {
+   "num": "19",
+   "name": "Ace Bailey",
+   "slug": "ace-bailey",
+   "player_id": 1642846,
+   "position": "F",
+   "height": "6-9",
+   "weight": "200",
+   "birth_date": "AUG 13, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Rutgers",
+   "how_acquired": "#5 Pick in 2025 Draft"
+  },
+  {
+   "num": "20",
+   "name": "Jaren Jackson Jr.",
+   "slug": "jaren-jackson-jr",
+   "player_id": 1628991,
+   "position": "F-C",
+   "height": "6-10",
+   "weight": "242",
+   "birth_date": "SEP 15, 1999",
+   "age": 27,
+   "exp": "8",
+   "school": "Michigan State",
+   "how_acquired": "Traded from MEM on 02/03/26"
+  },
+  {
+   "num": "21",
+   "name": "Josh Okogie",
+   "slug": "josh-okogie",
+   "player_id": 1629006,
+   "position": "G",
+   "height": "6-4",
+   "weight": "213",
+   "birth_date": "SEP 01, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "Georgia Tech",
+   "how_acquired": "Signed on 07/09/26"
+  },
+  {
+   "num": "22",
+   "name": "Darryn Peterson",
+   "slug": "darryn-peterson",
+   "player_id": 1643408,
+   "position": "G",
+   "height": "6-6",
+   "weight": "205",
+   "birth_date": "JAN 17, 2007",
+   "age": 19,
+   "exp": "R",
+   "school": "Kansas",
+   "how_acquired": "#2 Pick in 2026 Draft"
+  },
+  {
+   "num": "23",
+   "name": "Lauri Markkanen",
+   "slug": "lauri-markkanen",
+   "player_id": 1628374,
+   "position": "F-C",
+   "height": "7-1",
+   "weight": "240",
+   "birth_date": "MAY 22, 1997",
+   "age": 29,
+   "exp": "9",
+   "school": "Arizona",
+   "how_acquired": "Traded from CLE on 09/03/22"
+  },
+  {
+   "num": "28",
+   "name": "Brice Sensabaugh",
+   "slug": "brice-sensabaugh",
+   "player_id": 1641729,
+   "position": "F",
+   "height": "6-6",
+   "weight": "225",
+   "birth_date": "OCT 30, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Ohio State",
+   "how_acquired": "#28 Pick in 2023 Draft"
+  },
+  {
+   "num": "30",
+   "name": "Jusuf Nurkić",
+   "slug": "jusuf-nurkic",
+   "player_id": 203994,
+   "position": "C",
+   "height": "7-0",
+   "weight": "290",
+   "birth_date": "AUG 23, 1994",
+   "age": 32,
+   "exp": "12",
+   "school": "Cedevita",
+   "how_acquired": "Traded from CHA on 06/29/25"
+  },
+  {
+   "num": "44",
+   "name": "Mo Bamba",
+   "slug": "mo-bamba",
+   "player_id": 1628964,
+   "position": "C",
+   "height": "7-0",
+   "weight": "231",
+   "birth_date": "MAY 12, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "Texas",
+   "how_acquired": "Signed on 02/26/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Will Hardy",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Sean Sheldon",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jason Terry",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Chad Forcier",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Scott Morrison",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Chris Jones",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Steve Wojciechowski",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Andrew Warren",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jamal Cort",
+   "role": "Trainer"
+  }
+ ]
+}

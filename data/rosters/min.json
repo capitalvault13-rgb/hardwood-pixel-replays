@@ -1,0 +1,286 @@
+{
+ "team_id": 1610612750,
+ "abbr": "MIN",
+ "city": "Minnesota",
+ "name": "Timberwolves",
+ "slug": "timberwolves",
+ "conference": "West",
+ "division": "Northwest",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612750/timberwolves",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Donte DiVincenzo",
+   "slug": "donte-divincenzo",
+   "player_id": 1628978,
+   "position": "G",
+   "height": "6-4",
+   "weight": "203",
+   "birth_date": "JAN 31, 1997",
+   "age": 29,
+   "exp": "8",
+   "school": "Villanova",
+   "how_acquired": "Traded from NYK on 10/02/24"
+  },
+  {
+   "num": "1",
+   "name": "LaMelo Ball",
+   "slug": "lamelo-ball",
+   "player_id": 1630163,
+   "position": "G",
+   "height": "6-7",
+   "weight": "180",
+   "birth_date": "AUG 22, 2001",
+   "age": 25,
+   "exp": "6",
+   "school": "Illawarra",
+   "how_acquired": "Traded from CHA on 07/10/26"
+  },
+  {
+   "num": "3",
+   "name": "Jaden McDaniels",
+   "slug": "jaden-mcdaniels",
+   "player_id": 1630183,
+   "position": "F",
+   "height": "6-9",
+   "weight": "185",
+   "birth_date": "SEP 29, 2000",
+   "age": 26,
+   "exp": "6",
+   "school": "Washington",
+   "how_acquired": "Draft Rights Traded from OKC on 11/20/20"
+  },
+  {
+   "num": "4",
+   "name": "Terrence Shannon Jr",
+   "slug": "terrence-shannon-jr",
+   "player_id": 1630545,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "215",
+   "birth_date": "JUL 30, 2000",
+   "age": 26,
+   "exp": "2",
+   "school": "Illinois",
+   "how_acquired": "#27 Pick in 2024 Draft"
+  },
+  {
+   "num": "5",
+   "name": "Anthony Edwards",
+   "slug": "anthony-edwards",
+   "player_id": 1630162,
+   "position": "G",
+   "height": "6-4",
+   "weight": "225",
+   "birth_date": "AUG 05, 2001",
+   "age": 25,
+   "exp": "6",
+   "school": "Georgia",
+   "how_acquired": "#1 Pick in 2020 Draft"
+  },
+  {
+   "num": "7",
+   "name": "Jaylen Clark",
+   "slug": "jaylen-clark",
+   "player_id": 1641740,
+   "position": "G",
+   "height": "6-5",
+   "weight": "205",
+   "birth_date": "OCT 13, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "UCLA",
+   "how_acquired": "#53 Pick in 2023 Draft"
+  },
+  {
+   "num": "8",
+   "name": "Bones Hyland",
+   "slug": "bones-hyland",
+   "player_id": 1630538,
+   "position": "G",
+   "height": "6-2",
+   "weight": "169",
+   "birth_date": "SEP 14, 2000",
+   "age": 26,
+   "exp": "5",
+   "school": "Virginia Commonwealth",
+   "how_acquired": "Signed on 02/27/25"
+  },
+  {
+   "num": "9",
+   "name": "Cody Williams",
+   "slug": "cody-williams",
+   "player_id": 1642262,
+   "position": "F",
+   "height": "6-7",
+   "weight": "190",
+   "birth_date": "NOV 20, 2004",
+   "age": 21,
+   "exp": "2",
+   "school": "Colorado",
+   "how_acquired": "Traded from UTA on 08/29/26"
+  },
+  {
+   "num": "13",
+   "name": "Ayo Dosunmu",
+   "slug": "ayo-dosunmu",
+   "player_id": 1630245,
+   "position": "G",
+   "height": "6-4",
+   "weight": "201",
+   "birth_date": "JAN 17, 2000",
+   "age": 26,
+   "exp": "5",
+   "school": "Illinois",
+   "how_acquired": "Traded from CHI on 02/05/26"
+  },
+  {
+   "num": "15",
+   "name": "Zyon Pullin",
+   "slug": "zyon-pullin",
+   "player_id": 1642389,
+   "position": "G",
+   "height": "6-4",
+   "weight": "206",
+   "birth_date": "MAR 03, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Florida",
+   "how_acquired": "Signed on 09/28/25"
+  },
+  {
+   "num": "19",
+   "name": "Joan Beringer",
+   "slug": "joan-beringer",
+   "player_id": 1642866,
+   "position": "F",
+   "height": "7-0",
+   "weight": "230",
+   "birth_date": "NOV 11, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Cedevita Olimpija (Slovenia)",
+   "how_acquired": "#17 Pick in 2025 Draft"
+  },
+  {
+   "num": "22",
+   "name": "Johni Broome",
+   "slug": "johni-broome",
+   "player_id": 1641780,
+   "position": "F",
+   "height": "6-9",
+   "weight": "244",
+   "birth_date": "JUL 19, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Auburn",
+   "how_acquired": "Signed on 11/12/26"
+  },
+  {
+   "num": "24",
+   "name": "Jonathan Kuminga",
+   "slug": "jonathan-kuminga",
+   "player_id": 1630228,
+   "position": "F",
+   "height": "6-7",
+   "weight": "225",
+   "birth_date": "OCT 06, 2002",
+   "age": 24,
+   "exp": "5",
+   "school": "NBA G League Ignite",
+   "how_acquired": "Signed on 09/03/26"
+  },
+  {
+   "num": "27",
+   "name": "Rudy Gobert",
+   "slug": "rudy-gobert",
+   "player_id": 203497,
+   "position": "C",
+   "height": "7-1",
+   "weight": "258",
+   "birth_date": "JUN 26, 1992",
+   "age": 34,
+   "exp": "13",
+   "school": "Cholet",
+   "how_acquired": "Traded from UTA on 07/06/22"
+  },
+  {
+   "num": "33",
+   "name": "Isaiah Evans",
+   "slug": "isaiah-evans",
+   "player_id": 1642912,
+   "position": "F",
+   "height": "6-6",
+   "weight": "175",
+   "birth_date": "DEC 06, 2005",
+   "age": 20,
+   "exp": "R",
+   "school": "Duke",
+   "how_acquired": "Draft Rights Traded from BKN on 07/10/26"
+  },
+  {
+   "num": "41",
+   "name": "Trey Lyles",
+   "slug": "trey-lyles",
+   "player_id": 1626168,
+   "position": "F",
+   "height": "6-9",
+   "weight": "234",
+   "birth_date": "NOV 05, 1995",
+   "age": 31,
+   "exp": "10",
+   "school": "Kentucky",
+   "how_acquired": "Signed on 07/10/26"
+  },
+  {
+   "num": "44",
+   "name": "Rocco Zikarsky",
+   "slug": "rocco-zikarsky",
+   "player_id": 1642911,
+   "position": "C",
+   "height": "7-3",
+   "weight": "227",
+   "birth_date": "JUL 11, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Brisbane Bullets (Australia)",
+   "how_acquired": "Draft Rights Traded from LAL on 07/06/25"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Chris Finch",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Pablo Prigioni",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Elston Turner",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Kevin Hanson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Chris Hines",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jeff Newton",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Erin Sierer",
+   "role": "Trainer"
+  },
+  {
+   "name": "Gregg Farnam",
+   "role": "Trainer"
+  }
+ ]
+}

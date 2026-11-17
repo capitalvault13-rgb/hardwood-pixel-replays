@@ -1,0 +1,282 @@
+{
+ "team_id": 1610612738,
+ "abbr": "BOS",
+ "city": "Boston",
+ "name": "Celtics",
+ "slug": "celtics",
+ "conference": "East",
+ "division": "Atlantic",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612738/celtics",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Jayson Tatum",
+   "slug": "jayson-tatum",
+   "player_id": 1628369,
+   "position": "F-G",
+   "height": "6-8",
+   "weight": "229",
+   "birth_date": "MAR 03, 1998",
+   "age": 28,
+   "exp": "9",
+   "school": "Duke",
+   "how_acquired": "#3 Pick in 2017 Draft"
+  },
+  {
+   "num": "4",
+   "name": "Mitchell Robinson",
+   "slug": "mitchell-robinson",
+   "player_id": 1629011,
+   "position": "C-F",
+   "height": "7-0",
+   "weight": "245",
+   "birth_date": "APR 01, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "Western Kentucky",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "8",
+   "name": "Ron Harper Jr.",
+   "slug": "ron-harper-jr",
+   "player_id": 1631199,
+   "position": "G-F",
+   "height": "6-5",
+   "weight": "231",
+   "birth_date": "APR 12, 2000",
+   "age": 26,
+   "exp": "4",
+   "school": "Rutgers",
+   "how_acquired": "Signed on 09/19/25"
+  },
+  {
+   "num": "9",
+   "name": "Derrick White",
+   "slug": "derrick-white",
+   "player_id": 1628401,
+   "position": "G",
+   "height": "6-4",
+   "weight": "200",
+   "birth_date": "JUL 02, 1994",
+   "age": 32,
+   "exp": "9",
+   "school": "Colorado",
+   "how_acquired": "Traded from SAS on 02/10/22"
+  },
+  {
+   "num": "11",
+   "name": "Payton Pritchard",
+   "slug": "payton-pritchard",
+   "player_id": 1630202,
+   "position": "G",
+   "height": "6-1",
+   "weight": "212",
+   "birth_date": "JAN 28, 1998",
+   "age": 28,
+   "exp": "6",
+   "school": "Oregon",
+   "how_acquired": "#26 Pick in 2020 Draft"
+  },
+  {
+   "num": "12",
+   "name": "Chris Cenac Jr.",
+   "slug": "chris-cenac-jr",
+   "player_id": 1643416,
+   "position": "F",
+   "height": "6-11",
+   "weight": "240",
+   "birth_date": "FEB 01, 2007",
+   "age": 19,
+   "exp": "R",
+   "school": "Houston",
+   "how_acquired": "#27 Pick in 2026 Draft"
+  },
+  {
+   "num": "13",
+   "name": "Paul George",
+   "slug": "paul-george",
+   "player_id": 202331,
+   "position": "F",
+   "height": "6-8",
+   "weight": "230",
+   "birth_date": "MAY 02, 1990",
+   "age": 36,
+   "exp": "16",
+   "school": "Fresno State",
+   "how_acquired": "Traded from PHI on 07/06/26"
+  },
+  {
+   "num": "20",
+   "name": "Dillon Mitchell",
+   "slug": "dillon-mitchell",
+   "player_id": 1641759,
+   "position": "F",
+   "height": "6-6",
+   "weight": "200",
+   "birth_date": "OCT 03, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "St. John's",
+   "how_acquired": "#40 Pick in 2026 Draft"
+  },
+  {
+   "num": "27",
+   "name": "Jordan Walsh",
+   "slug": "jordan-walsh",
+   "player_id": 1641775,
+   "position": "G",
+   "height": "6-6",
+   "weight": "210",
+   "birth_date": "MAR 03, 2004",
+   "age": 22,
+   "exp": "3",
+   "school": "Arkansas",
+   "how_acquired": "Draft Rights Traded from SAC on 06/28/23"
+  },
+  {
+   "num": "28",
+   "name": "Hugo González",
+   "slug": "hugo-gonzalez",
+   "player_id": 1642864,
+   "position": "G",
+   "height": "6-6",
+   "weight": "200",
+   "birth_date": "FEB 05, 2006",
+   "age": 20,
+   "exp": "1",
+   "school": "Spain",
+   "how_acquired": "#28 Pick in 2025 Draft"
+  },
+  {
+   "num": "30",
+   "name": "Sam Hauser",
+   "slug": "sam-hauser",
+   "player_id": 1630573,
+   "position": "F",
+   "height": "6-7",
+   "weight": "217",
+   "birth_date": "DEC 08, 1997",
+   "age": 28,
+   "exp": "5",
+   "school": "Virginia",
+   "how_acquired": "Signed on 08/13/21"
+  },
+  {
+   "num": "45",
+   "name": "Mike Conley",
+   "slug": "mike-conley",
+   "player_id": 201144,
+   "position": "G",
+   "height": "6-0",
+   "weight": "182",
+   "birth_date": "OCT 11, 1987",
+   "age": 39,
+   "exp": "19",
+   "school": "Ohio State",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "52",
+   "name": "Luka Garza",
+   "slug": "luka-garza",
+   "player_id": 1630568,
+   "position": "C",
+   "height": "6-10",
+   "weight": "252",
+   "birth_date": "DEC 27, 1998",
+   "age": 27,
+   "exp": "5",
+   "school": "Iowa",
+   "how_acquired": "Signed on 07/07/25"
+  },
+  {
+   "num": "55",
+   "name": "Baylor Scheierman",
+   "slug": "baylor-scheierman",
+   "player_id": 1631248,
+   "position": "G",
+   "height": "6-6",
+   "weight": "213",
+   "birth_date": "SEP 26, 2000",
+   "age": 26,
+   "exp": "2",
+   "school": "Creighton",
+   "how_acquired": "#30 Pick in 2024 Draft"
+  },
+  {
+   "num": "77",
+   "name": "Amari Williams",
+   "slug": "amari-williams",
+   "player_id": 1642873,
+   "position": "F-C",
+   "height": "6-11",
+   "weight": "269",
+   "birth_date": "JAN 28, 2002",
+   "age": 24,
+   "exp": "1",
+   "school": "Kentucky",
+   "how_acquired": "Draft Rights Traded from ORL on 06/26/25"
+  },
+  {
+   "num": "88",
+   "name": "Neemias Queta",
+   "slug": "neemias-queta",
+   "player_id": 1629674,
+   "position": "C",
+   "height": "7-0",
+   "weight": "270",
+   "birth_date": "JUL 13, 1999",
+   "age": 27,
+   "exp": "5",
+   "school": "Utah State",
+   "how_acquired": "Signed on 09/19/23"
+  },
+  {
+   "num": "99",
+   "name": "Devin Carter",
+   "slug": "devin-carter",
+   "player_id": 1642269,
+   "position": "G",
+   "height": "6-2",
+   "weight": "199",
+   "birth_date": "MAR 18, 2002",
+   "age": 24,
+   "exp": "2",
+   "school": "Providence",
+   "how_acquired": "Signed on 09/14/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Joe Mazzulla",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Amile Jefferson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "D.J. MacLeay",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Matt Reynolds",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Tony Dobbins",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Sam Cassell",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Drew Moore",
+   "role": "Trainer"
+  }
+ ]
+}

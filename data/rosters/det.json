@@ -1,0 +1,320 @@
+{
+ "team_id": 1610612765,
+ "abbr": "DET",
+ "city": "Detroit",
+ "name": "Pistons",
+ "slug": "pistons",
+ "conference": "East",
+ "division": "Central",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612765/pistons",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Jalen Duren",
+   "slug": "jalen-duren",
+   "player_id": 1631105,
+   "position": "C",
+   "height": "6-10",
+   "weight": "250",
+   "birth_date": "NOV 18, 2003",
+   "age": 22,
+   "exp": "4",
+   "school": "Memphis",
+   "how_acquired": "Draft Rights Traded from NYK on 07/06/22"
+  },
+  {
+   "num": "2",
+   "name": "Cade Cunningham",
+   "slug": "cade-cunningham",
+   "player_id": 1630595,
+   "position": "G",
+   "height": "6-6",
+   "weight": "220",
+   "birth_date": "SEP 25, 2001",
+   "age": 25,
+   "exp": "5",
+   "school": "Oklahoma State",
+   "how_acquired": "#1 Pick in 2021 Draft"
+  },
+  {
+   "num": "5",
+   "name": "Ronald Holland II",
+   "slug": "ronald-holland-ii",
+   "player_id": 1641842,
+   "position": "F",
+   "height": "6-8",
+   "weight": "206",
+   "birth_date": "JUL 07, 2005",
+   "age": 21,
+   "exp": "2",
+   "school": "NBA G League Ignite",
+   "how_acquired": "#5 Pick in 2024 Draft"
+  },
+  {
+   "num": "7",
+   "name": "Paul Reed",
+   "slug": "paul-reed",
+   "player_id": 1630194,
+   "position": "F",
+   "height": "6-9",
+   "weight": "210",
+   "birth_date": "JUN 14, 1999",
+   "age": 27,
+   "exp": "6",
+   "school": "DePaul",
+   "how_acquired": "Awarded on Waivers on 07/09/24"
+  },
+  {
+   "num": "8",
+   "name": "Chaz Lanier",
+   "slug": "chaz-lanier",
+   "player_id": 1642404,
+   "position": "G",
+   "height": "6-4",
+   "weight": "206",
+   "birth_date": "DEC 19, 2001",
+   "age": 24,
+   "exp": "1",
+   "school": "Tennessee",
+   "how_acquired": "#37 Pick in 2025 Draft"
+  },
+  {
+   "num": "9",
+   "name": "Ausar Thompson",
+   "slug": "ausar-thompson",
+   "player_id": 1641709,
+   "position": "G-F",
+   "height": "6-7",
+   "weight": "205",
+   "birth_date": "JAN 30, 2003",
+   "age": 23,
+   "exp": "3",
+   "school": "Overtime Elite",
+   "how_acquired": "#5 Pick in 2023 Draft"
+  },
+  {
+   "num": "12",
+   "name": "Taurean Prince",
+   "slug": "taurean-prince",
+   "player_id": 1627752,
+   "position": "F",
+   "height": "6-6",
+   "weight": "218",
+   "birth_date": "MAR 22, 1994",
+   "age": 32,
+   "exp": "10",
+   "school": "Baylor",
+   "how_acquired": "Traded from MIL on 07/08/26"
+  },
+  {
+   "num": "13",
+   "name": "Isaac Jones",
+   "slug": "isaac-jones",
+   "player_id": 1642403,
+   "position": "F",
+   "height": "6-8",
+   "weight": "245",
+   "birth_date": "JUL 11, 2000",
+   "age": 26,
+   "exp": "2",
+   "school": "Washington State",
+   "how_acquired": "Awarded on Waivers on 11/06/25"
+  },
+  {
+   "num": "17",
+   "name": "Isaiah Joe",
+   "slug": "isaiah-joe",
+   "player_id": 1630198,
+   "position": "G",
+   "height": "6-4",
+   "weight": "165",
+   "birth_date": "JUL 02, 1999",
+   "age": 27,
+   "exp": "6",
+   "school": "Arkansas",
+   "how_acquired": "Traded from OKC on 07/06/26"
+  },
+  {
+   "num": "20",
+   "name": "John Collins",
+   "slug": "john-collins",
+   "player_id": 1628381,
+   "position": "F-C",
+   "height": "6-9",
+   "weight": "226",
+   "birth_date": "SEP 23, 1997",
+   "age": 29,
+   "exp": "9",
+   "school": "Wake Forest",
+   "how_acquired": "Traded from LAC on 07/08/26"
+  },
+  {
+   "num": "23",
+   "name": "Ebuka Okorie",
+   "slug": "ebuka-okorie",
+   "player_id": 1643536,
+   "position": "G",
+   "height": "6-2",
+   "weight": "185",
+   "birth_date": "APR 10, 2007",
+   "age": 19,
+   "exp": "R",
+   "school": "Stanford",
+   "how_acquired": "Draft Rights Traded from MEM on 06/24/26"
+  },
+  {
+   "num": "24",
+   "name": "Daniss Jenkins",
+   "slug": "daniss-jenkins",
+   "player_id": 1642450,
+   "position": "G",
+   "height": "6-4",
+   "weight": "165",
+   "birth_date": "AUG 17, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "St. John's",
+   "how_acquired": "Signed on 07/06/24"
+  },
+  {
+   "num": "27",
+   "name": "Kevin Huerter",
+   "slug": "kevin-huerter",
+   "player_id": 1628989,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "190",
+   "birth_date": "AUG 27, 1998",
+   "age": 28,
+   "exp": "8",
+   "school": "Maryland",
+   "how_acquired": "Traded from CHI on 02/03/26"
+  },
+  {
+   "num": "31",
+   "name": "Javonte Green",
+   "slug": "javonte-green",
+   "player_id": 1629750,
+   "position": "G",
+   "height": "6-5",
+   "weight": "205",
+   "birth_date": "JUL 23, 1993",
+   "age": 33,
+   "exp": "7",
+   "school": "Radford",
+   "how_acquired": "Signed on 08/14/25"
+  },
+  {
+   "num": "34",
+   "name": "Ugonna Onyenso",
+   "slug": "ugonna-onyenso",
+   "player_id": 1642391,
+   "position": "C",
+   "height": "6-11",
+   "weight": "225",
+   "birth_date": "SEP 25, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Virginia",
+   "how_acquired": "Draft Rights Traded from NYK on 06/24/26"
+  },
+  {
+   "num": "35",
+   "name": "Tolu Smith",
+   "slug": "tolu-smith",
+   "player_id": 1642449,
+   "position": "F",
+   "height": "6-11",
+   "weight": null,
+   "birth_date": "JUL 26, 2000",
+   "age": 26,
+   "exp": "2",
+   "school": "Mississippi State",
+   "how_acquired": "Signed on 09/17/24"
+  },
+  {
+   "num": "55",
+   "name": "Duncan Robinson",
+   "slug": "duncan-robinson",
+   "player_id": 1629130,
+   "position": "F",
+   "height": "6-7",
+   "weight": "215",
+   "birth_date": "APR 22, 1994",
+   "age": 32,
+   "exp": "8",
+   "school": "Michigan",
+   "how_acquired": "Traded from MIA on 07/07/25"
+  },
+  {
+   "num": "94",
+   "name": "Elijah Harkless",
+   "slug": "elijah-harkless",
+   "player_id": 1641989,
+   "position": "G",
+   "height": "6-3",
+   "weight": "195",
+   "birth_date": "FEB 03, 2000",
+   "age": 26,
+   "exp": "2",
+   "school": "UNLV",
+   "how_acquired": "Signed on 07/08/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "J.B. Bickerstaff",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Jarrett Jack",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Fred Vinson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Vitaly Potapenko",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Steve Scalzi",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Luke Walton",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jerome Allen",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Kevin Burleson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Sidney Lowe",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Greg Smith",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Josh Estes",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Alex Garland",
+   "role": "Trainer"
+  },
+  {
+   "name": "Jordan Sabourin",
+   "role": "Strength and Conditioning Coach"
+  }
+ ]
+}

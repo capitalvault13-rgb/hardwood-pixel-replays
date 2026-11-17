@@ -1,0 +1,298 @@
+{
+ "team_id": 1610612761,
+ "abbr": "TOR",
+ "city": "Toronto",
+ "name": "Raptors",
+ "slug": "raptors",
+ "conference": "East",
+ "division": "Atlantic",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612761/raptors",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "1",
+   "name": "Jamal Shead",
+   "slug": "jamal-shead",
+   "player_id": 1642347,
+   "position": "G",
+   "height": "6-1",
+   "weight": "200",
+   "birth_date": "JUL 24, 2002",
+   "age": 24,
+   "exp": "2",
+   "school": "Houston",
+   "how_acquired": "Draft Rights Traded from SAC on 06/28/24"
+  },
+  {
+   "num": "2",
+   "name": "Kawhi Leonard",
+   "slug": "kawhi-leonard",
+   "player_id": 202695,
+   "position": "F",
+   "height": "6-7",
+   "weight": "225",
+   "birth_date": "JUN 29, 1991",
+   "age": 35,
+   "exp": "15",
+   "school": "San Diego State",
+   "how_acquired": "Traded from LAC on 09/14/26"
+  },
+  {
+   "num": "4",
+   "name": "Scottie Barnes",
+   "slug": "scottie-barnes",
+   "player_id": 1630567,
+   "position": "F-G",
+   "height": "6-8",
+   "weight": "237",
+   "birth_date": "AUG 01, 2001",
+   "age": 25,
+   "exp": "5",
+   "school": "Florida State",
+   "how_acquired": "#4 Pick in 2021 Draft"
+  },
+  {
+   "num": "5",
+   "name": "Immanuel Quickley",
+   "slug": "immanuel-quickley",
+   "player_id": 1630193,
+   "position": "G",
+   "height": "6-3",
+   "weight": "190",
+   "birth_date": "JUN 17, 1999",
+   "age": 27,
+   "exp": "6",
+   "school": "Kentucky",
+   "how_acquired": "Traded from NYK on 12/30/23"
+  },
+  {
+   "num": "8",
+   "name": "Jaden Bradley",
+   "slug": "jaden-bradley",
+   "player_id": 1643558,
+   "position": "G",
+   "height": "6-3",
+   "weight": "200",
+   "birth_date": "SEP 14, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Arizona",
+   "how_acquired": "#50 Pick in 2026 Draft"
+  },
+  {
+   "num": "9",
+   "name": "RJ Barrett",
+   "slug": "rj-barrett",
+   "player_id": 1629628,
+   "position": "F-G",
+   "height": "6-6",
+   "weight": "214",
+   "birth_date": "JUN 14, 2000",
+   "age": 26,
+   "exp": "7",
+   "school": "Duke",
+   "how_acquired": "Traded from NYK on 12/30/23"
+  },
+  {
+   "num": "9",
+   "name": "Kevin McCullar Jr.",
+   "slug": "kevin-mccullar-jr",
+   "player_id": 1641755,
+   "position": "G",
+   "height": "6-6",
+   "weight": "210",
+   "birth_date": "MAR 15, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Kansas",
+   "how_acquired": "Signed on 11/05/26"
+  },
+  {
+   "num": "12",
+   "name": "Nate Bittle",
+   "slug": "nate-bittle",
+   "player_id": 1642927,
+   "position": "C",
+   "height": "7-0",
+   "weight": "215",
+   "birth_date": "JUN 03, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "Oregon",
+   "how_acquired": "Signed on 07/09/26"
+  },
+  {
+   "num": "13",
+   "name": "Kyle Anderson",
+   "slug": "kyle-anderson",
+   "player_id": 203937,
+   "position": "F-G",
+   "height": "6-8",
+   "weight": "230",
+   "birth_date": "SEP 20, 1993",
+   "age": 33,
+   "exp": "12",
+   "school": "UCLA",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "14",
+   "name": "Ja'Kobe Walter",
+   "slug": "jakobe-walter",
+   "player_id": 1642266,
+   "position": "G",
+   "height": "6-5",
+   "weight": "180",
+   "birth_date": "SEP 04, 2004",
+   "age": 22,
+   "exp": "2",
+   "school": "Baylor",
+   "how_acquired": "#19 Pick in 2024 Draft"
+  },
+  {
+   "num": "18",
+   "name": "Malachi Smith",
+   "slug": "malachi-smith",
+   "player_id": 1641869,
+   "position": "G",
+   "height": "6-4",
+   "weight": "205",
+   "birth_date": "DEC 06, 1999",
+   "age": 26,
+   "exp": "1",
+   "school": "Gonzaga",
+   "how_acquired": "Signed on 08/17/26"
+  },
+  {
+   "num": "19",
+   "name": "Jakob Poeltl",
+   "slug": "jakob-poeltl",
+   "player_id": 1627751,
+   "position": "C",
+   "height": "7-0",
+   "weight": "253",
+   "birth_date": "OCT 15, 1995",
+   "age": 31,
+   "exp": "10",
+   "school": "Utah",
+   "how_acquired": "Traded from SAS on 02/09/23"
+  },
+  {
+   "num": "22",
+   "name": "Allen Graves",
+   "slug": "allen-graves",
+   "player_id": 1643512,
+   "position": "F",
+   "height": "6-8",
+   "weight": "225",
+   "birth_date": "JUL 28, 2006",
+   "age": 20,
+   "exp": "R",
+   "school": "Santa Clara",
+   "how_acquired": "#19 Pick in 2026 Draft"
+  },
+  {
+   "num": "30",
+   "name": "Collin Murray-Boyles",
+   "slug": "collin-murray-boyles",
+   "player_id": 1642867,
+   "position": "F",
+   "height": "6-7",
+   "weight": "245",
+   "birth_date": "JUN 10, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "South Carolina",
+   "how_acquired": "#9 Pick in 2025 Draft"
+  },
+  {
+   "num": "32",
+   "name": "Trayce Jackson-Davis",
+   "slug": "trayce-jackson-davis",
+   "player_id": 1631218,
+   "position": "F",
+   "height": "6-9",
+   "weight": "245",
+   "birth_date": "FEB 22, 2000",
+   "age": 26,
+   "exp": "3",
+   "school": "Indiana",
+   "how_acquired": "Traded from GSW on 02/05/26"
+  },
+  {
+   "num": "55",
+   "name": "Alijah Martin",
+   "slug": "alijah-martin",
+   "player_id": 1642918,
+   "position": "G",
+   "height": "6-2",
+   "weight": "210",
+   "birth_date": "DEC 26, 2001",
+   "age": 24,
+   "exp": "1",
+   "school": "Florida",
+   "how_acquired": "#39 Pick in 2025 Draft"
+  },
+  {
+   "num": "77",
+   "name": "Jamison Battle",
+   "slug": "jamison-battle",
+   "player_id": 1642419,
+   "position": "F",
+   "height": "6-7",
+   "weight": "220",
+   "birth_date": "MAY 10, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Ohio State",
+   "how_acquired": "Signed on 07/16/24"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Darko Rajakovic",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Pat Delany",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Mike Batiste",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Vin Bhavnani",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Stephen Silas",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jim Sann",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "James Wade",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jama Mahlalela",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Mery Andrade",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Ivo Simovic",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Rayhan Malik",
+   "role": "Trainer"
+  }
+ ]
+}

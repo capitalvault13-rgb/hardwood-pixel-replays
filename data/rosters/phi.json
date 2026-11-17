@@ -1,0 +1,286 @@
+{
+ "team_id": 1610612755,
+ "abbr": "PHI",
+ "city": "Philadelphia",
+ "name": "76ers",
+ "slug": "sixers",
+ "conference": "East",
+ "division": "Atlantic",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612755/sixers",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Tyrese Maxey",
+   "slug": "tyrese-maxey",
+   "player_id": 1630178,
+   "position": "G",
+   "height": "6-2",
+   "weight": "200",
+   "birth_date": "NOV 04, 2000",
+   "age": 26,
+   "exp": "6",
+   "school": "Kentucky",
+   "how_acquired": "#21 Pick in 2020 Draft"
+  },
+  {
+   "num": "00",
+   "name": "Labaron Philon Jr.",
+   "slug": "labaron-philon-jr",
+   "player_id": 1642889,
+   "position": "G",
+   "height": "6-3",
+   "weight": "177",
+   "birth_date": "NOV 24, 2005",
+   "age": 20,
+   "exp": "R",
+   "school": "Alabama",
+   "how_acquired": "#22 Pick in 2026 Draft"
+  },
+  {
+   "num": "1",
+   "name": "Kentavious Caldwell-Pope",
+   "slug": "kentavious-caldwell-pope",
+   "player_id": 203484,
+   "position": "G",
+   "height": "6-5",
+   "weight": "204",
+   "birth_date": "FEB 18, 1993",
+   "age": 33,
+   "exp": "13",
+   "school": "Georgia",
+   "how_acquired": "Signed on 08/05/26"
+  },
+  {
+   "num": "5",
+   "name": "Anfernee Simons",
+   "slug": "anfernee-simons",
+   "player_id": 1629014,
+   "position": "G",
+   "height": "6-4",
+   "weight": "200",
+   "birth_date": "JUN 08, 1999",
+   "age": 27,
+   "exp": "8",
+   "school": "Edgewater HS (FL)",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "7",
+   "name": "Jaylen Brown",
+   "slug": "jaylen-brown",
+   "player_id": 1627759,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "223",
+   "birth_date": "OCT 24, 1996",
+   "age": 30,
+   "exp": "10",
+   "school": "California",
+   "how_acquired": "Traded from BOS on 07/06/26"
+  },
+  {
+   "num": "8",
+   "name": "Caleb Love",
+   "slug": "caleb-love",
+   "player_id": 1631126,
+   "position": "G",
+   "height": "6-3",
+   "weight": "212",
+   "birth_date": "SEP 27, 2001",
+   "age": 25,
+   "exp": "1",
+   "school": "Arizona",
+   "how_acquired": "Signed on 07/05/26"
+  },
+  {
+   "num": "11",
+   "name": "Justin Edwards",
+   "slug": "justin-edwards",
+   "player_id": 1642348,
+   "position": "F",
+   "height": "6-7",
+   "weight": "217",
+   "birth_date": "DEC 16, 2003",
+   "age": 22,
+   "exp": "2",
+   "school": "Kentucky",
+   "how_acquired": "Signed on 07/04/24"
+  },
+  {
+   "num": "12",
+   "name": "Rayan Rupert",
+   "slug": "rayan-rupert",
+   "player_id": 1641712,
+   "position": "G-F",
+   "height": "6-7",
+   "weight": "205",
+   "birth_date": "MAY 31, 2004",
+   "age": 22,
+   "exp": "3",
+   "school": "New Zealand Breakers",
+   "how_acquired": "Signed on 07/08/26"
+  },
+  {
+   "num": "21",
+   "name": "Joel Embiid",
+   "slug": "joel-embiid",
+   "player_id": 203954,
+   "position": "C-F",
+   "height": "7-0",
+   "weight": "270",
+   "birth_date": "MAR 16, 1994",
+   "age": 32,
+   "exp": "10",
+   "school": "Kansas",
+   "how_acquired": "#3 Pick in 2014 Draft"
+  },
+  {
+   "num": "23",
+   "name": "LeBron James",
+   "slug": "lebron-james",
+   "player_id": 2544,
+   "position": "F",
+   "height": "6-9",
+   "weight": "250",
+   "birth_date": "DEC 30, 1984",
+   "age": 41,
+   "exp": "23",
+   "school": "St. Vincent-St. Mary HS (OH)",
+   "how_acquired": "Signed on 07/26/26"
+  },
+  {
+   "num": "25",
+   "name": "Dominick Barlow",
+   "slug": "dominick-barlow",
+   "player_id": 1631230,
+   "position": "F",
+   "height": "6-9",
+   "weight": "224",
+   "birth_date": "MAY 26, 2003",
+   "age": 23,
+   "exp": "4",
+   "school": "Overtime Elite",
+   "how_acquired": "Signed on 07/09/25"
+  },
+  {
+   "num": "30",
+   "name": "Adem Bona",
+   "slug": "adem-bona",
+   "player_id": 1641737,
+   "position": "F",
+   "height": "6-10",
+   "weight": "235",
+   "birth_date": "MAR 28, 2003",
+   "age": 23,
+   "exp": "2",
+   "school": "UCLA",
+   "how_acquired": "#41 Pick in 2024 Draft"
+  },
+  {
+   "num": "33",
+   "name": "Jabari Walker",
+   "slug": "jabari-walker",
+   "player_id": 1631133,
+   "position": "F",
+   "height": "6-7",
+   "weight": "237",
+   "birth_date": "JUL 30, 2002",
+   "age": 24,
+   "exp": "4",
+   "school": "Colorado",
+   "how_acquired": "Signed on 07/05/25"
+  },
+  {
+   "num": "45",
+   "name": "Dean Wade",
+   "slug": "dean-wade",
+   "player_id": 1629731,
+   "position": "F-C",
+   "height": "6-9",
+   "weight": "228",
+   "birth_date": "NOV 20, 1996",
+   "age": 29,
+   "exp": "7",
+   "school": "Kansas State",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "55",
+   "name": "Ariel Hukporti",
+   "slug": "ariel-hukporti",
+   "player_id": 1630574,
+   "position": "C",
+   "height": "7-0",
+   "weight": "246",
+   "birth_date": "APR 12, 2002",
+   "age": 24,
+   "exp": "2",
+   "school": "Riesen Ludwigsburg",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "77",
+   "name": "VJ Edgecombe",
+   "slug": "vj-edgecombe",
+   "player_id": 1642845,
+   "position": "G",
+   "height": "6-5",
+   "weight": "190",
+   "birth_date": "JUL 30, 2005",
+   "age": 21,
+   "exp": "1",
+   "school": "Baylor",
+   "how_acquired": "#3 Pick in 2025 Draft"
+  },
+  {
+   "num": "99",
+   "name": "Tacko Fall",
+   "slug": "tacko-fall",
+   "player_id": 1629605,
+   "position": "C",
+   "height": "7-6",
+   "weight": "311",
+   "birth_date": "DEC 10, 1995",
+   "age": 30,
+   "exp": "3",
+   "school": "Central Florida",
+   "how_acquired": "Signed on 09/01/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Nick Nurse",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Rico Hines",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Coby Karl",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "MIke Longabardi",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Bryan Gates",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Matt Brase",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Doug West",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Kevin Johnson",
+   "role": "Trainer"
+  }
+ ]
+}

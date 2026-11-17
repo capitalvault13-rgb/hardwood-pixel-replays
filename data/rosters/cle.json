@@ -1,0 +1,290 @@
+{
+ "team_id": 1610612739,
+ "abbr": "CLE",
+ "city": "Cleveland",
+ "name": "Cavaliers",
+ "slug": "cavaliers",
+ "conference": "East",
+ "division": "Central",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612739/cavaliers",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "1",
+   "name": "James Harden",
+   "slug": "james-harden",
+   "player_id": 201935,
+   "position": "G",
+   "height": "6-4",
+   "weight": "220",
+   "birth_date": "AUG 26, 1989",
+   "age": 37,
+   "exp": "17",
+   "school": "Arizona State",
+   "how_acquired": "Traded from LAC on 02/04/26"
+  },
+  {
+   "num": "3",
+   "name": "Thomas Bryant",
+   "slug": "thomas-bryant",
+   "player_id": 1628418,
+   "position": "C-F",
+   "height": "6-9",
+   "weight": "260",
+   "birth_date": "JUL 31, 1997",
+   "age": 29,
+   "exp": "9",
+   "school": "Indiana",
+   "how_acquired": "Signed on 09/25/25"
+  },
+  {
+   "num": "4",
+   "name": "Evan Mobley",
+   "slug": "evan-mobley",
+   "player_id": 1630596,
+   "position": "C",
+   "height": "6-11",
+   "weight": "230",
+   "birth_date": "JUN 18, 2001",
+   "age": 25,
+   "exp": "5",
+   "school": "Southern California",
+   "how_acquired": "#3 Pick in 2021 Draft"
+  },
+  {
+   "num": "5",
+   "name": "Sam Merrill",
+   "slug": "sam-merrill",
+   "player_id": 1630241,
+   "position": "G",
+   "height": "6-4",
+   "weight": "195",
+   "birth_date": "MAY 15, 1996",
+   "age": 30,
+   "exp": "6",
+   "school": "Utah State",
+   "how_acquired": "Signed on 03/03/23"
+  },
+  {
+   "num": "8",
+   "name": "Peyton Watson",
+   "slug": "peyton-watson",
+   "player_id": 1631212,
+   "position": "G",
+   "height": "6-7",
+   "weight": "215",
+   "birth_date": "SEP 11, 2002",
+   "age": 24,
+   "exp": "4",
+   "school": "UCLA",
+   "how_acquired": "Traded from DEN on 08/20/26"
+  },
+  {
+   "num": "9",
+   "name": "Craig Porter Jr.",
+   "slug": "craig-porter-jr",
+   "player_id": 1641854,
+   "position": "G",
+   "height": "6-1",
+   "weight": "194",
+   "birth_date": "FEB 26, 2000",
+   "age": 26,
+   "exp": "3",
+   "school": "Wichita State",
+   "how_acquired": "Signed on 07/03/23"
+  },
+  {
+   "num": "12",
+   "name": "Riley Minix",
+   "slug": "riley-minix",
+   "player_id": 1642434,
+   "position": "F",
+   "height": "6-7",
+   "weight": "230",
+   "birth_date": "SEP 22, 2000",
+   "age": 26,
+   "exp": "2",
+   "school": "Morehead State",
+   "how_acquired": "Signed on 02/13/26"
+  },
+  {
+   "num": "15",
+   "name": "Meleek Thomas",
+   "slug": "meleek-thomas",
+   "player_id": 1643509,
+   "position": "G",
+   "height": "6-3",
+   "weight": "190",
+   "birth_date": "AUG 06, 2006",
+   "age": 20,
+   "exp": "R",
+   "school": "Arkansas",
+   "how_acquired": "#34 Pick in 2026 Draft"
+  },
+  {
+   "num": "18",
+   "name": "Khalifa Diop",
+   "slug": "khalifa-diop",
+   "player_id": 1631215,
+   "position": "C",
+   "height": "6-10",
+   "weight": "231",
+   "birth_date": "JAN 15, 2002",
+   "age": 24,
+   "exp": "R",
+   "school": "CB Gran Canaria",
+   "how_acquired": "#39 Pick in 2022 Draft"
+  },
+  {
+   "num": "20",
+   "name": "Jaylon Tyson",
+   "slug": "jaylon-tyson",
+   "player_id": 1642281,
+   "position": "G-F",
+   "height": "6-6",
+   "weight": "224",
+   "birth_date": "DEC 02, 2002",
+   "age": 23,
+   "exp": "2",
+   "school": "California",
+   "how_acquired": "#20 Pick in 2024 Draft"
+  },
+  {
+   "num": "24",
+   "name": "Tyrese Proctor",
+   "slug": "tyrese-proctor",
+   "player_id": 1642878,
+   "position": "G",
+   "height": "6-4",
+   "weight": "185",
+   "birth_date": "APR 01, 2004",
+   "age": 22,
+   "exp": "1",
+   "school": "Duke",
+   "how_acquired": "#49 Pick in 2025 Draft"
+  },
+  {
+   "num": "31",
+   "name": "Jarrett Allen",
+   "slug": "jarrett-allen",
+   "player_id": 1628386,
+   "position": "C",
+   "height": "6-9",
+   "weight": "250",
+   "birth_date": "APR 21, 1998",
+   "age": 28,
+   "exp": "9",
+   "school": "Texas",
+   "how_acquired": "Traded from BKN on 01/16/21"
+  },
+  {
+   "num": "33",
+   "name": "Mario Hezonja",
+   "slug": "mario-hezonja",
+   "player_id": 1626209,
+   "position": "F-G",
+   "height": "6-8",
+   "weight": "255",
+   "birth_date": "FEB 25, 1995",
+   "age": 31,
+   "exp": "5",
+   "school": "FC Barcelona",
+   "how_acquired": "Signed on 07/31/26"
+  },
+  {
+   "num": "35",
+   "name": "Nae'Qwan Tomlin",
+   "slug": "naeqwan-tomlin",
+   "player_id": 1641772,
+   "position": "F",
+   "height": "6-8",
+   "weight": "210",
+   "birth_date": "DEC 19, 2000",
+   "age": 25,
+   "exp": "2",
+   "school": "Memphis",
+   "how_acquired": "Signed on 09/23/24"
+  },
+  {
+   "num": "45",
+   "name": "Donovan Mitchell",
+   "slug": "donovan-mitchell",
+   "player_id": 1628378,
+   "position": "G",
+   "height": "6-2",
+   "weight": "228",
+   "birth_date": "SEP 07, 1996",
+   "age": 30,
+   "exp": "9",
+   "school": "Louisville",
+   "how_acquired": "Traded from UTA on 09/03/22"
+  },
+  {
+   "num": "77",
+   "name": "Norchad Omier",
+   "slug": "norchad-omier",
+   "player_id": 1641807,
+   "position": "F",
+   "height": "6-5",
+   "weight": "248",
+   "birth_date": "AUG 28, 2001",
+   "age": 25,
+   "exp": "1",
+   "school": "Miami",
+   "how_acquired": "Signed on 11/05/26"
+  },
+  {
+   "num": "88",
+   "name": "Ernest Udeh, Jr.",
+   "slug": "ernest-udeh,-jr",
+   "player_id": 1643640,
+   "position": "C",
+   "height": "6-9",
+   "weight": "266",
+   "birth_date": "JAN 08, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Miami",
+   "how_acquired": "Signed on 07/01/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Kenny Atkinson",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Johnnie Bryant",
+   "role": "Associate Head Coach"
+  },
+  {
+   "name": "Mike Gerrity",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Trevor Hendry",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Omar Cook",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Nate Reinking",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Jawad Williams",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Andrew Olson",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Stephen Spiro",
+   "role": "Trainer"
+  }
+ ]
+}

@@ -1,0 +1,304 @@
+{
+ "team_id": 1610612747,
+ "abbr": "LAL",
+ "city": "Los Angeles",
+ "name": "Lakers",
+ "slug": "lakers",
+ "conference": "West",
+ "division": "Pacific",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612747/lakers",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "1",
+   "name": "Adou Thiero",
+   "slug": "adou-thiero",
+   "player_id": 1642876,
+   "position": "G",
+   "height": "6-7",
+   "weight": "220",
+   "birth_date": "MAY 08, 2004",
+   "age": 22,
+   "exp": "1",
+   "school": "Arkansas",
+   "how_acquired": "Draft Rights Traded from BKN on 07/06/25"
+  },
+  {
+   "num": "2",
+   "name": "Jarred Vanderbilt",
+   "slug": "jarred-vanderbilt",
+   "player_id": 1629020,
+   "position": "F",
+   "height": "6-8",
+   "weight": "214",
+   "birth_date": "APR 03, 1999",
+   "age": 27,
+   "exp": "8",
+   "school": "Kentucky",
+   "how_acquired": "Traded from UTA on 02/09/23"
+  },
+  {
+   "num": "4",
+   "name": "Matisse Thybulle",
+   "slug": "matisse-thybulle",
+   "player_id": 1629680,
+   "position": "G-F",
+   "height": "6-5",
+   "weight": "202",
+   "birth_date": "MAR 04, 1997",
+   "age": 29,
+   "exp": "7",
+   "school": "Washington",
+   "how_acquired": "Signed on 07/27/26"
+  },
+  {
+   "num": "5",
+   "name": "Quentin Grimes",
+   "slug": "quentin-grimes",
+   "player_id": 1629656,
+   "position": "G",
+   "height": "6-4",
+   "weight": "207",
+   "birth_date": "MAY 08, 2000",
+   "age": 26,
+   "exp": "5",
+   "school": "Houston",
+   "how_acquired": "Signed on 07/07/26"
+  },
+  {
+   "num": "7",
+   "name": "Jaden Hardy",
+   "slug": "jaden-hardy",
+   "player_id": 1630702,
+   "position": "G",
+   "height": "6-4",
+   "weight": "198",
+   "birth_date": "JUL 05, 2002",
+   "age": 24,
+   "exp": "4",
+   "school": "NBA G League Ignite",
+   "how_acquired": "Traded from WAS on 07/07/26"
+  },
+  {
+   "num": "9",
+   "name": "Bronny James",
+   "slug": "bronny-james",
+   "player_id": 1642355,
+   "position": "G",
+   "height": "6-2",
+   "weight": "210",
+   "birth_date": "OCT 06, 2004",
+   "age": 22,
+   "exp": "2",
+   "school": "Southern California",
+   "how_acquired": "#55 Pick in 2024 Draft"
+  },
+  {
+   "num": "10",
+   "name": "Collin Sexton",
+   "slug": "collin-sexton",
+   "player_id": 1629012,
+   "position": "G",
+   "height": "6-1",
+   "weight": "190",
+   "birth_date": "JAN 04, 1999",
+   "age": 27,
+   "exp": "8",
+   "school": "Alabama",
+   "how_acquired": "Signed on 07/11/26"
+  },
+  {
+   "num": "11",
+   "name": "Ziaire Williams",
+   "slug": "ziaire-williams",
+   "player_id": 1630533,
+   "position": "F",
+   "height": "6-9",
+   "weight": "185",
+   "birth_date": "SEP 12, 2001",
+   "age": 25,
+   "exp": "5",
+   "school": "Stanford",
+   "how_acquired": "Signed on 07/19/26"
+  },
+  {
+   "num": "12",
+   "name": "Jake LaRavia",
+   "slug": "jake-laravia",
+   "player_id": 1631222,
+   "position": "F",
+   "height": "6-8",
+   "weight": "235",
+   "birth_date": "NOV 03, 2001",
+   "age": 25,
+   "exp": "4",
+   "school": "Wake Forest",
+   "how_acquired": "Signed on 07/06/25"
+  },
+  {
+   "num": "14",
+   "name": "Walker Kessler",
+   "slug": "walker-kessler",
+   "player_id": 1631117,
+   "position": "C",
+   "height": "7-1",
+   "weight": "245",
+   "birth_date": "JUL 26, 2001",
+   "age": 25,
+   "exp": "4",
+   "school": "Auburn",
+   "how_acquired": "Traded from UTA on 07/08/26"
+  },
+  {
+   "num": "15",
+   "name": "Austin Reaves",
+   "slug": "austin-reaves",
+   "player_id": 1630559,
+   "position": "G",
+   "height": "6-5",
+   "weight": "197",
+   "birth_date": "MAY 29, 1998",
+   "age": 28,
+   "exp": "5",
+   "school": "Oklahoma",
+   "how_acquired": "Signed on 08/03/21"
+  },
+  {
+   "num": "20",
+   "name": "Carson Cooper",
+   "slug": "carson-cooper",
+   "player_id": 1643721,
+   "position": "F",
+   "height": "6-10",
+   "weight": "245",
+   "birth_date": "APR 09, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Michigan State",
+   "how_acquired": "Signed on 11/10/26"
+  },
+  {
+   "num": "30",
+   "name": "Chris Mañon",
+   "slug": "chris-manon",
+   "player_id": 1643024,
+   "position": "G",
+   "height": "6-4",
+   "weight": "209",
+   "birth_date": "DEC 09, 2001",
+   "age": 24,
+   "exp": "1",
+   "school": "Vanderbilt",
+   "how_acquired": "Signed on 07/24/25"
+  },
+  {
+   "num": "43",
+   "name": "Cameron Carr",
+   "slug": "cameron-carr",
+   "player_id": 1643418,
+   "position": "G",
+   "height": "6-5",
+   "weight": "175",
+   "birth_date": "NOV 24, 2004",
+   "age": 21,
+   "exp": "R",
+   "school": "Baylor",
+   "how_acquired": "Draft Rights Traded from NYK on 06/24/26"
+  },
+  {
+   "num": "47",
+   "name": "Arthur Kaluma",
+   "slug": "arthur-kaluma",
+   "player_id": 1641751,
+   "position": "F",
+   "height": "6-7",
+   "weight": "225",
+   "birth_date": "MAR 01, 2002",
+   "age": 24,
+   "exp": "R",
+   "school": "Texas",
+   "how_acquired": "Signed on 07/25/25"
+  },
+  {
+   "num": "54",
+   "name": "Sandro Mamukelashvili",
+   "slug": "sandro-mamukelashvili",
+   "player_id": 1630572,
+   "position": "F-C",
+   "height": "6-10",
+   "weight": "240",
+   "birth_date": "MAY 23, 1999",
+   "age": 27,
+   "exp": "5",
+   "school": "Seton Hall",
+   "how_acquired": "Signed on 07/07/26"
+  },
+  {
+   "num": "55",
+   "name": "Kevon Looney",
+   "slug": "kevon-looney",
+   "player_id": 1626172,
+   "position": "F",
+   "height": "6-9",
+   "weight": "222",
+   "birth_date": "FEB 06, 1996",
+   "age": 30,
+   "exp": "11",
+   "school": "UCLA",
+   "how_acquired": "Signed on 07/12/26"
+  },
+  {
+   "num": "77",
+   "name": "Luka Dončić",
+   "slug": "luka-doncic",
+   "player_id": 1629029,
+   "position": "F-G",
+   "height": "6-8",
+   "weight": "230",
+   "birth_date": "FEB 28, 1999",
+   "age": 27,
+   "exp": "8",
+   "school": "Real Madrid",
+   "how_acquired": "Traded from DAL on 02/02/25"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "JJ Redick",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Zach Guthrie",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Nate McMillan",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Scott Brooks",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Bob Beyer",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Greg St. Jean",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Lindsey Harding",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Beau Levesque",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Vanessa Brooks",
+   "role": "Trainer"
+  }
+ ]
+}

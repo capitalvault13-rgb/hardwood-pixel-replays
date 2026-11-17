@@ -12,10 +12,14 @@ to `renders/`.
 ## Layout
 
 ```
+data/teams.json       all 30 NBA teams (abbr, city, name, conference, division, nba.com link)
+data/rosters/<abbr>.json   each team's current roster + coaches from nba.com (number, name, position, height, ...)
+data/players.csv      every rostered player in one sheet
+tools/fetch_rosters.py     refreshes data/ from nba.com
 sprites/<team>/       one folder per team (NBA 3-letter code, lower case), native pixel size
 sprites/<team>/source/  the original sprite sheet that team's PNGs were cut from
 sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / statement)
-sprites/bos/          Celtics — drawn by tools/make_sprites.py from sprites/bos/players.json (5 players so far)
+sprites/bos/          Celtics — full 2026-27 roster (17), drawn by tools/make_sprites.py from sprites/bos/players.json
 tools/extract_sprites.py   cuts a sheet into sprites/<team>/*.png
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
 fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
@@ -31,6 +35,17 @@ dort, newell, veesaar, nembhard, hield, kispert, gilbert, landale, dennis, gueye
 Opponents with no sprite set are drawn by recolouring Hawks home-kit sprites into the
 opponent's colours (see `load(..., recolor=True)` in `replay.py`). They are generic
 stand-ins and are never labelled.
+
+## Roster data
+
+`data/` holds every team's roster as listed on nba.com (2026-27 season, fetched 2026-11-17).
+Refresh it with `python3 tools/fetch_rosters.py`; rosters change with trades and signings, so
+refresh before naming a new team's sprites. Sprite files use the player's last name
+(`sprites/bos/tatum_away.png`); `players.json` keeps the full name and nba.com player id.
+
+The Hawks sprite sheet predates the current roster: Kuminga (now MIN), Hield (now CHI),
+Nembhard and Gilbert are no longer Hawks, and Finney-Smith (#8) and Jalen Wilson (#22) have no
+sprite yet. Kuminga stays in sprites/atl because replay 002 shows him as a Hawk (Mar 2026).
 
 ## Adding a team
 

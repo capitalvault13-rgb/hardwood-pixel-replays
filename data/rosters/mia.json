@@ -1,0 +1,290 @@
+{
+ "team_id": 1610612748,
+ "abbr": "MIA",
+ "city": "Miami",
+ "name": "Heat",
+ "slug": "heat",
+ "conference": "East",
+ "division": "Southeast",
+ "season": "2026-27",
+ "source": "https://www.nba.com/team/1610612748/heat",
+ "fetched": "2026-11-17",
+ "players": [
+  {
+   "num": "0",
+   "name": "Simone Fontecchio",
+   "slug": "simone-fontecchio",
+   "player_id": 1631323,
+   "position": "F",
+   "height": "6-7",
+   "weight": "220",
+   "birth_date": "DEC 09, 1995",
+   "age": 30,
+   "exp": "4",
+   "school": "Baskonia",
+   "how_acquired": "Traded from DET on 07/07/25"
+  },
+  {
+   "num": "2",
+   "name": "Davion Mitchell",
+   "slug": "davion-mitchell",
+   "player_id": 1630558,
+   "position": "G",
+   "height": "6-0",
+   "weight": "200",
+   "birth_date": "SEP 05, 1998",
+   "age": 28,
+   "exp": "5",
+   "school": "Baylor",
+   "how_acquired": "Traded from TOR on 02/06/25"
+  },
+  {
+   "num": "4",
+   "name": "Ryan Conwell",
+   "slug": "ryan-conwell",
+   "player_id": 1643553,
+   "position": "G",
+   "height": "6-2",
+   "weight": "215",
+   "birth_date": "JUN 15, 2004",
+   "age": 22,
+   "exp": "R",
+   "school": "Louisville",
+   "how_acquired": "Draft Rights Traded from OKC on 06/24/26"
+  },
+  {
+   "num": "5",
+   "name": "Nikola Jović",
+   "slug": "nikola-jovic",
+   "player_id": 1631107,
+   "position": "F",
+   "height": "6-10",
+   "weight": "245",
+   "birth_date": "JUN 09, 2003",
+   "age": 23,
+   "exp": "4",
+   "school": "Mega Basket",
+   "how_acquired": "#27 Pick in 2022 Draft"
+  },
+  {
+   "num": "7",
+   "name": "Giannis Antetokounmpo",
+   "slug": "giannis-antetokounmpo",
+   "player_id": 203507,
+   "position": "F",
+   "height": "6-11",
+   "weight": "250",
+   "birth_date": "DEC 06, 1994",
+   "age": 31,
+   "exp": "13",
+   "school": "Filathlitikos",
+   "how_acquired": "Traded from MIL on 07/06/26"
+  },
+  {
+   "num": "8",
+   "name": "Nick Richards",
+   "slug": "nick-richards",
+   "player_id": 1630208,
+   "position": "C",
+   "height": "6-11",
+   "weight": "255",
+   "birth_date": "NOV 29, 1997",
+   "age": 28,
+   "exp": "6",
+   "school": "Kentucky",
+   "how_acquired": "Signed on 08/27/26"
+  },
+  {
+   "num": "9",
+   "name": "Pelle Larsson",
+   "slug": "pelle-larsson",
+   "player_id": 1641796,
+   "position": "G",
+   "height": "6-5",
+   "weight": "215",
+   "birth_date": "FEB 23, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Arizona",
+   "how_acquired": "Draft Rights Traded from HOU on 06/27/24"
+  },
+  {
+   "num": "10",
+   "name": "Tim Hardaway Jr.",
+   "slug": "tim-hardaway-jr",
+   "player_id": 203501,
+   "position": "G",
+   "height": "6-5",
+   "weight": "205",
+   "birth_date": "MAR 16, 1992",
+   "age": 34,
+   "exp": "13",
+   "school": "Michigan",
+   "how_acquired": "Signed on 07/06/26"
+  },
+  {
+   "num": "11",
+   "name": "Klay Thompson",
+   "slug": "klay-thompson",
+   "player_id": 202691,
+   "position": "G-F",
+   "height": "6-5",
+   "weight": "200",
+   "birth_date": "FEB 08, 1990",
+   "age": 36,
+   "exp": "15",
+   "school": "Washington State",
+   "how_acquired": "Signed on 08/23/26"
+  },
+  {
+   "num": "12",
+   "name": "Dru Smith",
+   "slug": "dru-smith",
+   "player_id": 1630696,
+   "position": "G",
+   "height": "6-2",
+   "weight": "200",
+   "birth_date": "DEC 30, 1997",
+   "age": 28,
+   "exp": "4",
+   "school": "Missouri",
+   "how_acquired": "Signed on 07/01/23"
+  },
+  {
+   "num": "13",
+   "name": "Bam Adebayo",
+   "slug": "bam-adebayo",
+   "player_id": 1628389,
+   "position": "C-F",
+   "height": "6-9",
+   "weight": "260",
+   "birth_date": "JUL 18, 1997",
+   "age": 29,
+   "exp": "9",
+   "school": "Kentucky",
+   "how_acquired": "#14 Pick in 2017 Draft"
+  },
+  {
+   "num": "15",
+   "name": "Myron Gardner",
+   "slug": "myron-gardner",
+   "player_id": 1642066,
+   "position": "F",
+   "height": "6-5",
+   "weight": "225",
+   "birth_date": "MAY 21, 2001",
+   "age": 25,
+   "exp": "1",
+   "school": "Arkansas-Little Rock",
+   "how_acquired": "Signed on 07/24/25"
+  },
+  {
+   "num": "16",
+   "name": "Keshad Johnson",
+   "slug": "keshad-johnson",
+   "player_id": 1642352,
+   "position": "F",
+   "height": "6-6",
+   "weight": "230",
+   "birth_date": "JUN 23, 2001",
+   "age": 25,
+   "exp": "2",
+   "school": "Arizona",
+   "how_acquired": "Signed on 07/01/24"
+  },
+  {
+   "num": "22",
+   "name": "Andrew Wiggins",
+   "slug": "andrew-wiggins",
+   "player_id": 203952,
+   "position": "F",
+   "height": "6-6",
+   "weight": "210",
+   "birth_date": "FEB 23, 1995",
+   "age": 31,
+   "exp": "12",
+   "school": "Kansas",
+   "how_acquired": "Traded from GSW on 02/06/25"
+  },
+  {
+   "num": "24",
+   "name": "Tre Donaldson",
+   "slug": "tre-donaldson",
+   "player_id": 1643621,
+   "position": "G",
+   "height": "6-1",
+   "weight": "200",
+   "birth_date": "DEC 11, 2003",
+   "age": 22,
+   "exp": "R",
+   "school": "Miami",
+   "how_acquired": "Signed on 07/03/26"
+  },
+  {
+   "num": "50",
+   "name": "Vladislav Goldin",
+   "slug": "vladislav-goldin",
+   "player_id": 1642884,
+   "position": "C",
+   "height": "7-0",
+   "weight": "255",
+   "birth_date": "MAY 12, 2001",
+   "age": 25,
+   "exp": "1",
+   "school": "Michigan",
+   "how_acquired": "Signed on 07/02/25"
+  },
+  {
+   "num": "95",
+   "name": "Bobby Portis Jr.",
+   "slug": "bobby-portis-jr",
+   "player_id": 1626171,
+   "position": "F",
+   "height": "6-10",
+   "weight": "250",
+   "birth_date": "FEB 10, 1995",
+   "age": 31,
+   "exp": "11",
+   "school": "Arkansas",
+   "how_acquired": "Traded from MIL on 07/06/26"
+  }
+ ],
+ "coaches": [
+  {
+   "name": "Erik Spoelstra",
+   "role": "Head Coach"
+  },
+  {
+   "name": "Caron Butler",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Vin Baker",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Wayne Ellington",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Chris Quinn",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Malik Allen",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Eric Glass",
+   "role": "Assistant Coach"
+  },
+  {
+   "name": "Octavio De La Grana",
+   "role": "Assistant Coach for Player Development"
+  },
+  {
+   "name": "Wes Brown",
+   "role": "Trainer"
+  }
+ ]
+}
