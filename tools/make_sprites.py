@@ -14,8 +14,11 @@ players.json:
      "shoes": [r,g,b], "shoe_accent": [r,g,b], "look_source": "photo"}
   ]
 }
-hair:  bald | curly_short | wavy_medium | afro_band (pair with "headband")
-beard: none | short | full | thick
+hair:  bald | buzz | crop | curly_short | curly_high | wavy_medium | cornrows | afro_band | short_band
+       (the *_band styles take "headband": [r,g,b])
+beard: none | goatee | chinstrap | short | full | thick
+extras: "armband", "sleeves" (undershirt), "sleeve_arm": [{"side": "left|right", "color"}],
+        "wristbands": [{"side", "color"}], "socks"   (sides are as seen on screen)
 """
 import json, os, sys
 from PIL import Image, ImageDraw, ImageFont
@@ -99,10 +102,72 @@ HAIR = {
         5:  "...#HSSSSSSSSSSSSHH#...",
         6:  "....#SSSSSSSSSSSSsH#...",
     },
+    "curly_high": {
+        -4: ".......#.##.##.........",
+        -3: "......#H#HH#HH##.......",
+        -2: ".....#HHHhHHHhHH#......",
+        -1: ".....#HhHHHhHHHHH#.....",
+        0:  ".....#HHHHhHHHhHHH#....",
+        1:  "....#HHhHHHHHHHHHH#....",
+        2:  "....#HHHHhHHHhHHHH#....",
+        3:  "....#HHHHHHHHHHHHH#....",
+        4:  "....#SSSSSSSSSSSHHH#...",
+        5:  "....#SSSSSSSSSSSSH#....",
+    },
+    "buzz": {
+        1:  "......##HHHHHH##.......",
+        2:  ".....#HHhHHHHHHH#......",
+        3:  "....#HHHHHHHhHHHH#.....",
+        4:  "....#HHHHHHHHHHHHH#....",
+        5:  "....#SSSSSSSSSSSHH#....",
+    },
+    "crop": {
+        -1: "........######.........",
+        0:  "......##HHHHHH##.......",
+        1:  ".....#HHHhHHHHHH#......",
+        2:  "....#HHHHHHHHhHHH#.....",
+        3:  "....#HHHHHHHHHHHHH#....",
+        4:  "....#HSSSSSSSSSHHH#....",
+        5:  "....#SSSSSSSSSSSSH#....",
+    },
+    "cornrows": {
+        -1: "........######.........",
+        0:  "......##HhHhHh##.......",
+        1:  ".....#HhHhHhHhHh#......",
+        2:  "....#HhHhHhHhHhHh#.....",
+        3:  "....#HhHhHhHhHhHhH#....",
+        4:  "....#SSSSSSSSSSSHhH#...",
+        5:  "....#SSSSSSSSSSSSH#H#..",
+        6:  "...................H#..",
+        7:  "...................H#..",
+        8:  "...................H#..",
+        9:  "...................H#..",
+        10: "...................##..",
+    },
+    "short_band": {
+        -1: "........######.........",
+        0:  "......##HHhHHH##.......",
+        1:  ".....#HHHHHHhHHH#......",
+        2:  "....#HhHHHHHHHHHH#.....",
+        3:  "....#DDDDDDDDDDDD#.....",
+        4:  "....#dDDDDDDDDDDDd#....",
+    },
 }
 # Beard overlays (B = beard, b = beard shade, M = mouth kept). Rows relative to head top.
 BEARD = {
     "none": {},
+    "goatee": {
+        10: "....#SSSBBBBSSSs#......",
+        11: ".....#SSSMMSSSs#.......",
+        12: "......#SSBBSSs#........",
+        13: ".......#SBBBS##........",
+    },
+    "chinstrap": {
+        10: "....#BSSSSSSSSSB#......",
+        11: ".....#BSSMMSSSB#.......",
+        12: "......#BSSSSSB#........",
+        13: ".......#BBBBB##........",
+    },
     "short": {
         10: "....#BSSBBBBSSSB#......",
         11: ".....#BBBMMBBBb#.......",
@@ -179,6 +244,20 @@ def make(p, kit):
         for (y, xs) in [(15, (5, 6, 16, 17)), (16, (4, 5, 6, 16, 17, 18)), (17, (3, 4, 5, 17, 18, 19))]:
             for x in xs:
                 px[x, PAD + y] = tuple(sleeve) + (255,)
+    ARM = {"left": [(15, (5, 6)), (16, (4, 5, 6)), (17, (3, 4, 5)), (18, (2, 3, 4)), (19, (1, 2, 3)), (20, (1, 3))],
+           "right": [(15, (16, 17)), (16, (16, 17, 18)), (17, (17, 18, 19)), (18, (18, 19, 20)), (19, (19, 20, 21)), (20, (19, 21))]}
+    for acc in p.get("sleeve_arm") or []:
+        for (y, xs) in ARM[acc["side"]][:5]:  # shoulder to wrist, hands stay bare
+            for x in xs:
+                px[x, PAD + y] = tuple(acc["color"]) + (255,)
+    for acc in p.get("wristbands") or []:
+        for x in ARM[acc["side"]][4][1]:
+            px[x, PAD + 19] = tuple(acc["color"]) + (255,)
+    if p.get("socks"):
+        wy2 = PAD + len(HEAD) + 13
+        for x, chh in enumerate(BODY[13]):
+            if chh == 'X':
+                px[x, wy2] = tuple(p["socks"]) + (255,)
     if p.get("armband"):
         for x in (19, 20, 21):
             px[x, PAD + 19] = tuple(p["armband"]) + (255,)
