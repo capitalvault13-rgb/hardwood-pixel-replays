@@ -608,6 +608,67 @@
     51
    ],
    "look_source": "photo: short curly hair / full beard / white arm sleeve"
+  },
+  {
+   "id": "no99",
+   "label": "#99",
+   "name": "",
+   "skin": [
+    196,
+    142,
+    108
+   ],
+   "hair": "crop",
+   "hair_color": [
+    24,
+    20,
+    18
+   ],
+   "beard": "full",
+   "beard_color": [
+    30,
+    24,
+    20
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    122,
+    51
+   ],
+   "look_source": "photo: short dark hair / full beard"
+  },
+  {
+   "id": "no77",
+   "label": "#77",
+   "name": "",
+   "skin": [
+    120,
+    78,
+    56
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    20,
+    16,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    122,
+    51
+   ],
+   "look_source": "photo: short twists high top / clean-shaven"
   }
  ]
 }
