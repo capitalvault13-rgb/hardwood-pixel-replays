@@ -8,7 +8,7 @@
  "division": "Southeast",
  "season": "2026-27",
  "source": "https://www.nba.com/team/1610612737/hawks",
- "fetched": "2026-11-17",
+ "fetched": "2026-11-19",
  "players": [
   {
    "num": "0",
@@ -247,6 +247,20 @@
    "exp": "5",
    "school": "St. Mary's",
    "how_acquired": "Traded from UTA on 02/05/26"
+  },
+  {
+   "num": null,
+   "name": "Rafael Castro",
+   "slug": "rafael-castro",
+   "player_id": 1643572,
+   "position": "C",
+   "height": "6-11",
+   "weight": "220",
+   "birth_date": "MAR 30, 2003",
+   "age": 23,
+   "exp": "R",
+   "school": "George Washington",
+   "how_acquired": "Signed on 11/16/26"
   }
  ],
  "coaches": [

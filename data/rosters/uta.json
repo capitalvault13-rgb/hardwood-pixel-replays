@@ -8,7 +8,7 @@
  "division": "Northwest",
  "season": "2026-27",
  "source": "https://www.nba.com/team/1610612762/jazz",
- "fetched": "2026-11-17",
+ "fetched": "2026-11-19",
  "players": [
   {
    "num": "0",
@@ -247,6 +247,20 @@
    "exp": "8",
    "school": "Texas",
    "how_acquired": "Signed on 02/26/26"
+  },
+  {
+   "num": null,
+   "name": "Jonas Aidoo",
+   "slug": "jonas-aidoo",
+   "player_id": 1643265,
+   "position": "C",
+   "height": "6-11",
+   "weight": "240",
+   "birth_date": "DEC 10, 2002",
+   "age": 23,
+   "exp": "R",
+   "school": "Arkansas",
+   "how_acquired": "Signed on 09/25/26"
   }
  ],
  "coaches": [

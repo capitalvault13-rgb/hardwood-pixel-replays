@@ -8,7 +8,7 @@
  "division": "Central",
  "season": "2026-27",
  "source": "https://www.nba.com/team/1610612765/pistons",
- "fetched": "2026-11-17",
+ "fetched": "2026-11-19",
  "players": [
   {
    "num": "0",
@@ -19,7 +19,7 @@
    "height": "6-10",
    "weight": "250",
    "birth_date": "NOV 18, 2003",
-   "age": 22,
+   "age": 23,
    "exp": "4",
    "school": "Memphis",
    "how_acquired": "Draft Rights Traded from NYK on 07/06/22"
@@ -278,10 +278,6 @@
   },
   {
    "name": "Vitaly Potapenko",
-   "role": "Assistant Coach"
-  },
-  {
-   "name": "Steve Scalzi",
    "role": "Assistant Coach"
   },
   {

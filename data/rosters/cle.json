@@ -8,7 +8,7 @@
  "division": "Central",
  "season": "2026-27",
  "source": "https://www.nba.com/team/1610612739/cavaliers",
- "fetched": "2026-11-17",
+ "fetched": "2026-11-19",
  "players": [
   {
    "num": "1",
@@ -93,20 +93,6 @@
    "exp": "3",
    "school": "Wichita State",
    "how_acquired": "Signed on 07/03/23"
-  },
-  {
-   "num": "12",
-   "name": "Riley Minix",
-   "slug": "riley-minix",
-   "player_id": 1642434,
-   "position": "F",
-   "height": "6-7",
-   "weight": "230",
-   "birth_date": "SEP 22, 2000",
-   "age": 26,
-   "exp": "2",
-   "school": "Morehead State",
-   "how_acquired": "Signed on 02/13/26"
   },
   {
    "num": "15",
@@ -236,8 +222,8 @@
   },
   {
    "num": "88",
-   "name": "Ernest Udeh, Jr.",
-   "slug": "ernest-udeh,-jr",
+   "name": "Ernest Udeh Jr.",
+   "slug": "ernest-udeh-jr",
    "player_id": 1643640,
    "position": "C",
    "height": "6-9",
@@ -247,6 +233,20 @@
    "exp": "R",
    "school": "Miami",
    "how_acquired": "Signed on 07/01/26"
+  },
+  {
+   "num": null,
+   "name": "Zack Austin",
+   "slug": "zack-austin",
+   "player_id": 1643113,
+   "position": "G",
+   "height": "6-5",
+   "weight": "216",
+   "birth_date": "AUG 11, 2001",
+   "age": 25,
+   "exp": "R",
+   "school": "Pittsburgh",
+   "how_acquired": "Signed on 09/23/26"
   }
  ],
  "coaches": [
