@@ -74,12 +74,19 @@ python3 tools/make_sprites.py bos
 
 This writes `<id>_<kit>.png` for each kit plus `sheet.png`, a labelled check sheet.
 Hair styles:
-- short: bald, buzz, crop, high_tight, fade_short, twists_short, messy_fringe, quiff, swept_back
+- short, built in `tools/hair_builder.py` from three parts (height above the scalp, hairline:
+  straight / line-up / receding / fringe / middle part, and texture: plain / waves / curls /
+  twists / straight streaks): buzz, buzz_lineup, buzz_receding, waves, crop, crop_lineup,
+  crop_fringe, textured_crop, curly_short, curly_top, curls_forward, sponge, high_top, frohawk,
+  middle_part, mullet, swept_side, man_bun, cornrows_flat
+- other short cuts: bald, high_tight, fade_short, twists_short, messy_fringe, quiff, swept_back
 - longer straight / wavy: wavy_medium, long_hair
-- curls and afros: curly_short, curly_top, curly_high, afro, afro_long, afro_tail, twists_spiky
-- braids and locs: cornrows (braid on the right), cornrows_left, cornrows_flat, braids_back,
-  box_braids, locs, locs_long, locs_top
-- with a headband (`"headband": [r,g,b]`): short_band, afro_band, locs_band, locs_long_band, long_band
+- curls and afros: curly_high, afro, afro_long, afro_tail, twists_spiky
+- braids and locs: cornrows (braid on the right), cornrows_left, braids_back, box_braids, locs,
+  locs_long, locs_top
+- with a built-in headband: short_band, afro_band, locs_band, locs_long_band, long_band.
+  `"headband": [r,g,b]` on any other style draws a band over it.
+- dyed tips: `"hair_tip": [r,g,b]` and `"tip_rows": n` colour the hair down to head row n.
 
 Beards: none, mustache, goatee, chinstrap, short, full, thick, huge. Extras: earrings,
 armband, undershirt sleeves, arm sleeve, wristbands, socks.

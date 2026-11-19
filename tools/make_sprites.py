@@ -14,8 +14,9 @@ players.json:
      "shoes": [r,g,b], "shoe_accent": [r,g,b], "look_source": "photo"}
   ]
 }
-hair:  see HAIR below and the README (short cuts, curls/afros, braids/locs, *_band styles;
-       the *_band styles take "headband": [r,g,b])
+hair:  see HAIR below and tools/hair_builder.py (short styles built from height, hairline and
+       texture); "headband": [r,g,b] draws a band over any style (the *_band styles have their own);
+       "hair_tip": [r,g,b] with "tip_rows": n colours the top of the hair (dyed tips)
 beard: none | mustache | goatee | chinstrap | short | full | thick | huge
 numbers: drawn from "number" (or the "#NN" label) as 5x7 block digits on the fine (DETAIL) grid,
          in the kit's trim colour; a kit may set "number": [r,g,b], "number_outline": [r,g,b]
@@ -364,6 +365,9 @@ HAIR["cornrows_flat"][4] = "....#SSSSSSSSSSSHhH#..."
 HAIR["long_band"] = {**HAIR["long_hair"], 2: HAIR["locs_band"][2], 3: HAIR["locs_band"][3]}
 HAIR["locs_long_band"] = {**HAIR["locs_long"], 2: HAIR["locs_band"][2], 3: HAIR["locs_band"][3]}
 
+from hair_builder import STYLES as _BUILT
+HAIR.update(_BUILT)
+
 # Beard overlays (B = beard, b = beard shade, M = mouth kept). Rows relative to head top.
 BEARD = {
     "none": {},
@@ -473,6 +477,12 @@ def make(p, kit):
                 if ch != '.':
                     rows[rr][c] = ch
     put(HAIR[p.get("hair", "bald")])
+    if p.get("headband") and not any('D' in v for v in HAIR[p.get("hair", "bald")].values()):
+        for r, ch in ((PAD + 3, 'D'), (PAD + 4, 'd')):   # band over any style, as wide as the hair
+            row = rows[r]
+            l = min(c for c in range(23) if row[c] != '.'); rr = max(c for c in range(23) if row[c] != '.')
+            row[l] = row[rr] = '#'
+            for c in range(l + 1, rr): row[c] = ch
     put(BEARD[p.get("beard", "none")])
     skin = tuple(p["skin"]); hair = tuple(p.get("hair_color", (20, 16, 14)))
     beard = tuple(p.get("beard_color", hair))
@@ -481,7 +491,8 @@ def make(p, kit):
     pal = {
         '#': OUTLINE, 'S': skin, 's': shade(skin), 'e': shade(skin, 0.65),
         'W': (250, 250, 250), 'M': shade(skin, 0.6), 'l': light(skin, 1.12),
-        'H': hair, 'h': light(hair, 1.6) if sum(hair) < 150 else light(hair),
+        'H': hair, 'k': shade(hair, 0.62),
+        'h': tuple(int(a * .64 + b * .36) for a, b in zip(hair, (128, 116, 108))) if sum(hair) < 150 else light(hair),
         'B': beard, 'b': shade(beard), 'D': band, 'd': shade(band, 0.85),
         'J': tuple(kit["jersey"]), 'K': tuple(kit["shade"]), 'T': tuple(kit["trim"]),
         'U': tuple(kit["trim2"]), 'B_': tuple(kit["band"]),
@@ -496,6 +507,8 @@ def make(p, kit):
                 continue
             if ch == 'B' and y == PAD + 20:  # waistband row uses the kit band colour
                 col = pal['B_']
+            elif ch in 'Hhk' and p.get("hair_tip") and y - PAD <= p.get("tip_rows", 0):   # two-tone: dyed tips
+                tip = tuple(p["hair_tip"]); col = {'H': tip, 'h': light(tip), 'k': shade(tip, .7)}[ch]
             else:
                 col = pal[ch]
             px[x, y] = col + (255,)
