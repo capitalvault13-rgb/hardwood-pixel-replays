@@ -188,7 +188,7 @@
     92,
     64
    ],
-   "hair": "curly_short",
+   "hair": "curly_top",
    "hair_color": [
     22,
     18,
@@ -210,7 +210,7 @@
     120,
     140
    ],
-   "look_source": "photo: short curls / goatee",
+   "look_source": "photo: short curls / goatee | revised:hair curly_top",
    "full_name": "Grant Williams",
    "player_id": 1629684
   },
@@ -363,7 +363,7 @@
     184,
     158
    ],
-   "hair": "buzz",
+   "hair": "buzz_lineup",
    "hair_color": [
     52,
     36,
@@ -380,7 +380,7 @@
     120,
     140
    ],
-   "look_source": "photo: buzz cut / clean-shaven",
+   "look_source": "photo: buzz cut / clean-shaven | revised:hair buzz_lineup",
    "full_name": "Grayson Allen",
    "player_id": 1628960
   },
@@ -428,7 +428,7 @@
     184,
     158
    ],
-   "hair": "curly_short",
+   "hair": "curls_forward",
    "hair_color": [
     52,
     36,
@@ -450,7 +450,7 @@
     120,
     140
    ],
-   "look_source": "photo: short curls / stubble",
+   "look_source": "photo: short curls / stubble | revised:hair curls_forward",
    "full_name": "Ryan Kalkbrenner",
    "player_id": 1641750
   },
@@ -533,7 +533,7 @@
     52,
     38
    ],
-   "hair": "buzz",
+   "hair": "waves",
    "hair_color": [
     22,
     18,
@@ -555,7 +555,7 @@
     120,
     140
    ],
-   "look_source": "photo: low cut / goatee",
+   "look_source": "photo: low cut / goatee | revised:hair waves",
    "full_name": "Dennis Schröder",
    "player_id": 203471
   },
