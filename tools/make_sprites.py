@@ -17,7 +17,9 @@ players.json:
 hair:  bald | buzz | crop | curly_short | curly_high | wavy_medium | cornrows | locs
        | afro_band | short_band | locs_band   (the *_band styles take "headband": [r,g,b])
 beard: none | goatee | chinstrap | short | full | thick
-extras: "armband", "sleeves" (undershirt), "sleeve_arm": [{"side": "left|right", "color"}],
+numbers: drawn from "number" (or the "#NN" label) in a 3x4 font; a kit may set "number": [r,g,b]
+         or "numbers": false
+extras: "earrings": [r,g,b], "armband", "sleeves" (undershirt), "sleeve_arm": [{"side": "left|right", "color"}],
         "wristbands": [{"side", "color"}], "socks"   (sides are as seen on screen)
 """
 import json, os, sys
@@ -144,39 +146,147 @@ HAIR = {
         9:  "...................H#..",
         10: "...................##..",
     },
-    "locs": {
+    "locs": {   # thick locs framing the face to the jaw (strands added by _hang below)
         -2: ".......#.##.##.........",
         -1: "......#H#HH#HH##.......",
         0:  ".....#HHHhHHHhHH#......",
         1:  "....#HHhHHHhHHHHH#.....",
         2:  "...#HHHHhHHHhHHHHH#....",
-        3:  "...#HhHHHHHHHHHhHH#....",
-        4:  "..#HHHSSSSSSSSSHHHH#...",
-        5:  "..#HH#SSSSSSSSSSSH#H#..",
-        6:  "..#hH#.............#hH#",
-        7:  "..#Hh#.............#Hh#",
-        8:  "..#hH#.............#hH#",
-        9:  "..#HH#.............#HH#",
-        10: "..#hH#..............#H#",
-        11: "..#H#...............#H#",
-        12: "..##................##.",
+        3:  "..#HHhHHHHHHHHHhHHH#...",
+        4:  ".#HhHSSSSSSSSSSSHHhH#..",
+        5:  ".#Hh#SSSSSSSSSSSSH#hH#.",
     },
-    "locs_band": {
+    "locs_band": {   # locs with a headband (strands added by _hang below)
         -2: ".......#.##.##.........",
         -1: "......#H#HH#HH##.......",
         0:  ".....#HHHhHHHhHH#......",
         1:  "....#HHhHHHhHHHHH#.....",
         2:  "...#DDDDDDDDDDDDDDD#...",
-        3:  "...#dDDDDDDDDDDDDDd#...",
-        4:  "..#HHHSSSSSSSSSHHHH#...",
-        5:  "..#HH#SSSSSSSSSSSH#H#..",
-        6:  "..#hH#.............#hH#",
-        7:  "..#Hh#.............#Hh#",
-        8:  "..#hH#.............#hH#",
-        9:  "..#HH#.............#HH#",
-        10: "..#hH#..............#H#",
-        11: "..#H#...............#H#",
-        12: "..##................##.",
+        3:  "..#HdDDDDDDDDDDDDDdH#..",
+        4:  ".#HhHSSSSSSSSSSSHHhH#..",
+        5:  ".#Hh#SSSSSSSSSSSSH#hH#.",
+    },
+    "locs_long": {   # thinner locs falling past the jaw onto the shoulders (strands: _hang)
+        -2: ".......#.##.##.........",
+        -1: "......#H#HH#HH##.......",
+        0:  ".....#HHHhHHHhHH#......",
+        1:  "....#HHhHHHhHHHHH#.....",
+        2:  "...#HHHHhHHHhHHHHH#....",
+        3:  ".##HHhHHHHHHHHHhHHH##..",
+        4:  "#HHhHSSSSSSSSSSSHHhHH#.",
+        5:  "#H#H#SSSSSSSSSSSSH#H#H#",
+    },
+    "braids_back": {   # braids pulled back, long thin braids behind both ears (strands: _hang)
+        -1: "........######.........",
+        0:  "......##HhHhHh##.......",
+        1:  ".....#HhHhHhHhHh#......",
+        2:  "....#HhHhHhHhHhHh#.....",
+        3:  "....#HhHhHhHhHhHhH#....",
+        4:  "..#H#SSSSSSSSSSSHhH#...",
+        5:  "..#H#SSSSSSSSSSSSH#H#..",
+    },
+    "cornrows_left": {   # cornrows with a single braid hanging on the screen-left side
+        -1: "........######.........",
+        0:  "......##HhHhHh##.......",
+        1:  ".....#HhHhHhHhHh#......",
+        2:  "....#HhHhHhHhHhHh#.....",
+        3:  "...#HhHhHhHhHhHhH#.....",
+        4:  "..#H#SSSSSSSSSSSHH#....",
+        5:  "..#H#SSSSSSSSSSSSH#....",
+        6:  "..#H#..................",
+        7:  "..#H#..................",
+        8:  "..#H#..................",
+        9:  "..#H#..................",
+        10: "..##...................",
+    },
+    "curly_top": {   # rounded curly top, wider than the tight-faded sides
+        -3: ".......#.#.##.#........",
+        -2: ".....##H#HH#HH##.......",
+        -1: "....#HHHhHHHHhHH#......",
+        0:  "...#HHhHHHHhHHHHH#.....",
+        1:  "...#HHHHHhHHHHHhHH#....",
+        2:  "....#HHhHHHHHhHHH#.....",
+        3:  "....#sHHHHHHHHHHs#.....",
+        4:  "....#SsSSSSSSSSSsS#....",
+    },
+    "twists_short": {   # flat short twists, sharp line-up receding at the temples
+        0:  "......##HhHhHH##.......",
+        1:  ".....#HhHhHhHhHH#......",
+        2:  ".....#hHhHhHhHhH#......",
+        3:  "....#SHhHhHhHhHhS#.....",
+    },
+    "afro_tail": {   # big messy afro with one thin braid hanging on the screen-left side
+        -4: "......#..#.#..#........",
+        -3: ".....#H##H#H##H#.......",
+        -2: "....#HHHhHHHHhHH#......",
+        -1: "...#HhHHHHHhHHHHH##....",
+        0:  "..#HHHHhHHHHHHhHHHH#...",
+        1:  ".#HHhHHHHHHhHHHHHHH#...",
+        2:  "..#HHHHHHhHHHHHHhHHH#..",
+        3:  ".#HHhHHHHHHHHHHHHHhH#..",
+        4:  "..#HHHSSSSSSSSSSHHHH#..",
+        5:  "..#H#HSSSSSSSSSSSSHH#..",
+        6:  "..#H#...............#..",
+        7:  "..#H#..................",
+        8:  "..#H#..................",
+        9:  "..#H#..................",
+        10: "..#H#..................",
+        11: "..##...................",
+    },
+    "twists_spiky": {   # freeform twists sticking up and out in two puffs
+        -4: "...#.#..#.....#.#......",
+        -3: "..#H#H##H#...#H#H#.#...",
+        -2: "..#HHhHHH#.##HHHhH#H#..",
+        -1: ".#HhHHHHHH#HHHHHHHHH#..",
+        0:  "..#HHHhHHHHHhHHHHhHH#..",
+        1:  ".#HHhHHHHhHHHHHhHHHHH#.",
+        2:  "..#HHHHHHHHhHHHHHHHH#..",
+        3:  ".#HhHHHHHHHHHHHHHhHHH#.",
+        4:  "..#HHHSSSSSSSSSSSHHH#..",
+        5:  "...##HSSSSSSSSSSSSH##..",
+    },
+    "high_tight": {   # short top, faded sides
+        -1: "........######.........",
+        0:  "......##HHHHHH##.......",
+        1:  ".....#HHHHhHHHHH#......",
+        2:  ".....#sHHHHHHHHs#......",
+        3:  "....#SsHHHHHHHHsS#.....",
+    },
+    "messy_fringe": {   # textured top with pieces falling onto the forehead
+        -2: ".......#.#####.........",
+        -1: "......#H#HHhHH##.......",
+        0:  ".....#HHHhHHHHHH#......",
+        1:  "....#HHhHHHHHhHHH#.....",
+        2:  "....#HHHHHhHHHHHHH#....",
+        3:  "....#HHhHHHHHHhHHH#....",
+        4:  "....#SHHSHHHSSSHHH#....",
+        5:  "....#SSSSSSSSSSSSH#....",
+    },
+    "quiff": {   # side-swept quiff, faded sides
+        -3: "......#####............",
+        -2: ".....#HhHHH###.........",
+        -1: ".....#HHhHHHHH##.......",
+        0:  "......#HHHhHHHHH#......",
+        1:  ".....#hHHHHHHhHHH#.....",
+        2:  ".....#sHHHHHHHHHs#.....",
+        3:  "....#SsSSSSSSSSSsS#....",
+    },
+    "swept_back": {   # medium length, swept up and back, full at the sides
+        -2: "........######.........",
+        -1: "......##HHhHHHH##......",
+        0:  ".....#HHhHHHHhHHH#.....",
+        1:  "....#HHHHhHHHHhHHH#....",
+        2:  "....#HhHHHHhHHHHhH#....",
+        3:  "....#HHHhHHHHHhHHH#....",
+        4:  "....#HHSSSSSSSSSHH#....",
+        5:  "....#HSSSSSSSSSSSH#....",
+    },
+    "fade_short": {   # textured top, skin-faded sides, line-up
+        0:  "......##HHHHHH##.......",
+        1:  ".....#HHhHHHhHHH#......",
+        2:  ".....#HHHHHHHHHH#......",
+        3:  "....#sHHHHHHHHHHs#.....",
+        4:  "....#SsSSSSSSSSSsS#....",
     },
     "short_band": {
         -1: "........######.........",
@@ -187,6 +297,31 @@ HAIR = {
         4:  "....#dDDDDDDDDDDDd#....",
     },
 }
+STRAND = {"thick": (".#Hh#", "#hH#."), "thin": ("..#H#", "#H#.."), "double": ("#H#H#", "#H#H#")}
+
+def _hang(style, top, bottom, kind="thick", sides="lr"):
+    """Hang hair strands outside the head outline (cols 0-4 and 18-22), so the face is untouched."""
+    rows = HAIR[style]
+    lp, rp = STRAND[kind]
+    for r in range(top, bottom + 2):
+        row = list(rows.get(r, "." * 23))
+        for side, pat, x0 in (("l", lp, 0), ("r", rp, 18)):
+            if side not in sides:
+                continue
+            if r > bottom:  # close the strand ends
+                pat = "".join("#" if ch in "Hh" else "." for ch in pat)
+            elif r % 2:
+                pat = pat.translate(str.maketrans("Hh", "hH"))
+            for i, ch in enumerate(pat):
+                if ch != ".":
+                    row[x0 + i] = ch
+        rows[r] = "".join(row)
+
+_hang("locs", 6, 11)
+_hang("locs_band", 6, 10)
+_hang("locs_long", 6, 14, "double")
+_hang("braids_back", 6, 14, "thin")
+
 # Beard overlays (B = beard, b = beard shade, M = mouth kept). Rows relative to head top.
 BEARD = {
     "none": {},
@@ -232,6 +367,26 @@ def light(c, k=1.18):
     return tuple(min(255, int(v * k + 12)) for v in c)
 
 OUTLINE = (14, 10, 12)
+
+# 3x4 jersey digits. The jersey front is body rows 2-5, cols 8-14 (7 px wide): one digit
+# sits in the middle, two digits fill the front edge to edge with a 1 px gap.
+DIGITS = {
+    "0": ["###", "#.#", "#.#", "###"], "1": [".#.", "##.", ".#.", ".#."],
+    "2": ["##.", "..#", ".#.", "###"], "3": ["###", ".##", "..#", "###"],
+    "4": ["#.#", "#.#", "###", "..#"], "5": ["###", "##.", "..#", "##."],
+    "6": ["#..", "###", "#.#", "###"], "7": ["###", "..#", ".#.", ".#."],
+    "8": ["###", "#.#", "###", "###"], "9": ["###", "#.#", "###", "..#"],
+}
+NUM_ROW = PAD + len(HEAD) + 2
+
+def draw_number(px, num, col):
+    num = num[-2:]
+    xs = [10] if len(num) == 1 else [8, 12]
+    for d, x0 in zip(num, xs):
+        for r, line in enumerate(DIGITS[d]):
+            for c, ch in enumerate(line):
+                if ch == '#':
+                    px[x0 + c, NUM_ROW + r] = col + (255,)
 
 def make(p, kit):
     rows = [list("." * 23) for _ in range(PAD)] + [list(r) for r in TEMPLATE]
@@ -292,6 +447,13 @@ def make(p, kit):
         for x, chh in enumerate(BODY[13]):
             if chh == 'X':
                 px[x, wy2] = tuple(p["socks"]) + (255,)
+    if p.get("earrings"):  # stud under the visible (screen-right) ear
+        px[18, PAD + 9] = tuple(p["earrings"]) + (255,)
+    num = str(p.get("number", p.get("label", "").lstrip("#")))
+    if num.isdigit() and kit.get("numbers", True):
+        # default: trim mixed 55% into the jersey, so the number reads without swamping the kit
+        ncol = kit.get("number") or [int(j * 0.45 + t * 0.55) for j, t in zip(kit["jersey"], kit["trim"])]
+        draw_number(px, num, tuple(ncol))
     if p.get("armband"):
         for x in (19, 20, 21):
             px[x, PAD + 19] = tuple(p["armband"]) + (255,)

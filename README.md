@@ -65,11 +65,21 @@ python3 tools/make_sprites.py bos
 ```
 
 This writes `<id>_<kit>.png` for each kit plus `sheet.png`, a labelled check sheet.
-Hair styles: bald, buzz, crop, curly_short, curly_high, wavy_medium, cornrows, locs, afro_band,
-short_band, locs_band. Beards: none, goatee, chinstrap, short, full, thick.
+Hair styles: bald, buzz, crop, high_tight, fade_short, messy_fringe, quiff, swept_back,
+wavy_medium, curly_short, curly_top, curly_high, twists_short, twists_spiky, afro_tail,
+cornrows, cornrows_left, braids_back, locs, locs_long, and the headband styles afro_band,
+short_band, locs_band. Beards: none, goatee, chinstrap, short, full, thick. Extras: earrings,
+armband, undershirt sleeves, arm sleeve, wristbands, socks.
 
-The Lakers looks were read from the nba.com roster headshots (`players.json` keeps each
-player's `player_id`). The headshots are not committed, since this repo is public.
+Jersey numbers are drawn from each player's `#NN` label in a 3x4 pixel font, in the kit's trim
+colour mixed 55% into the jersey so the kit colour still reads. A kit can set `"number": [r,g,b]`
+(the Celtics statement kit uses full green, since the mix vanishes on black) or `"numbers": false`.
+
+Before drawing a team, pull each player's nba.com headshot
+(`https://cdn.nba.com/headshots/nba/latest/1040x760/<player_id>.png`) and commit it to
+`sprites/<team>/source/<id>.jpg`, then read hair, beard, skin and extras from it. When two
+players come out looking alike, compare them side by side with their photos and give them
+distinct styles; add a new hair style to `tools/make_sprites.py` rather than reusing a near miss.
 
 ## Render a replay
 

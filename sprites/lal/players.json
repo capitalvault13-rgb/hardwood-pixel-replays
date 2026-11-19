@@ -110,7 +110,7 @@
     37,
     131
    ],
-   "look_source": "photo: shoulder locs / clean-shaven",
+   "look_source": "photo: thick shoulder locs / clean-shaven",
    "full_name": "Adou Thiero",
    "player_id": 1642876
   },
@@ -163,7 +163,7 @@
     110,
     80
    ],
-   "hair": "locs",
+   "hair": "locs_long",
    "hair_color": [
     22,
     18,
@@ -185,7 +185,7 @@
     37,
     131
    ],
-   "look_source": "photo: long locs / short beard",
+   "look_source": "photo: long thin locs / short beard",
    "full_name": "Matisse Thybulle",
    "player_id": 1629680
   },
@@ -233,7 +233,7 @@
     78,
     54
    ],
-   "hair": "crop",
+   "hair": "buzz",
    "hair_color": [
     22,
     18,
@@ -255,7 +255,7 @@
     37,
     131
    ],
-   "look_source": "photo: crop / full beard",
+   "look_source": "photo: low cut / full beard",
    "full_name": "Jaden Hardy",
    "player_id": 1630702
   },
@@ -268,7 +268,7 @@
     70,
     48
    ],
-   "hair": "curly_short",
+   "hair": "curly_top",
    "hair_color": [
     22,
     18,
@@ -290,7 +290,7 @@
     37,
     131
    ],
-   "look_source": "photo: short curls / goatee",
+   "look_source": "photo: rounded curly top / goatee",
    "full_name": "Bronny James",
    "player_id": 1642355
   },
@@ -303,7 +303,7 @@
     72,
     50
    ],
-   "hair": "curly_high",
+   "hair": "afro_tail",
    "hair_color": [
     22,
     18,
@@ -325,7 +325,7 @@
     37,
     131
    ],
-   "look_source": "photo: high curls / goatee",
+   "look_source": "photo: messy afro + single braid / goatee",
    "full_name": "Collin Sexton",
    "player_id": 1629012
   },
@@ -338,7 +338,7 @@
     82,
     58
    ],
-   "hair": "cornrows",
+   "hair": "braids_back",
    "hair_color": [
     22,
     18,
@@ -365,7 +365,7 @@
     37,
     131
    ],
-   "look_source": "photo: braids / short beard / white undershirt",
+   "look_source": "photo: braids pulled back / short beard / white undershirt",
    "full_name": "Ziaire Williams",
    "player_id": 1630533
   },
@@ -378,7 +378,7 @@
     196,
     176
    ],
-   "hair": "crop",
+   "hair": "high_tight",
    "hair_color": [
     52,
     36,
@@ -400,7 +400,7 @@
     37,
     131
    ],
-   "look_source": "photo: crop / clean-shaven / white undershirt",
+   "look_source": "photo: high and tight / clean-shaven / white undershirt",
    "full_name": "Jake LaRavia",
    "player_id": 1631222
   },
@@ -413,7 +413,7 @@
     184,
     158
    ],
-   "hair": "crop",
+   "hair": "messy_fringe",
    "hair_color": [
     72,
     48,
@@ -435,7 +435,7 @@
     37,
     131
    ],
-   "look_source": "photo: crop / clean-shaven / white undershirt",
+   "look_source": "photo: messy fringe / clean-shaven / white undershirt",
    "full_name": "Walker Kessler",
    "player_id": 1631117
   },
@@ -483,7 +483,7 @@
     192,
     168
    ],
-   "hair": "crop",
+   "hair": "quiff",
    "hair_color": [
     150,
     116,
@@ -505,7 +505,7 @@
     37,
     131
    ],
-   "look_source": "photo: blond crop / goatee",
+   "look_source": "photo: blond side quiff / goatee",
    "full_name": "Carson Cooper",
    "player_id": 1643721
   },
@@ -548,7 +548,7 @@
     122,
     88
    ],
-   "hair": "cornrows",
+   "hair": "cornrows_left",
    "hair_color": [
     22,
     18,
@@ -575,9 +575,14 @@
     37,
     131
    ],
-   "look_source": "photo: braids / goatee / white undershirt",
+   "look_source": "photo: cornrows + single braid / goatee / earrings / white undershirt",
    "full_name": "Cameron Carr",
-   "player_id": 1643418
+   "player_id": 1643418,
+   "earrings": [
+    236,
+    236,
+    240
+   ]
   },
   {
    "id": "kaluma",
@@ -588,7 +593,7 @@
     52,
     38
    ],
-   "hair": "curly_high",
+   "hair": "twists_spiky",
    "hair_color": [
     22,
     18,
@@ -615,7 +620,7 @@
     37,
     131
    ],
-   "look_source": "photo: high twists / goatee / white undershirt",
+   "look_source": "photo: spiky freeform twists / goatee / white undershirt",
    "full_name": "Arthur Kaluma",
    "player_id": 1641751
   },
@@ -628,7 +633,7 @@
     178,
     150
    ],
-   "hair": "crop",
+   "hair": "fade_short",
    "hair_color": [
     44,
     32,
@@ -650,7 +655,7 @@
     37,
     131
    ],
-   "look_source": "photo: crop / thick beard",
+   "look_source": "photo: short fade / thick beard",
    "full_name": "Sandro Mamukelashvili",
    "player_id": 1630572
   },
@@ -663,7 +668,7 @@
     60,
     42
    ],
-   "hair": "curly_short",
+   "hair": "twists_short",
    "hair_color": [
     22,
     18,
@@ -685,7 +690,7 @@
     37,
     131
    ],
-   "look_source": "photo: short twists / goatee",
+   "look_source": "photo: flat short twists / goatee",
    "full_name": "Kevon Looney",
    "player_id": 1626172
   },
@@ -698,7 +703,7 @@
     182,
     154
    ],
-   "hair": "crop",
+   "hair": "swept_back",
    "hair_color": [
     92,
     62,
@@ -720,7 +725,7 @@
     37,
     131
    ],
-   "look_source": "photo: brown crop / short beard",
+   "look_source": "photo: swept back / short beard",
    "full_name": "Luka Dončić",
    "player_id": 1629029
   }
