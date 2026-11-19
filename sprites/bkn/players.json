@@ -218,7 +218,7 @@
     198,
     176
    ],
-   "hair": "crop",
+   "hair": "swept_side",
    "hair_color": [
     122,
     88,
@@ -240,7 +240,7 @@
     24,
     26
    ],
-   "look_source": "photo: crop / short stubble",
+   "look_source": "photo: crop / short stubble | revised:hair swept_side",
    "full_name": "Danny Wolf",
    "player_id": 1642874
   },
@@ -253,7 +253,7 @@
     52,
     38
    ],
-   "hair": "curly_high",
+   "hair": "high_top",
    "hair_color": [
     22,
     18,
@@ -275,7 +275,7 @@
     24,
     26
    ],
-   "look_source": "photo: high rounded afro / short beard",
+   "look_source": "photo: high rounded afro / short beard | revised:hair high_top",
    "full_name": "Drake Powell",
    "player_id": 1642962
   },
@@ -288,7 +288,7 @@
     184,
     158
    ],
-   "hair": "messy_fringe",
+   "hair": "textured_crop",
    "hair_color": [
     22,
     18,
@@ -310,7 +310,7 @@
     24,
     26
    ],
-   "look_source": "photo: spiky fringe / goatee",
+   "look_source": "photo: spiky fringe / goatee | revised:hair textured_crop",
    "full_name": "Egor Dëmin",
    "player_id": 1642856
   },
@@ -393,7 +393,7 @@
     184,
     158
    ],
-   "hair": "wavy_medium",
+   "hair": "mullet",
    "hair_color": [
     88,
     60,
@@ -415,7 +415,7 @@
     24,
     26
    ],
-   "look_source": "photo: wavy medium / mustache",
+   "look_source": "photo: wavy medium / mustache | revised:hair mullet",
    "full_name": "Moritz Wagner",
    "player_id": 1629021
   },
@@ -498,7 +498,7 @@
     136,
     100
    ],
-   "hair": "fade_short",
+   "hair": "crop_lineup",
    "hair_color": [
     22,
     18,
@@ -520,7 +520,7 @@
     24,
     26
    ],
-   "look_source": "photo: fade + line-up / goatee",
+   "look_source": "photo: fade + line-up / goatee | revised:hair crop_lineup",
    "full_name": "Michael Porter Jr.",
    "player_id": 1629008
   },
@@ -533,7 +533,7 @@
     62,
     44
    ],
-   "hair": "buzz",
+   "hair": "buzz_lineup",
    "hair_color": [
     22,
     18,
@@ -555,7 +555,7 @@
     24,
     26
    ],
-   "look_source": "photo: low cut / full beard",
+   "look_source": "photo: low cut / full beard | revised:hair buzz_lineup",
    "full_name": "Day'Ron Sharpe",
    "player_id": 1630549
   },
@@ -603,7 +603,7 @@
     52,
     38
    ],
-   "hair": "crop",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -625,7 +625,7 @@
     24,
     26
    ],
-   "look_source": "photo: crop / thick beard",
+   "look_source": "photo: crop / thick beard | revised:hair sponge",
    "full_name": "Julius Randle",
    "player_id": 203944
   },
@@ -703,7 +703,7 @@
     166,
     132
    ],
-   "hair": "curly_top",
+   "hair": "curls_forward",
    "hair_color": [
     22,
     18,
@@ -725,7 +725,7 @@
     24,
     26
    ],
-   "look_source": "photo: curly top / goatee",
+   "look_source": "photo: curly top / goatee | revised:hair curls_forward",
    "full_name": "Ben Saraf",
    "player_id": 1642879
   }
