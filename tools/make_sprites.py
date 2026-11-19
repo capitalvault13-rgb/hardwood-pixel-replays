@@ -14,8 +14,8 @@ players.json:
      "shoes": [r,g,b], "shoe_accent": [r,g,b], "look_source": "photo"}
   ]
 }
-hair:  bald | buzz | crop | curly_short | curly_high | wavy_medium | cornrows | afro_band | short_band
-       (the *_band styles take "headband": [r,g,b])
+hair:  bald | buzz | crop | curly_short | curly_high | wavy_medium | cornrows | locs
+       | afro_band | short_band | locs_band   (the *_band styles take "headband": [r,g,b])
 beard: none | goatee | chinstrap | short | full | thick
 extras: "armband", "sleeves" (undershirt), "sleeve_arm": [{"side": "left|right", "color"}],
         "wristbands": [{"side", "color"}], "socks"   (sides are as seen on screen)
@@ -143,6 +143,40 @@ HAIR = {
         8:  "...................H#..",
         9:  "...................H#..",
         10: "...................##..",
+    },
+    "locs": {
+        -2: ".......#.##.##.........",
+        -1: "......#H#HH#HH##.......",
+        0:  ".....#HHHhHHHhHH#......",
+        1:  "....#HHhHHHhHHHHH#.....",
+        2:  "...#HHHHhHHHhHHHHH#....",
+        3:  "...#HhHHHHHHHHHhHH#....",
+        4:  "..#HHHSSSSSSSSSHHHH#...",
+        5:  "..#HH#SSSSSSSSSSSH#H#..",
+        6:  "..#hH#.............#hH#",
+        7:  "..#Hh#.............#Hh#",
+        8:  "..#hH#.............#hH#",
+        9:  "..#HH#.............#HH#",
+        10: "..#hH#..............#H#",
+        11: "..#H#...............#H#",
+        12: "..##................##.",
+    },
+    "locs_band": {
+        -2: ".......#.##.##.........",
+        -1: "......#H#HH#HH##.......",
+        0:  ".....#HHHhHHHhHH#......",
+        1:  "....#HHhHHHhHHHHH#.....",
+        2:  "...#DDDDDDDDDDDDDDD#...",
+        3:  "...#dDDDDDDDDDDDDDd#...",
+        4:  "..#HHHSSSSSSSSSHHHH#...",
+        5:  "..#HH#SSSSSSSSSSSH#H#..",
+        6:  "..#hH#.............#hH#",
+        7:  "..#Hh#.............#Hh#",
+        8:  "..#hH#.............#hH#",
+        9:  "..#HH#.............#HH#",
+        10: "..#hH#..............#H#",
+        11: "..#H#...............#H#",
+        12: "..##................##.",
     },
     "short_band": {
         -1: "........######.........",
@@ -298,8 +332,13 @@ def main(team):
             x0, y0 = 20 + col * cw, yk + line * ch
             sheet.paste(big, (x0 + (cw - big.width) // 2, y0 + 20 + (190 - big.height)), big)
             lab = f'{p["label"]} {p.get("name", "")}'.strip()
-            tw = dr.textlength(lab, font=f)
-            dr.text((x0 + (cw - tw) / 2, y0 + 212), lab, font=f, fill=(30, 30, 30))
+            lf = f
+            for size in (14, 12, 10):  # shrink long names to fit the column
+                if dr.textlength(lab, font=lf) <= cw - 6 or not hasattr(f, 'font_variant'):
+                    break
+                lf = f.font_variant(size=size)
+            tw = dr.textlength(lab, font=lf)
+            dr.text((x0 + (cw - tw) / 2, y0 + 212), lab, font=lf, fill=(30, 30, 30))
             if ki == 0 and p.get("look_source"):
                 src = f'{p["look_source"].split(":")[0]}: {p.get("hair", "bald").replace("_", " ")} / {p.get("beard", "none")}'
                 tw = dr.textlength(src, font=fs)

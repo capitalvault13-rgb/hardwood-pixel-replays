@@ -1,0 +1,728 @@
+{
+ "team": "Los Angeles Lakers",
+ "kits": {
+  "home": {
+   "jersey": [
+    253,
+    185,
+    39
+   ],
+   "shade": [
+    222,
+    152,
+    22
+   ],
+   "trim": [
+    85,
+    37,
+    131
+   ],
+   "trim2": [
+    85,
+    37,
+    131
+   ],
+   "band": [
+    85,
+    37,
+    131
+   ]
+  },
+  "away": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    85,
+    37,
+    131
+   ],
+   "trim2": [
+    253,
+    185,
+    39
+   ],
+   "band": [
+    85,
+    37,
+    131
+   ]
+  },
+  "statement": {
+   "jersey": [
+    85,
+    37,
+    131
+   ],
+   "shade": [
+    62,
+    24,
+    98
+   ],
+   "trim": [
+    253,
+    185,
+    39
+   ],
+   "trim2": [
+    253,
+    185,
+    39
+   ],
+   "band": [
+    253,
+    185,
+    39
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "thiero",
+   "label": "#1",
+   "name": "Thiero",
+   "skin": [
+    96,
+    60,
+    42
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: shoulder locs / clean-shaven",
+   "full_name": "Adou Thiero",
+   "player_id": 1642876
+  },
+  {
+   "id": "vanderbilt",
+   "label": "#2",
+   "name": "Vanderbilt",
+   "skin": [
+    104,
+    64,
+    44
+   ],
+   "hair": "locs_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: locs + white headband / short beard",
+   "full_name": "Jarred Vanderbilt",
+   "player_id": 1629020
+  },
+  {
+   "id": "thybulle",
+   "label": "#4",
+   "name": "Thybulle",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: long locs / short beard",
+   "full_name": "Matisse Thybulle",
+   "player_id": 1629680
+  },
+  {
+   "id": "grimes",
+   "label": "#5",
+   "name": "Grimes",
+   "skin": [
+    156,
+    102,
+    72
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: short curls / goatee",
+   "full_name": "Quentin Grimes",
+   "player_id": 1629656
+  },
+  {
+   "id": "hardy",
+   "label": "#7",
+   "name": "Hardy",
+   "skin": [
+    122,
+    78,
+    54
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: crop / full beard",
+   "full_name": "Jaden Hardy",
+   "player_id": 1630702
+  },
+  {
+   "id": "james",
+   "label": "#9",
+   "name": "James",
+   "skin": [
+    112,
+    70,
+    48
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: short curls / goatee",
+   "full_name": "Bronny James",
+   "player_id": 1642355
+  },
+  {
+   "id": "sexton",
+   "label": "#10",
+   "name": "Sexton",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: high curls / goatee",
+   "full_name": "Collin Sexton",
+   "player_id": 1629012
+  },
+  {
+   "id": "williams",
+   "label": "#11",
+   "name": "Williams",
+   "skin": [
+    128,
+    82,
+    58
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "sleeves": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: braids / short beard / white undershirt",
+   "full_name": "Ziaire Williams",
+   "player_id": 1630533
+  },
+  {
+   "id": "laravia",
+   "label": "#12",
+   "name": "LaRavia",
+   "skin": [
+    238,
+    196,
+    176
+   ],
+   "hair": "crop",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "none",
+   "sleeves": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: crop / clean-shaven / white undershirt",
+   "full_name": "Jake LaRavia",
+   "player_id": 1631222
+  },
+  {
+   "id": "kessler",
+   "label": "#14",
+   "name": "Kessler",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "crop",
+   "hair_color": [
+    72,
+    48,
+    32
+   ],
+   "beard": "none",
+   "sleeves": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: crop / clean-shaven / white undershirt",
+   "full_name": "Walker Kessler",
+   "player_id": 1631117
+  },
+  {
+   "id": "reaves",
+   "label": "#15",
+   "name": "Reaves",
+   "skin": [
+    236,
+    190,
+    164
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    30,
+    24,
+    20
+   ],
+   "beard": "none",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: short + white headband / clean-shaven",
+   "full_name": "Austin Reaves",
+   "player_id": 1630559
+  },
+  {
+   "id": "cooper",
+   "label": "#20",
+   "name": "Cooper",
+   "skin": [
+    236,
+    192,
+    168
+   ],
+   "hair": "crop",
+   "hair_color": [
+    150,
+    116,
+    74
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    140,
+    104,
+    66
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: blond crop / goatee",
+   "full_name": "Carson Cooper",
+   "player_id": 1643721
+  },
+  {
+   "id": "manon",
+   "label": "#30",
+   "name": "Manon",
+   "skin": [
+    202,
+    150,
+    114
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: crop / clean-shaven",
+   "full_name": "Chris Mañon",
+   "player_id": 1643024
+  },
+  {
+   "id": "carr",
+   "label": "#43",
+   "name": "Carr",
+   "skin": [
+    178,
+    122,
+    88
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "sleeves": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: braids / goatee / white undershirt",
+   "full_name": "Cameron Carr",
+   "player_id": 1643418
+  },
+  {
+   "id": "kaluma",
+   "label": "#47",
+   "name": "Kaluma",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "sleeves": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: high twists / goatee / white undershirt",
+   "full_name": "Arthur Kaluma",
+   "player_id": 1641751
+  },
+  {
+   "id": "mamukelashvili",
+   "label": "#54",
+   "name": "Mamukelashvili",
+   "skin": [
+    228,
+    178,
+    150
+   ],
+   "hair": "crop",
+   "hair_color": [
+    44,
+    32,
+    26
+   ],
+   "beard": "thick",
+   "beard_color": [
+    58,
+    40,
+    28
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: crop / thick beard",
+   "full_name": "Sandro Mamukelashvili",
+   "player_id": 1630572
+  },
+  {
+   "id": "looney",
+   "label": "#55",
+   "name": "Looney",
+   "skin": [
+    96,
+    60,
+    42
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: short twists / goatee",
+   "full_name": "Kevon Looney",
+   "player_id": 1626172
+  },
+  {
+   "id": "doncic",
+   "label": "#77",
+   "name": "Doncic",
+   "skin": [
+    232,
+    182,
+    154
+   ],
+   "hair": "crop",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "short",
+   "beard_color": [
+    104,
+    72,
+    48
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    85,
+    37,
+    131
+   ],
+   "look_source": "photo: brown crop / short beard",
+   "full_name": "Luka Dončić",
+   "player_id": 1629029
+  }
+ ]
+}

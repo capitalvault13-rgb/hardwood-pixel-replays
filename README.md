@@ -20,6 +20,7 @@ sprites/<team>/       one folder per team (NBA 3-letter code, lower case), nativ
 sprites/<team>/source/  the original sprite sheet that team's PNGs were cut from
 sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / statement)
 sprites/bos/          Celtics — full 2026-27 roster (17), drawn by tools/make_sprites.py from sprites/bos/players.json
+sprites/lal/          Lakers — full 2026-27 roster (18), drawn the same way from sprites/lal/players.json
 tools/extract_sprites.py   cuts a sheet into sprites/<team>/*.png
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
 fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
@@ -64,7 +65,11 @@ python3 tools/make_sprites.py bos
 ```
 
 This writes `<id>_<kit>.png` for each kit plus `sheet.png`, a labelled check sheet.
-Hair styles: bald, curly_short, wavy_medium, afro_band. Beards: none, short, full, thick.
+Hair styles: bald, buzz, crop, curly_short, curly_high, wavy_medium, cornrows, locs, afro_band,
+short_band, locs_band. Beards: none, goatee, chinstrap, short, full, thick.
+
+The Lakers looks were read from the nba.com roster headshots (`players.json` keeps each
+player's `player_id`). The headshots are not committed, since this repo is public.
 
 ## Render a replay
 
