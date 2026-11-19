@@ -1,0 +1,738 @@
+{
+ "team": "Miami Heat",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    152,
+    0,
+    46
+   ],
+   "trim2": [
+    24,
+    24,
+    26
+   ],
+   "band": [
+    152,
+    0,
+    46
+   ],
+   "number": [
+    152,
+    0,
+    46
+   ]
+  },
+  "away": {
+   "jersey": [
+    24,
+    24,
+    26
+   ],
+   "shade": [
+    46,
+    46,
+    48
+   ],
+   "trim": [
+    152,
+    0,
+    46
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    152,
+    0,
+    46
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    152,
+    0,
+    46
+   ]
+  },
+  "statement": {
+   "jersey": [
+    152,
+    0,
+    46
+   ],
+   "shade": [
+    118,
+    0,
+    35
+   ],
+   "trim": [
+    24,
+    24,
+    26
+   ],
+   "trim2": [
+    249,
+    160,
+    27
+   ],
+   "band": [
+    24,
+    24,
+    26
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    24,
+    24,
+    26
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "fontecchio",
+   "label": "#0",
+   "name": "Fontecchio",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: short curls / goatee",
+   "full_name": "Simone Fontecchio",
+   "player_id": 1631323
+  },
+  {
+   "id": "mitchell",
+   "label": "#2",
+   "name": "Mitchell",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: freeform twists / goatee / earrings",
+   "full_name": "Davion Mitchell",
+   "player_id": 1630558
+  },
+  {
+   "id": "conwell",
+   "label": "#4",
+   "name": "Conwell",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: white headband / mustache",
+   "full_name": "Ryan Conwell",
+   "player_id": 1643553
+  },
+  {
+   "id": "jovic",
+   "label": "#5",
+   "name": "Jovic",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "crop",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    52,
+    36,
+    28
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: crop / mustache",
+   "full_name": "Nikola Jović",
+   "player_id": 1631107
+  },
+  {
+   "id": "antetokounmpo",
+   "label": "#7",
+   "name": "Antetokounmpo",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: curly top / goatee / earring",
+   "full_name": "Giannis Antetokounmpo",
+   "player_id": 203507
+  },
+  {
+   "id": "richards",
+   "label": "#8",
+   "name": "Richards",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: cornrows + braid / full beard",
+   "full_name": "Nick Richards",
+   "player_id": 1630208
+  },
+  {
+   "id": "larsson",
+   "label": "#9",
+   "name": "Larsson",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "long_hair",
+   "hair_color": [
+    88,
+    60,
+    40
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: hair to the ears / clean-shaven",
+   "full_name": "Pelle Larsson",
+   "player_id": 1641796
+  },
+  {
+   "id": "hardaway",
+   "label": "#10",
+   "name": "Hardaway",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: low cut / thick beard",
+   "full_name": "Tim Hardaway Jr.",
+   "player_id": 203501
+  },
+  {
+   "id": "thompson",
+   "label": "#11",
+   "name": "Thompson",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: crop / full beard",
+   "full_name": "Klay Thompson",
+   "player_id": 202691
+  },
+  {
+   "id": "smith",
+   "label": "#12",
+   "name": "Smith",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: tall curls / clean-shaven",
+   "full_name": "Dru Smith",
+   "player_id": 1630696
+  },
+  {
+   "id": "adebayo",
+   "label": "#13",
+   "name": "Adebayo",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: white headband / goatee / earrings",
+   "full_name": "Bam Adebayo",
+   "player_id": 1628389
+  },
+  {
+   "id": "gardner",
+   "label": "#15",
+   "name": "Gardner",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: round afro / goatee / earrings",
+   "full_name": "Myron Gardner",
+   "player_id": 1642066
+  },
+  {
+   "id": "johnson",
+   "label": "#16",
+   "name": "Johnson",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: low cut / goatee / earrings",
+   "full_name": "Keshad Johnson",
+   "player_id": 1642352
+  },
+  {
+   "id": "wiggins",
+   "label": "#22",
+   "name": "Wiggins",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: short curls / full beard",
+   "full_name": "Andrew Wiggins",
+   "player_id": 203952
+  },
+  {
+   "id": "donaldson",
+   "label": "#24",
+   "name": "Donaldson",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "afro_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: huge afro / goatee / earrings",
+   "full_name": "Tre Donaldson",
+   "player_id": 1643621
+  },
+  {
+   "id": "goldin",
+   "label": "#50",
+   "name": "Goldin",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "crop",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: crop / clean-shaven",
+   "full_name": "Vladislav Goldin",
+   "player_id": 1642884
+  },
+  {
+   "id": "portis",
+   "label": "#95",
+   "name": "Portis",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    152,
+    0,
+    46
+   ],
+   "look_source": "photo: white headband / full beard",
+   "full_name": "Bobby Portis Jr.",
+   "player_id": 1626171
+  }
+ ]
+}
