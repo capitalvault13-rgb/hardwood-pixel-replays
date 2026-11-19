@@ -108,7 +108,7 @@
     62,
     44
    ],
-   "hair": "twists_short",
+   "hair": "buzz_receding",
    "hair_color": [
     22,
     18,
@@ -130,7 +130,7 @@
     107,
     182
    ],
-   "look_source": "photo: receding line-up / full beard",
+   "look_source": "photo: receding line-up / full beard | revised:hair buzz_receding",
    "full_name": "Andre Drummond",
    "player_id": 203083
   },
@@ -178,7 +178,7 @@
     198,
     176
    ],
-   "hair": "messy_fringe",
+   "hair": "textured_crop",
    "hair_color": [
     88,
     60,
@@ -195,7 +195,7 @@
     107,
     182
    ],
-   "look_source": "photo: messy fringe / clean-shaven",
+   "look_source": "photo: messy fringe / clean-shaven | revised:hair textured_crop",
    "full_name": "Dalton Knecht",
    "player_id": 1642261
   },
@@ -488,7 +488,7 @@
     76,
     52
    ],
-   "hair": "buzz",
+   "hair": "waves",
    "hair_color": [
     22,
     18,
@@ -510,7 +510,7 @@
     107,
     182
    ],
-   "look_source": "photo: low cut / full beard",
+   "look_source": "photo: low cut / full beard | revised:hair waves",
    "full_name": "Mikal Bridges",
    "player_id": 1628969
   },
@@ -593,7 +593,7 @@
     166,
     132
    ],
-   "hair": "curly_short",
+   "hair": "curls_forward",
    "hair_color": [
     22,
     18,
@@ -615,7 +615,7 @@
     107,
     182
    ],
-   "look_source": "photo: short curls / short beard",
+   "look_source": "photo: short curls / short beard | revised:hair curls_forward",
    "full_name": "Landry Shamet",
    "player_id": 1629013
   },
@@ -668,7 +668,7 @@
     198,
     176
    ],
-   "hair": "high_tight",
+   "hair": "swept_side",
    "hair_color": [
     150,
     74,
@@ -690,7 +690,7 @@
     107,
     182
    ],
-   "look_source": "photo: red crop / short beard",
+   "look_source": "photo: red crop / short beard | revised:hair swept_side",
    "full_name": "Tyler Nickel",
    "player_id": 1643589
   }
