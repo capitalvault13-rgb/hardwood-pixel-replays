@@ -1,0 +1,748 @@
+{
+ "team": "Charlotte Hornets",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    0,
+    120,
+    140
+   ],
+   "trim2": [
+    29,
+    17,
+    96
+   ],
+   "band": [
+    0,
+    120,
+    140
+   ],
+   "number": [
+    0,
+    120,
+    140
+   ]
+  },
+  "away": {
+   "jersey": [
+    0,
+    120,
+    140
+   ],
+   "shade": [
+    0,
+    93,
+    109
+   ],
+   "trim": [
+    246,
+    246,
+    242
+   ],
+   "trim2": [
+    29,
+    17,
+    96
+   ],
+   "band": [
+    246,
+    246,
+    242
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    29,
+    17,
+    96
+   ]
+  },
+  "statement": {
+   "jersey": [
+    29,
+    17,
+    96
+   ],
+   "shade": [
+    22,
+    13,
+    74
+   ],
+   "trim": [
+    0,
+    120,
+    140
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    0,
+    120,
+    140
+   ],
+   "number": [
+    0,
+    120,
+    140
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "reid",
+   "label": "#0",
+   "name": "Reid",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: thick braids to the jaw / full beard",
+   "full_name": "Naz Reid",
+   "player_id": 1629675
+  },
+  {
+   "id": "oneale",
+   "label": "#00",
+   "name": "O'Neale",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: white headband / thick beard / earring",
+   "full_name": "Royce O'Neale",
+   "player_id": 1626220
+  },
+  {
+   "id": "williams",
+   "label": "#2",
+   "name": "Williams",
+   "skin": [
+    142,
+    92,
+    64
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: short curls / goatee",
+   "full_name": "Grant Williams",
+   "player_id": 1629684
+  },
+  {
+   "id": "white",
+   "label": "#3",
+   "name": "White",
+   "skin": [
+    142,
+    92,
+    64
+   ],
+   "hair": "afro_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: big coils to the jaw / full beard",
+   "full_name": "Coby White",
+   "player_id": 1629632
+  },
+  {
+   "id": "james",
+   "label": "#4",
+   "name": "James",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: braids back / goatee",
+   "full_name": "Sion James",
+   "player_id": 1642883
+  },
+  {
+   "id": "anderson",
+   "label": "#5",
+   "name": "Anderson",
+   "skin": [
+    142,
+    92,
+    64
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: wide curly afro / mustache",
+   "full_name": "Christian Anderson",
+   "player_id": 1643515
+  },
+  {
+   "id": "knueppel",
+   "label": "#7",
+   "name": "Knueppel",
+   "skin": [
+    240,
+    198,
+    176
+   ],
+   "hair": "swept_back",
+   "hair_color": [
+    122,
+    88,
+    58
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    150,
+    74,
+    42
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: swept back / red goatee",
+   "full_name": "Kon Knueppel",
+   "player_id": 1642851
+  },
+  {
+   "id": "allen",
+   "label": "#8",
+   "name": "Allen",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: buzz cut / clean-shaven",
+   "full_name": "Grayson Allen",
+   "player_id": 1628960
+  },
+  {
+   "id": "ajayi",
+   "label": "#10",
+   "name": "Ajayi",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: braids pulled back / goatee",
+   "full_name": "Michael Ajayi",
+   "player_id": 1642369
+  },
+  {
+   "id": "kalkbrenner",
+   "label": "#11",
+   "name": "Kalkbrenner",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "short",
+   "beard_color": [
+    52,
+    36,
+    28
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: short curls / stubble",
+   "full_name": "Ryan Kalkbrenner",
+   "player_id": 1641750
+  },
+  {
+   "id": "diabate",
+   "label": "#14",
+   "name": "Diabate",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: crop / mustache / earrings",
+   "full_name": "Moussa Diabaté",
+   "player_id": 1631217
+  },
+  {
+   "id": "hall",
+   "label": "#16",
+   "name": "Hall",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: dark wavy / clean-shaven",
+   "full_name": "PJ Hall",
+   "player_id": 1641790
+  },
+  {
+   "id": "schroder",
+   "label": "#17",
+   "name": "Schroder",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: low cut / goatee",
+   "full_name": "Dennis Schröder",
+   "player_id": 203471
+  },
+  {
+   "id": "boswell",
+   "label": "#18",
+   "name": "Boswell",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "afro_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: big afro + white headband / full beard",
+   "full_name": "Kylan Boswell",
+   "player_id": 1643573
+  },
+  {
+   "id": "steinbach",
+   "label": "#22",
+   "name": "Steinbach",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    88,
+    60,
+    40
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: brown curls / clean-shaven",
+   "full_name": "Hannes Steinbach",
+   "player_id": 1643419
+  },
+  {
+   "id": "miller",
+   "label": "#24",
+   "name": "Miller",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: curls + white headband / short beard",
+   "full_name": "Brandon Miller",
+   "player_id": 1641706
+  },
+  {
+   "id": "salaun",
+   "label": "#31",
+   "name": "Salaun",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "cornrows_left",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: cornrows + braid / goatee",
+   "full_name": "Tidjane Salaün",
+   "player_id": 1642275
+  },
+  {
+   "id": "mcneeley",
+   "label": "#33",
+   "name": "McNeeley",
+   "skin": [
+    240,
+    198,
+    176
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    122,
+    88,
+    58
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    120,
+    140
+   ],
+   "look_source": "photo: spiky side quiff / clean-shaven",
+   "full_name": "Liam McNeeley",
+   "player_id": 1642862
+  }
+ ]
+}

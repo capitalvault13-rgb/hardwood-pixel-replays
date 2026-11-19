@@ -345,6 +345,8 @@ _hang("locs", 6, 11)
 _hang("locs_band", 6, 10)
 _hang("locs_long", 6, 14, "double")
 _hang("braids_back", 6, 14, "thin")
+HAIR["afro_long"] = {**HAIR["afro"], 4: HAIR["locs"][4], 5: HAIR["locs"][5]}   # big coils down to the jaw
+_hang("afro_long", 6, 10)
 HAIR["locs_long_band"] = {**HAIR["locs_long"], 2: HAIR["locs_band"][2], 3: HAIR["locs_band"][3]}
 
 # Beard overlays (B = beard, b = beard shade, M = mouth kept). Rows relative to head top.
