@@ -14,9 +14,8 @@ players.json:
      "shoes": [r,g,b], "shoe_accent": [r,g,b], "look_source": "photo"}
   ]
 }
-hair:  bald | buzz | crop | curly_short | curly_high | wavy_medium | cornrows | locs
-       | afro | locs_top | ... (see HAIR below)
-       | afro_band | short_band | locs_band | locs_long_band   (the *_band styles take "headband": [r,g,b])
+hair:  see HAIR below and the README (short cuts, curls/afros, braids/locs, *_band styles;
+       the *_band styles take "headband": [r,g,b])
 beard: none | mustache | goatee | chinstrap | short | full | thick | huge
 numbers: drawn from "number" (or the "#NN" label) as 5x7 block digits on the fine (DETAIL) grid,
          in the kit's trim colour; a kit may set "number": [r,g,b], "number_outline": [r,g,b]

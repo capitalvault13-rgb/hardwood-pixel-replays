@@ -22,9 +22,11 @@ sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / stat
 sprites/atl/plain/    the same sprites as cut from the sheet: native size, no numbers (used for recoloured stand-ins)
 sprites/bos/          Celtics — full 2026-27 roster (17), drawn by tools/make_sprites.py from sprites/bos/players.json
 sprites/lal/          Lakers — full 2026-27 roster (18), drawn the same way from sprites/lal/players.json
+sprites/<team>/       the rest of the East drawn the same way: bkn cha chi cle det ind mia mil nyk orl phi tor was
 tools/extract_sprites.py   cuts a sheet into sprites/<team>/plain/*.png
 tools/number_sprites.py    adds jersey numbers to cut sprites from sprites/<team>/numbers.json (3x output + sheet.png)
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
+tools/fetch_headshots.py   pulls a team's nba.com headshots into sprites/<team>/source/ and makes face sheets
 fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
 episodes/NNN-name/    replay.py (visuals), audio.py (chiptune + SFX), render.sh
 renders/              finished MP4s
@@ -71,22 +73,35 @@ python3 tools/make_sprites.py bos
 ```
 
 This writes `<id>_<kit>.png` for each kit plus `sheet.png`, a labelled check sheet.
-Hair styles: bald, buzz, crop, high_tight, fade_short, messy_fringe, quiff, swept_back,
-wavy_medium, curly_short, curly_top, curly_high, twists_short, twists_spiky, afro_tail,
-cornrows, cornrows_left, braids_back, locs, locs_long, and the headband styles afro_band,
-short_band, locs_band. Beards: none, goatee, chinstrap, short, full, thick. Extras: earrings,
+Hair styles:
+- short: bald, buzz, crop, high_tight, fade_short, twists_short, messy_fringe, quiff, swept_back
+- longer straight / wavy: wavy_medium, long_hair
+- curls and afros: curly_short, curly_top, curly_high, afro, afro_long, afro_tail, twists_spiky
+- braids and locs: cornrows (braid on the right), cornrows_left, cornrows_flat, braids_back,
+  box_braids, locs, locs_long, locs_top
+- with a headband (`"headband": [r,g,b]`): short_band, afro_band, locs_band, locs_long_band, long_band
+
+Beards: none, mustache, goatee, chinstrap, short, full, thick, huge. Extras: earrings,
 armband, undershirt sleeves, arm sleeve, wristbands, socks.
 
 Drawn sprites are saved at 3x the 23 px chibi grid (69 px wide), so jersey numbers can use finer
 pixels than the rest of the sprite: 5x7 block digits in the kit's `number` colour (default: trim)
-with an optional `number_outline`. Replays draw sprite pixels at 3x, so load these at 1x
+with an optional `number_outline` (only the Lakers use one; on most kits an outline swamps the
+jersey colour at replay size). Replays draw sprite pixels at 3x, so load these at 1x
 (`load()` in `replay.py` picks the factor from the image width). A kit can set `"numbers": false`.
 
-Before drawing a team, pull each player's nba.com headshot
-(`https://cdn.nba.com/headshots/nba/latest/1040x760/<player_id>.png`) and commit it to
-`sprites/<team>/source/<id>.jpg`, then read hair, beard, skin and extras from it. When two
-players come out looking alike, compare them side by side with their photos and give them
-distinct styles; add a new hair style to `tools/make_sprites.py` rather than reusing a near miss.
+Before drawing a team, refresh the rosters, then pull the headshots:
+
+```bash
+python3 tools/fetch_headshots.py bkn /tmp/faces
+```
+
+This saves each player's nba.com headshot to `sprites/<team>/source/<id>.jpg` (commit these),
+writes close-up face sheets to the folder given, and prints the ids, labels and names to start
+`players.json` from. Read hair, beard, skin and extras from the photos. A player with no
+headshot yet gets a plain look with `look_source` starting `guess:`. When two players on a team
+come out looking alike, compare them side by side with their photos and give them distinct
+styles; add a new hair style to `tools/make_sprites.py` rather than reusing a near miss.
 
 ## Render a replay
 
