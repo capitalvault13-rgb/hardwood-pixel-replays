@@ -132,8 +132,7 @@
    ],
    "look_source": "photo: long curls to the jaw / mustache",
    "full_name": "Brayden Burries",
-   "player_id": 1643415,
-   "height": "6-4"
+   "player_id": 1643415
   },
   {
    "id": "sims",
@@ -168,8 +167,7 @@
    ],
    "look_source": "photo: big curly afro / mustache",
    "full_name": "Jericho Sims",
-   "player_id": 1630579,
-   "height": "6-10"
+   "player_id": 1630579
   },
   {
    "id": "turner",
@@ -209,8 +207,7 @@
    ],
    "look_source": "photo: long locs + headband / short beard",
    "full_name": "Myles Turner",
-   "player_id": 1626167,
-   "height": "6-11"
+   "player_id": 1626167
   },
   {
    "id": "trent",
@@ -245,8 +242,7 @@
    ],
    "look_source": "photo: receding / thick beard",
    "full_name": "Gary Trent Jr.",
-   "player_id": 1629018,
-   "height": "6-4"
+   "player_id": 1629018
   },
   {
    "id": "ware",
@@ -281,8 +277,7 @@
    ],
    "look_source": "photo: low waves / goatee",
    "full_name": "Kel'el Ware",
-   "player_id": 1642276,
-   "height": "7-0"
+   "player_id": 1642276
   },
   {
    "id": "herro",
@@ -322,8 +317,7 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Tyler Herro",
-   "player_id": 1629639,
-   "height": "6-5"
+   "player_id": 1629639
   },
   {
    "id": "levert",
@@ -358,8 +352,7 @@
    ],
    "look_source": "photo: cornrows + braid / full beard",
    "full_name": "Caris LeVert",
-   "player_id": 1627747,
-   "height": "6-7"
+   "player_id": 1627747
   },
   {
    "id": "rollins",
@@ -394,8 +387,7 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Ryan Rollins",
-   "player_id": 1631157,
-   "height": "6-3"
+   "player_id": 1631157
   },
   {
    "id": "ament",
@@ -423,11 +415,9 @@
     71,
     27
    ],
-   "look_source": "photo: curly top / clean-shaven / smile",
+   "look_source": "photo: curly top / clean-shaven",
    "full_name": "Nate Ament",
-   "player_id": 1643417,
-   "height": "6-10",
-   "mouth": "smile"
+   "player_id": 1643417
   },
   {
    "id": "kuzma",
@@ -467,8 +457,7 @@
    ],
    "look_source": "photo: curly top / goatee / earring",
    "full_name": "Kyle Kuzma",
-   "player_id": 1628398,
-   "height": "6-8"
+   "player_id": 1628398
   },
   {
    "id": "jones",
@@ -503,8 +492,7 @@
    ],
    "look_source": "photo: tall curls / mustache",
    "full_name": "Kam Jones",
-   "player_id": 1642880,
-   "height": "6-4"
+   "player_id": 1642880
   },
   {
    "id": "green",
@@ -534,8 +522,7 @@
    ],
    "look_source": "photo: blond fringe / clean-shaven",
    "full_name": "AJ Green",
-   "player_id": 1631260,
-   "height": "6-4"
+   "player_id": 1631260
   },
   {
    "id": "dieng",
@@ -570,8 +557,7 @@
    ],
    "look_source": "photo: twists to the jaw / goatee",
    "full_name": "Ousmane Dieng",
-   "player_id": 1631172,
-   "height": "6-9"
+   "player_id": 1631172
   },
   {
    "id": "markovic",
@@ -606,8 +592,7 @@
    ],
    "look_source": "photo: crop / goatee",
    "full_name": "Bogoljub Marković",
-   "player_id": 1642881,
-   "height": "6-10"
+   "player_id": 1642881
   },
   {
    "id": "jaquez",
@@ -647,8 +632,7 @@
    ],
    "look_source": "photo: long hair + white headband / goatee",
    "full_name": "Jaime Jaquez Jr.",
-   "player_id": 1631170,
-   "height": "6-7"
+   "player_id": 1631170
   },
   {
    "id": "jakucionis",
@@ -678,8 +662,7 @@
    ],
    "look_source": "photo: light brown curls / clean-shaven",
    "full_name": "Kasparas Jakučionis",
-   "player_id": 1642857,
-   "height": "6-5"
+   "player_id": 1642857
   },
   {
    "id": "ryan",
@@ -709,8 +692,7 @@
    ],
    "look_source": "photo: dark fringe / clean-shaven",
    "full_name": "Cormac Ryan",
-   "player_id": 1642504,
-   "height": "6-5"
+   "player_id": 1642504
   },
   {
    "id": "nance",
@@ -745,8 +727,7 @@
    ],
    "look_source": "photo: short line-up / full beard",
    "full_name": "Pete Nance",
-   "player_id": 1631250,
-   "height": "6-9"
+   "player_id": 1631250
   }
  ]
 }

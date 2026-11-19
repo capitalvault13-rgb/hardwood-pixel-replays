@@ -132,8 +132,7 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Simone Fontecchio",
-   "player_id": 1631323,
-   "height": "6-7"
+   "player_id": 1631323
   },
   {
    "id": "mitchell",
@@ -173,8 +172,7 @@
    ],
    "look_source": "photo: freeform twists / goatee / earrings",
    "full_name": "Davion Mitchell",
-   "player_id": 1630558,
-   "height": "6-0"
+   "player_id": 1630558
   },
   {
    "id": "conwell",
@@ -212,11 +210,9 @@
     0,
     46
    ],
-   "look_source": "photo: white headband / mustache / smile",
+   "look_source": "photo: white headband / mustache",
    "full_name": "Ryan Conwell",
-   "player_id": 1643553,
-   "height": "6-2",
-   "mouth": "smile"
+   "player_id": 1643553
   },
   {
    "id": "jovic",
@@ -249,11 +245,9 @@
     0,
     46
    ],
-   "look_source": "photo: crop / mustache / smile",
+   "look_source": "photo: crop / mustache",
    "full_name": "Nikola Jović",
-   "player_id": 1631107,
-   "height": "6-10",
-   "mouth": "smile"
+   "player_id": 1631107
   },
   {
    "id": "antetokounmpo",
@@ -291,11 +285,9 @@
     0,
     46
    ],
-   "look_source": "photo: curly top / goatee / earring / smile",
+   "look_source": "photo: curly top / goatee / earring",
    "full_name": "Giannis Antetokounmpo",
-   "player_id": 203507,
-   "height": "6-11",
-   "mouth": "smile"
+   "player_id": 203507
   },
   {
    "id": "richards",
@@ -330,8 +322,7 @@
    ],
    "look_source": "photo: cornrows + braid / full beard",
    "full_name": "Nick Richards",
-   "player_id": 1630208,
-   "height": "6-11"
+   "player_id": 1630208
   },
   {
    "id": "larsson",
@@ -361,8 +352,7 @@
    ],
    "look_source": "photo: hair to the ears / clean-shaven",
    "full_name": "Pelle Larsson",
-   "player_id": 1641796,
-   "height": "6-5"
+   "player_id": 1641796
   },
   {
    "id": "hardaway",
@@ -397,8 +387,7 @@
    ],
    "look_source": "photo: low cut / thick beard",
    "full_name": "Tim Hardaway Jr.",
-   "player_id": 203501,
-   "height": "6-5"
+   "player_id": 203501
   },
   {
    "id": "thompson",
@@ -433,8 +422,7 @@
    ],
    "look_source": "photo: crop / full beard",
    "full_name": "Klay Thompson",
-   "player_id": 202691,
-   "height": "6-5"
+   "player_id": 202691
   },
   {
    "id": "smith",
@@ -464,8 +452,7 @@
    ],
    "look_source": "photo: tall curls / clean-shaven",
    "full_name": "Dru Smith",
-   "player_id": 1630696,
-   "height": "6-2"
+   "player_id": 1630696
   },
   {
    "id": "adebayo",
@@ -510,8 +497,7 @@
    ],
    "look_source": "photo: white headband / goatee / earrings",
    "full_name": "Bam Adebayo",
-   "player_id": 1628389,
-   "height": "6-9"
+   "player_id": 1628389
   },
   {
    "id": "gardner",
@@ -549,11 +535,9 @@
     0,
     46
    ],
-   "look_source": "photo: round afro / goatee / earrings / round face",
+   "look_source": "photo: round afro / goatee / earrings",
    "full_name": "Myron Gardner",
-   "player_id": 1642066,
-   "height": "6-5",
-   "face": "round"
+   "player_id": 1642066
   },
   {
    "id": "johnson",
@@ -593,8 +577,7 @@
    ],
    "look_source": "photo: low cut / goatee / earrings",
    "full_name": "Keshad Johnson",
-   "player_id": 1642352,
-   "height": "6-6"
+   "player_id": 1642352
   },
   {
    "id": "wiggins",
@@ -629,8 +612,7 @@
    ],
    "look_source": "photo: short curls / full beard",
    "full_name": "Andrew Wiggins",
-   "player_id": 203952,
-   "height": "6-6"
+   "player_id": 203952
   },
   {
    "id": "donaldson",
@@ -670,8 +652,7 @@
    ],
    "look_source": "photo: huge afro / goatee / earrings",
    "full_name": "Tre Donaldson",
-   "player_id": 1643621,
-   "height": "6-1"
+   "player_id": 1643621
   },
   {
    "id": "goldin",
@@ -682,7 +663,7 @@
     184,
     158
    ],
-   "hair": "side_part",
+   "hair": "crop",
    "hair_color": [
     52,
     36,
@@ -699,10 +680,9 @@
     0,
     46
    ],
-   "look_source": "photo: crop / clean-shaven (hair: side_part)",
+   "look_source": "photo: crop / clean-shaven",
    "full_name": "Vladislav Goldin",
-   "player_id": 1642884,
-   "height": "7-0"
+   "player_id": 1642884
   },
   {
    "id": "portis",
@@ -742,8 +722,7 @@
    ],
    "look_source": "photo: white headband / full beard",
    "full_name": "Bobby Portis Jr.",
-   "player_id": 1626171,
-   "height": "6-10"
+   "player_id": 1626171
   }
  ]
 }

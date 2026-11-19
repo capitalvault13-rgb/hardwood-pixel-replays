@@ -117,8 +117,7 @@
    ],
    "look_source": "photo: bald / clean-shaven",
    "full_name": "Jordan Walsh",
-   "player_id": 1641775,
-   "height": "6-6"
+   "player_id": 1641775
   },
   {
    "id": "tatum",
@@ -156,11 +155,9 @@
     122,
     51
    ],
-   "look_source": "photo: short curls / full beard / green armband / smile",
+   "look_source": "photo: short curls / full beard / green armband",
    "full_name": "Jayson Tatum",
-   "player_id": 1628369,
-   "height": "6-8",
-   "mouth": "smile"
+   "player_id": 1628369
   },
   {
    "id": "scheierman",
@@ -193,11 +190,9 @@
     122,
     51
    ],
-   "look_source": "photo: wavy brown hair / clean-shaven / white undershirt / smile",
+   "look_source": "photo: wavy brown hair / clean-shaven / white undershirt",
    "full_name": "Baylor Scheierman",
-   "player_id": 1631248,
-   "height": "6-6",
-   "mouth": "smile"
+   "player_id": 1631248
   },
   {
    "id": "robinson",
@@ -237,8 +232,7 @@
    ],
    "look_source": "photo: curly top + white headband / thick full beard",
    "full_name": "Mitchell Robinson",
-   "player_id": 1629011,
-   "height": "7-0"
+   "player_id": 1629011
   },
   {
    "id": "white",
@@ -266,11 +260,9 @@
     122,
     51
    ],
-   "look_source": "photo: bald / short beard / smile",
+   "look_source": "photo: bald / short beard",
    "full_name": "Derrick White",
-   "player_id": 1628401,
-   "height": "6-4",
-   "mouth": "smile"
+   "player_id": 1628401
   },
   {
    "id": "mitchell",
@@ -315,8 +307,7 @@
    ],
    "look_source": "photo: high-top curls / chinstrap / white wristband / sage shoes",
    "full_name": "Dillon Mitchell",
-   "player_id": 1641759,
-   "height": "6-6"
+   "player_id": 1641759
   },
   {
    "id": "hauser",
@@ -351,8 +342,7 @@
    ],
    "look_source": "photo: light-brown buzz cut / short beard",
    "full_name": "Sam Hauser",
-   "player_id": 1630573,
-   "height": "6-7"
+   "player_id": 1630573
   },
   {
    "id": "harper",
@@ -397,8 +387,7 @@
    ],
    "look_source": "photo: cornrows with braids / thin goatee / white wristband",
    "full_name": "Ron Harper Jr.",
-   "player_id": 1631199,
-   "height": "6-5"
+   "player_id": 1631199
   },
   {
    "id": "queta",
@@ -448,8 +437,7 @@
    ],
    "look_source": "photo: short hair + white headband / thick full beard / white arm sleeve",
    "full_name": "Neemias Queta",
-   "player_id": 1629674,
-   "height": "7-0"
+   "player_id": 1629674
   },
   {
    "id": "pritchard",
@@ -479,8 +467,7 @@
    ],
    "look_source": "photo: short dark crop / clean-shaven",
    "full_name": "Payton Pritchard",
-   "player_id": 1630202,
-   "height": "6-1"
+   "player_id": 1630202
   },
   {
    "id": "gonzalez",
@@ -491,7 +478,7 @@
     196,
     172
    ],
-   "hair": "messy_fringe",
+   "hair": "wavy_medium",
    "hair_color": [
     44,
     30,
@@ -508,11 +495,9 @@
     122,
     51
    ],
-   "look_source": "photo: thick dark wavy hair / clean-shaven (hair: messy_fringe) / thick brows",
+   "look_source": "photo: thick dark wavy hair / clean-shaven",
    "full_name": "Hugo González",
-   "player_id": 1642864,
-   "height": "6-6",
-   "brows": "thick"
+   "player_id": 1642864
   },
   {
    "id": "garza",
@@ -540,11 +525,9 @@
     122,
     51
    ],
-   "look_source": "photo: short dark crop / clean-shaven / smile",
+   "look_source": "photo: short dark crop / clean-shaven",
    "full_name": "Luka Garza",
-   "player_id": 1630568,
-   "height": "6-10",
-   "mouth": "smile"
+   "player_id": 1630568
   },
   {
    "id": "conley",
@@ -589,8 +572,7 @@
    ],
    "look_source": "photo: short hair + white headband / full beard / white undershirt",
    "full_name": "Mike Conley",
-   "player_id": 201144,
-   "height": "6-0"
+   "player_id": 201144
   },
   {
    "id": "cenac",
@@ -620,8 +602,7 @@
    ],
    "look_source": "photo: short curly hair / clean-shaven",
    "full_name": "Chris Cenac Jr.",
-   "player_id": 1643416,
-   "height": "6-11"
+   "player_id": 1643416
   },
   {
    "id": "george",
@@ -638,7 +619,7 @@
     18,
     18
    ],
-   "beard": "thick",
+   "beard": "full",
    "beard_color": [
     26,
     20,
@@ -664,12 +645,9 @@
     122,
     51
    ],
-   "look_source": "photo: short curly hair / full beard / white arm sleeve / thick brows / round face",
+   "look_source": "photo: short curly hair / full beard / white arm sleeve",
    "full_name": "Paul George",
-   "player_id": 202331,
-   "height": "6-8",
-   "brows": "thick",
-   "face": "round"
+   "player_id": 202331
   },
   {
    "id": "carter",
@@ -704,8 +682,7 @@
    ],
    "look_source": "photo: short dark hair / full beard",
    "full_name": "Devin Carter",
-   "player_id": 1642269,
-   "height": "6-2"
+   "player_id": 1642269
   },
   {
    "id": "williams",
@@ -735,8 +712,7 @@
    ],
    "look_source": "photo: short twists high top / clean-shaven",
    "full_name": "Amari Williams",
-   "player_id": 1642873,
-   "height": "6-11"
+   "player_id": 1642873
   }
  ]
 }

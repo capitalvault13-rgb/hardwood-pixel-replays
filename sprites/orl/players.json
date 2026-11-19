@@ -137,8 +137,7 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Anthony Black",
-   "player_id": 1641710,
-   "height": "6-7"
+   "player_id": 1641710
   },
   {
    "id": "isaac",
@@ -173,8 +172,7 @@
    ],
    "look_source": "photo: tall curls / full beard",
    "full_name": "Jonathan Isaac",
-   "player_id": 1628371,
-   "height": "6-10"
+   "player_id": 1628371
   },
   {
    "id": "jcarter",
@@ -209,8 +207,7 @@
    ],
    "look_source": "photo: shaved head / full beard",
    "full_name": "Jevon Carter",
-   "player_id": 1628975,
-   "height": "6-1"
+   "player_id": 1628975
   },
   {
    "id": "bane",
@@ -243,11 +240,9 @@
     125,
     197
    ],
-   "look_source": "photo: low cut / goatee / round face",
+   "look_source": "photo: low cut / goatee",
    "full_name": "Desmond Bane",
-   "player_id": 1630217,
-   "height": "6-6",
-   "face": "round"
+   "player_id": 1630217
   },
   {
    "id": "suggs",
@@ -282,8 +277,7 @@
    ],
    "look_source": "photo: shaved head / goatee",
    "full_name": "Jalen Suggs",
-   "player_id": 1630591,
-   "height": "6-5"
+   "player_id": 1630591
   },
   {
    "id": "banchero",
@@ -313,8 +307,7 @@
    ],
    "look_source": "photo: curly top / clean-shaven",
    "full_name": "Paolo Banchero",
-   "player_id": 1631094,
-   "height": "6-10"
+   "player_id": 1631094
   },
   {
    "id": "cain",
@@ -342,11 +335,9 @@
     125,
     197
    ],
-   "look_source": "photo: low line-up / clean-shaven / smile",
+   "look_source": "photo: low line-up / clean-shaven",
    "full_name": "Jamal Cain",
-   "player_id": 1631288,
-   "height": "6-7",
-   "mouth": "smile"
+   "player_id": 1631288
   },
   {
    "id": "vucevic",
@@ -381,8 +372,7 @@
    ],
    "look_source": "photo: short fade / stubble",
    "full_name": "Nikola Vučević",
-   "player_id": 202696,
-   "height": "6-11"
+   "player_id": 202696
   },
   {
    "id": "richardson",
@@ -417,8 +407,7 @@
    ],
    "look_source": "photo: round afro / goatee",
    "full_name": "Jase Richardson",
-   "player_id": 1642859,
-   "height": "6-2"
+   "player_id": 1642859
   },
   {
    "id": "castleton",
@@ -453,8 +442,7 @@
    ],
    "look_source": "photo: spiky quiff / goatee",
    "full_name": "Colin Castleton",
-   "player_id": 1630658,
-   "height": "6-11"
+   "player_id": 1630658
   },
   {
    "id": "wagner",
@@ -489,8 +477,7 @@
    ],
    "look_source": "photo: wavy mullet / mustache",
    "full_name": "Franz Wagner",
-   "player_id": 1630532,
-   "height": "6-10"
+   "player_id": 1630532
   },
   {
    "id": "dasilva",
@@ -525,8 +512,7 @@
    ],
    "look_source": "photo: fade / goatee",
    "full_name": "Tristan da Silva",
-   "player_id": 1641783,
-   "height": "6-8"
+   "player_id": 1641783
   },
   {
    "id": "nelson",
@@ -554,11 +540,9 @@
     125,
     197
    ],
-   "look_source": "photo: crop / clean-shaven / round face",
+   "look_source": "photo: crop / clean-shaven",
    "full_name": "Izaiyah Nelson",
-   "player_id": 1643593,
-   "height": "6-10",
-   "face": "round"
+   "player_id": 1643593
   },
   {
    "id": "morales",
@@ -593,8 +577,7 @@
    ],
    "look_source": "photo: short line-up / goatee",
    "full_name": "Alex Morales",
-   "player_id": 1631457,
-   "height": "6-6"
+   "player_id": 1631457
   },
   {
    "id": "wcarter",
@@ -629,8 +612,7 @@
    ],
    "look_source": "photo: cornrows + braid / mustache",
    "full_name": "Wendell Carter Jr.",
-   "player_id": 1628976,
-   "height": "6-10"
+   "player_id": 1628976
   },
   {
    "id": "bitadze",
@@ -665,8 +647,7 @@
    ],
    "look_source": "photo: slicked back / full beard",
    "full_name": "Goga Bitadze",
-   "player_id": 1629048,
-   "height": "6-11"
+   "player_id": 1629048
   },
   {
    "id": "penda",
@@ -701,8 +682,7 @@
    ],
    "look_source": "photo: bleached curls / goatee",
    "full_name": "Noah Penda",
-   "player_id": 1642869,
-   "height": "6-7"
+   "player_id": 1642869
   }
  ]
 }

@@ -20,7 +20,6 @@ beard: none | mustache | goatee | chinstrap | short | full | thick | huge
 numbers: drawn from "number" (or the "#NN" label) as 5x7 block digits on the fine (DETAIL) grid,
          in the kit's trim colour; a kit may set "number": [r,g,b], "number_outline": [r,g,b]
          or "numbers": false. Output PNGs are DETAIL (3x) the chibi grid.
-face:  "brows": "thick" | "unibrow", "mouth": "smile", "face": "round"; legs follow "height" ("6-10")
 extras: "earrings": [r,g,b], "armband", "sleeves" (undershirt), "sleeve_arm": [{"side": "left|right", "color"}],
         "wristbands": [{"side", "color"}], "socks"   (sides are as seen on screen)
 """
@@ -66,22 +65,7 @@ BODY = [
     ".....#XXXX#.#XXXX#.....",
     "......####...####......",
 ]
-TEMPLATE = HEAD + BODY  # 32 rows x 23 cols (3 leg rows: a 6-3 to 6-6 player)
-
-def legs_for(p):
-    """Leg rows between shorts and socks, from "legs" or the player's roster "height" ("6-10")."""
-    if "legs" in p:
-        return p["legs"]
-    try:
-        ft, inch = (int(x) for x in p["height"].split("-"))
-    except (KeyError, ValueError):
-        return 3
-    h = ft * 12 + inch
-    return 2 if h <= 74 else 3 if h <= 78 else 4 if h <= 81 else 5 if h <= 84 else 6
-
-def body_rows(legs):
-    """BODY with the thigh rows (10-12) stretched or shrunk to `legs` rows; the knee row stays last."""
-    return BODY[:10] + [BODY[10]] * (legs - 1) + [BODY[12]] + BODY[13:]
+TEMPLATE = HEAD + BODY  # 32 rows x 23 cols
 
 # Hair overlays: rows are relative to the head top (row 0); negative rows grow upward.
 # H = hair, h = hair highlight, # = outline, . = leave as is, _ = make transparent, D = headband, d = band shade
@@ -378,30 +362,6 @@ _hang("long_hair", 6, 10)
 HAIR["cornrows_flat"] = {r: HAIR["cornrows"][r] for r in range(-1, 5)}   # cornrows, no hanging braid
 HAIR["cornrows_flat"][4] = "....#SSSSSSSSSSSHhH#..."
 HAIR["long_band"] = {**HAIR["long_hair"], 2: HAIR["locs_band"][2], 3: HAIR["locs_band"][3]}
-HAIR["side_part"] = {   # combed to one side from a part, sweeping over the forehead
-    -1: "........######.........",
-    0:  "......##HHHHHHH#.......",
-    1:  ".....#HHHhhHHHHH#......",
-    2:  "....#HHHSHHHhHHHH#.....",
-    3:  "....#HHHSHHHHHHHHH#....",
-    4:  "....#HHSSSSHHHHHHH#....",
-    5:  "....#SSSSSSSSSHHHH#....",
-}
-HAIR["locs_fringe"] = {**{r: HAIR["locs"][r] for r in range(-2, 4)},   # locs falling over the forehead
-    4: ".#HhHHhHHhHHhHHhHHhH#..",
-    5: ".#Hh#HSHHSHHSHHSHH#hH#.",
-}
-_hang("locs_fringe", 6, 12)
-HAIR["locs_up"] = {   # locs tied up on the crown in a tall spray, shaved sides
-    -4: "....#..#..#..#..#......",
-    -3: "...#H#.#H#H#H#.#H#.....",
-    -2: "....#H##hHhHh##H#......",
-    -1: ".....#HHHHHHHHH#.......",
-    0:  "......##HHHHHH##.......",
-    1:  "......#sHHHHHHs#.......",
-    2:  ".....#ssHHHHHHss#......",
-    3:  "....#sssssssssssS#.....",
-}
 HAIR["locs_long_band"] = {**HAIR["locs_long"], 2: HAIR["locs_band"][2], 3: HAIR["locs_band"][3]}
 
 # Beard overlays (B = beard, b = beard shade, M = mouth kept). Rows relative to head top.
@@ -505,8 +465,7 @@ def draw_number(px, num, top, col, outline=None):
         px[x, y] = tuple(col) + (255,)
 
 def make(p, kit):
-    legs = legs_for(p)
-    rows = [list("." * 23) for _ in range(PAD)] + [list(r) for r in HEAD + body_rows(legs)]
+    rows = [list("." * 23) for _ in range(PAD)] + [list(r) for r in TEMPLATE]
     def put(overlay, keep_head=True):
         for r, s in overlay.items():
             rr = r + PAD
@@ -514,22 +473,7 @@ def make(p, kit):
                 if ch != '.':
                     rows[rr][c] = ch
     put(HAIR[p.get("hair", "bald")])
-    brows = p.get("brows")
-    if brows in ("thick", "unibrow"):   # a row of hair colour above the eyes
-        put({6: ".....HHH...HHH........." if brows == "thick" else ".....HHHHHHHHH........."})
     put(BEARD[p.get("beard", "none")])
-    if p.get("mouth") == "smile":       # open grin: teeth between the mouth corners
-        for c, ch in ((8, 'M'), (9, 'W'), (10, 'W'), (11, 'M')):
-            rows[PAD + 11][c] = ch
-    if p.get("face") == "round":        # wider jaw: push the face outline out one pixel on the lower rows
-        for r in range(PAD + 10, PAD + 14):
-            row = rows[r]
-            l = max(c for c in range(0, 10) if row[c] == '#')
-            rr = min(c for c in range(11, 23) if row[c] == '#')
-            if row[l - 1] == '.':
-                row[l - 1], row[l] = '#', row[l + 1]
-            if rr + 1 < 23 and row[rr + 1] == '.':
-                row[rr + 1], row[rr] = '#', row[rr - 1]
     skin = tuple(p["skin"]); hair = tuple(p.get("hair_color", (20, 16, 14)))
     beard = tuple(p.get("beard_color", hair))
     band = tuple(p.get("headband") or (240, 240, 240))
@@ -575,7 +519,7 @@ def make(p, kit):
         for x in ARM[acc["side"]][4][1]:
             px[x, PAD + 19] = tuple(acc["color"]) + (255,)
     if p.get("socks"):
-        wy2 = PAD + len(HEAD) + 13 + (legs - 3)
+        wy2 = PAD + len(HEAD) + 13
         for x, chh in enumerate(BODY[13]):
             if chh == 'X':
                 px[x, wy2] = tuple(p["socks"]) + (255,)

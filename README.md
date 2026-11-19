@@ -74,22 +74,15 @@ python3 tools/make_sprites.py bos
 
 This writes `<id>_<kit>.png` for each kit plus `sheet.png`, a labelled check sheet.
 Hair styles:
-- short: bald, buzz, crop, high_tight, fade_short, twists_short, messy_fringe, quiff, swept_back, side_part
+- short: bald, buzz, crop, high_tight, fade_short, twists_short, messy_fringe, quiff, swept_back
 - longer straight / wavy: wavy_medium, long_hair
 - curls and afros: curly_short, curly_top, curly_high, afro, afro_long, afro_tail, twists_spiky
 - braids and locs: cornrows (braid on the right), cornrows_left, cornrows_flat, braids_back,
-  box_braids, locs, locs_long, locs_top, locs_fringe, locs_up
+  box_braids, locs, locs_long, locs_top
 - with a headband (`"headband": [r,g,b]`): short_band, afro_band, locs_band, locs_long_band, long_band
 
 Beards: none, mustache, goatee, chinstrap, short, full, thick, huge. Extras: earrings,
 armband, undershirt sleeves, arm sleeve, wristbands, socks.
-
-Face and body, so teammates read apart at replay size:
-- `"height"` (copied from the roster, e.g. `"6-10"`) sets the leg length: 2 rows up to 6-2,
-  3 rows for 6-3 to 6-6 (the base body), 4 for 6-7 to 6-9, 5 for 6-10 to 7-0, 6 for 7-1 and up.
-  Replays anchor sprites at the feet, so taller players simply stand taller.
-- `"mouth": "smile"` for a player grinning in their headshot, `"brows": "thick"` or `"unibrow"`,
-  `"face": "round"` for a broad jaw.
 
 Drawn sprites are saved at 3x the 23 px chibi grid (69 px wide), so jersey numbers can use finer
 pixels than the rest of the sprite: 5x7 block digits in the kit's `number` colour (default: trim)

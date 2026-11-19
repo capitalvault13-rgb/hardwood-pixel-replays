@@ -137,8 +137,7 @@
    ],
    "look_source": "photo: long locs + white headband / mustache",
    "full_name": "Bilal Coulibaly",
-   "player_id": 1641731,
-   "height": "6-7"
+   "player_id": 1641731
   },
   {
    "id": "vukcevic",
@@ -171,12 +170,9 @@
     43,
     92
    ],
-   "look_source": "photo: messy curls / full beard / thick brows / round face",
+   "look_source": "photo: messy curls / full beard",
    "full_name": "Tristan Vukčević",
-   "player_id": 1641774,
-   "height": "7-0",
-   "brows": "thick",
-   "face": "round"
+   "player_id": 1641774
   },
   {
    "id": "mann",
@@ -216,8 +212,7 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Tre Mann",
-   "player_id": 1630544,
-   "height": "6-4"
+   "player_id": 1630544
   },
   {
    "id": "young",
@@ -252,8 +247,7 @@
    ],
    "look_source": "photo: wavy curls / full beard",
    "full_name": "Trae Young",
-   "player_id": 1629027,
-   "height": "6-1"
+   "player_id": 1629027
   },
   {
    "id": "dybantsa",
@@ -283,8 +277,7 @@
    ],
    "look_source": "photo: high twists / clean-shaven",
    "full_name": "AJ Dybantsa",
-   "player_id": 1643407,
-   "height": "6-9"
+   "player_id": 1643407
   },
   {
    "id": "watkins",
@@ -295,7 +288,7 @@
     62,
     44
    ],
-   "hair": "locs_up",
+   "hair": "locs_top",
    "hair_color": [
     22,
     18,
@@ -317,10 +310,9 @@
     43,
     92
    ],
-   "look_source": "photo: locs tied up on top / mustache (hair: locs_up)",
+   "look_source": "photo: locs tied up on top / mustache",
    "full_name": "Jamir Watkins",
-   "player_id": 1642364,
-   "height": "6-5"
+   "player_id": 1642364
   },
   {
    "id": "carrington",
@@ -331,7 +323,7 @@
     62,
     44
    ],
-   "hair": "locs_fringe",
+   "hair": "locs_long",
    "hair_color": [
     22,
     18,
@@ -348,10 +340,9 @@
     43,
     92
    ],
-   "look_source": "photo: long twists / clean-shaven (hair: locs_fringe)",
+   "look_source": "photo: long twists / clean-shaven",
    "full_name": "Bub Carrington",
-   "player_id": 1642267,
-   "height": "6-4"
+   "player_id": 1642267
   },
   {
    "id": "ayton",
@@ -391,8 +382,7 @@
    ],
    "look_source": "photo: crop / goatee / earrings",
    "full_name": "Deandre Ayton",
-   "player_id": 1629028,
-   "height": "7-0"
+   "player_id": 1629028
   },
   {
    "id": "champagnie",
@@ -425,11 +415,9 @@
     43,
     92
    ],
-   "look_source": "photo: round afro / full beard / smile",
+   "look_source": "photo: round afro / full beard",
    "full_name": "Justin Champagnie",
-   "player_id": 1630551,
-   "height": "6-6",
-   "mouth": "smile"
+   "player_id": 1630551
   },
   {
    "id": "johnson",
@@ -459,8 +447,7 @@
    ],
    "look_source": "photo: center-parted locs / clean-shaven",
    "full_name": "Tre Johnson",
-   "player_id": 1642848,
-   "height": "6-5"
+   "player_id": 1642848
   },
   {
    "id": "gill",
@@ -495,8 +482,7 @@
    ],
    "look_source": "photo: short curls / full beard",
    "full_name": "Anthony Gill",
-   "player_id": 1630264,
-   "height": "6-8"
+   "player_id": 1630264
   },
   {
    "id": "george",
@@ -531,8 +517,7 @@
    ],
    "look_source": "photo: curly top / mustache",
    "full_name": "Kyshawn George",
-   "player_id": 1642273,
-   "height": "6-8"
+   "player_id": 1642273
   },
   {
    "id": "sarr",
@@ -572,8 +557,7 @@
    ],
    "look_source": "photo: braids back / full beard / earrings",
    "full_name": "Alex Sarr",
-   "player_id": 1642259,
-   "height": "7-0"
+   "player_id": 1642259
   },
   {
    "id": "middleton",
@@ -608,8 +592,7 @@
    ],
    "look_source": "photo: shaved head / mustache",
    "full_name": "Khris Middleton",
-   "player_id": 203114,
-   "height": "6-7"
+   "player_id": 203114
   },
   {
    "id": "davis",
@@ -652,11 +635,9 @@
     43,
     92
    ],
-   "look_source": "photo: white headband / full beard / earrings / unibrow",
+   "look_source": "photo: white headband / full beard / earrings",
    "full_name": "Anthony Davis",
-   "player_id": 203076,
-   "height": "6-10",
-   "brows": "unibrow"
+   "player_id": 203076
   },
   {
    "id": "beekman",
@@ -686,8 +667,7 @@
    ],
    "look_source": "photo: short curls / clean-shaven",
    "full_name": "Reece Beekman",
-   "player_id": 1641736,
-   "height": "6-1"
+   "player_id": 1641736
   },
   {
    "id": "riley",
@@ -717,8 +697,7 @@
    ],
    "look_source": "photo: tall curls / clean-shaven",
    "full_name": "Will Riley",
-   "player_id": 1642860,
-   "height": "6-9"
+   "player_id": 1642860
   },
   {
    "id": "okpara",
@@ -746,11 +725,9 @@
     43,
     92
    ],
-   "look_source": "photo: locs to the jaw / clean-shaven / thick brows",
+   "look_source": "photo: locs to the jaw / clean-shaven",
    "full_name": "Felix Okpara",
-   "player_id": 1643590,
-   "height": "6-11",
-   "brows": "thick"
+   "player_id": 1643590
   }
  ]
 }

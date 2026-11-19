@@ -132,8 +132,7 @@
    ],
    "look_source": "photo: thick braids to the jaw / full beard",
    "full_name": "Naz Reid",
-   "player_id": 1629675,
-   "height": "6-9"
+   "player_id": 1629675
   },
   {
    "id": "oneale",
@@ -178,8 +177,7 @@
    ],
    "look_source": "photo: white headband / thick beard / earring",
    "full_name": "Royce O'Neale",
-   "player_id": 1626220,
-   "height": "6-6"
+   "player_id": 1626220
   },
   {
    "id": "williams",
@@ -214,8 +212,7 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Grant Williams",
-   "player_id": 1629684,
-   "height": "6-7"
+   "player_id": 1629684
   },
   {
    "id": "white",
@@ -250,8 +247,7 @@
    ],
    "look_source": "photo: big coils to the jaw / full beard",
    "full_name": "Coby White",
-   "player_id": 1629632,
-   "height": "6-5"
+   "player_id": 1629632
   },
   {
    "id": "james",
@@ -284,11 +280,9 @@
     120,
     140
    ],
-   "look_source": "photo: braids back / goatee / smile",
+   "look_source": "photo: braids back / goatee",
    "full_name": "Sion James",
-   "player_id": 1642883,
-   "height": "6-5",
-   "mouth": "smile"
+   "player_id": 1642883
   },
   {
    "id": "anderson",
@@ -323,8 +317,7 @@
    ],
    "look_source": "photo: wide curly afro / mustache",
    "full_name": "Christian Anderson",
-   "player_id": 1643515,
-   "height": "6-1"
+   "player_id": 1643515
   },
   {
    "id": "knueppel",
@@ -359,8 +352,7 @@
    ],
    "look_source": "photo: swept back / red goatee",
    "full_name": "Kon Knueppel",
-   "player_id": 1642851,
-   "height": "6-6"
+   "player_id": 1642851
   },
   {
    "id": "allen",
@@ -390,8 +382,7 @@
    ],
    "look_source": "photo: buzz cut / clean-shaven",
    "full_name": "Grayson Allen",
-   "player_id": 1628960,
-   "height": "6-4"
+   "player_id": 1628960
   },
   {
    "id": "ajayi",
@@ -424,11 +415,9 @@
     120,
     140
    ],
-   "look_source": "photo: braids pulled back / goatee / thick brows",
+   "look_source": "photo: braids pulled back / goatee",
    "full_name": "Michael Ajayi",
-   "player_id": 1642369,
-   "height": "6-7",
-   "brows": "thick"
+   "player_id": 1642369
   },
   {
    "id": "kalkbrenner",
@@ -463,8 +452,7 @@
    ],
    "look_source": "photo: short curls / stubble",
    "full_name": "Ryan Kalkbrenner",
-   "player_id": 1641750,
-   "height": "7-1"
+   "player_id": 1641750
   },
   {
    "id": "diabate",
@@ -504,8 +492,7 @@
    ],
    "look_source": "photo: crop / mustache / earrings",
    "full_name": "Moussa Diabaté",
-   "player_id": 1631217,
-   "height": "6-10"
+   "player_id": 1631217
   },
   {
    "id": "hall",
@@ -535,8 +522,7 @@
    ],
    "look_source": "photo: dark wavy / clean-shaven",
    "full_name": "PJ Hall",
-   "player_id": 1641790,
-   "height": "6-9"
+   "player_id": 1641790
   },
   {
    "id": "schroder",
@@ -571,8 +557,7 @@
    ],
    "look_source": "photo: low cut / goatee",
    "full_name": "Dennis Schröder",
-   "player_id": 203471,
-   "height": "6-1"
+   "player_id": 203471
   },
   {
    "id": "boswell",
@@ -612,8 +597,7 @@
    ],
    "look_source": "photo: big afro + white headband / full beard",
    "full_name": "Kylan Boswell",
-   "player_id": 1643573,
-   "height": "6-1"
+   "player_id": 1643573
   },
   {
    "id": "steinbach",
@@ -643,8 +627,7 @@
    ],
    "look_source": "photo: brown curls / clean-shaven",
    "full_name": "Hannes Steinbach",
-   "player_id": 1643419,
-   "height": "6-10"
+   "player_id": 1643419
   },
   {
    "id": "miller",
@@ -682,12 +665,9 @@
     120,
     140
    ],
-   "look_source": "photo: curls + white headband / short beard / smile / round face",
+   "look_source": "photo: curls + white headband / short beard",
    "full_name": "Brandon Miller",
-   "player_id": 1641706,
-   "height": "6-7",
-   "mouth": "smile",
-   "face": "round"
+   "player_id": 1641706
   },
   {
    "id": "salaun",
@@ -722,8 +702,7 @@
    ],
    "look_source": "photo: cornrows + braid / goatee",
    "full_name": "Tidjane Salaün",
-   "player_id": 1642275,
-   "height": "6-10"
+   "player_id": 1642275
   },
   {
    "id": "mcneeley",
@@ -753,8 +732,7 @@
    ],
    "look_source": "photo: spiky side quiff / clean-shaven",
    "full_name": "Liam McNeeley",
-   "player_id": 1642862,
-   "height": "6-8"
+   "player_id": 1642862
   }
  ]
 }

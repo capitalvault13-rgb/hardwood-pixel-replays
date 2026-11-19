@@ -137,8 +137,7 @@
    ],
    "look_source": "photo: green-dyed hair + white headband / goatee",
    "full_name": "Jalen Duren",
-   "player_id": 1631105,
-   "height": "6-10"
+   "player_id": 1631105
   },
   {
    "id": "cunningham",
@@ -173,8 +172,7 @@
    ],
    "look_source": "photo: big afro / short beard",
    "full_name": "Cade Cunningham",
-   "player_id": 1630595,
-   "height": "6-6"
+   "player_id": 1630595
   },
   {
    "id": "holland",
@@ -209,8 +207,7 @@
    ],
    "look_source": "photo: braids back / short beard",
    "full_name": "Ronald Holland II",
-   "player_id": 1641842,
-   "height": "6-8"
+   "player_id": 1641842
   },
   {
    "id": "reed",
@@ -245,8 +242,7 @@
    ],
    "look_source": "photo: curly top / short beard",
    "full_name": "Paul Reed",
-   "player_id": 1630194,
-   "height": "6-9"
+   "player_id": 1630194
   },
   {
    "id": "lanier",
@@ -281,8 +277,7 @@
    ],
    "look_source": "photo: braids back flat / goatee",
    "full_name": "Chaz Lanier",
-   "player_id": 1642404,
-   "height": "6-4"
+   "player_id": 1642404
   },
   {
    "id": "thompson",
@@ -317,8 +312,7 @@
    ],
    "look_source": "photo: braids to the jaw / short beard",
    "full_name": "Ausar Thompson",
-   "player_id": 1641709,
-   "height": "6-7"
+   "player_id": 1641709
   },
   {
    "id": "prince",
@@ -353,8 +347,7 @@
    ],
    "look_source": "photo: cornrows + braid / short beard",
    "full_name": "Taurean Prince",
-   "player_id": 1627752,
-   "height": "6-6"
+   "player_id": 1627752
   },
   {
    "id": "jones",
@@ -394,8 +387,7 @@
    ],
    "look_source": "photo: long locs + black headband / goatee",
    "full_name": "Isaac Jones",
-   "player_id": 1642403,
-   "height": "6-8"
+   "player_id": 1642403
   },
   {
    "id": "joe",
@@ -430,8 +422,7 @@
    ],
    "look_source": "photo: box braids / full beard",
    "full_name": "Isaiah Joe",
-   "player_id": 1630198,
-   "height": "6-4"
+   "player_id": 1630198
   },
   {
    "id": "collins",
@@ -464,11 +455,9 @@
     16,
     46
    ],
-   "look_source": "photo: short curls / goatee / smile",
+   "look_source": "photo: short curls / goatee",
    "full_name": "John Collins",
-   "player_id": 1628381,
-   "height": "6-9",
-   "mouth": "smile"
+   "player_id": 1628381
   },
   {
    "id": "okorie",
@@ -503,8 +492,7 @@
    ],
    "look_source": "photo: tall messy curls / full beard",
    "full_name": "Ebuka Okorie",
-   "player_id": 1643536,
-   "height": "6-2"
+   "player_id": 1643536
   },
   {
    "id": "jenkins",
@@ -539,8 +527,7 @@
    ],
    "look_source": "photo: receding line-up / goatee",
    "full_name": "Daniss Jenkins",
-   "player_id": 1642450,
-   "height": "6-4"
+   "player_id": 1642450
   },
   {
    "id": "huerter",
@@ -570,8 +557,7 @@
    ],
    "look_source": "photo: red quiff / clean-shaven",
    "full_name": "Kevin Huerter",
-   "player_id": 1628989,
-   "height": "6-6"
+   "player_id": 1628989
   },
   {
    "id": "green",
@@ -604,12 +590,9 @@
     16,
     46
    ],
-   "look_source": "photo: low cut / goatee / round face / smile",
+   "look_source": "photo: low cut / goatee",
    "full_name": "Javonte Green",
-   "player_id": 1629750,
-   "height": "6-5",
-   "face": "round",
-   "mouth": "smile"
+   "player_id": 1629750
   },
   {
    "id": "onyenso",
@@ -642,11 +625,9 @@
     16,
     46
    ],
-   "look_source": "photo: fade / goatee / thick brows",
+   "look_source": "photo: fade / goatee",
    "full_name": "Ugonna Onyenso",
-   "player_id": 1642391,
-   "height": "6-11",
-   "brows": "thick"
+   "player_id": 1642391
   },
   {
    "id": "smith",
@@ -657,7 +638,7 @@
     110,
     80
    ],
-   "hair": "afro",
+   "hair": "curly_top",
    "hair_color": [
     22,
     18,
@@ -679,11 +660,9 @@
     16,
     46
    ],
-   "look_source": "photo: curly top / goatee / thick brows (hair: afro)",
+   "look_source": "photo: curly top / goatee",
    "full_name": "Tolu Smith",
-   "player_id": 1642449,
-   "height": "6-11",
-   "brows": "thick"
+   "player_id": 1642449
   },
   {
    "id": "robinson",
@@ -718,8 +697,7 @@
    ],
    "look_source": "photo: messy fringe / mustache",
    "full_name": "Duncan Robinson",
-   "player_id": 1629130,
-   "height": "6-7"
+   "player_id": 1629130
   },
   {
    "id": "harkless",
@@ -754,8 +732,7 @@
    ],
    "look_source": "photo: crop / full beard",
    "full_name": "Elijah Harkless",
-   "player_id": 1641989,
-   "height": "6-3"
+   "player_id": 1641989
   }
  ]
 }

@@ -142,8 +142,7 @@
    ],
    "look_source": "photo: thick shoulder locs / clean-shaven",
    "full_name": "Adou Thiero",
-   "player_id": 1642876,
-   "height": "6-7"
+   "player_id": 1642876
   },
   {
    "id": "vanderbilt",
@@ -183,8 +182,7 @@
    ],
    "look_source": "photo: locs + white headband / short beard",
    "full_name": "Jarred Vanderbilt",
-   "player_id": 1629020,
-   "height": "6-8"
+   "player_id": 1629020
   },
   {
    "id": "thybulle",
@@ -219,8 +217,7 @@
    ],
    "look_source": "photo: long thin locs / short beard",
    "full_name": "Matisse Thybulle",
-   "player_id": 1629680,
-   "height": "6-5"
+   "player_id": 1629680
   },
   {
    "id": "grimes",
@@ -255,8 +252,7 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Quentin Grimes",
-   "player_id": 1629656,
-   "height": "6-4"
+   "player_id": 1629656
   },
   {
    "id": "hardy",
@@ -291,8 +287,7 @@
    ],
    "look_source": "photo: low cut / full beard",
    "full_name": "Jaden Hardy",
-   "player_id": 1630702,
-   "height": "6-4"
+   "player_id": 1630702
   },
   {
    "id": "james",
@@ -327,8 +322,7 @@
    ],
    "look_source": "photo: rounded curly top / goatee",
    "full_name": "Bronny James",
-   "player_id": 1642355,
-   "height": "6-2"
+   "player_id": 1642355
   },
   {
    "id": "sexton",
@@ -363,8 +357,7 @@
    ],
    "look_source": "photo: messy afro + single braid / goatee",
    "full_name": "Collin Sexton",
-   "player_id": 1629012,
-   "height": "6-1"
+   "player_id": 1629012
   },
   {
    "id": "williams",
@@ -404,8 +397,7 @@
    ],
    "look_source": "photo: braids pulled back / short beard / white undershirt",
    "full_name": "Ziaire Williams",
-   "player_id": 1630533,
-   "height": "6-9"
+   "player_id": 1630533
   },
   {
    "id": "laravia",
@@ -440,8 +432,7 @@
    ],
    "look_source": "photo: high and tight / clean-shaven / white undershirt",
    "full_name": "Jake LaRavia",
-   "player_id": 1631222,
-   "height": "6-8"
+   "player_id": 1631222
   },
   {
    "id": "kessler",
@@ -476,8 +467,7 @@
    ],
    "look_source": "photo: messy fringe / clean-shaven / white undershirt",
    "full_name": "Walker Kessler",
-   "player_id": 1631117,
-   "height": "7-1"
+   "player_id": 1631117
   },
   {
    "id": "reaves",
@@ -512,8 +502,7 @@
    ],
    "look_source": "photo: short + white headband / clean-shaven",
    "full_name": "Austin Reaves",
-   "player_id": 1630559,
-   "height": "6-5"
+   "player_id": 1630559
   },
   {
    "id": "cooper",
@@ -548,8 +537,7 @@
    ],
    "look_source": "photo: blond side quiff / goatee",
    "full_name": "Carson Cooper",
-   "player_id": 1643721,
-   "height": "6-10"
+   "player_id": 1643721
   },
   {
    "id": "manon",
@@ -579,8 +567,7 @@
    ],
    "look_source": "photo: crop / clean-shaven",
    "full_name": "Chris Mañon",
-   "player_id": 1643024,
-   "height": "6-4"
+   "player_id": 1643024
   },
   {
    "id": "carr",
@@ -625,8 +612,7 @@
     236,
     236,
     240
-   ],
-   "height": "6-5"
+   ]
   },
   {
    "id": "kaluma",
@@ -666,8 +652,7 @@
    ],
    "look_source": "photo: spiky freeform twists / goatee / white undershirt",
    "full_name": "Arthur Kaluma",
-   "player_id": 1641751,
-   "height": "6-7"
+   "player_id": 1641751
   },
   {
    "id": "mamukelashvili",
@@ -702,8 +687,7 @@
    ],
    "look_source": "photo: short fade / thick beard",
    "full_name": "Sandro Mamukelashvili",
-   "player_id": 1630572,
-   "height": "6-10"
+   "player_id": 1630572
   },
   {
    "id": "looney",
@@ -738,8 +722,7 @@
    ],
    "look_source": "photo: flat short twists / goatee",
    "full_name": "Kevon Looney",
-   "player_id": 1626172,
-   "height": "6-9"
+   "player_id": 1626172
   },
   {
    "id": "doncic",
@@ -774,8 +757,7 @@
    ],
    "look_source": "photo: swept back / short beard",
    "full_name": "Luka Dončić",
-   "player_id": 1629029,
-   "height": "6-8"
+   "player_id": 1629029
   }
  ]
 }

@@ -132,8 +132,7 @@
    ],
    "look_source": "photo: cornrows + short braids / goatee",
    "full_name": "Jamal Shead",
-   "player_id": 1642347,
-   "height": "6-1"
+   "player_id": 1642347
   },
   {
    "id": "leonard",
@@ -171,11 +170,9 @@
     17,
     65
    ],
-   "look_source": "photo: black headband / short beard / smile",
+   "look_source": "photo: black headband / short beard",
    "full_name": "Kawhi Leonard",
-   "player_id": 202695,
-   "height": "6-7",
-   "mouth": "smile"
+   "player_id": 202695
   },
   {
    "id": "barnes",
@@ -210,8 +207,7 @@
    ],
    "look_source": "photo: cornrows + braid / mustache",
    "full_name": "Scottie Barnes",
-   "player_id": 1630567,
-   "height": "6-8"
+   "player_id": 1630567
   },
   {
    "id": "quickley",
@@ -249,11 +245,9 @@
     17,
     65
    ],
-   "look_source": "photo: braids + black headband / short beard / round face",
+   "look_source": "photo: braids + black headband / short beard",
    "full_name": "Immanuel Quickley",
-   "player_id": 1630193,
-   "height": "6-3",
-   "face": "round"
+   "player_id": 1630193
   },
   {
    "id": "bradley",
@@ -288,8 +282,7 @@
    ],
    "look_source": "photo: cornrows + braid / mustache",
    "full_name": "Jaden Bradley",
-   "player_id": 1643558,
-   "height": "6-3"
+   "player_id": 1643558
   },
   {
    "id": "barrett",
@@ -327,11 +320,9 @@
     17,
     65
    ],
-   "look_source": "photo: braids hanging / mustache / earrings / smile",
+   "look_source": "photo: braids hanging / mustache / earrings",
    "full_name": "RJ Barrett",
-   "player_id": 1629628,
-   "height": "6-6",
-   "mouth": "smile"
+   "player_id": 1629628
   },
   {
    "id": "mccullar",
@@ -366,8 +357,7 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Kevin McCullar Jr.",
-   "player_id": 1641755,
-   "height": "6-6"
+   "player_id": 1641755
   },
   {
    "id": "bittle",
@@ -402,8 +392,7 @@
    ],
    "look_source": "photo: swept back / goatee",
    "full_name": "Nate Bittle",
-   "player_id": 1642927,
-   "height": "7-0"
+   "player_id": 1642927
   },
   {
    "id": "anderson",
@@ -438,8 +427,7 @@
    ],
    "look_source": "photo: curly top / full beard",
    "full_name": "Kyle Anderson",
-   "player_id": 203937,
-   "height": "6-8"
+   "player_id": 203937
   },
   {
    "id": "walter",
@@ -479,8 +467,7 @@
    ],
    "look_source": "photo: afro + black headband / mustache",
    "full_name": "Ja'Kobe Walter",
-   "player_id": 1642266,
-   "height": "6-5"
+   "player_id": 1642266
   },
   {
    "id": "smith",
@@ -515,8 +502,7 @@
    ],
    "look_source": "photo: crop / goatee",
    "full_name": "Malachi Smith",
-   "player_id": 1641869,
-   "height": "6-4"
+   "player_id": 1641869
   },
   {
    "id": "poeltl",
@@ -551,8 +537,7 @@
    ],
    "look_source": "photo: short / red stubble",
    "full_name": "Jakob Poeltl",
-   "player_id": 1627751,
-   "height": "7-0"
+   "player_id": 1627751
   },
   {
    "id": "graves",
@@ -585,11 +570,9 @@
     17,
     65
    ],
-   "look_source": "photo: long curls / full beard / smile",
+   "look_source": "photo: long curls / full beard",
    "full_name": "Allen Graves",
-   "player_id": 1643512,
-   "height": "6-8",
-   "mouth": "smile"
+   "player_id": 1643512
   },
   {
    "id": "murrayboyles",
@@ -622,11 +605,9 @@
     17,
     65
    ],
-   "look_source": "photo: long braids / mustache / thick brows",
+   "look_source": "photo: long braids / mustache",
    "full_name": "Collin Murray-Boyles",
-   "player_id": 1642867,
-   "height": "6-7",
-   "brows": "thick"
+   "player_id": 1642867
   },
   {
    "id": "jacksondavis",
@@ -656,8 +637,7 @@
    ],
    "look_source": "photo: crop / clean-shaven",
    "full_name": "Trayce Jackson-Davis",
-   "player_id": 1631218,
-   "height": "6-9"
+   "player_id": 1631218
   },
   {
    "id": "martin",
@@ -695,11 +675,9 @@
     17,
     65
    ],
-   "look_source": "photo: parted cornrows / goatee / earrings / smile",
+   "look_source": "photo: parted cornrows / goatee / earrings",
    "full_name": "Alijah Martin",
-   "player_id": 1642918,
-   "height": "6-2",
-   "mouth": "smile"
+   "player_id": 1642918
   },
   {
    "id": "battle",
@@ -739,8 +717,7 @@
    ],
    "look_source": "photo: brown curls / red goatee / earrings",
    "full_name": "Jamison Battle",
-   "player_id": 1642419,
-   "height": "6-7"
+   "player_id": 1642419
   }
  ]
 }
