@@ -132,7 +132,8 @@
    ],
    "look_source": "photo: cornrows / huge beard",
    "full_name": "James Harden",
-   "player_id": 201935
+   "player_id": 201935,
+   "height": "6-4"
   },
   {
    "id": "bryant",
@@ -165,9 +166,11 @@
     0,
     56
    ],
-   "look_source": "photo: short curls / goatee",
+   "look_source": "photo: short curls / goatee / round face",
    "full_name": "Thomas Bryant",
-   "player_id": 1628418
+   "player_id": 1628418,
+   "height": "6-9",
+   "face": "round"
   },
   {
    "id": "mobley",
@@ -202,7 +205,8 @@
    ],
    "look_source": "photo: receding line-up / goatee",
    "full_name": "Evan Mobley",
-   "player_id": 1630596
+   "player_id": 1630596,
+   "height": "6-11"
   },
   {
    "id": "merrill",
@@ -232,7 +236,8 @@
    ],
    "look_source": "photo: high and tight / clean-shaven",
    "full_name": "Sam Merrill",
-   "player_id": 1630241
+   "player_id": 1630241,
+   "height": "6-4"
   },
   {
    "id": "watson",
@@ -272,7 +277,8 @@
    ],
    "look_source": "photo: braids + white headband / earrings",
    "full_name": "Peyton Watson",
-   "player_id": 1631212
+   "player_id": 1631212,
+   "height": "6-7"
   },
   {
    "id": "porter",
@@ -307,7 +313,8 @@
    ],
    "look_source": "photo: curly top / goatee",
    "full_name": "Craig Porter Jr.",
-   "player_id": 1641854
+   "player_id": 1641854,
+   "height": "6-1"
   },
   {
    "id": "thomas",
@@ -347,7 +354,8 @@
    ],
    "look_source": "photo: braids back / mustache / earrings",
    "full_name": "Meleek Thomas",
-   "player_id": 1643509
+   "player_id": 1643509,
+   "height": "6-3"
   },
   {
    "id": "diop",
@@ -377,7 +385,8 @@
    ],
    "look_source": "photo: locs falling forward / clean-shaven",
    "full_name": "Khalifa Diop",
-   "player_id": 1631215
+   "player_id": 1631215,
+   "height": "6-10"
   },
   {
    "id": "tyson",
@@ -417,7 +426,8 @@
    ],
    "look_source": "photo: cornrows + braid / goatee / earrings",
    "full_name": "Jaylon Tyson",
-   "player_id": 1642281
+   "player_id": 1642281,
+   "height": "6-6"
   },
   {
    "id": "proctor",
@@ -457,7 +467,8 @@
    ],
    "look_source": "photo: wide curls / goatee / earrings",
    "full_name": "Tyrese Proctor",
-   "player_id": 1642878
+   "player_id": 1642878,
+   "height": "6-4"
   },
   {
    "id": "allen",
@@ -497,7 +508,8 @@
    ],
    "look_source": "photo: afro + white headband / full beard",
    "full_name": "Jarrett Allen",
-   "player_id": 1628386
+   "player_id": 1628386,
+   "height": "6-9"
   },
   {
    "id": "hezonja",
@@ -527,7 +539,8 @@
    ],
    "look_source": "photo: slicked back / clean-shaven",
    "full_name": "Mario Hezonja",
-   "player_id": 1626209
+   "player_id": 1626209,
+   "height": "6-8"
   },
   {
    "id": "tomlin",
@@ -570,9 +583,11 @@
     0,
     56
    ],
-   "look_source": "photo: white headband / mustache / earrings",
+   "look_source": "photo: white headband / mustache / earrings / smile",
    "full_name": "Nae'Qwan Tomlin",
-   "player_id": 1641772
+   "player_id": 1641772,
+   "height": "6-8",
+   "mouth": "smile"
   },
   {
    "id": "mitchell",
@@ -605,9 +620,11 @@
     0,
     56
    ],
-   "look_source": "photo: short curls / full beard",
+   "look_source": "photo: short curls / full beard / smile",
    "full_name": "Donovan Mitchell",
-   "player_id": 1628378
+   "player_id": 1628378,
+   "height": "6-2",
+   "mouth": "smile"
   },
   {
    "id": "omier",
@@ -642,7 +659,8 @@
    ],
    "look_source": "photo: wild afro / full beard",
    "full_name": "Norchad Omier",
-   "player_id": 1641807
+   "player_id": 1641807,
+   "height": "6-5"
   },
   {
    "id": "udeh",
@@ -677,7 +695,8 @@
    ],
    "look_source": "photo: crop / full beard",
    "full_name": "Ernest Udeh Jr.",
-   "player_id": 1643640
+   "player_id": 1643640,
+   "height": "6-9"
   },
   {
    "id": "austin",
@@ -717,7 +736,8 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Zack Austin",
-   "player_id": 1643113
+   "player_id": 1643113,
+   "height": "6-5"
   }
  ]
 }

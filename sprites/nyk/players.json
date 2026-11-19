@@ -132,7 +132,8 @@
    ],
    "look_source": "photo: receding line-up / full beard",
    "full_name": "Andre Drummond",
-   "player_id": 203083
+   "player_id": 203083,
+   "height": "6-10"
   },
   {
    "id": "clarkson",
@@ -167,7 +168,8 @@
    ],
    "look_source": "photo: long twists / mustache",
    "full_name": "Jordan Clarkson",
-   "player_id": 203903
+   "player_id": 203903,
+   "height": "6-5"
   },
   {
    "id": "knecht",
@@ -197,7 +199,8 @@
    ],
    "look_source": "photo: messy fringe / clean-shaven",
    "full_name": "Dalton Knecht",
-   "player_id": 1642261
+   "player_id": 1642261,
+   "height": "6-5"
   },
   {
    "id": "mcbride",
@@ -237,7 +240,8 @@
    ],
    "look_source": "photo: big curls / mustache / earrings",
    "full_name": "Miles McBride",
-   "player_id": 1630540
+   "player_id": 1630540,
+   "height": "6-2"
   },
   {
    "id": "hart",
@@ -282,7 +286,8 @@
    ],
    "look_source": "photo: white headband / goatee / earrings",
    "full_name": "Josh Hart",
-   "player_id": 1628404
+   "player_id": 1628404,
+   "height": "6-5"
   },
   {
    "id": "dadiet",
@@ -312,7 +317,8 @@
    ],
    "look_source": "photo: locs to the jaw / clean-shaven",
    "full_name": "Pacôme Dadiet",
-   "player_id": 1642359
+   "player_id": 1642359,
+   "height": "6-9"
   },
   {
    "id": "alvarado",
@@ -352,7 +358,8 @@
    ],
    "look_source": "photo: white headband / full beard",
    "full_name": "Jose Alvarado",
-   "player_id": 1630631
+   "player_id": 1630631,
+   "height": "6-0"
   },
   {
    "id": "anunoby",
@@ -382,7 +389,8 @@
    ],
    "look_source": "photo: freeform twists / clean-shaven",
    "full_name": "OG Anunoby",
-   "player_id": 1628384
+   "player_id": 1628384,
+   "height": "6-7"
   },
   {
    "id": "brunson",
@@ -417,7 +425,8 @@
    ],
    "look_source": "photo: center-parted twists / short beard",
    "full_name": "Jalen Brunson",
-   "player_id": 1628973
+   "player_id": 1628973,
+   "height": "6-2"
   },
   {
    "id": "kolek",
@@ -447,7 +456,8 @@
    ],
    "look_source": "photo: long hair / clean-shaven",
    "full_name": "Tyler Kolek",
-   "player_id": 1642278
+   "player_id": 1642278,
+   "height": "6-2"
   },
   {
    "id": "akins",
@@ -477,7 +487,8 @@
    ],
    "look_source": "guess: crop / clean-shaven (no nba.com headshot yet)",
    "full_name": "Jaden Akins",
-   "player_id": 1643022
+   "player_id": 1643022,
+   "height": "6-2"
   },
   {
    "id": "bridges",
@@ -512,7 +523,8 @@
    ],
    "look_source": "photo: low cut / full beard",
    "full_name": "Mikal Bridges",
-   "player_id": 1628969
+   "player_id": 1628969,
+   "height": "6-6"
   },
   {
    "id": "towns",
@@ -547,7 +559,8 @@
    ],
    "look_source": "photo: curly top / full beard",
    "full_name": "Karl-Anthony Towns",
-   "player_id": 1626157
+   "player_id": 1626157,
+   "height": "7-0"
   },
   {
    "id": "wiseman",
@@ -582,7 +595,8 @@
    ],
    "look_source": "photo: tall curls / goatee",
    "full_name": "James Wiseman",
-   "player_id": 1630164
+   "player_id": 1630164,
+   "height": "7-0"
   },
   {
    "id": "shamet",
@@ -617,7 +631,8 @@
    ],
    "look_source": "photo: short curls / short beard",
    "full_name": "Landry Shamet",
-   "player_id": 1629013
+   "player_id": 1629013,
+   "height": "6-5"
   },
   {
    "id": "diawara",
@@ -657,7 +672,8 @@
    ],
    "look_source": "photo: cornrows / goatee / earrings",
    "full_name": "Mohamed Diawara",
-   "player_id": 1642885
+   "player_id": 1642885,
+   "height": "6-9"
   },
   {
    "id": "nickel",
@@ -692,7 +708,8 @@
    ],
    "look_source": "photo: red crop / short beard",
    "full_name": "Tyler Nickel",
-   "player_id": 1643589
+   "player_id": 1643589,
+   "height": "6-7"
   }
  ]
 }

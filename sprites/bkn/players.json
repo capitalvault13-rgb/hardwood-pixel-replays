@@ -137,7 +137,8 @@
    ],
    "look_source": "photo: short twists + black headband / mustache",
    "full_name": "Mikel Brown Jr.",
-   "player_id": 1643414
+   "player_id": 1643414,
+   "height": "6-4"
   },
   {
    "id": "minott",
@@ -172,7 +173,8 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Josh Minott",
-   "player_id": 1631169
+   "player_id": 1631169,
+   "height": "6-9"
   },
   {
    "id": "ellis",
@@ -207,7 +209,8 @@
    ],
    "look_source": "photo: short twists + braids behind / goatee",
    "full_name": "Keon Ellis",
-   "player_id": 1631165
+   "player_id": 1631165,
+   "height": "6-4"
   },
   {
    "id": "wolf",
@@ -242,7 +245,8 @@
    ],
    "look_source": "photo: crop / short stubble",
    "full_name": "Danny Wolf",
-   "player_id": 1642874
+   "player_id": 1642874,
+   "height": "6-11"
   },
   {
    "id": "powell",
@@ -277,7 +281,8 @@
    ],
    "look_source": "photo: high rounded afro / short beard",
    "full_name": "Drake Powell",
-   "player_id": 1642962
+   "player_id": 1642962,
+   "height": "6-6"
   },
   {
    "id": "demin",
@@ -312,7 +317,8 @@
    ],
    "look_source": "photo: spiky fringe / goatee",
    "full_name": "Egor Dëmin",
-   "player_id": 1642856
+   "player_id": 1642856,
+   "height": "6-9"
   },
   {
    "id": "jefferson",
@@ -347,7 +353,8 @@
    ],
    "look_source": "photo: big round afro / short beard",
    "full_name": "Joshua Jefferson",
-   "player_id": 1643538
+   "player_id": 1643538,
+   "height": "6-8"
   },
   {
    "id": "traore",
@@ -380,9 +387,11 @@
     24,
     26
    ],
-   "look_source": "photo: curly top / mustache",
+   "look_source": "photo: curly top / mustache / smile",
    "full_name": "Nolan Traore",
-   "player_id": 1642849
+   "player_id": 1642849,
+   "height": "6-4",
+   "mouth": "smile"
   },
   {
    "id": "wagner",
@@ -417,7 +426,8 @@
    ],
    "look_source": "photo: wavy medium / mustache",
    "full_name": "Moritz Wagner",
-   "player_id": 1629021
+   "player_id": 1629021,
+   "height": "6-11"
   },
   {
    "id": "mann",
@@ -452,7 +462,8 @@
    ],
    "look_source": "photo: long braids + white headband / clean-shaven",
    "full_name": "Terance Mann",
-   "player_id": 1629611
+   "player_id": 1629611,
+   "height": "6-5"
   },
   {
    "id": "nelson",
@@ -485,9 +496,11 @@
     24,
     26
    ],
-   "look_source": "photo: messy fringe / mustache",
+   "look_source": "photo: messy fringe / mustache / smile",
    "full_name": "Grant Nelson",
-   "player_id": 1641761
+   "player_id": 1641761,
+   "height": "6-10",
+   "mouth": "smile"
   },
   {
    "id": "porter",
@@ -522,7 +535,8 @@
    ],
    "look_source": "photo: fade + line-up / goatee",
    "full_name": "Michael Porter Jr.",
-   "player_id": 1629008
+   "player_id": 1629008,
+   "height": "6-10"
   },
   {
    "id": "sharpe",
@@ -557,7 +571,8 @@
    ],
    "look_source": "photo: low cut / full beard",
    "full_name": "Day'Ron Sharpe",
-   "player_id": 1630549
+   "player_id": 1630549,
+   "height": "6-10"
   },
   {
    "id": "clowney",
@@ -592,7 +607,8 @@
    ],
    "look_source": "photo: blond locs on top / short beard",
    "full_name": "Noah Clowney",
-   "player_id": 1641730
+   "player_id": 1641730,
+   "height": "6-10"
   },
   {
    "id": "randle",
@@ -627,7 +643,8 @@
    ],
    "look_source": "photo: crop / thick beard",
    "full_name": "Julius Randle",
-   "player_id": 203944
+   "player_id": 203944,
+   "height": "6-9"
   },
   {
    "id": "johnson",
@@ -662,7 +679,8 @@
    ],
    "look_source": "photo: freeform twists / full beard",
    "full_name": "Chaney Johnson",
-   "player_id": 1643052
+   "player_id": 1643052,
+   "height": "6-7"
   },
   {
    "id": "bilodeau",
@@ -692,7 +710,8 @@
    ],
    "look_source": "photo: high and tight / clean-shaven",
    "full_name": "Tyler Bilodeau",
-   "player_id": 1643548
+   "player_id": 1643548,
+   "height": "6-8"
   },
   {
    "id": "saraf",
@@ -725,9 +744,11 @@
     24,
     26
    ],
-   "look_source": "photo: curly top / goatee",
+   "look_source": "photo: curly top / goatee / thick brows",
    "full_name": "Ben Saraf",
-   "player_id": 1642879
+   "player_id": 1642879,
+   "height": "6-5",
+   "brows": "thick"
   }
  ]
 }

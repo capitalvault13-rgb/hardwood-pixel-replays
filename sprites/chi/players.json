@@ -132,7 +132,8 @@
    ],
    "look_source": "photo: braids pulled back / mustache",
    "full_name": "Noa Essengue",
-   "player_id": 1642855
+   "player_id": 1642855,
+   "height": "6-9"
   },
   {
    "id": "giddey",
@@ -162,7 +163,8 @@
    ],
    "look_source": "photo: straight hair to the jaw / clean-shaven",
    "full_name": "Josh Giddey",
-   "player_id": 1630581
+   "player_id": 1630581,
+   "height": "6-8"
   },
   {
    "id": "swain",
@@ -202,7 +204,8 @@
    ],
    "look_source": "photo: curly top / mustache / earrings",
    "full_name": "Dailyn Swain",
-   "player_id": 1643517
+   "player_id": 1643517,
+   "height": "6-6"
   },
   {
    "id": "robinson",
@@ -237,7 +240,8 @@
    ],
    "look_source": "photo: low cut / goatee",
    "full_name": "Orlando Robinson",
-   "player_id": 1631115
+   "player_id": 1631115,
+   "height": "6-10"
   },
   {
    "id": "hield",
@@ -277,7 +281,8 @@
    ],
    "look_source": "photo: long braids + white headband / short beard",
    "full_name": "Buddy Hield",
-   "player_id": 1627741
+   "player_id": 1627741,
+   "height": "6-5"
   },
   {
    "id": "wilson",
@@ -288,7 +293,7 @@
     52,
     38
    ],
-   "hair": "locs",
+   "hair": "braids_back",
    "hair_color": [
     22,
     18,
@@ -305,9 +310,11 @@
     17,
     65
    ],
-   "look_source": "photo: braids to the jaw / clean-shaven",
+   "look_source": "photo: braids to the jaw / clean-shaven / smile (hair: braids_back)",
    "full_name": "Caleb Wilson",
-   "player_id": 1643410
+   "player_id": 1643410,
+   "height": "6-10",
+   "mouth": "smile"
   },
   {
    "id": "claxton",
@@ -347,7 +354,8 @@
    ],
    "look_source": "photo: long braids / short beard / earrings",
    "full_name": "Nic Claxton",
-   "player_id": 1629651
+   "player_id": 1629651,
+   "height": "6-11"
   },
   {
    "id": "miller",
@@ -377,7 +385,8 @@
    ],
    "look_source": "photo: center-parted braids / clean-shaven",
    "full_name": "Leonard Miller",
-   "player_id": 1631159
+   "player_id": 1631159,
+   "height": "6-10"
   },
   {
    "id": "collins",
@@ -407,7 +416,8 @@
    ],
    "look_source": "photo: swept-back undercut / clean-shaven",
    "full_name": "Zach Collins",
-   "player_id": 1628380
+   "player_id": 1628380,
+   "height": "6-9"
   },
   {
    "id": "buzelis",
@@ -442,7 +452,8 @@
    ],
    "look_source": "photo: messy fringe / goatee",
    "full_name": "Matas Buzelis",
-   "player_id": 1641824
+   "player_id": 1641824,
+   "height": "6-9"
   },
   {
    "id": "hawkins",
@@ -475,9 +486,11 @@
     17,
     65
    ],
-   "look_source": "photo: crop / short beard",
+   "look_source": "photo: crop / short beard / smile",
    "full_name": "Jordan Hawkins",
-   "player_id": 1641722
+   "player_id": 1641722,
+   "height": "6-4",
+   "mouth": "smile"
   },
   {
    "id": "awaka",
@@ -512,7 +525,8 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Tobe Awaka",
-   "player_id": 1643591
+   "player_id": 1643591,
+   "height": "6-8"
   },
   {
    "id": "sellers",
@@ -547,7 +561,8 @@
    ],
    "look_source": "photo: huge afro / clean-shaven / earrings",
    "full_name": "Jaylin Sellers",
-   "player_id": 1643637
+   "player_id": 1643637,
+   "height": "6-4"
   },
   {
    "id": "powell",
@@ -582,7 +597,8 @@
    ],
    "look_source": "photo: short line-up / full beard",
    "full_name": "Norman Powell",
-   "player_id": 1626181
+   "player_id": 1626181,
+   "height": "6-4"
   },
   {
    "id": "smith",
@@ -612,7 +628,8 @@
    ],
    "look_source": "photo: low cut / clean-shaven",
    "full_name": "Jalen Smith",
-   "player_id": 1630188
+   "player_id": 1630188,
+   "height": "6-9"
   },
   {
    "id": "jones",
@@ -647,7 +664,8 @@
    ],
    "look_source": "photo: tall curls / goatee",
    "full_name": "Tre Jones",
-   "player_id": 1630200
+   "player_id": 1630200,
+   "height": "6-1"
   },
   {
    "id": "okoro",
@@ -682,7 +700,8 @@
    ],
    "look_source": "photo: short waves / mustache",
    "full_name": "Isaac Okoro",
-   "player_id": 1630171
+   "player_id": 1630171,
+   "height": "6-6"
   },
   {
    "id": "williams",
@@ -717,7 +736,8 @@
    ],
    "look_source": "photo: receding line-up / goatee",
    "full_name": "Patrick Williams",
-   "player_id": 1630172
+   "player_id": 1630172,
+   "height": "6-7"
   }
  ]
 }

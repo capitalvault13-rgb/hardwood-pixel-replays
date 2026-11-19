@@ -132,7 +132,8 @@
    ],
    "look_source": "photo: short curls / short beard",
    "full_name": "Tyrese Haliburton",
-   "player_id": 1630169
+   "player_id": 1630169,
+   "height": "6-5"
   },
   {
    "id": "toppin",
@@ -167,7 +168,8 @@
    ],
    "look_source": "photo: box braids / full beard",
    "full_name": "Obi Toppin",
-   "player_id": 1630167
+   "player_id": 1630167,
+   "height": "6-9"
   },
   {
    "id": "nembhard",
@@ -207,7 +209,8 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Andrew Nembhard",
-   "player_id": 1629614
+   "player_id": 1629614,
+   "height": "6-4"
   },
   {
    "id": "smith",
@@ -242,7 +245,8 @@
    ],
    "look_source": "photo: high and tight / full beard",
    "full_name": "Braden Smith",
-   "player_id": 1643552
+   "player_id": 1643552,
+   "height": "5-11"
   },
   {
    "id": "walker",
@@ -277,7 +281,8 @@
    ],
    "look_source": "photo: cornrows / full beard",
    "full_name": "Jarace Walker",
-   "player_id": 1641716
+   "player_id": 1641716,
+   "height": "6-7"
   },
   {
    "id": "mcconnell",
@@ -312,7 +317,8 @@
    ],
    "look_source": "photo: side quiff / stubble",
    "full_name": "T.J. McConnell",
-   "player_id": 204456
+   "player_id": 204456,
+   "height": "6-1"
   },
   {
    "id": "oubre",
@@ -352,7 +358,8 @@
    ],
    "look_source": "photo: long brown coils / goatee / earrings",
    "full_name": "Kelly Oubre Jr.",
-   "player_id": 1626162
+   "player_id": 1626162,
+   "height": "6-7"
   },
   {
    "id": "furphy",
@@ -382,7 +389,8 @@
    ],
    "look_source": "photo: messy fringe / clean-shaven",
    "full_name": "Johnny Furphy",
-   "player_id": 1642277
+   "player_id": 1642277,
+   "height": "6-8"
   },
   {
    "id": "slawson",
@@ -417,7 +425,8 @@
    ],
    "look_source": "photo: curly top / goatee",
    "full_name": "Jalen Slawson",
-   "player_id": 1641771
+   "player_id": 1641771,
+   "height": "6-7"
   },
   {
    "id": "nance",
@@ -457,7 +466,8 @@
    ],
    "look_source": "photo: white headband / full beard",
    "full_name": "Larry Nance Jr.",
-   "player_id": 1626204
+   "player_id": 1626204,
+   "height": "6-8"
   },
   {
    "id": "nesmith",
@@ -490,9 +500,11 @@
     45,
     98
    ],
-   "look_source": "photo: long box braids / goatee",
+   "look_source": "photo: long box braids / goatee / smile",
    "full_name": "Aaron Nesmith",
-   "player_id": 1630174
+   "player_id": 1630174,
+   "height": "6-5",
+   "mouth": "smile"
   },
   {
    "id": "brown",
@@ -527,7 +539,8 @@
    ],
    "look_source": "photo: freeform twists / mustache",
    "full_name": "Kobe Brown",
-   "player_id": 1641738
+   "player_id": 1641738,
+   "height": "6-7"
   },
   {
    "id": "sheppard",
@@ -562,7 +575,8 @@
    ],
    "look_source": "photo: crop / goatee",
    "full_name": "Ben Sheppard",
-   "player_id": 1641767
+   "player_id": 1641767,
+   "height": "6-6"
   },
   {
    "id": "jackson",
@@ -597,7 +611,8 @@
    ],
    "look_source": "photo: locs / mustache",
    "full_name": "Quenton Jackson",
-   "player_id": 1631245
+   "player_id": 1631245,
+   "height": "6-4"
   },
   {
    "id": "huff",
@@ -637,7 +652,8 @@
    ],
    "look_source": "photo: white headband / thick red beard",
    "full_name": "Jay Huff",
-   "player_id": 1630643
+   "player_id": 1630643,
+   "height": "7-1"
   },
   {
    "id": "zubac",
@@ -672,7 +688,8 @@
    ],
    "look_source": "photo: buzz cut / full beard",
    "full_name": "Ivica Zubac",
-   "player_id": 1627826
+   "player_id": 1627826,
+   "height": "7-0"
   },
   {
    "id": "siakam",
@@ -712,7 +729,8 @@
    ],
    "look_source": "photo: afro + white headband / goatee",
    "full_name": "Pascal Siakam",
-   "player_id": 1627783
+   "player_id": 1627783,
+   "height": "6-9"
   }
  ]
 }

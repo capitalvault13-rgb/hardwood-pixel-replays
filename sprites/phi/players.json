@@ -132,7 +132,8 @@
    ],
    "look_source": "photo: cornrows + braids / goatee",
    "full_name": "Tyrese Maxey",
-   "player_id": 1630178
+   "player_id": 1630178,
+   "height": "6-2"
   },
   {
    "id": "philon",
@@ -172,7 +173,8 @@
    ],
    "look_source": "photo: short braids + white headband / goatee",
    "full_name": "Labaron Philon Jr.",
-   "player_id": 1642889
+   "player_id": 1642889,
+   "height": "6-3"
   },
   {
    "id": "caldwellpope",
@@ -210,9 +212,11 @@
     107,
     182
    ],
-   "look_source": "photo: long braids + white headband / goatee",
+   "look_source": "photo: long braids + white headband / goatee / smile",
    "full_name": "Kentavious Caldwell-Pope",
-   "player_id": 203484
+   "player_id": 203484,
+   "height": "6-5",
+   "mouth": "smile"
   },
   {
    "id": "simons",
@@ -247,7 +251,8 @@
    ],
    "look_source": "photo: curly top / short beard",
    "full_name": "Anfernee Simons",
-   "player_id": 1629014
+   "player_id": 1629014,
+   "height": "6-4"
   },
   {
    "id": "brown",
@@ -280,9 +285,11 @@
     107,
     182
    ],
-   "look_source": "photo: low cut / thick beard",
+   "look_source": "photo: low cut / thick beard / smile",
    "full_name": "Jaylen Brown",
-   "player_id": 1627759
+   "player_id": 1627759,
+   "height": "6-6",
+   "mouth": "smile"
   },
   {
    "id": "love",
@@ -322,7 +329,8 @@
    ],
    "look_source": "photo: center-parted twists / mustache / earrings",
    "full_name": "Caleb Love",
-   "player_id": 1631126
+   "player_id": 1631126,
+   "height": "6-3"
   },
   {
    "id": "edwards",
@@ -357,7 +365,8 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Justin Edwards",
-   "player_id": 1642348
+   "player_id": 1642348,
+   "height": "6-7"
   },
   {
    "id": "rupert",
@@ -392,7 +401,8 @@
    ],
    "look_source": "photo: crop / full beard",
    "full_name": "Rayan Rupert",
-   "player_id": 1641712
+   "player_id": 1641712,
+   "height": "6-7"
   },
   {
    "id": "embiid",
@@ -427,7 +437,8 @@
    ],
    "look_source": "photo: twists on top / short beard",
    "full_name": "Joel Embiid",
-   "player_id": 203954
+   "player_id": 203954,
+   "height": "7-0"
   },
   {
    "id": "james",
@@ -460,9 +471,12 @@
     107,
     182
    ],
-   "look_source": "photo: shaved head / thick beard",
+   "look_source": "photo: shaved head / thick beard / smile / round face",
    "full_name": "LeBron James",
-   "player_id": 2544
+   "player_id": 2544,
+   "height": "6-9",
+   "mouth": "smile",
+   "face": "round"
   },
   {
    "id": "barlow",
@@ -502,7 +516,8 @@
    ],
    "look_source": "photo: round afro / goatee / earrings",
    "full_name": "Dominick Barlow",
-   "player_id": 1631230
+   "player_id": 1631230,
+   "height": "6-9"
   },
   {
    "id": "bona",
@@ -542,7 +557,8 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Adem Bona",
-   "player_id": 1641737
+   "player_id": 1641737,
+   "height": "6-10"
   },
   {
    "id": "walker",
@@ -572,7 +588,8 @@
    ],
    "look_source": "photo: cornrows + long braids / clean-shaven",
    "full_name": "Jabari Walker",
-   "player_id": 1631133
+   "player_id": 1631133,
+   "height": "6-7"
   },
   {
    "id": "wade",
@@ -607,7 +624,8 @@
    ],
    "look_source": "photo: messy curls / full beard",
    "full_name": "Dean Wade",
-   "player_id": 1629731
+   "player_id": 1629731,
+   "height": "6-9"
   },
   {
    "id": "hukporti",
@@ -645,9 +663,12 @@
     107,
     182
    ],
-   "look_source": "photo: white headband / short beard",
+   "look_source": "photo: white headband / short beard / round face / smile",
    "full_name": "Ariel Hukporti",
-   "player_id": 1630574
+   "player_id": 1630574,
+   "height": "7-0",
+   "face": "round",
+   "mouth": "smile"
   },
   {
    "id": "edgecombe",
@@ -692,7 +713,8 @@
    ],
    "look_source": "photo: afro + white headband / mustache / earrings",
    "full_name": "VJ Edgecombe",
-   "player_id": 1642845
+   "player_id": 1642845,
+   "height": "6-5"
   },
   {
    "id": "fall",
@@ -727,7 +749,8 @@
    ],
    "look_source": "photo: shaved head / full beard",
    "full_name": "Tacko Fall",
-   "player_id": 1629605
+   "player_id": 1629605,
+   "height": "7-6"
   }
  ]
 }
