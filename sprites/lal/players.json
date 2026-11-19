@@ -263,7 +263,7 @@
     78,
     54
    ],
-   "hair": "buzz",
+   "hair": "buzz_lineup",
    "hair_color": [
     22,
     18,
@@ -285,7 +285,7 @@
     37,
     131
    ],
-   "look_source": "photo: low cut / full beard",
+   "look_source": "photo: low cut / full beard | revised:hair buzz_lineup",
    "full_name": "Jaden Hardy",
    "player_id": 1630702
   },
@@ -408,7 +408,7 @@
     196,
     176
    ],
-   "hair": "high_tight",
+   "hair": "crop_lineup",
    "hair_color": [
     52,
     36,
@@ -430,7 +430,7 @@
     37,
     131
    ],
-   "look_source": "photo: high and tight / clean-shaven / white undershirt",
+   "look_source": "photo: high and tight / clean-shaven / white undershirt | revised:hair crop_lineup",
    "full_name": "Jake LaRavia",
    "player_id": 1631222
   },
@@ -548,7 +548,7 @@
     150,
     114
    ],
-   "hair": "crop",
+   "hair": "curly_short",
    "hair_color": [
     22,
     18,
@@ -565,7 +565,7 @@
     37,
     131
    ],
-   "look_source": "photo: crop / clean-shaven",
+   "look_source": "photo: crop / clean-shaven | revised:hair curly_short",
    "full_name": "Chris Mañon",
    "player_id": 1643024
   },
