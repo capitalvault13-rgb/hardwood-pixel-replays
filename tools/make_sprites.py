@@ -15,8 +15,9 @@ players.json:
   ]
 }
 hair:  bald | buzz | crop | curly_short | curly_high | wavy_medium | cornrows | locs
-       | afro_band | short_band | locs_band   (the *_band styles take "headband": [r,g,b])
-beard: none | goatee | chinstrap | short | full | thick
+       | afro | locs_top | ... (see HAIR below)
+       | afro_band | short_band | locs_band | locs_long_band   (the *_band styles take "headband": [r,g,b])
+beard: none | mustache | goatee | chinstrap | short | full | thick
 numbers: drawn from "number" (or the "#NN" label) as 5x7 block digits on the fine (DETAIL) grid,
          in the kit's trim colour; a kit may set "number": [r,g,b], "number_outline": [r,g,b]
          or "numbers": false. Output PNGs are DETAIL (3x) the chibi grid.
@@ -289,6 +290,28 @@ HAIR = {
         3:  "....#sHHHHHHHHHHs#.....",
         4:  "....#SsSSSSSSSSSsS#....",
     },
+    "afro": {   # big round afro, no headband
+        -4: ".......######..........",
+        -3: ".....##HHhHHHH##.......",
+        -2: "....#HHHHHHhHHHH#......",
+        -1: "...#HHhHHHHHHHHhH#.....",
+        0:  "...#HHHHHHhHHHHHHH#....",
+        1:  "..#HHhHHHHHHHHhHHHH#...",
+        2:  "..#HHHHHHHHhHHHHHHH#...",
+        3:  "..#HHHHhHHHHHHHHhHH#...",
+        4:  "...#HHSSSSSSSSSSHHH#...",
+        5:  "....#SSSSSSSSSSSSH#....",
+    },
+    "locs_top": {   # locs on top falling forward and to the sides, faded sides
+        -4: "......#.#..#.#.........",
+        -3: ".....#H#H##H#H#........",
+        -2: "....#HhH#HhH#HhH#......",
+        -1: "...#HHHHHHhHHHHHH#.....",
+        0:  "...#hHHhHHHHHhHHHh#....",
+        1:  "...#H#HHHHHhHHHH#H#....",
+        2:  "...#H#sHHHHHHHHs#H#....",
+        3:  "....#ssSSSSSSSSss#.....",
+    },
     "short_band": {
         -1: "........######.........",
         0:  "......##HHhHHH##.......",
@@ -322,10 +345,12 @@ _hang("locs", 6, 11)
 _hang("locs_band", 6, 10)
 _hang("locs_long", 6, 14, "double")
 _hang("braids_back", 6, 14, "thin")
+HAIR["locs_long_band"] = {**HAIR["locs_long"], 2: HAIR["locs_band"][2], 3: HAIR["locs_band"][3]}
 
 # Beard overlays (B = beard, b = beard shade, M = mouth kept). Rows relative to head top.
 BEARD = {
     "none": {},
+    "mustache": {10: ".......BBBB............"},
     "goatee": {
         10: "....#SSSBBBBSSSs#......",
         11: ".....#SSSMMSSSs#.......",

@@ -1,0 +1,738 @@
+{
+ "team": "Brooklyn Nets",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    24,
+    24,
+    26
+   ],
+   "trim2": [
+    24,
+    24,
+    26
+   ],
+   "band": [
+    24,
+    24,
+    26
+   ],
+   "number": [
+    24,
+    24,
+    26
+   ]
+  },
+  "away": {
+   "jersey": [
+    24,
+    24,
+    26
+   ],
+   "shade": [
+    46,
+    46,
+    48
+   ],
+   "trim": [
+    246,
+    246,
+    242
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    246,
+    246,
+    242
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ]
+  },
+  "statement": {
+   "jersey": [
+    108,
+    108,
+    112
+   ],
+   "shade": [
+    84,
+    84,
+    87
+   ],
+   "trim": [
+    24,
+    24,
+    26
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    24,
+    24,
+    26
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    24,
+    24,
+    26
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "brown",
+   "label": "#0",
+   "name": "Brown",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "locs_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    66,
+    66,
+    72
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: short twists + black headband / mustache",
+   "full_name": "Mikel Brown Jr.",
+   "player_id": 1643414
+  },
+  {
+   "id": "minott",
+   "label": "#00",
+   "name": "Minott",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: short curls / goatee",
+   "full_name": "Josh Minott",
+   "player_id": 1631169
+  },
+  {
+   "id": "ellis",
+   "label": "#1",
+   "name": "Ellis",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: short twists + braids behind / goatee",
+   "full_name": "Keon Ellis",
+   "player_id": 1631165
+  },
+  {
+   "id": "wolf",
+   "label": "#2",
+   "name": "Wolf",
+   "skin": [
+    240,
+    198,
+    176
+   ],
+   "hair": "crop",
+   "hair_color": [
+    122,
+    88,
+    58
+   ],
+   "beard": "short",
+   "beard_color": [
+    122,
+    88,
+    58
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: crop / short stubble",
+   "full_name": "Danny Wolf",
+   "player_id": 1642874
+  },
+  {
+   "id": "powell",
+   "label": "#4",
+   "name": "Powell",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: high rounded afro / short beard",
+   "full_name": "Drake Powell",
+   "player_id": 1642962
+  },
+  {
+   "id": "demin",
+   "label": "#8",
+   "name": "Demin",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: spiky fringe / goatee",
+   "full_name": "Egor Dëmin",
+   "player_id": 1642856
+  },
+  {
+   "id": "jefferson",
+   "label": "#9",
+   "name": "Jefferson",
+   "skin": [
+    142,
+    92,
+    64
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: big round afro / short beard",
+   "full_name": "Joshua Jefferson",
+   "player_id": 1643538
+  },
+  {
+   "id": "traore",
+   "label": "#10",
+   "name": "Traore",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: curly top / mustache",
+   "full_name": "Nolan Traore",
+   "player_id": 1642849
+  },
+  {
+   "id": "wagner",
+   "label": "#13",
+   "name": "Wagner",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    88,
+    60,
+    40
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    88,
+    60,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: wavy medium / mustache",
+   "full_name": "Moritz Wagner",
+   "player_id": 1629021
+  },
+  {
+   "id": "mann",
+   "label": "#14",
+   "name": "Mann",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "locs_long_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: long braids + white headband / clean-shaven",
+   "full_name": "Terance Mann",
+   "player_id": 1629611
+  },
+  {
+   "id": "nelson",
+   "label": "#16",
+   "name": "Nelson",
+   "skin": [
+    240,
+    198,
+    176
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    52,
+    36,
+    28
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: messy fringe / mustache",
+   "full_name": "Grant Nelson",
+   "player_id": 1641761
+  },
+  {
+   "id": "porter",
+   "label": "#17",
+   "name": "Porter",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: fade + line-up / goatee",
+   "full_name": "Michael Porter Jr.",
+   "player_id": 1629008
+  },
+  {
+   "id": "sharpe",
+   "label": "#20",
+   "name": "Sharpe",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: low cut / full beard",
+   "full_name": "Day'Ron Sharpe",
+   "player_id": 1630549
+  },
+  {
+   "id": "clowney",
+   "label": "#21",
+   "name": "Clowney",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "locs_top",
+   "hair_color": [
+    172,
+    138,
+    86
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: blond locs on top / short beard",
+   "full_name": "Noah Clowney",
+   "player_id": 1641730
+  },
+  {
+   "id": "randle",
+   "label": "#30",
+   "name": "Randle",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: crop / thick beard",
+   "full_name": "Julius Randle",
+   "player_id": 203944
+  },
+  {
+   "id": "johnson",
+   "label": "#31",
+   "name": "Johnson",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: freeform twists / full beard",
+   "full_name": "Chaney Johnson",
+   "player_id": 1643052
+  },
+  {
+   "id": "bilodeau",
+   "label": "#34",
+   "name": "Bilodeau",
+   "skin": [
+    240,
+    198,
+    176
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: high and tight / clean-shaven",
+   "full_name": "Tyler Bilodeau",
+   "player_id": 1643548
+  },
+  {
+   "id": "saraf",
+   "label": "#77",
+   "name": "Saraf",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: curly top / goatee",
+   "full_name": "Ben Saraf",
+   "player_id": 1642879
+  }
+ ]
+}
