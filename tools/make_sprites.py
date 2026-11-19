@@ -362,6 +362,7 @@ HAIR["long_hair"] = {**{r: HAIR["wavy_medium"][r] for r in range(-2, 4)},   # st
 _hang("long_hair", 6, 10)
 HAIR["cornrows_flat"] = {r: HAIR["cornrows"][r] for r in range(-1, 5)}   # cornrows, no hanging braid
 HAIR["cornrows_flat"][4] = "....#SSSSSSSSSSSHhH#..."
+HAIR["long_band"] = {**HAIR["long_hair"], 2: HAIR["locs_band"][2], 3: HAIR["locs_band"][3]}
 HAIR["locs_long_band"] = {**HAIR["locs_long"], 2: HAIR["locs_band"][2], 3: HAIR["locs_band"][3]}
 
 # Beard overlays (B = beard, b = beard shade, M = mouth kept). Rows relative to head top.

@@ -1,0 +1,743 @@
+{
+ "team": "Milwaukee Bucks",
+ "kits": {
+  "home": {
+   "jersey": [
+    240,
+    235,
+    210
+   ],
+   "shade": [
+    214,
+    206,
+    178
+   ],
+   "trim": [
+    0,
+    71,
+    27
+   ],
+   "trim2": [
+    0,
+    71,
+    27
+   ],
+   "band": [
+    0,
+    71,
+    27
+   ],
+   "number": [
+    0,
+    71,
+    27
+   ]
+  },
+  "away": {
+   "jersey": [
+    0,
+    71,
+    27
+   ],
+   "shade": [
+    22,
+    93,
+    49
+   ],
+   "trim": [
+    240,
+    235,
+    210
+   ],
+   "trim2": [
+    240,
+    235,
+    210
+   ],
+   "band": [
+    240,
+    235,
+    210
+   ],
+   "number": [
+    240,
+    235,
+    210
+   ],
+   "number_outline": [
+    24,
+    24,
+    26
+   ]
+  },
+  "statement": {
+   "jersey": [
+    24,
+    24,
+    26
+   ],
+   "shade": [
+    46,
+    46,
+    48
+   ],
+   "trim": [
+    240,
+    235,
+    210
+   ],
+   "trim2": [
+    0,
+    71,
+    27
+   ],
+   "band": [
+    240,
+    235,
+    210
+   ],
+   "number": [
+    240,
+    235,
+    210
+   ],
+   "number_outline": [
+    0,
+    71,
+    27
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "burries",
+   "label": "#0",
+   "name": "Burries",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "afro_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: long curls to the jaw / mustache",
+   "full_name": "Brayden Burries",
+   "player_id": 1643415
+  },
+  {
+   "id": "sims",
+   "label": "#00",
+   "name": "Sims",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: big curly afro / mustache",
+   "full_name": "Jericho Sims",
+   "player_id": 1630579
+  },
+  {
+   "id": "turner",
+   "label": "#3",
+   "name": "Turner",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "locs_long_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: long locs + headband / short beard",
+   "full_name": "Myles Turner",
+   "player_id": 1626167
+  },
+  {
+   "id": "trent",
+   "label": "#5",
+   "name": "Trent",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "bald",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: receding / thick beard",
+   "full_name": "Gary Trent Jr.",
+   "player_id": 1629018
+  },
+  {
+   "id": "ware",
+   "label": "#9",
+   "name": "Ware",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: low waves / goatee",
+   "full_name": "Kel'el Ware",
+   "player_id": 1642276
+  },
+  {
+   "id": "herro",
+   "label": "#11",
+   "name": "Herro",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: white headband / goatee",
+   "full_name": "Tyler Herro",
+   "player_id": 1629639
+  },
+  {
+   "id": "levert",
+   "label": "#12",
+   "name": "LeVert",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: cornrows + braid / full beard",
+   "full_name": "Caris LeVert",
+   "player_id": 1627747
+  },
+  {
+   "id": "rollins",
+   "label": "#13",
+   "name": "Rollins",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: short curls / goatee",
+   "full_name": "Ryan Rollins",
+   "player_id": 1631157
+  },
+  {
+   "id": "ament",
+   "label": "#15",
+   "name": "Ament",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: curly top / clean-shaven",
+   "full_name": "Nate Ament",
+   "player_id": 1643417
+  },
+  {
+   "id": "kuzma",
+   "label": "#18",
+   "name": "Kuzma",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: curly top / goatee / earring",
+   "full_name": "Kyle Kuzma",
+   "player_id": 1628398
+  },
+  {
+   "id": "jones",
+   "label": "#19",
+   "name": "Jones",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: tall curls / mustache",
+   "full_name": "Kam Jones",
+   "player_id": 1642880
+  },
+  {
+   "id": "green",
+   "label": "#20",
+   "name": "Green",
+   "skin": [
+    240,
+    198,
+    176
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    172,
+    138,
+    86
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: blond fringe / clean-shaven",
+   "full_name": "AJ Green",
+   "player_id": 1631260
+  },
+  {
+   "id": "dieng",
+   "label": "#21",
+   "name": "Dieng",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "box_braids",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: twists to the jaw / goatee",
+   "full_name": "Ousmane Dieng",
+   "player_id": 1631172
+  },
+  {
+   "id": "markovic",
+   "label": "#23",
+   "name": "Markovic",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "crop",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    88,
+    60,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: crop / goatee",
+   "full_name": "Bogoljub Marković",
+   "player_id": 1642881
+  },
+  {
+   "id": "jaquez",
+   "label": "#24",
+   "name": "Jaquez",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "long_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: long hair + white headband / goatee",
+   "full_name": "Jaime Jaquez Jr.",
+   "player_id": 1631170
+  },
+  {
+   "id": "jakucionis",
+   "label": "#25",
+   "name": "Jakucionis",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    122,
+    88,
+    58
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: light brown curls / clean-shaven",
+   "full_name": "Kasparas Jakučionis",
+   "player_id": 1642857
+  },
+  {
+   "id": "ryan",
+   "label": "#30",
+   "name": "Ryan",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: dark fringe / clean-shaven",
+   "full_name": "Cormac Ryan",
+   "player_id": 1642504
+  },
+  {
+   "id": "nance",
+   "label": "#35",
+   "name": "Nance",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    71,
+    27
+   ],
+   "look_source": "photo: short line-up / full beard",
+   "full_name": "Pete Nance",
+   "player_id": 1631250
+  }
+ ]
+}
