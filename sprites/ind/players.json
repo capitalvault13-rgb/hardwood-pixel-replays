@@ -1,0 +1,728 @@
+{
+ "team": "Indiana Pacers",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    0,
+    45,
+    98
+   ],
+   "trim2": [
+    253,
+    187,
+    48
+   ],
+   "band": [
+    0,
+    45,
+    98
+   ],
+   "number": [
+    0,
+    45,
+    98
+   ]
+  },
+  "away": {
+   "jersey": [
+    0,
+    45,
+    98
+   ],
+   "shade": [
+    0,
+    35,
+    76
+   ],
+   "trim": [
+    253,
+    187,
+    48
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    253,
+    187,
+    48
+   ],
+   "number": [
+    253,
+    187,
+    48
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  },
+  "statement": {
+   "jersey": [
+    253,
+    187,
+    48
+   ],
+   "shade": [
+    197,
+    145,
+    37
+   ],
+   "trim": [
+    0,
+    45,
+    98
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    0,
+    45,
+    98
+   ],
+   "number": [
+    0,
+    45,
+    98
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "haliburton",
+   "label": "#0",
+   "name": "Haliburton",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: short curls / short beard",
+   "full_name": "Tyrese Haliburton",
+   "player_id": 1630169
+  },
+  {
+   "id": "toppin",
+   "label": "#1",
+   "name": "Toppin",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "box_braids",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: box braids / full beard",
+   "full_name": "Obi Toppin",
+   "player_id": 1630167
+  },
+  {
+   "id": "nembhard",
+   "label": "#2",
+   "name": "Nembhard",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: white headband / goatee",
+   "full_name": "Andrew Nembhard",
+   "player_id": 1629614
+  },
+  {
+   "id": "smith",
+   "label": "#3",
+   "name": "Smith",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    122,
+    88,
+    58
+   ],
+   "beard": "full",
+   "beard_color": [
+    122,
+    88,
+    58
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: high and tight / full beard",
+   "full_name": "Braden Smith",
+   "player_id": 1643552
+  },
+  {
+   "id": "walker",
+   "label": "#5",
+   "name": "Walker",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "cornrows_flat",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: cornrows / full beard",
+   "full_name": "Jarace Walker",
+   "player_id": 1641716
+  },
+  {
+   "id": "mcconnell",
+   "label": "#9",
+   "name": "McConnell",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "short",
+   "beard_color": [
+    52,
+    36,
+    28
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: side quiff / stubble",
+   "full_name": "T.J. McConnell",
+   "player_id": 204456
+  },
+  {
+   "id": "oubre",
+   "label": "#10",
+   "name": "Oubre",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "afro_long",
+   "hair_color": [
+    88,
+    60,
+    40
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    88,
+    60,
+    40
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: long brown coils / goatee / earrings",
+   "full_name": "Kelly Oubre Jr.",
+   "player_id": 1626162
+  },
+  {
+   "id": "furphy",
+   "label": "#12",
+   "name": "Furphy",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    122,
+    88,
+    58
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: messy fringe / clean-shaven",
+   "full_name": "Johnny Furphy",
+   "player_id": 1642277
+  },
+  {
+   "id": "slawson",
+   "label": "#18",
+   "name": "Slawson",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: curly top / goatee",
+   "full_name": "Jalen Slawson",
+   "player_id": 1641771
+  },
+  {
+   "id": "nance",
+   "label": "#22",
+   "name": "Nance",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: white headband / full beard",
+   "full_name": "Larry Nance Jr.",
+   "player_id": 1626204
+  },
+  {
+   "id": "nesmith",
+   "label": "#23",
+   "name": "Nesmith",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: long box braids / goatee",
+   "full_name": "Aaron Nesmith",
+   "player_id": 1630174
+  },
+  {
+   "id": "brown",
+   "label": "#24",
+   "name": "Brown",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: freeform twists / mustache",
+   "full_name": "Kobe Brown",
+   "player_id": 1641738
+  },
+  {
+   "id": "sheppard",
+   "label": "#26",
+   "name": "Sheppard",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: crop / goatee",
+   "full_name": "Ben Sheppard",
+   "player_id": 1641767
+  },
+  {
+   "id": "jackson",
+   "label": "#29",
+   "name": "Jackson",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: locs / mustache",
+   "full_name": "Quenton Jackson",
+   "player_id": 1631245
+  },
+  {
+   "id": "huff",
+   "label": "#32",
+   "name": "Huff",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    88,
+    60,
+    40
+   ],
+   "beard": "thick",
+   "beard_color": [
+    150,
+    74,
+    42
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: white headband / thick red beard",
+   "full_name": "Jay Huff",
+   "player_id": 1630643
+  },
+  {
+   "id": "zubac",
+   "label": "#40",
+   "name": "Zubac",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "full",
+   "beard_color": [
+    52,
+    36,
+    28
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: buzz cut / full beard",
+   "full_name": "Ivica Zubac",
+   "player_id": 1627826
+  },
+  {
+   "id": "siakam",
+   "label": "#43",
+   "name": "Siakam",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "afro_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    45,
+    98
+   ],
+   "look_source": "photo: afro + white headband / goatee",
+   "full_name": "Pascal Siakam",
+   "player_id": 1627783
+  }
+ ]
+}
