@@ -89,7 +89,8 @@ def load(name, recolor=False):
         a[red, :3] = DAL_BLUE
         a[yel, :3] = (180, 188, 198)
     im = Image.fromarray(a)
-    return im.resize((im.width * SCALE, im.height * SCALE), Image.NEAREST)
+    k = max(1, SCALE * 23 // im.width)  # drawn teams (make_sprites.py) are saved at 3x already
+    return im.resize((im.width * k, im.height * k), Image.NEAREST)
 
 def ball_sprite(s):
     pat = ["..####..",

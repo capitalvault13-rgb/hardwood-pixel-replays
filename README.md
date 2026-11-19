@@ -16,7 +16,7 @@ data/teams.json       all 30 NBA teams (abbr, city, name, conference, division, 
 data/rosters/<abbr>.json   each team's current roster + coaches from nba.com (number, name, position, height, ...)
 data/players.csv      every rostered player in one sheet
 tools/fetch_rosters.py     refreshes data/ from nba.com
-sprites/<team>/       one folder per team (NBA 3-letter code, lower case), native pixel size
+sprites/<team>/       one folder per team (NBA 3-letter code, lower case); cut sheets at native size, drawn teams at 3x
 sprites/<team>/source/  the original sprite sheet that team's PNGs were cut from
 sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / statement)
 sprites/bos/          Celtics — full 2026-27 roster (17), drawn by tools/make_sprites.py from sprites/bos/players.json
@@ -71,9 +71,10 @@ cornrows, cornrows_left, braids_back, locs, locs_long, and the headband styles a
 short_band, locs_band. Beards: none, goatee, chinstrap, short, full, thick. Extras: earrings,
 armband, undershirt sleeves, arm sleeve, wristbands, socks.
 
-Jersey numbers are drawn from each player's `#NN` label in a 3x4 pixel font, in the kit's trim
-colour mixed 55% into the jersey so the kit colour still reads. A kit can set `"number": [r,g,b]`
-(the Celtics statement kit uses full green, since the mix vanishes on black) or `"numbers": false`.
+Drawn sprites are saved at 3x the 23 px chibi grid (69 px wide), so jersey numbers can use finer
+pixels than the rest of the sprite: 5x7 block digits in the kit's `number` colour (default: trim)
+with an optional `number_outline`. Replays draw sprite pixels at 3x, so load these at 1x
+(`load()` in `replay.py` picks the factor from the image width). A kit can set `"numbers": false`.
 
 Before drawing a team, pull each player's nba.com headshot
 (`https://cdn.nba.com/headshots/nba/latest/1040x760/<player_id>.png`) and commit it to

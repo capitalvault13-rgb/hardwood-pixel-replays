@@ -17,8 +17,9 @@ players.json:
 hair:  bald | buzz | crop | curly_short | curly_high | wavy_medium | cornrows | locs
        | afro_band | short_band | locs_band   (the *_band styles take "headband": [r,g,b])
 beard: none | goatee | chinstrap | short | full | thick
-numbers: drawn from "number" (or the "#NN" label) in a 3x4 font; a kit may set "number": [r,g,b]
-         or "numbers": false
+numbers: drawn from "number" (or the "#NN" label) as 5x7 block digits on the fine (DETAIL) grid,
+         in the kit's trim colour; a kit may set "number": [r,g,b], "number_outline": [r,g,b]
+         or "numbers": false. Output PNGs are DETAIL (3x) the chibi grid.
 extras: "earrings": [r,g,b], "armband", "sleeves" (undershirt), "sleeve_arm": [{"side": "left|right", "color"}],
         "wristbands": [{"side", "color"}], "socks"   (sides are as seen on screen)
 """
@@ -368,25 +369,47 @@ def light(c, k=1.18):
 
 OUTLINE = (14, 10, 12)
 
-# 3x4 jersey digits. The jersey front is body rows 2-5, cols 8-14 (7 px wide): one digit
-# sits in the middle, two digits fill the front edge to edge with a 1 px gap.
-DIGITS = {
-    "0": ["###", "#.#", "#.#", "###"], "1": [".#.", "##.", ".#.", ".#."],
-    "2": ["##.", "..#", ".#.", "###"], "3": ["###", ".##", "..#", "###"],
-    "4": ["#.#", "#.#", "###", "..#"], "5": ["###", "##.", "..#", "##."],
-    "6": ["#..", "###", "#.#", "###"], "7": ["###", "..#", ".#.", ".#."],
-    "8": ["###", "#.#", "###", "###"], "9": ["###", "#.#", "###", "..#"],
-}
-NUM_ROW = PAD + len(HEAD) + 2
+# Sprites are drawn on the 23 px chibi grid, then saved DETAIL times larger so the jersey
+# number can use finer pixels than the rest of the sprite. Replays draw sprite pixels at 3x,
+# so a DETAIL=3 file is loaded at 1x and each number pixel is one screen pixel.
+DETAIL = 3
 
-def draw_number(px, num, col):
+# 5x7 block digits (2 px stems), drawn on the fine grid. The jersey front is body rows 2-5,
+# cols 8-14 on the chibi grid = 21x12 fine pixels; two digits take 11 of the 21.
+DIGITS = {
+    "0": [".###.", "##.##", "##.##", "##.##", "##.##", "##.##", ".###."],
+    "1": ["..##.", ".###.", "..##.", "..##.", "..##.", "..##.", ".####"],
+    "2": [".###.", "##.##", "...##", "..##.", ".##..", "##...", "#####"],
+    "3": ["####.", "...##", "...##", ".###.", "...##", "...##", "####."],
+    "4": ["...##", "..###", ".#.##", "#..##", "#####", "...##", "...##"],
+    "5": ["#####", "##...", "####.", "...##", "...##", "##.##", ".###."],
+    "6": [".###.", "##...", "####.", "##.##", "##.##", "##.##", ".###."],
+    "7": ["#####", "...##", "..##.", "..##.", ".##..", ".##..", ".##.."],
+    "8": [".###.", "##.##", "##.##", ".###.", "##.##", "##.##", ".###."],
+    "9": [".###.", "##.##", "##.##", ".####", "...##", "...##", ".###."],
+}
+NUM_ROW = PAD + len(HEAD) + 2   # chibi-grid row where the jersey front starts
+
+def draw_number(px, num, top, col, outline=None):
+    """Draw num on a DETAIL-scaled sprite; top is the fine-grid y of the jersey front."""
     num = num[-2:]
-    xs = [10] if len(num) == 1 else [8, 12]
-    for d, x0 in zip(num, xs):
+    x_mid = 8 * DETAIL + (7 * DETAIL) // 2
+    width = 5 * len(num) + (len(num) - 1)
+    x0, y0 = x_mid - width // 2, top + 2
+    pts = set()
+    for i, d in enumerate(num):
         for r, line in enumerate(DIGITS[d]):
             for c, ch in enumerate(line):
                 if ch == '#':
-                    px[x0 + c, NUM_ROW + r] = col + (255,)
+                    pts.add((x0 + i * 6 + c, y0 + r))
+    if outline:
+        for (x, y) in pts:
+            for dx in (-1, 0, 1):
+                for dy in (-1, 0, 1):
+                    if (x + dx, y + dy) not in pts:
+                        px[x + dx, y + dy] = tuple(outline) + (255,)
+    for (x, y) in pts:
+        px[x, y] = tuple(col) + (255,)
 
 def make(p, kit):
     rows = [list("." * 23) for _ in range(PAD)] + [list(r) for r in TEMPLATE]
@@ -449,16 +472,17 @@ def make(p, kit):
                 px[x, wy2] = tuple(p["socks"]) + (255,)
     if p.get("earrings"):  # stud under the visible (screen-right) ear
         px[18, PAD + 9] = tuple(p["earrings"]) + (255,)
-    num = str(p.get("number", p.get("label", "").lstrip("#")))
-    if num.isdigit() and kit.get("numbers", True):
-        # default: trim mixed 55% into the jersey, so the number reads without swamping the kit
-        ncol = kit.get("number") or [int(j * 0.45 + t * 0.55) for j, t in zip(kit["jersey"], kit["trim"])]
-        draw_number(px, num, tuple(ncol))
     if p.get("armband"):
         for x in (19, 20, 21):
             px[x, PAD + 19] = tuple(p["armband"]) + (255,)
     bbox = im.getbbox()
-    return im.crop((0, bbox[1], 23, bbox[3]))
+    im = im.crop((0, bbox[1], 23, bbox[3]))
+    im = im.resize((23 * DETAIL, im.height * DETAIL), Image.NEAREST)
+    num = str(p.get("number", p.get("label", "").lstrip("#")))
+    if num.isdigit() and kit.get("numbers", True):
+        draw_number(im.load(), num, (NUM_ROW - bbox[1]) * DETAIL,
+                    kit.get("number", kit["trim"]), kit.get("number_outline"))
+    return im
 
 def main(team):
     d = os.path.join(ROOT, 'sprites', team)
@@ -472,7 +496,7 @@ def main(team):
             out[(p["id"], k)] = im
     # check sheet (wraps at PER_ROW players, like the Hawks sheet)
     PER_ROW = 8
-    z, cw, ch = 5, 140, 240
+    z, cw, ch = 2, 150, 270   # sprites are already DETAIL (3x) size
     n = len(cfg["players"])
     lines = (n + PER_ROW - 1) // PER_ROW
     sheet = Image.new('RGB', (40 + cw * min(n, PER_ROW), 60 + (ch * lines + 30) * len(kits)), (250, 250, 250))
@@ -492,7 +516,7 @@ def main(team):
             big = im.resize((im.width * z, im.height * z), Image.NEAREST)
             col, line = i % PER_ROW, i // PER_ROW
             x0, y0 = 20 + col * cw, yk + line * ch
-            sheet.paste(big, (x0 + (cw - big.width) // 2, y0 + 20 + (190 - big.height)), big)
+            sheet.paste(big, (x0 + (cw - big.width) // 2, y0 + 20 + (220 - big.height)), big)
             lab = f'{p["label"]} {p.get("name", "")}'.strip()
             lf = f
             for size in (14, 12, 10):  # shrink long names to fit the column
@@ -500,11 +524,11 @@ def main(team):
                     break
                 lf = f.font_variant(size=size)
             tw = dr.textlength(lab, font=lf)
-            dr.text((x0 + (cw - tw) / 2, y0 + 212), lab, font=lf, fill=(30, 30, 30))
+            dr.text((x0 + (cw - tw) / 2, y0 + 242), lab, font=lf, fill=(30, 30, 30))
             if ki == 0 and p.get("look_source"):
                 src = f'{p["look_source"].split(":")[0]}: {p.get("hair", "bald").replace("_", " ")} / {p.get("beard", "none")}'
                 tw = dr.textlength(src, font=fs)
-                dr.text((x0 + (cw - tw) / 2, y0 + 230), src, font=fs, fill=(140, 140, 140))
+                dr.text((x0 + (cw - tw) / 2, y0 + 260), src, font=fs, fill=(140, 140, 140))
     sheet.save(os.path.join(d, 'sheet.png'))
     print(f'wrote {len(out)} sprites + sheet.png to sprites/{team}/')
 
