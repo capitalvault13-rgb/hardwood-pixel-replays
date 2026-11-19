@@ -223,7 +223,7 @@
     110,
     80
    ],
-   "hair": "curly_top",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -245,7 +245,7 @@
     107,
     182
    ],
-   "look_source": "photo: curly top / short beard",
+   "look_source": "photo: curly top / short beard | revised:hair sponge",
    "full_name": "Anfernee Simons",
    "player_id": 1629014
   },
@@ -258,7 +258,7 @@
     62,
     44
    ],
-   "hair": "buzz",
+   "hair": "buzz_lineup",
    "hair_color": [
     22,
     18,
@@ -280,7 +280,7 @@
     107,
     182
    ],
-   "look_source": "photo: low cut / thick beard",
+   "look_source": "photo: low cut / thick beard | revised:hair buzz_lineup",
    "full_name": "Jaylen Brown",
    "player_id": 1627759
   },
@@ -333,7 +333,7 @@
     62,
     44
    ],
-   "hair": "curly_short",
+   "hair": "textured_crop",
    "hair_color": [
     22,
     18,
@@ -355,7 +355,7 @@
     107,
     182
    ],
-   "look_source": "photo: short curls / goatee",
+   "look_source": "photo: short curls / goatee | revised:hair textured_crop",
    "full_name": "Justin Edwards",
    "player_id": 1642348
   },
@@ -368,7 +368,7 @@
     136,
     100
    ],
-   "hair": "crop",
+   "hair": "waves",
    "hair_color": [
     22,
     18,
@@ -390,7 +390,7 @@
     107,
     182
    ],
-   "look_source": "photo: crop / full beard",
+   "look_source": "photo: crop / full beard | revised:hair waves",
    "full_name": "Rayan Rupert",
    "player_id": 1641712
   },
@@ -438,7 +438,7 @@
     62,
     44
    ],
-   "hair": "bald",
+   "hair": "buzz_receding",
    "hair_color": [
     22,
     18,
@@ -460,7 +460,7 @@
     107,
     182
    ],
-   "look_source": "photo: shaved head / thick beard",
+   "look_source": "photo: shaved head / thick beard | revised:hair buzz_receding",
    "full_name": "LeBron James",
    "player_id": 2544
   },
