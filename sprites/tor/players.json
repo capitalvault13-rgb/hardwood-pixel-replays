@@ -478,7 +478,7 @@
     62,
     44
    ],
-   "hair": "crop",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -500,7 +500,7 @@
     17,
     65
    ],
-   "look_source": "photo: crop / goatee",
+   "look_source": "photo: crop / goatee | revised:hair sponge",
    "full_name": "Malachi Smith",
    "player_id": 1641869
   },
@@ -513,7 +513,7 @@
     198,
     176
    ],
-   "hair": "high_tight",
+   "hair": "buzz_receding",
    "hair_color": [
     122,
     88,
@@ -535,7 +535,7 @@
     17,
     65
    ],
-   "look_source": "photo: short / red stubble",
+   "look_source": "photo: short / red stubble | revised:hair buzz_receding",
    "full_name": "Jakob Poeltl",
    "player_id": 1627751
   },
@@ -618,7 +618,7 @@
     136,
     100
    ],
-   "hair": "crop",
+   "hair": "crop_lineup",
    "hair_color": [
     22,
     18,
@@ -635,7 +635,7 @@
     17,
     65
    ],
-   "look_source": "photo: crop / clean-shaven",
+   "look_source": "photo: crop / clean-shaven | revised:hair crop_lineup",
    "full_name": "Trayce Jackson-Davis",
    "player_id": 1631218
   },
@@ -688,7 +688,7 @@
     166,
     132
    ],
-   "hair": "curly_top",
+   "hair": "curly_high",
    "hair_color": [
     88,
     60,
@@ -715,7 +715,7 @@
     17,
     65
    ],
-   "look_source": "photo: brown curls / red goatee / earrings",
+   "look_source": "photo: brown curls / red goatee / earrings | revised:hair curly_high",
    "full_name": "Jamison Battle",
    "player_id": 1642419
   }
