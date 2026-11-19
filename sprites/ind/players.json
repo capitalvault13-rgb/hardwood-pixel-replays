@@ -218,7 +218,7 @@
     184,
     158
    ],
-   "hair": "high_tight",
+   "hair": "crop_fringe",
    "hair_color": [
     122,
     88,
@@ -240,7 +240,7 @@
     45,
     98
    ],
-   "look_source": "photo: high and tight / full beard",
+   "look_source": "photo: high and tight / full beard | revised:hair crop_fringe",
    "full_name": "Braden Smith",
    "player_id": 1643552
   },
@@ -363,7 +363,7 @@
     184,
     158
    ],
-   "hair": "messy_fringe",
+   "hair": "mullet",
    "hair_color": [
     122,
     88,
@@ -380,7 +380,7 @@
     45,
     98
    ],
-   "look_source": "photo: messy fringe / clean-shaven",
+   "look_source": "photo: messy fringe / clean-shaven | revised:hair mullet",
    "full_name": "Johnny Furphy",
    "player_id": 1642277
   },
@@ -393,7 +393,7 @@
     110,
     80
    ],
-   "hair": "curly_top",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -415,7 +415,7 @@
     45,
     98
    ],
-   "look_source": "photo: curly top / goatee",
+   "look_source": "photo: curly top / goatee | revised:hair sponge",
    "full_name": "Jalen Slawson",
    "player_id": 1641771
   },
@@ -538,7 +538,7 @@
     110,
     80
    ],
-   "hair": "crop",
+   "hair": "crop_lineup",
    "hair_color": [
     22,
     18,
@@ -560,7 +560,7 @@
     45,
     98
    ],
-   "look_source": "photo: crop / goatee",
+   "look_source": "photo: crop / goatee | revised:hair crop_lineup",
    "full_name": "Ben Sheppard",
    "player_id": 1641767
   },
@@ -648,7 +648,7 @@
     184,
     158
    ],
-   "hair": "buzz",
+   "hair": "buzz_lineup",
    "hair_color": [
     52,
     36,
@@ -670,7 +670,7 @@
     45,
     98
    ],
-   "look_source": "photo: buzz cut / full beard",
+   "look_source": "photo: buzz cut / full beard | revised:hair buzz_lineup",
    "full_name": "Ivica Zubac",
    "player_id": 1627826
   },
