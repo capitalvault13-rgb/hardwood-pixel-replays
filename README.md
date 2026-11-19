@@ -18,10 +18,12 @@ data/players.csv      every rostered player in one sheet
 tools/fetch_rosters.py     refreshes data/ from nba.com
 sprites/<team>/       one folder per team (NBA 3-letter code, lower case); cut sheets at native size, drawn teams at 3x
 sprites/<team>/source/  the original sprite sheet that team's PNGs were cut from
-sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / statement)
+sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / statement), numbered at 3x
+sprites/atl/plain/    the same sprites as cut from the sheet: native size, no numbers (used for recoloured stand-ins)
 sprites/bos/          Celtics — full 2026-27 roster (17), drawn by tools/make_sprites.py from sprites/bos/players.json
 sprites/lal/          Lakers — full 2026-27 roster (18), drawn the same way from sprites/lal/players.json
-tools/extract_sprites.py   cuts a sheet into sprites/<team>/*.png
+tools/extract_sprites.py   cuts a sheet into sprites/<team>/plain/*.png
+tools/number_sprites.py    adds jersey numbers to cut sprites from sprites/<team>/numbers.json (3x output + sheet.png)
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
 fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
 episodes/NNN-name/    replay.py (visuals), audio.py (chiptune + SFX), render.sh
@@ -33,8 +35,8 @@ Sprite file names: `sprites/<team>/<player>_<kit>.png`, e.g. `sprites/atl/kuming
 Hawks players: naw, mccollum, johnson, okongwu, ejjofor, flemings, daniels, wiggins, kuminga,
 dort, newell, veesaar, nembhard, hield, kispert, gilbert, landale, dennis, gueye.
 
-Opponents with no sprite set are drawn by recolouring Hawks home-kit sprites into the
-opponent's colours (see `load(..., recolor=True)` in `replay.py`). They are generic
+Opponents with no sprite set are drawn by recolouring the plain (un-numbered) Hawks home-kit
+sprites into the opponent's colours (see `load(..., recolor=True)` in `replay.py`). They are generic
 stand-ins and are never labelled.
 
 ## Roster data
@@ -48,11 +50,15 @@ The Hawks sprite sheet predates the current roster: Kuminga (now MIN), Hield (no
 Nembhard and Gilbert are no longer Hawks, and Finney-Smith (#8) and Jalen Wilson (#22) have no
 sprite yet. Kuminga stays in sprites/atl because replay 002 shows him as a Hawk (Mar 2026).
 
+Hawks numbers (`sprites/atl/numbers.json`) follow the 2026-27 nba.com roster for current Hawks.
+Former Hawks keep the number they wore in Atlanta: Kuminga #0 and Hield #8 (both reported);
+Nembhard #9 and Gilbert #00 come from the sheet's labels and are unverified.
+
 ## Adding a team
 
 Upload the team's sprite sheet in a Claude Code session with this repo attached and ask for
-it to be added. The sheet goes in `sprites/<team>/source/` and the cut-out sprites in
-`sprites/<team>/`. Once a team has sprites, replays can use them as real opponents instead
+it to be added. The sheet goes in `sprites/<team>/source/`, the cut-out sprites in `sprites/<team>/plain/`,
+and `python3 tools/number_sprites.py <team>` writes the numbered sprites to `sprites/<team>/`. Once a team has sprites, replays can use them as real opponents instead
 of recoloured Hawks.
 
 ### Drawing a team from photos

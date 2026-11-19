@@ -1,4 +1,5 @@
-"""Cut native-size sprites out of a chibi sprite sheet.
+"""Cut native-size sprites out of a chibi sprite sheet into sprites/<team>/plain/
+(then run tools/number_sprites.py <team> to add jersey numbers).
 Usage: python3 tools/extract_sprites.py <team> [sheet]
 The row/column boxes and player names below are for the Hawks chibi v2 sheet;
 a new team's sheet needs its own boxes and names."""
@@ -9,7 +10,7 @@ ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 import sys
 TEAM=sys.argv[1] if len(sys.argv)>1 else 'atl'
 SHEET=sys.argv[2] if len(sys.argv)>2 else os.path.join(ROOT,'sprites',TEAM,'source','hawks-chibi-v2-sheet.webp')
-OUT=os.path.join(ROOT,'sprites',TEAM); os.makedirs(OUT,exist_ok=True)
+OUT=os.path.join(ROOT,'sprites',TEAM,'plain'); os.makedirs(OUT,exist_ok=True)  # numbered by tools/number_sprites.py
 im=np.array(Image.open(SHEET).convert('RGB')).astype(float)
 g=np.zeros(im.shape[:2])
 g[:,1:]+=np.abs(np.diff(im,axis=1)).sum(2); g[1:,:]+=np.abs(np.diff(im,axis=0)).sum(2)

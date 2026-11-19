@@ -1,0 +1,21 @@
+{
+ "team": "Atlanta Hawks",
+ "kits": {
+  "home":      {"number": [200, 18, 46],   "number_outline": [255, 198, 39]},
+  "away":      {"number": [250, 250, 248], "number_outline": [255, 198, 39]},
+  "statement": {"number": [200, 18, 46],   "number_outline": [255, 198, 39]}
+ },
+ "players": {
+  "naw": "7", "mccollum": "3", "johnson": "1", "okongwu": "17", "ejjofor": "20",
+  "flemings": "4", "daniels": "5", "wiggins": "2", "dort": "0", "newell": "14",
+  "veesaar": "13", "kispert": "24", "landale": "31", "dennis": "00", "gueye": "18",
+  "kuminga": "0", "hield": "8", "nembhard": "9", "gilbert": "00"
+ },
+ "number_sources": {
+  "roster": "data/rosters/atl.json (nba.com, 2026-27) for every current Hawk",
+  "kuminga": "#0 with the Hawks in 2025-26 (the number passed to Dort in Aug 2026)",
+  "hield": "#8 with the Hawks after the Feb 2026 trade (ESPN player page)",
+  "nembhard": "#9 as labelled on the Hawks chibi v2 sheet (not verified)",
+  "gilbert": "#00 as labelled on the Hawks chibi v2 sheet (not verified)"
+ }
+}

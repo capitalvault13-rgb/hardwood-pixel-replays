@@ -81,7 +81,9 @@ def build_court():
 SP = os.path.join(HERE, 'sprites', 'atl')
 SCALE = 3
 def load(name, recolor=False):
-    a = np.array(Image.open(os.path.join(SP, name + '.png')).convert('RGBA'))
+    # recoloured stand-ins use the un-numbered cut sprites, so they never carry a Hawk's number
+    path = os.path.join(SP, 'plain', name + '.png') if recolor else os.path.join(SP, name + '.png')
+    a = np.array(Image.open(path).convert('RGBA'))
     if recolor:  # Hawks home white -> generic Mavericks home (white/royal blue/silver)
         r, g, b = a[..., 0].astype(int), a[..., 1].astype(int), a[..., 2].astype(int)
         red = (r > 140) & (g < 90) & (b < 90) & (r - g > 80)
