@@ -168,7 +168,7 @@
     194,
     164
    ],
-   "hair": "wavy_medium",
+   "hair": "crop_fringe",
    "hair_color": [
     118,
     76,
@@ -190,7 +190,7 @@
     122,
     51
    ],
-   "look_source": "photo: wavy brown hair / clean-shaven / white undershirt",
+   "look_source": "photo: wavy brown hair / clean-shaven / white undershirt | revised:hair crop_fringe",
    "full_name": "Baylor Scheierman",
    "player_id": 1631248
   },
@@ -318,7 +318,7 @@
     186,
     160
    ],
-   "hair": "buzz",
+   "hair": "buzz_receding",
    "hair_color": [
     150,
     110,
@@ -340,7 +340,7 @@
     122,
     51
    ],
-   "look_source": "photo: light-brown buzz cut / short beard",
+   "look_source": "photo: light-brown buzz cut / short beard | revised:hair buzz_receding",
    "full_name": "Sam Hauser",
    "player_id": 1630573
   },
@@ -448,7 +448,7 @@
     192,
     168
    ],
-   "hair": "crop",
+   "hair": "crop_lineup",
    "hair_color": [
     70,
     48,
@@ -465,7 +465,7 @@
     122,
     51
    ],
-   "look_source": "photo: short dark crop / clean-shaven",
+   "look_source": "photo: short dark crop / clean-shaven | revised:hair crop_lineup",
    "full_name": "Payton Pritchard",
    "player_id": 1630202
   },
@@ -478,7 +478,7 @@
     196,
     172
    ],
-   "hair": "wavy_medium",
+   "hair": "curls_forward",
    "hair_color": [
     44,
     30,
@@ -495,7 +495,7 @@
     122,
     51
    ],
-   "look_source": "photo: thick dark wavy hair / clean-shaven",
+   "look_source": "photo: thick dark wavy hair / clean-shaven | revised:hair curls_forward",
    "full_name": "Hugo González",
    "player_id": 1642864
   },
@@ -583,7 +583,7 @@
     134,
     100
    ],
-   "hair": "curly_short",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -600,7 +600,7 @@
     122,
     51
    ],
-   "look_source": "photo: short curly hair / clean-shaven",
+   "look_source": "photo: short curly hair / clean-shaven | revised:hair sponge",
    "full_name": "Chris Cenac Jr.",
    "player_id": 1643416
   },
@@ -613,7 +613,7 @@
     92,
     66
    ],
-   "hair": "curly_short",
+   "hair": "curly_top",
    "hair_color": [
     22,
     18,
@@ -645,7 +645,7 @@
     122,
     51
    ],
-   "look_source": "photo: short curly hair / full beard / white arm sleeve",
+   "look_source": "photo: short curly hair / full beard / white arm sleeve | revised:hair curly_top",
    "full_name": "Paul George",
    "player_id": 202331
   },
@@ -658,7 +658,7 @@
     142,
     108
    ],
-   "hair": "crop",
+   "hair": "waves",
    "hair_color": [
     24,
     20,
@@ -680,7 +680,7 @@
     122,
     51
    ],
-   "look_source": "photo: short dark hair / full beard",
+   "look_source": "photo: short dark hair / full beard | revised:hair waves",
    "full_name": "Devin Carter",
    "player_id": 1642269
   },
