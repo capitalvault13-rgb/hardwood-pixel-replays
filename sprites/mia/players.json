@@ -130,7 +130,7 @@
     0,
     46
    ],
-   "look_source": "photo: short curls / goatee",
+   "look_source": "photo: short curls / goatee | revised:hair curly_short",
    "full_name": "Simone Fontecchio",
    "player_id": 1631323
   },
@@ -223,7 +223,7 @@
     184,
     158
    ],
-   "hair": "crop",
+   "hair": "crop_lineup",
    "hair_color": [
     52,
     36,
@@ -245,7 +245,7 @@
     0,
     46
    ],
-   "look_source": "photo: crop / mustache",
+   "look_source": "photo: crop / mustache | revised:hair crop_lineup",
    "full_name": "Nikola Jović",
    "player_id": 1631107
   },
@@ -258,7 +258,7 @@
     62,
     44
    ],
-   "hair": "curly_top",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -285,7 +285,7 @@
     0,
     46
    ],
-   "look_source": "photo: curly top / goatee / earring",
+   "look_source": "photo: curly top / goatee / earring | revised:hair sponge",
    "full_name": "Giannis Antetokounmpo",
    "player_id": 203507
   },
@@ -363,7 +363,7 @@
     62,
     44
    ],
-   "hair": "buzz",
+   "hair": "waves",
    "hair_color": [
     22,
     18,
@@ -385,7 +385,7 @@
     0,
     46
    ],
-   "look_source": "photo: low cut / thick beard",
+   "look_source": "photo: low cut / thick beard | revised:hair waves",
    "full_name": "Tim Hardaway Jr.",
    "player_id": 203501
   },
@@ -398,7 +398,7 @@
     110,
     80
    ],
-   "hair": "crop",
+   "hair": "buzz_receding",
    "hair_color": [
     22,
     18,
@@ -420,7 +420,7 @@
     0,
     46
    ],
-   "look_source": "photo: crop / full beard",
+   "look_source": "photo: crop / full beard | revised:hair buzz_receding",
    "full_name": "Klay Thompson",
    "player_id": 202691
   },
@@ -433,7 +433,7 @@
     110,
     80
    ],
-   "hair": "curly_high",
+   "hair": "curly_top",
    "hair_color": [
     22,
     18,
@@ -450,7 +450,7 @@
     0,
     46
    ],
-   "look_source": "photo: tall curls / clean-shaven",
+   "look_source": "photo: tall curls / clean-shaven | revised:hair curly_top",
    "full_name": "Dru Smith",
    "player_id": 1630696
   },
@@ -548,7 +548,7 @@
     110,
     80
    ],
-   "hair": "buzz",
+   "hair": "buzz_lineup",
    "hair_color": [
     22,
     18,
@@ -575,7 +575,7 @@
     0,
     46
    ],
-   "look_source": "photo: low cut / goatee / earrings",
+   "look_source": "photo: low cut / goatee / earrings | revised:hair buzz_lineup",
    "full_name": "Keshad Johnson",
    "player_id": 1642352
   },
@@ -663,7 +663,7 @@
     184,
     158
    ],
-   "hair": "crop",
+   "hair": "swept_side",
    "hair_color": [
     52,
     36,
@@ -680,7 +680,7 @@
     0,
     46
    ],
-   "look_source": "photo: crop / clean-shaven",
+   "look_source": "photo: crop / clean-shaven | revised:hair swept_side",
    "full_name": "Vladislav Goldin",
    "player_id": 1642884
   },
