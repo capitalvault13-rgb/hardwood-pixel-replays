@@ -148,7 +148,7 @@
     166,
     132
    ],
-   "hair": "curly_top",
+   "hair": "curls_forward",
    "hair_color": [
     22,
     18,
@@ -170,7 +170,7 @@
     43,
     92
    ],
-   "look_source": "photo: messy curls / full beard",
+   "look_source": "photo: messy curls / full beard | revised:hair curls_forward",
    "full_name": "Tristan Vukčević",
    "player_id": 1641774
   },
@@ -353,7 +353,7 @@
     62,
     44
    ],
-   "hair": "crop",
+   "hair": "crop_lineup",
    "hair_color": [
     22,
     18,
@@ -380,7 +380,7 @@
     43,
     92
    ],
-   "look_source": "photo: crop / goatee / earrings",
+   "look_source": "photo: crop / goatee / earrings | revised:hair crop_lineup",
    "full_name": "Deandre Ayton",
    "player_id": 1629028
   },
@@ -648,7 +648,7 @@
     110,
     80
    ],
-   "hair": "curly_short",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -665,7 +665,7 @@
     43,
     92
    ],
-   "look_source": "photo: short curls / clean-shaven",
+   "look_source": "photo: short curls / clean-shaven | revised:hair sponge",
    "full_name": "Reece Beekman",
    "player_id": 1641736
   },
