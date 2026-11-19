@@ -220,9 +220,9 @@
    ],
    "hair": "curly_top",
    "hair_color": [
-    88,
-    60,
-    40
+    22,
+    18,
+    16
    ],
    "beard": "short",
    "beard_color": [
@@ -240,9 +240,15 @@
     16,
     46
    ],
-   "look_source": "photo: curly top / short beard",
+   "look_source": "photo: curly top / short beard | revised:hair curly_top, hair color, hair tip, tip rows",
    "full_name": "Paul Reed",
-   "player_id": 1630194
+   "player_id": 1630194,
+   "hair_tip": [
+    122,
+    88,
+    58
+   ],
+   "tip_rows": 0
   },
   {
    "id": "lanier",
@@ -433,7 +439,7 @@
     110,
     80
    ],
-   "hair": "curly_short",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -455,7 +461,7 @@
     16,
     46
    ],
-   "look_source": "photo: short curls / goatee",
+   "look_source": "photo: short curls / goatee | revised:hair sponge",
    "full_name": "John Collins",
    "player_id": 1628381
   },
@@ -468,7 +474,7 @@
     62,
     44
    ],
-   "hair": "curly_high",
+   "hair": "twists_spiky",
    "hair_color": [
     22,
     18,
@@ -490,7 +496,7 @@
     16,
     46
    ],
-   "look_source": "photo: tall messy curls / full beard",
+   "look_source": "photo: tall messy curls / full beard | revised:hair twists_spiky",
    "full_name": "Ebuka Okorie",
    "player_id": 1643536
   },
@@ -503,7 +509,7 @@
     62,
     44
    ],
-   "hair": "twists_short",
+   "hair": "buzz_receding",
    "hair_color": [
     22,
     18,
@@ -525,7 +531,7 @@
     16,
     46
    ],
-   "look_source": "photo: receding line-up / goatee",
+   "look_source": "photo: receding line-up / goatee | revised:hair buzz_receding",
    "full_name": "Daniss Jenkins",
    "player_id": 1642450
   },
@@ -603,7 +609,7 @@
     62,
     44
    ],
-   "hair": "fade_short",
+   "hair": "waves",
    "hair_color": [
     22,
     18,
@@ -625,7 +631,7 @@
     16,
     46
    ],
-   "look_source": "photo: fade / goatee",
+   "look_source": "photo: fade / goatee | revised:hair waves",
    "full_name": "Ugonna Onyenso",
    "player_id": 1642391
   },
@@ -638,7 +644,7 @@
     110,
     80
    ],
-   "hair": "curly_top",
+   "hair": "curly_high",
    "hair_color": [
     22,
     18,
@@ -660,7 +666,7 @@
     16,
     46
    ],
-   "look_source": "photo: curly top / goatee",
+   "look_source": "photo: curly top / goatee | revised:hair curly_high",
    "full_name": "Tolu Smith",
    "player_id": 1642449
   },
@@ -708,7 +714,7 @@
     62,
     44
    ],
-   "hair": "crop",
+   "hair": "curly_short",
    "hair_color": [
     22,
     18,
@@ -730,7 +736,7 @@
     16,
     46
    ],
-   "look_source": "photo: crop / full beard",
+   "look_source": "photo: crop / full beard | revised:hair curly_short",
    "full_name": "Elijah Harkless",
    "player_id": 1641989
   }
