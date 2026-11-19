@@ -17,7 +17,7 @@ players.json:
 hair:  bald | buzz | crop | curly_short | curly_high | wavy_medium | cornrows | locs
        | afro | locs_top | ... (see HAIR below)
        | afro_band | short_band | locs_band | locs_long_band   (the *_band styles take "headband": [r,g,b])
-beard: none | mustache | goatee | chinstrap | short | full | thick
+beard: none | mustache | goatee | chinstrap | short | full | thick | huge
 numbers: drawn from "number" (or the "#NN" label) as 5x7 block digits on the fine (DETAIL) grid,
          in the kit's trim colour; a kit may set "number": [r,g,b], "number_outline": [r,g,b]
          or "numbers": false. Output PNGs are DETAIL (3x) the chibi grid.
@@ -360,6 +360,8 @@ _hang("box_braids", 6, 11, "thin")
 HAIR["long_hair"] = {**{r: HAIR["wavy_medium"][r] for r in range(-2, 4)},   # straight hair to the jaw
                      4: HAIR["locs"][4], 5: HAIR["locs"][5]}
 _hang("long_hair", 6, 10)
+HAIR["cornrows_flat"] = {r: HAIR["cornrows"][r] for r in range(-1, 5)}   # cornrows, no hanging braid
+HAIR["cornrows_flat"][4] = "....#SSSSSSSSSSSHhH#..."
 HAIR["locs_long_band"] = {**HAIR["locs_long"], 2: HAIR["locs_band"][2], 3: HAIR["locs_band"][3]}
 
 # Beard overlays (B = beard, b = beard shade, M = mouth kept). Rows relative to head top.
@@ -390,6 +392,17 @@ BEARD = {
         11: ".....#BBBMMBBBB#.......",
         12: "......#BBBBBBB#........",
         13: ".......#BBBBBb#........",
+    },
+    "huge": {   # very full beard that spills past the chin onto the chest
+        8:  "....#BW#SSS#WSSSBe#....",
+        9:  "...#BBW#SSS#WSSBBB#....",
+        10: "...#BBBBBBBBBBBBBB#....",
+        11: "...#BBBBBMMBBBBBBb#....",
+        12: "...#BBBBBBBBBBBBBb#....",
+        13: "....#BBBBBBBBBBBb#.....",
+        14: ".....#BBBBBBBBBb#......",
+        15: "......#bBBBBBBb#.......",
+        16: ".......##bBBb##........",
     },
     "thick": {
         8:  "....#BW#SSS#WSSSBe#....",

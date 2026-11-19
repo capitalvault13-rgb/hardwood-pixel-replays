@@ -1,0 +1,733 @@
+{
+ "team": "Cleveland Cavaliers",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    134,
+    0,
+    56
+   ],
+   "trim2": [
+    253,
+    187,
+    48
+   ],
+   "band": [
+    134,
+    0,
+    56
+   ],
+   "number": [
+    134,
+    0,
+    56
+   ]
+  },
+  "away": {
+   "jersey": [
+    134,
+    0,
+    56
+   ],
+   "shade": [
+    104,
+    0,
+    43
+   ],
+   "trim": [
+    253,
+    187,
+    48
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    253,
+    187,
+    48
+   ],
+   "number": [
+    253,
+    187,
+    48
+   ],
+   "number_outline": [
+    4,
+    30,
+    66
+   ]
+  },
+  "statement": {
+   "jersey": [
+    4,
+    30,
+    66
+   ],
+   "shade": [
+    26,
+    52,
+    88
+   ],
+   "trim": [
+    253,
+    187,
+    48
+   ],
+   "trim2": [
+    134,
+    0,
+    56
+   ],
+   "band": [
+    253,
+    187,
+    48
+   ],
+   "number": [
+    253,
+    187,
+    48
+   ],
+   "number_outline": [
+    134,
+    0,
+    56
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "harden",
+   "label": "#1",
+   "name": "Harden",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "cornrows_flat",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "huge",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: cornrows / huge beard",
+   "full_name": "James Harden",
+   "player_id": 201935
+  },
+  {
+   "id": "bryant",
+   "label": "#3",
+   "name": "Bryant",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: short curls / goatee",
+   "full_name": "Thomas Bryant",
+   "player_id": 1628418
+  },
+  {
+   "id": "mobley",
+   "label": "#4",
+   "name": "Mobley",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "twists_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: receding line-up / goatee",
+   "full_name": "Evan Mobley",
+   "player_id": 1630596
+  },
+  {
+   "id": "merrill",
+   "label": "#5",
+   "name": "Merrill",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    122,
+    88,
+    58
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: high and tight / clean-shaven",
+   "full_name": "Sam Merrill",
+   "player_id": 1630241
+  },
+  {
+   "id": "watson",
+   "label": "#8",
+   "name": "Watson",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "locs_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: braids + white headband / earrings",
+   "full_name": "Peyton Watson",
+   "player_id": 1631212
+  },
+  {
+   "id": "porter",
+   "label": "#9",
+   "name": "Porter",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: curly top / goatee",
+   "full_name": "Craig Porter Jr.",
+   "player_id": 1641854
+  },
+  {
+   "id": "thomas",
+   "label": "#15",
+   "name": "Thomas",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: braids back / mustache / earrings",
+   "full_name": "Meleek Thomas",
+   "player_id": 1643509
+  },
+  {
+   "id": "diop",
+   "label": "#18",
+   "name": "Diop",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: locs falling forward / clean-shaven",
+   "full_name": "Khalifa Diop",
+   "player_id": 1631215
+  },
+  {
+   "id": "tyson",
+   "label": "#20",
+   "name": "Tyson",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: cornrows + braid / goatee / earrings",
+   "full_name": "Jaylon Tyson",
+   "player_id": 1642281
+  },
+  {
+   "id": "proctor",
+   "label": "#24",
+   "name": "Proctor",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: wide curls / goatee / earrings",
+   "full_name": "Tyrese Proctor",
+   "player_id": 1642878
+  },
+  {
+   "id": "allen",
+   "label": "#31",
+   "name": "Allen",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "afro_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: afro + white headband / full beard",
+   "full_name": "Jarrett Allen",
+   "player_id": 1628386
+  },
+  {
+   "id": "hezonja",
+   "label": "#33",
+   "name": "Hezonja",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "swept_back",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: slicked back / clean-shaven",
+   "full_name": "Mario Hezonja",
+   "player_id": 1626209
+  },
+  {
+   "id": "tomlin",
+   "label": "#35",
+   "name": "Tomlin",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: white headband / mustache / earrings",
+   "full_name": "Nae'Qwan Tomlin",
+   "player_id": 1641772
+  },
+  {
+   "id": "mitchell",
+   "label": "#45",
+   "name": "Mitchell",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: short curls / full beard",
+   "full_name": "Donovan Mitchell",
+   "player_id": 1628378
+  },
+  {
+   "id": "omier",
+   "label": "#77",
+   "name": "Omier",
+   "skin": [
+    142,
+    92,
+    64
+   ],
+   "hair": "afro_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: wild afro / full beard",
+   "full_name": "Norchad Omier",
+   "player_id": 1641807
+  },
+  {
+   "id": "udeh",
+   "label": "#88",
+   "name": "Udeh",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: crop / full beard",
+   "full_name": "Ernest Udeh Jr.",
+   "player_id": 1643640
+  },
+  {
+   "id": "austin",
+   "label": "#",
+   "name": "Austin",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    134,
+    0,
+    56
+   ],
+   "look_source": "photo: white headband / goatee",
+   "full_name": "Zack Austin",
+   "player_id": 1643113
+  }
+ ]
+}
