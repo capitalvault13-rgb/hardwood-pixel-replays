@@ -1,0 +1,743 @@
+{
+ "team": "Washington Wizards",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    0,
+    43,
+    92
+   ],
+   "trim2": [
+    227,
+    24,
+    55
+   ],
+   "band": [
+    0,
+    43,
+    92
+   ],
+   "number": [
+    0,
+    43,
+    92
+   ]
+  },
+  "away": {
+   "jersey": [
+    0,
+    43,
+    92
+   ],
+   "shade": [
+    0,
+    33,
+    71
+   ],
+   "trim": [
+    227,
+    24,
+    55
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    227,
+    24,
+    55
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    227,
+    24,
+    55
+   ]
+  },
+  "statement": {
+   "jersey": [
+    227,
+    24,
+    55
+   ],
+   "shade": [
+    177,
+    18,
+    42
+   ],
+   "trim": [
+    0,
+    43,
+    92
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    0,
+    43,
+    92
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    0,
+    43,
+    92
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "coulibaly",
+   "label": "#0",
+   "name": "Coulibaly",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "locs_long_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: long locs + white headband / mustache",
+   "full_name": "Bilal Coulibaly",
+   "player_id": 1641731
+  },
+  {
+   "id": "vukcevic",
+   "label": "#00",
+   "name": "Vukcevic",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: messy curls / full beard",
+   "full_name": "Tristan Vukčević",
+   "player_id": 1641774
+  },
+  {
+   "id": "mann",
+   "label": "#1",
+   "name": "Mann",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: white headband / goatee",
+   "full_name": "Tre Mann",
+   "player_id": 1630544
+  },
+  {
+   "id": "young",
+   "label": "#3",
+   "name": "Young",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "full",
+   "beard_color": [
+    52,
+    36,
+    28
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: wavy curls / full beard",
+   "full_name": "Trae Young",
+   "player_id": 1629027
+  },
+  {
+   "id": "dybantsa",
+   "label": "#4",
+   "name": "Dybantsa",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: high twists / clean-shaven",
+   "full_name": "AJ Dybantsa",
+   "player_id": 1643407
+  },
+  {
+   "id": "watkins",
+   "label": "#5",
+   "name": "Watkins",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "locs_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: locs tied up on top / mustache",
+   "full_name": "Jamir Watkins",
+   "player_id": 1642364
+  },
+  {
+   "id": "carrington",
+   "label": "#7",
+   "name": "Carrington",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: long twists / clean-shaven",
+   "full_name": "Bub Carrington",
+   "player_id": 1642267
+  },
+  {
+   "id": "ayton",
+   "label": "#8",
+   "name": "Ayton",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: crop / goatee / earrings",
+   "full_name": "Deandre Ayton",
+   "player_id": 1629028
+  },
+  {
+   "id": "champagnie",
+   "label": "#9",
+   "name": "Champagnie",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: round afro / full beard",
+   "full_name": "Justin Champagnie",
+   "player_id": 1630551
+  },
+  {
+   "id": "johnson",
+   "label": "#12",
+   "name": "Johnson",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "box_braids",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: center-parted locs / clean-shaven",
+   "full_name": "Tre Johnson",
+   "player_id": 1642848
+  },
+  {
+   "id": "gill",
+   "label": "#16",
+   "name": "Gill",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: short curls / full beard",
+   "full_name": "Anthony Gill",
+   "player_id": 1630264
+  },
+  {
+   "id": "george",
+   "label": "#18",
+   "name": "George",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: curly top / mustache",
+   "full_name": "Kyshawn George",
+   "player_id": 1642273
+  },
+  {
+   "id": "sarr",
+   "label": "#20",
+   "name": "Sarr",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: braids back / full beard / earrings",
+   "full_name": "Alex Sarr",
+   "player_id": 1642259
+  },
+  {
+   "id": "middleton",
+   "label": "#22",
+   "name": "Middleton",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "bald",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: shaved head / mustache",
+   "full_name": "Khris Middleton",
+   "player_id": 203114
+  },
+  {
+   "id": "davis",
+   "label": "#23",
+   "name": "Davis",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: white headband / full beard / earrings",
+   "full_name": "Anthony Davis",
+   "player_id": 203076
+  },
+  {
+   "id": "beekman",
+   "label": "#26",
+   "name": "Beekman",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: short curls / clean-shaven",
+   "full_name": "Reece Beekman",
+   "player_id": 1641736
+  },
+  {
+   "id": "riley",
+   "label": "#27",
+   "name": "Riley",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: tall curls / clean-shaven",
+   "full_name": "Will Riley",
+   "player_id": 1642860
+  },
+  {
+   "id": "okpara",
+   "label": "#34",
+   "name": "Okpara",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    43,
+    92
+   ],
+   "look_source": "photo: locs to the jaw / clean-shaven",
+   "full_name": "Felix Okpara",
+   "player_id": 1643590
+  }
+ ]
+}
