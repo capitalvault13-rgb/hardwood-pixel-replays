@@ -1,0 +1,748 @@
+{
+ "team": "Detroit Pistons",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    200,
+    16,
+    46
+   ],
+   "trim2": [
+    29,
+    66,
+    138
+   ],
+   "band": [
+    200,
+    16,
+    46
+   ],
+   "number": [
+    200,
+    16,
+    46
+   ]
+  },
+  "away": {
+   "jersey": [
+    29,
+    66,
+    138
+   ],
+   "shade": [
+    22,
+    51,
+    107
+   ],
+   "trim": [
+    246,
+    246,
+    242
+   ],
+   "trim2": [
+    200,
+    16,
+    46
+   ],
+   "band": [
+    246,
+    246,
+    242
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    200,
+    16,
+    46
+   ]
+  },
+  "statement": {
+   "jersey": [
+    200,
+    16,
+    46
+   ],
+   "shade": [
+    156,
+    12,
+    35
+   ],
+   "trim": [
+    246,
+    246,
+    242
+   ],
+   "trim2": [
+    29,
+    66,
+    138
+   ],
+   "band": [
+    246,
+    246,
+    242
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    29,
+    66,
+    138
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "duren",
+   "label": "#0",
+   "name": "Duren",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    34,
+    62,
+    40
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    26,
+    30,
+    24
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: green-dyed hair + white headband / goatee",
+   "full_name": "Jalen Duren",
+   "player_id": 1631105
+  },
+  {
+   "id": "cunningham",
+   "label": "#2",
+   "name": "Cunningham",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "afro",
+   "hair_color": [
+    88,
+    60,
+    40
+   ],
+   "beard": "short",
+   "beard_color": [
+    88,
+    60,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: big afro / short beard",
+   "full_name": "Cade Cunningham",
+   "player_id": 1630595
+  },
+  {
+   "id": "holland",
+   "label": "#5",
+   "name": "Holland",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: braids back / short beard",
+   "full_name": "Ronald Holland II",
+   "player_id": 1641842
+  },
+  {
+   "id": "reed",
+   "label": "#7",
+   "name": "Reed",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    88,
+    60,
+    40
+   ],
+   "beard": "short",
+   "beard_color": [
+    88,
+    60,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: curly top / short beard",
+   "full_name": "Paul Reed",
+   "player_id": 1630194
+  },
+  {
+   "id": "lanier",
+   "label": "#8",
+   "name": "Lanier",
+   "skin": [
+    142,
+    92,
+    64
+   ],
+   "hair": "cornrows_flat",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: braids back flat / goatee",
+   "full_name": "Chaz Lanier",
+   "player_id": 1642404
+  },
+  {
+   "id": "thompson",
+   "label": "#9",
+   "name": "Thompson",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: braids to the jaw / short beard",
+   "full_name": "Ausar Thompson",
+   "player_id": 1641709
+  },
+  {
+   "id": "prince",
+   "label": "#12",
+   "name": "Prince",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: cornrows + braid / short beard",
+   "full_name": "Taurean Prince",
+   "player_id": 1627752
+  },
+  {
+   "id": "jones",
+   "label": "#13",
+   "name": "Jones",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "locs_long_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    66,
+    66,
+    72
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: long locs + black headband / goatee",
+   "full_name": "Isaac Jones",
+   "player_id": 1642403
+  },
+  {
+   "id": "joe",
+   "label": "#17",
+   "name": "Joe",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "box_braids",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: box braids / full beard",
+   "full_name": "Isaiah Joe",
+   "player_id": 1630198
+  },
+  {
+   "id": "collins",
+   "label": "#20",
+   "name": "Collins",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: short curls / goatee",
+   "full_name": "John Collins",
+   "player_id": 1628381
+  },
+  {
+   "id": "okorie",
+   "label": "#23",
+   "name": "Okorie",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: tall messy curls / full beard",
+   "full_name": "Ebuka Okorie",
+   "player_id": 1643536
+  },
+  {
+   "id": "jenkins",
+   "label": "#24",
+   "name": "Jenkins",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "twists_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: receding line-up / goatee",
+   "full_name": "Daniss Jenkins",
+   "player_id": 1642450
+  },
+  {
+   "id": "huerter",
+   "label": "#27",
+   "name": "Huerter",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    150,
+    74,
+    42
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: red quiff / clean-shaven",
+   "full_name": "Kevin Huerter",
+   "player_id": 1628989
+  },
+  {
+   "id": "green",
+   "label": "#31",
+   "name": "Green",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: low cut / goatee",
+   "full_name": "Javonte Green",
+   "player_id": 1629750
+  },
+  {
+   "id": "onyenso",
+   "label": "#34",
+   "name": "Onyenso",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: fade / goatee",
+   "full_name": "Ugonna Onyenso",
+   "player_id": 1642391
+  },
+  {
+   "id": "smith",
+   "label": "#35",
+   "name": "Smith",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: curly top / goatee",
+   "full_name": "Tolu Smith",
+   "player_id": 1642449
+  },
+  {
+   "id": "robinson",
+   "label": "#55",
+   "name": "Robinson",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    122,
+    88,
+    58
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    122,
+    88,
+    58
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: messy fringe / mustache",
+   "full_name": "Duncan Robinson",
+   "player_id": 1629130
+  },
+  {
+   "id": "harkless",
+   "label": "#94",
+   "name": "Harkless",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    200,
+    16,
+    46
+   ],
+   "look_source": "photo: crop / full beard",
+   "full_name": "Elijah Harkless",
+   "player_id": 1641989
+  }
+ ]
+}
