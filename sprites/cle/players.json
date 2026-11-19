@@ -143,7 +143,7 @@
     62,
     44
    ],
-   "hair": "curly_short",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -165,7 +165,7 @@
     0,
     56
    ],
-   "look_source": "photo: short curls / goatee",
+   "look_source": "photo: short curls / goatee | revised:hair sponge",
    "full_name": "Thomas Bryant",
    "player_id": 1628418
   },
@@ -213,7 +213,7 @@
     184,
     158
    ],
-   "hair": "high_tight",
+   "hair": "crop_lineup",
    "hair_color": [
     122,
     88,
@@ -230,7 +230,7 @@
     0,
     56
    ],
-   "look_source": "photo: high and tight / clean-shaven",
+   "look_source": "photo: high and tight / clean-shaven | revised:hair crop_lineup",
    "full_name": "Sam Merrill",
    "player_id": 1630241
   },
@@ -653,7 +653,7 @@
     62,
     44
    ],
-   "hair": "crop",
+   "hair": "buzz_lineup",
    "hair_color": [
     22,
     18,
@@ -675,7 +675,7 @@
     0,
     56
    ],
-   "look_source": "photo: crop / full beard",
+   "look_source": "photo: crop / full beard | revised:hair buzz_lineup",
    "full_name": "Ernest Udeh Jr.",
    "player_id": 1643640
   },
