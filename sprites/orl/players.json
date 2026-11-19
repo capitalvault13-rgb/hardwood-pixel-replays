@@ -1,0 +1,698 @@
+{
+ "team": "Orlando Magic",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    0,
+    125,
+    197
+   ],
+   "trim2": [
+    24,
+    24,
+    26
+   ],
+   "band": [
+    0,
+    125,
+    197
+   ],
+   "number": [
+    0,
+    125,
+    197
+   ]
+  },
+  "away": {
+   "jersey": [
+    0,
+    125,
+    197
+   ],
+   "shade": [
+    0,
+    97,
+    153
+   ],
+   "trim": [
+    24,
+    24,
+    26
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    24,
+    24,
+    26
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    24,
+    24,
+    26
+   ]
+  },
+  "statement": {
+   "jersey": [
+    24,
+    24,
+    26
+   ],
+   "shade": [
+    46,
+    46,
+    48
+   ],
+   "trim": [
+    0,
+    125,
+    197
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    0,
+    125,
+    197
+   ],
+   "number": [
+    0,
+    125,
+    197
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "black",
+   "label": "#0",
+   "name": "Black",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: white headband / goatee",
+   "full_name": "Anthony Black",
+   "player_id": 1641710
+  },
+  {
+   "id": "isaac",
+   "label": "#1",
+   "name": "Isaac",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: tall curls / full beard",
+   "full_name": "Jonathan Isaac",
+   "player_id": 1628371
+  },
+  {
+   "id": "jcarter",
+   "label": "#2",
+   "name": "Carter",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "bald",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: shaved head / full beard",
+   "full_name": "Jevon Carter",
+   "player_id": 1628975
+  },
+  {
+   "id": "bane",
+   "label": "#3",
+   "name": "Bane",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: low cut / goatee",
+   "full_name": "Desmond Bane",
+   "player_id": 1630217
+  },
+  {
+   "id": "suggs",
+   "label": "#4",
+   "name": "Suggs",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "bald",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: shaved head / goatee",
+   "full_name": "Jalen Suggs",
+   "player_id": 1630591
+  },
+  {
+   "id": "banchero",
+   "label": "#5",
+   "name": "Banchero",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: curly top / clean-shaven",
+   "full_name": "Paolo Banchero",
+   "player_id": 1631094
+  },
+  {
+   "id": "cain",
+   "label": "#8",
+   "name": "Cain",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "twists_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: low line-up / clean-shaven",
+   "full_name": "Jamal Cain",
+   "player_id": 1631288
+  },
+  {
+   "id": "vucevic",
+   "label": "#9",
+   "name": "Vucevic",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "short",
+   "beard_color": [
+    52,
+    36,
+    28
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: short fade / stubble",
+   "full_name": "Nikola Vučević",
+   "player_id": 202696
+  },
+  {
+   "id": "richardson",
+   "label": "#11",
+   "name": "Richardson",
+   "skin": [
+    142,
+    92,
+    64
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: round afro / goatee",
+   "full_name": "Jase Richardson",
+   "player_id": 1642859
+  },
+  {
+   "id": "castleton",
+   "label": "#14",
+   "name": "Castleton",
+   "skin": [
+    240,
+    198,
+    176
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    52,
+    36,
+    28
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: spiky quiff / goatee",
+   "full_name": "Colin Castleton",
+   "player_id": 1630658
+  },
+  {
+   "id": "wagner",
+   "label": "#22",
+   "name": "Wagner",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    88,
+    60,
+    40
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    88,
+    60,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: wavy mullet / mustache",
+   "full_name": "Franz Wagner",
+   "player_id": 1630532
+  },
+  {
+   "id": "dasilva",
+   "label": "#23",
+   "name": "da Silva",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: fade / goatee",
+   "full_name": "Tristan da Silva",
+   "player_id": 1641783
+  },
+  {
+   "id": "nelson",
+   "label": "#25",
+   "name": "Nelson",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: crop / clean-shaven",
+   "full_name": "Izaiyah Nelson",
+   "player_id": 1643593
+  },
+  {
+   "id": "morales",
+   "label": "#30",
+   "name": "Morales",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: short line-up / goatee",
+   "full_name": "Alex Morales",
+   "player_id": 1631457
+  },
+  {
+   "id": "wcarter",
+   "label": "#34",
+   "name": "Carter",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: cornrows + braid / mustache",
+   "full_name": "Wendell Carter Jr.",
+   "player_id": 1628976
+  },
+  {
+   "id": "bitadze",
+   "label": "#35",
+   "name": "Bitadze",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "swept_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: slicked back / full beard",
+   "full_name": "Goga Bitadze",
+   "player_id": 1629048
+  },
+  {
+   "id": "penda",
+   "label": "#93",
+   "name": "Penda",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    236,
+    234,
+    228
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    197
+   ],
+   "look_source": "photo: bleached curls / goatee",
+   "full_name": "Noah Penda",
+   "player_id": 1642869
+  }
+ ]
+}
