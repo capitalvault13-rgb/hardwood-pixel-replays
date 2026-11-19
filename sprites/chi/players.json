@@ -173,7 +173,7 @@
     92,
     64
    ],
-   "hair": "curly_top",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -200,7 +200,7 @@
     17,
     65
    ],
-   "look_source": "photo: curly top / mustache / earrings",
+   "look_source": "photo: curly top / mustache / earrings | revised:hair sponge",
    "full_name": "Dailyn Swain",
    "player_id": 1643517
   },
@@ -213,7 +213,7 @@
     110,
     80
    ],
-   "hair": "buzz",
+   "hair": "buzz_lineup",
    "hair_color": [
     22,
     18,
@@ -235,7 +235,7 @@
     17,
     65
    ],
-   "look_source": "photo: low cut / goatee",
+   "look_source": "photo: low cut / goatee | revised:hair buzz_lineup",
    "full_name": "Orlando Robinson",
    "player_id": 1631115
   },
@@ -388,7 +388,7 @@
     184,
     158
    ],
-   "hair": "swept_back",
+   "hair": "swept_side",
    "hair_color": [
     22,
     18,
@@ -405,7 +405,7 @@
     17,
     65
    ],
-   "look_source": "photo: swept-back undercut / clean-shaven",
+   "look_source": "photo: swept-back undercut / clean-shaven | revised:hair swept_side",
    "full_name": "Zach Collins",
    "player_id": 1628380
   },
@@ -453,7 +453,7 @@
     92,
     64
    ],
-   "hair": "crop",
+   "hair": "waves",
    "hair_color": [
     22,
     18,
@@ -475,7 +475,7 @@
     17,
     65
    ],
-   "look_source": "photo: crop / short beard",
+   "look_source": "photo: crop / short beard | revised:hair waves",
    "full_name": "Jordan Hawkins",
    "player_id": 1641722
   },
@@ -558,7 +558,7 @@
     92,
     64
    ],
-   "hair": "high_tight",
+   "hair": "buzz_receding",
    "hair_color": [
     22,
     18,
@@ -580,7 +580,7 @@
     17,
     65
    ],
-   "look_source": "photo: short line-up / full beard",
+   "look_source": "photo: short line-up / full beard | revised:hair buzz_receding",
    "full_name": "Norman Powell",
    "player_id": 1626181
   },
@@ -658,7 +658,7 @@
     62,
     44
    ],
-   "hair": "fade_short",
+   "hair": "cornrows_flat",
    "hair_color": [
     22,
     18,
@@ -680,7 +680,7 @@
     17,
     65
    ],
-   "look_source": "photo: short waves / mustache",
+   "look_source": "photo: short waves / mustache | revised:hair cornrows_flat",
    "full_name": "Isaac Okoro",
    "player_id": 1630171
   },
