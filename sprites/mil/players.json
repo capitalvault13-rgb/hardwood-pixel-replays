@@ -218,7 +218,7 @@
     110,
     80
    ],
-   "hair": "bald",
+   "hair": "buzz_receding",
    "hair_color": [
     22,
     18,
@@ -240,7 +240,7 @@
     71,
     27
    ],
-   "look_source": "photo: receding / thick beard",
+   "look_source": "photo: receding / thick beard | revised:hair buzz_receding",
    "full_name": "Gary Trent Jr.",
    "player_id": 1629018
   },
@@ -253,7 +253,7 @@
     136,
     100
    ],
-   "hair": "buzz",
+   "hair": "waves",
    "hair_color": [
     22,
     18,
@@ -275,7 +275,7 @@
     71,
     27
    ],
-   "look_source": "photo: low waves / goatee",
+   "look_source": "photo: low waves / goatee | revised:hair waves",
    "full_name": "Kel'el Ware",
    "player_id": 1642276
   },
@@ -363,7 +363,7 @@
     110,
     80
    ],
-   "hair": "curly_short",
+   "hair": "sponge",
    "hair_color": [
     22,
     18,
@@ -385,7 +385,7 @@
     71,
     27
    ],
-   "look_source": "photo: short curls / goatee",
+   "look_source": "photo: short curls / goatee | revised:hair sponge",
    "full_name": "Ryan Rollins",
    "player_id": 1631157
   },
@@ -428,7 +428,7 @@
     136,
     100
    ],
-   "hair": "curly_top",
+   "hair": "curly_short",
    "hair_color": [
     22,
     18,
@@ -455,7 +455,7 @@
     71,
     27
    ],
-   "look_source": "photo: curly top / goatee / earring",
+   "look_source": "photo: curly top / goatee / earring | revised:hair curly_short",
    "full_name": "Kyle Kuzma",
    "player_id": 1628398
   },
@@ -503,7 +503,7 @@
     198,
     176
    ],
-   "hair": "messy_fringe",
+   "hair": "crop_fringe",
    "hair_color": [
     172,
     138,
@@ -520,7 +520,7 @@
     71,
     27
    ],
-   "look_source": "photo: blond fringe / clean-shaven",
+   "look_source": "photo: blond fringe / clean-shaven | revised:hair crop_fringe",
    "full_name": "AJ Green",
    "player_id": 1631260
   },
@@ -643,7 +643,7 @@
     184,
     158
    ],
-   "hair": "curly_short",
+   "hair": "curls_forward",
    "hair_color": [
     122,
     88,
@@ -660,7 +660,7 @@
     71,
     27
    ],
-   "look_source": "photo: light brown curls / clean-shaven",
+   "look_source": "photo: light brown curls / clean-shaven | revised:hair curls_forward",
    "full_name": "Kasparas Jakučionis",
    "player_id": 1642857
   },
@@ -673,7 +673,7 @@
     184,
     158
    ],
-   "hair": "wavy_medium",
+   "hair": "middle_part",
    "hair_color": [
     22,
     18,
@@ -690,7 +690,7 @@
     71,
     27
    ],
-   "look_source": "photo: dark fringe / clean-shaven",
+   "look_source": "photo: dark fringe / clean-shaven | revised:hair middle_part",
    "full_name": "Cormac Ryan",
    "player_id": 1642504
   },
@@ -703,7 +703,7 @@
     136,
     100
    ],
-   "hair": "high_tight",
+   "hair": "buzz_lineup",
    "hair_color": [
     22,
     18,
@@ -725,7 +725,7 @@
     71,
     27
    ],
-   "look_source": "photo: short line-up / full beard",
+   "look_source": "photo: short line-up / full beard | revised:hair buzz_lineup",
    "full_name": "Pete Nance",
    "player_id": 1631250
   }
