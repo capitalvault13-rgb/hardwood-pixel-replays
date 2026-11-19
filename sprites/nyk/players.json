@@ -1,0 +1,708 @@
+{
+ "team": "New York Knicks",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    0,
+    107,
+    182
+   ],
+   "trim2": [
+    245,
+    132,
+    38
+   ],
+   "band": [
+    0,
+    107,
+    182
+   ],
+   "number": [
+    0,
+    107,
+    182
+   ]
+  },
+  "away": {
+   "jersey": [
+    0,
+    107,
+    182
+   ],
+   "shade": [
+    0,
+    83,
+    141
+   ],
+   "trim": [
+    245,
+    132,
+    38
+   ],
+   "trim2": [
+    246,
+    246,
+    242
+   ],
+   "band": [
+    245,
+    132,
+    38
+   ],
+   "number": [
+    245,
+    132,
+    38
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  },
+  "statement": {
+   "jersey": [
+    24,
+    24,
+    26
+   ],
+   "shade": [
+    46,
+    46,
+    48
+   ],
+   "trim": [
+    245,
+    132,
+    38
+   ],
+   "trim2": [
+    0,
+    107,
+    182
+   ],
+   "band": [
+    245,
+    132,
+    38
+   ],
+   "number": [
+    245,
+    132,
+    38
+   ],
+   "number_outline": [
+    0,
+    107,
+    182
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "drummond",
+   "label": "#0",
+   "name": "Drummond",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "twists_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: receding line-up / full beard",
+   "full_name": "Andre Drummond",
+   "player_id": 203083
+  },
+  {
+   "id": "clarkson",
+   "label": "#00",
+   "name": "Clarkson",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: long twists / mustache",
+   "full_name": "Jordan Clarkson",
+   "player_id": 203903
+  },
+  {
+   "id": "knecht",
+   "label": "#1",
+   "name": "Knecht",
+   "skin": [
+    240,
+    198,
+    176
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    88,
+    60,
+    40
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: messy fringe / clean-shaven",
+   "full_name": "Dalton Knecht",
+   "player_id": 1642261
+  },
+  {
+   "id": "mcbride",
+   "label": "#2",
+   "name": "McBride",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "afro_long",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    52,
+    36,
+    28
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: big curls / mustache / earrings",
+   "full_name": "Miles McBride",
+   "player_id": 1630540
+  },
+  {
+   "id": "hart",
+   "label": "#3",
+   "name": "Hart",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: white headband / goatee / earrings",
+   "full_name": "Josh Hart",
+   "player_id": 1628404
+  },
+  {
+   "id": "dadiet",
+   "label": "#4",
+   "name": "Dadiet",
+   "skin": [
+    190,
+    136,
+    100
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: locs to the jaw / clean-shaven",
+   "full_name": "Pacôme Dadiet",
+   "player_id": 1642359
+  },
+  {
+   "id": "alvarado",
+   "label": "#5",
+   "name": "Alvarado",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: white headband / full beard",
+   "full_name": "Jose Alvarado",
+   "player_id": 1630631
+  },
+  {
+   "id": "anunoby",
+   "label": "#8",
+   "name": "Anunoby",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: freeform twists / clean-shaven",
+   "full_name": "OG Anunoby",
+   "player_id": 1628384
+  },
+  {
+   "id": "brunson",
+   "label": "#11",
+   "name": "Brunson",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "box_braids",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: center-parted twists / short beard",
+   "full_name": "Jalen Brunson",
+   "player_id": 1628973
+  },
+  {
+   "id": "kolek",
+   "label": "#13",
+   "name": "Kolek",
+   "skin": [
+    232,
+    184,
+    158
+   ],
+   "hair": "long_hair",
+   "hair_color": [
+    52,
+    36,
+    28
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: long hair / clean-shaven",
+   "full_name": "Tyler Kolek",
+   "player_id": 1642278
+  },
+  {
+   "id": "akins",
+   "label": "#14",
+   "name": "Akins",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "guess: crop / clean-shaven (no nba.com headshot yet)",
+   "full_name": "Jaden Akins",
+   "player_id": 1643022
+  },
+  {
+   "id": "bridges",
+   "label": "#25",
+   "name": "Bridges",
+   "skin": [
+    120,
+    76,
+    52
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: low cut / full beard",
+   "full_name": "Mikal Bridges",
+   "player_id": 1628969
+  },
+  {
+   "id": "towns",
+   "label": "#32",
+   "name": "Towns",
+   "skin": [
+    164,
+    110,
+    80
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: curly top / full beard",
+   "full_name": "Karl-Anthony Towns",
+   "player_id": 1626157
+  },
+  {
+   "id": "wiseman",
+   "label": "#35",
+   "name": "Wiseman",
+   "skin": [
+    100,
+    62,
+    44
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: tall curls / goatee",
+   "full_name": "James Wiseman",
+   "player_id": 1630164
+  },
+  {
+   "id": "shamet",
+   "label": "#44",
+   "name": "Shamet",
+   "skin": [
+    214,
+    166,
+    132
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: short curls / short beard",
+   "full_name": "Landry Shamet",
+   "player_id": 1629013
+  },
+  {
+   "id": "diawara",
+   "label": "#51",
+   "name": "Diawara",
+   "skin": [
+    82,
+    52,
+    38
+   ],
+   "hair": "cornrows_flat",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "earrings": [
+    236,
+    236,
+    240
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: cornrows / goatee / earrings",
+   "full_name": "Mohamed Diawara",
+   "player_id": 1642885
+  },
+  {
+   "id": "nickel",
+   "label": "#55",
+   "name": "Nickel",
+   "skin": [
+    240,
+    198,
+    176
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    150,
+    74,
+    42
+   ],
+   "beard": "short",
+   "beard_color": [
+    150,
+    74,
+    42
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    107,
+    182
+   ],
+   "look_source": "photo: red crop / short beard",
+   "full_name": "Tyler Nickel",
+   "player_id": 1643589
+  }
+ ]
+}
