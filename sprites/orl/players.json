@@ -170,7 +170,7 @@
     125,
     197
    ],
-   "look_source": "photo: tall curls / full beard",
+   "look_source": "photo: tall curls / full beard | revised:hair curly_high",
    "full_name": "Jonathan Isaac",
    "player_id": 1628371
   },
@@ -218,7 +218,7 @@
     110,
     80
    ],
-   "hair": "buzz",
+   "hair": "buzz_receding",
    "hair_color": [
     22,
     18,
@@ -240,7 +240,7 @@
     125,
     197
    ],
-   "look_source": "photo: low cut / goatee",
+   "look_source": "photo: low cut / goatee | revised:hair buzz_receding",
    "full_name": "Desmond Bane",
    "player_id": 1630217
   },
@@ -318,7 +318,7 @@
     62,
     44
    ],
-   "hair": "twists_short",
+   "hair": "waves",
    "hair_color": [
     22,
     18,
@@ -335,7 +335,7 @@
     125,
     197
    ],
-   "look_source": "photo: low line-up / clean-shaven",
+   "look_source": "photo: low line-up / clean-shaven | revised:hair waves",
    "full_name": "Jamal Cain",
    "player_id": 1631288
   },
@@ -348,7 +348,7 @@
     184,
     158
    ],
-   "hair": "fade_short",
+   "hair": "crop_lineup",
    "hair_color": [
     52,
     36,
@@ -370,7 +370,7 @@
     125,
     197
    ],
-   "look_source": "photo: short fade / stubble",
+   "look_source": "photo: short fade / stubble | revised:hair crop_lineup",
    "full_name": "Nikola Vučević",
    "player_id": 202696
   },
@@ -453,7 +453,7 @@
     184,
     158
    ],
-   "hair": "wavy_medium",
+   "hair": "mullet",
    "hair_color": [
     88,
     60,
@@ -475,7 +475,7 @@
     125,
     197
    ],
-   "look_source": "photo: wavy mullet / mustache",
+   "look_source": "photo: wavy mullet / mustache | revised:hair mullet",
    "full_name": "Franz Wagner",
    "player_id": 1630532
   },
@@ -488,7 +488,7 @@
     136,
     100
    ],
-   "hair": "fade_short",
+   "hair": "textured_crop",
    "hair_color": [
     22,
     18,
@@ -510,7 +510,7 @@
     125,
     197
    ],
-   "look_source": "photo: fade / goatee",
+   "look_source": "photo: fade / goatee | revised:hair textured_crop",
    "full_name": "Tristan da Silva",
    "player_id": 1641783
   },
@@ -523,7 +523,7 @@
     62,
     44
    ],
-   "hair": "crop",
+   "hair": "buzz_lineup",
    "hair_color": [
     22,
     18,
@@ -540,7 +540,7 @@
     125,
     197
    ],
-   "look_source": "photo: crop / clean-shaven",
+   "look_source": "photo: crop / clean-shaven | revised:hair buzz_lineup",
    "full_name": "Izaiyah Nelson",
    "player_id": 1643593
   },
@@ -553,7 +553,7 @@
     110,
     80
    ],
-   "hair": "high_tight",
+   "hair": "crop_lineup",
    "hair_color": [
     22,
     18,
@@ -575,7 +575,7 @@
     125,
     197
    ],
-   "look_source": "photo: short line-up / goatee",
+   "look_source": "photo: short line-up / goatee | revised:hair crop_lineup",
    "full_name": "Alex Morales",
    "player_id": 1631457
   },
@@ -623,7 +623,7 @@
     166,
     132
    ],
-   "hair": "swept_back",
+   "hair": "man_bun",
    "hair_color": [
     22,
     18,
@@ -645,7 +645,7 @@
     125,
     197
    ],
-   "look_source": "photo: slicked back / full beard",
+   "look_source": "photo: slicked back / full beard | revised:hair man_bun",
    "full_name": "Goga Bitadze",
    "player_id": 1629048
   },
