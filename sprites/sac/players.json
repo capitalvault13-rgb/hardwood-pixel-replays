@@ -1,0 +1,725 @@
+{
+ "team": "Sacramento Kings",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    91,
+    43,
+    130
+   ],
+   "trim2": [
+    24,
+    20,
+    22
+   ],
+   "band": [
+    91,
+    43,
+    130
+   ],
+   "number": [
+    91,
+    43,
+    130
+   ],
+   "number_outline": [
+    99,
+    113,
+    122
+   ]
+  },
+  "away": {
+   "jersey": [
+    91,
+    43,
+    130
+   ],
+   "shade": [
+    68,
+    32,
+    97
+   ],
+   "trim": [
+    246,
+    246,
+    242
+   ],
+   "trim2": [
+    24,
+    20,
+    22
+   ],
+   "band": [
+    246,
+    246,
+    242
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    24,
+    20,
+    22
+   ]
+  },
+  "statement": {
+   "jersey": [
+    24,
+    20,
+    22
+   ],
+   "shade": [
+    18,
+    15,
+    16
+   ],
+   "trim": [
+    91,
+    43,
+    130
+   ],
+   "trim2": [
+    99,
+    113,
+    122
+   ],
+   "band": [
+    91,
+    43,
+    130
+   ],
+   "number": [
+    91,
+    43,
+    130
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "monk",
+   "label": "#0",
+   "number": "0",
+   "name": "Monk",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black afro / full",
+   "full_name": "Malik Monk",
+   "player_id": 1628370
+  },
+  {
+   "id": "pedulla",
+   "label": "#3",
+   "number": "3",
+   "name": "Pedulla",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "crop",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: brown crop / clean-shaven",
+   "full_name": "Sean Pedulla",
+   "player_id": 1642951
+  },
+  {
+   "id": "acuff",
+   "label": "#5",
+   "number": "5",
+   "name": "Acuff",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black cornrows / goatee",
+   "full_name": "Darius Acuff Jr.",
+   "player_id": 1643411
+  },
+  {
+   "id": "lavine",
+   "label": "#8",
+   "number": "8",
+   "name": "LaVine",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black fade short / short",
+   "full_name": "Zach LaVine",
+   "player_id": 203897
+  },
+  {
+   "id": "achiuwa",
+   "label": "#9",
+   "number": "9",
+   "name": "Achiuwa",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    24,
+    22,
+    24
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black short band / goatee / black headband",
+   "full_name": "Precious Achiuwa",
+   "player_id": 1630173
+  },
+  {
+   "id": "sabonis",
+   "label": "#11",
+   "number": "11",
+   "name": "Sabonis",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "swept_back",
+   "hair_color": [
+    150,
+    116,
+    74
+   ],
+   "beard": "thick",
+   "beard_color": [
+    150,
+    116,
+    74
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: light brown swept back / thick",
+   "full_name": "Domantas Sabonis",
+   "player_id": 1627734
+  },
+  {
+   "id": "murray",
+   "label": "#13",
+   "number": "13",
+   "name": "Murray",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black crop / goatee",
+   "full_name": "Keegan Murray",
+   "player_id": 1631099
+  },
+  {
+   "id": "hunter",
+   "label": "#15",
+   "number": "15",
+   "name": "Hunter",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black high tight / mustache",
+   "full_name": "De'Andre Hunter",
+   "player_id": 1629631
+  },
+  {
+   "id": "black",
+   "label": "#19",
+   "number": "19",
+   "name": "Black",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black twists spiky / short",
+   "full_name": "Leaky Black",
+   "player_id": 1641778
+  },
+  {
+   "id": "mogbo",
+   "label": "#22",
+   "number": "22",
+   "name": "Mogbo",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black locs long / goatee",
+   "full_name": "Jonathan Mogbo",
+   "player_id": 1642367
+  },
+  {
+   "id": "simmons",
+   "label": "#25",
+   "number": "25",
+   "name": "Simmons",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black curly short / full",
+   "full_name": "Ben Simmons",
+   "player_id": 1627732
+  },
+  {
+   "id": "plowden",
+   "label": "#29",
+   "number": "29",
+   "name": "Plowden",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "headband": [
+    24,
+    22,
+    24
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black short band / mustache / black headband",
+   "full_name": "Daeqwon Plowden",
+   "player_id": 1631342
+  },
+  {
+   "id": "cardwell",
+   "label": "#32",
+   "number": "32",
+   "name": "Cardwell",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black buzz / mustache",
+   "full_name": "Dylan Cardwell",
+   "player_id": 1642928
+  },
+  {
+   "id": "karaban",
+   "label": "#33",
+   "number": "33",
+   "name": "Karaban",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "short",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: dark brown high tight / short",
+   "full_name": "Alex Karaban",
+   "player_id": 1642284
+  },
+  {
+   "id": "sharp",
+   "label": "#34",
+   "number": "34",
+   "name": "Sharp",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: black braids back / full",
+   "full_name": "Emanuel Sharp",
+   "player_id": 1643567
+  },
+  {
+   "id": "raynaud",
+   "label": "#42",
+   "number": "42",
+   "name": "Raynaud",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: dark brown quiff / clean-shaven",
+   "full_name": "Maxime Raynaud",
+   "player_id": 1642875
+  },
+  {
+   "id": "plumlee",
+   "label": "#45",
+   "number": "45",
+   "name": "Plumlee",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "bald",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    91,
+    43,
+    130
+   ],
+   "look_source": "photo: bald / clean-shaven",
+   "full_name": "Mason Plumlee",
+   "player_id": 203486
+  }
+ ]
+}
