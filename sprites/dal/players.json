@@ -1,0 +1,761 @@
+{
+ "team": "Dallas Mavericks",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    0,
+    83,
+    188
+   ],
+   "trim2": [
+    0,
+    43,
+    92
+   ],
+   "band": [
+    0,
+    83,
+    188
+   ],
+   "number": [
+    0,
+    83,
+    188
+   ],
+   "number_outline": [
+    0,
+    43,
+    92
+   ]
+  },
+  "away": {
+   "jersey": [
+    0,
+    83,
+    188
+   ],
+   "shade": [
+    0,
+    62,
+    141
+   ],
+   "trim": [
+    246,
+    246,
+    242
+   ],
+   "trim2": [
+    0,
+    43,
+    92
+   ],
+   "band": [
+    246,
+    246,
+    242
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    0,
+    43,
+    92
+   ]
+  },
+  "statement": {
+   "jersey": [
+    0,
+    43,
+    92
+   ],
+   "shade": [
+    0,
+    32,
+    69
+   ],
+   "trim": [
+    0,
+    83,
+    188
+   ],
+   "trim2": [
+    187,
+    196,
+    202
+   ],
+   "band": [
+    0,
+    83,
+    188
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    0,
+    83,
+    188
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "christie",
+   "label": "#0",
+   "number": "0",
+   "name": "Christie",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black curly short / clean-shaven",
+   "full_name": "Max Christie",
+   "player_id": 1631108
+  },
+  {
+   "id": "clayton",
+   "label": "#1",
+   "number": "1",
+   "name": "Clayton",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    150,
+    78,
+    44
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black braids back / goatee",
+   "full_name": "Walter Clayton Jr.",
+   "player_id": 1642383
+  },
+  {
+   "id": "lively",
+   "label": "#2",
+   "number": "2",
+   "name": "Lively",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black afro / short",
+   "full_name": "Dereck Lively II",
+   "player_id": 1641726
+  },
+  {
+   "id": "marshall",
+   "label": "#3",
+   "number": "3",
+   "name": "Marshall",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black cornrows / thick",
+   "full_name": "Naji Marshall",
+   "player_id": 1630230
+  },
+  {
+   "id": "sasser",
+   "label": "#8",
+   "number": "8",
+   "name": "Sasser",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black curly high / clean-shaven",
+   "full_name": "Marcus Sasser",
+   "player_id": 1631204
+  },
+  {
+   "id": "howard",
+   "label": "#9",
+   "number": "9",
+   "name": "Howard",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "cornrows_left",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black cornrows left / goatee / earrings",
+   "full_name": "Jett Howard",
+   "player_id": 1641724
+  },
+  {
+   "id": "risacher",
+   "label": "#10",
+   "number": "10",
+   "name": "Risacher",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black locs long / goatee",
+   "full_name": "Zaccharie Risacher",
+   "player_id": 1642258
+  },
+  {
+   "id": "irving",
+   "label": "#11",
+   "number": "11",
+   "name": "Irving",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black crop / full",
+   "full_name": "Kyrie Irving",
+   "player_id": 202681
+  },
+  {
+   "id": "biberovic",
+   "label": "#13",
+   "number": "13",
+   "name": "Biberovic",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: dark brown wavy medium / clean-shaven",
+   "full_name": "Tarik Biberović",
+   "player_id": 1641844
+  },
+  {
+   "id": "johnson",
+   "label": "#14",
+   "number": "14",
+   "name": "Johnson",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "twists_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black twists short / clean-shaven",
+   "full_name": "Morez Johnson Jr.",
+   "player_id": 1643516
+  },
+  {
+   "id": "martin",
+   "label": "#16",
+   "number": "16",
+   "name": "Martin",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black buzz / thick / earrings",
+   "full_name": "Caleb Martin",
+   "player_id": 1628997
+  },
+  {
+   "id": "gafford",
+   "label": "#21",
+   "number": "21",
+   "name": "Gafford",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black short band / thick / white headband",
+   "full_name": "Daniel Gafford",
+   "player_id": 1629655
+  },
+  {
+   "id": "washington",
+   "label": "#25",
+   "number": "25",
+   "name": "Washington",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black high tight / goatee / earrings",
+   "full_name": "P.J. Washington",
+   "player_id": 1629023
+  },
+  {
+   "id": "cisse",
+   "label": "#30",
+   "number": "30",
+   "name": "Cisse",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black fade short / full",
+   "full_name": "Moussa Cissé",
+   "player_id": 1630619
+  },
+  {
+   "id": "flagg",
+   "label": "#32",
+   "number": "32",
+   "name": "Flagg",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    150,
+    116,
+    74
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    150,
+    116,
+    74
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: light brown quiff / goatee",
+   "full_name": "Cooper Flagg",
+   "player_id": 1642843
+  },
+  {
+   "id": "lawal",
+   "label": "#33",
+   "number": "33",
+   "name": "Lawal",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black cornrows / clean-shaven / earrings",
+   "full_name": "Tobi Lawal",
+   "player_id": 1643588
+  },
+  {
+   "id": "aldama",
+   "label": "#34",
+   "number": "34",
+   "name": "Aldama",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: black crop / short",
+   "full_name": "Santi Aldama",
+   "player_id": 1630583
+  },
+  {
+   "id": "de_larrea",
+   "label": "#55",
+   "number": "55",
+   "name": "de Larrea",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    83,
+    188
+   ],
+   "look_source": "photo: dark brown messy fringe / clean-shaven",
+   "full_name": "Sergio de Larrea",
+   "player_id": 1643547
+  }
+ ]
+}

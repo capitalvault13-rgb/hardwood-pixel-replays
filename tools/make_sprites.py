@@ -14,13 +14,12 @@ players.json:
      "shoes": [r,g,b], "shoe_accent": [r,g,b], "look_source": "photo"}
   ]
 }
-hair:  bald | buzz | crop | curly_short | curly_high | wavy_medium | cornrows | locs
-       | afro_band | short_band | locs_band   (the *_band styles take "headband": [r,g,b])
-beard: none | goatee | chinstrap | short | full | thick
+hair:  see HAIR below (bald, buzz, crop, ..., afro, locs_top); the *_band styles take "headband": [r,g,b]
+beard: none | mustache | goatee | chinstrap | short | full | thick
 numbers: drawn from "number" (or the "#NN" label) as 5x7 block digits on the fine (DETAIL) grid,
          in the kit's trim colour; a kit may set "number": [r,g,b], "number_outline": [r,g,b]
          or "numbers": false. Output PNGs are DETAIL (3x) the chibi grid.
-extras: "earrings": [r,g,b], "armband", "sleeves" (undershirt), "sleeve_arm": [{"side": "left|right", "color"}],
+extras: "glasses": [r,g,b], "earrings": [r,g,b], "armband", "sleeves" (undershirt), "sleeve_arm": [{"side": "left|right", "color"}],
         "wristbands": [{"side", "color"}], "socks"   (sides are as seen on screen)
 """
 import json, os, sys
@@ -298,6 +297,51 @@ HAIR = {
         4:  "....#dDDDDDDDDDDDd#....",
     },
 }
+def _blob(l, r, seed=0):
+    """One row of hair from col l to col r (outlined), with scattered highlights."""
+    row = ["."] * 23
+    row[l] = row[r] = "#"
+    for c in range(l + 1, r):
+        row[c] = "h" if (c * 3 + seed) % 7 == 0 else "H"
+    return "".join(row)
+
+def _face(row, l=5, r=17, ch="S"):
+    return row[:l] + ch * (r - l + 1) + row[r + 1:]
+
+HAIR["afro"] = {   # big round afro, wider than the head, covering the ears
+    -4: _blob(7, 15, 1), -3: _blob(5, 17, 2), -2: _blob(3, 19, 3), -1: _blob(2, 20, 4),
+    0: _blob(1, 21, 5), 1: _blob(1, 21, 6), 2: _blob(0, 22, 0), 3: _blob(0, 22, 1),
+    4: _face(_blob(0, 22, 2)), 5: _face(_blob(1, 21, 3)),
+    6: ".#HH#..............#HH#"[:23],
+    7: "..##................##.",
+}
+HAIR["locs_top"] = {   # locs gathered into a high top-knot, faded sides
+    -4: "......#H#.#H#.#H#......",
+    -3: ".......#H#H#H#H#.......",
+    -2: "........#HHhHH#........",
+    -1: ".......##HhHHH##.......",
+    0:  "......##HHHHHH##.......",
+    1:  ".....#HHHHhHHHHH#......",
+    2:  ".....#sHHHHHHHHs#......",
+    3:  "....#SsSSSSSSSSsS#.....",
+}
+HAIR["long_band"] = {   # straight hair to the jaw, held back by a headband
+    -1: "........######.........",
+    0:  "......##HHHHHH##.......",
+    1:  ".....#HHHHHHHHHH#......",
+    2:  "...#DDDDDDDDDDDDDDD#...",
+    3:  "..#HdDDDDDDDDDDDDDdH#..",
+    4:  "..#HHSSSSSSSSSSSSSHH#..",
+    5:  "..#HH#SSSSSSSSSSSS#HH#.",
+    6:  "..#HH#............#HH#.",
+    7:  "..#HH#............#HH#.",
+    8:  "..#HH#............#HH#.",
+    9:  "...##..............##..",
+}
+for _k, _v in HAIR.items():
+    for _r, _row in _v.items():
+        assert len(_row) == 23, (_k, _r, len(_row))
+
 STRAND = {"thick": (".#Hh#", "#hH#."), "thin": ("..#H#", "#H#.."), "double": ("#H#H#", "#H#H#")}
 
 def _hang(style, top, bottom, kind="thick", sides="lr"):
@@ -322,10 +366,14 @@ _hang("locs", 6, 11)
 _hang("locs_band", 6, 10)
 _hang("locs_long", 6, 14, "double")
 _hang("braids_back", 6, 14, "thin")
+_hang("locs_top", 6, 12, "thin", "r")
 
 # Beard overlays (B = beard, b = beard shade, M = mouth kept). Rows relative to head top.
 BEARD = {
     "none": {},
+    "mustache": {
+        10: "....#SSSBBBBSSSs#......",
+    },
     "goatee": {
         10: "....#SSSBBBBSSSs#......",
         11: ".....#SSSMMSSSs#.......",
@@ -470,6 +518,16 @@ def make(p, kit):
         for x, chh in enumerate(BODY[13]):
             if chh == 'X':
                 px[x, wy2] = tuple(p["socks"]) + (255,)
+    if p.get("glasses"):  # frames around both eyes, with a bridge
+        g = tuple(p["glasses"]) + (255,)
+        for x0 in (5, 10):
+            for x in range(x0, x0 + 4):
+                px[x, PAD + 6] = g
+                px[x, PAD + 9] = g
+            for y in (7, 8):
+                px[x0, PAD + y] = g
+                px[x0 + 3, PAD + y] = g
+        px[9, PAD + 7] = g
     if p.get("earrings"):  # stud under the visible (screen-right) ear
         px[18, PAD + 9] = tuple(p["earrings"]) + (255,)
     if p.get("armband"):

@@ -1,0 +1,735 @@
+{
+ "team": "Phoenix Suns",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    29,
+    17,
+    96
+   ],
+   "trim2": [
+    229,
+    95,
+    32
+   ],
+   "band": [
+    29,
+    17,
+    96
+   ],
+   "number": [
+    29,
+    17,
+    96
+   ],
+   "number_outline": [
+    229,
+    95,
+    32
+   ]
+  },
+  "away": {
+   "jersey": [
+    29,
+    17,
+    96
+   ],
+   "shade": [
+    21,
+    12,
+    72
+   ],
+   "trim": [
+    229,
+    95,
+    32
+   ],
+   "trim2": [
+    229,
+    95,
+    32
+   ],
+   "band": [
+    229,
+    95,
+    32
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    229,
+    95,
+    32
+   ]
+  },
+  "statement": {
+   "jersey": [
+    24,
+    20,
+    22
+   ],
+   "shade": [
+    18,
+    15,
+    16
+   ],
+   "trim": [
+    229,
+    95,
+    32
+   ],
+   "trim2": [
+    29,
+    17,
+    96
+   ],
+   "band": [
+    229,
+    95,
+    32
+   ],
+   "number": [
+    229,
+    95,
+    32
+   ],
+   "number_outline": [
+    29,
+    17,
+    96
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "dunn",
+   "label": "#0",
+   "number": "0",
+   "name": "Dunn",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black curly short / clean-shaven",
+   "full_name": "Ryan Dunn",
+   "player_id": 1642346
+  },
+  {
+   "id": "timme",
+   "label": "#2",
+   "number": "2",
+   "name": "Timme",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    150,
+    78,
+    44
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    150,
+    78,
+    44
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: red wavy medium / mustache",
+   "full_name": "Drew Timme",
+   "player_id": 1631166
+  },
+  {
+   "id": "brooks",
+   "label": "#3",
+   "number": "3",
+   "name": "Brooks",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black buzz / full",
+   "full_name": "Dillon Brooks",
+   "player_id": 1628415
+  },
+  {
+   "id": "green",
+   "label": "#4",
+   "number": "4",
+   "name": "Green",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "cornrows_left",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black cornrows left / goatee / earrings",
+   "full_name": "Jalen Green",
+   "player_id": 1630224
+  },
+  {
+   "id": "kennard",
+   "label": "#8",
+   "number": "8",
+   "name": "Kennard",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: brown high tight / clean-shaven",
+   "full_name": "Luke Kennard",
+   "player_id": 1628379
+  },
+  {
+   "id": "maluach",
+   "label": "#10",
+   "number": "10",
+   "name": "Maluach",
+   "skin": [
+    80,
+    50,
+    36
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black buzz / clean-shaven",
+   "full_name": "Khaman Maluach",
+   "player_id": 1642863
+  },
+  {
+   "id": "ighodaro",
+   "label": "#11",
+   "number": "11",
+   "name": "Ighodaro",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black curly high / mustache",
+   "full_name": "Oso Ighodaro",
+   "player_id": 1642345
+  },
+  {
+   "id": "gillespie",
+   "label": "#12",
+   "number": "12",
+   "name": "Gillespie",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: dark brown fade short / clean-shaven",
+   "full_name": "Collin Gillespie",
+   "player_id": 1631221
+  },
+  {
+   "id": "booker",
+   "label": "#15",
+   "number": "15",
+   "name": "Booker",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black crop / short / earrings",
+   "full_name": "Devin Booker",
+   "player_id": 1626164
+  },
+  {
+   "id": "bouyea",
+   "label": "#17",
+   "number": "17",
+   "name": "Bouyea",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "bald",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: bald / goatee",
+   "full_name": "Jamaree Bouyea",
+   "player_id": 1631123
+  },
+  {
+   "id": "peat",
+   "label": "#18",
+   "number": "18",
+   "name": "Peat",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black afro / clean-shaven / earrings",
+   "full_name": "Koa Peat",
+   "player_id": 1643520
+  },
+  {
+   "id": "fleming",
+   "label": "#20",
+   "number": "20",
+   "name": "Fleming",
+   "skin": [
+    80,
+    50,
+    36
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black short band / goatee / white headband",
+   "full_name": "Rasheer Fleming",
+   "player_id": 1642853
+  },
+  {
+   "id": "bridges",
+   "label": "#22",
+   "number": "22",
+   "name": "Bridges",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black braids back / thick",
+   "full_name": "Miles Bridges",
+   "player_id": 1628970
+  },
+  {
+   "id": "goodwin",
+   "label": "#23",
+   "number": "23",
+   "name": "Goodwin",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black cornrows / full",
+   "full_name": "Jordan Goodwin",
+   "player_id": 1630692
+  },
+  {
+   "id": "williams",
+   "label": "#25",
+   "number": "25",
+   "name": "Williams",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "twists_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black twists short / goatee / earrings",
+   "full_name": "Mark Williams",
+   "player_id": 1631109
+  },
+  {
+   "id": "reath",
+   "label": "#26",
+   "number": "26",
+   "name": "Reath",
+   "skin": [
+    80,
+    50,
+    36
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: black short band / short / white headband",
+   "full_name": "Duop Reath",
+   "player_id": 1641871
+  },
+  {
+   "id": "spencer",
+   "label": "#61",
+   "number": "61",
+   "name": "Spencer",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "short",
+   "beard_color": [
+    92,
+    62,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    17,
+    96
+   ],
+   "look_source": "photo: brown quiff / short",
+   "full_name": "Pat Spencer",
+   "player_id": 1630311
+  }
+ ]
+}

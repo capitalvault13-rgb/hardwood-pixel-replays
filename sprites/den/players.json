@@ -1,0 +1,750 @@
+{
+ "team": "Denver Nuggets",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    13,
+    34,
+    64
+   ],
+   "trim2": [
+    254,
+    197,
+    36
+   ],
+   "band": [
+    13,
+    34,
+    64
+   ],
+   "number": [
+    13,
+    34,
+    64
+   ],
+   "number_outline": [
+    254,
+    197,
+    36
+   ]
+  },
+  "away": {
+   "jersey": [
+    13,
+    34,
+    64
+   ],
+   "shade": [
+    9,
+    25,
+    48
+   ],
+   "trim": [
+    254,
+    197,
+    36
+   ],
+   "trim2": [
+    254,
+    197,
+    36
+   ],
+   "band": [
+    254,
+    197,
+    36
+   ],
+   "number": [
+    254,
+    197,
+    36
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  },
+  "statement": {
+   "jersey": [
+    254,
+    197,
+    36
+   ],
+   "shade": [
+    190,
+    147,
+    27
+   ],
+   "trim": [
+    13,
+    34,
+    64
+   ],
+   "trim2": [
+    13,
+    34,
+    64
+   ],
+   "band": [
+    13,
+    34,
+    64
+   ],
+   "number": [
+    13,
+    34,
+    64
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "braun",
+   "label": "#0",
+   "number": "0",
+   "name": "Braun",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "crop",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "short",
+   "beard_color": [
+    92,
+    62,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: brown crop / short",
+   "full_name": "Christian Braun",
+   "player_id": 1631128
+  },
+  {
+   "id": "whitmore",
+   "label": "#00",
+   "number": "00",
+   "name": "Whitmore",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black braids back / full / earrings",
+   "full_name": "Cam Whitmore",
+   "player_id": 1641715
+  },
+  {
+   "id": "strawther",
+   "label": "#1",
+   "number": "1",
+   "name": "Strawther",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black curly high / goatee / earrings",
+   "full_name": "Julian Strawther",
+   "player_id": 1631124
+  },
+  {
+   "id": "bagley",
+   "label": "#3",
+   "number": "3",
+   "name": "Bagley",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "afro",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black afro / full",
+   "full_name": "Marvin Bagley III",
+   "player_id": 1628963
+  },
+  {
+   "id": "tyus_jones",
+   "label": "#5",
+   "number": "5",
+   "name": "Jones",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black curly short / full",
+   "full_name": "Tyus Jones",
+   "player_id": 1626145
+  },
+  {
+   "id": "brazile",
+   "label": "#7",
+   "number": "7",
+   "name": "Brazile",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black high tight / clean-shaven",
+   "full_name": "Trevon Brazile",
+   "player_id": 1642350
+  },
+  {
+   "id": "nembhard",
+   "label": "#9",
+   "number": "9",
+   "name": "Nembhard",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black messy fringe / short",
+   "full_name": "Ryan Nembhard",
+   "player_id": 1642948
+  },
+  {
+   "id": "derozan",
+   "label": "#10",
+   "number": "10",
+   "name": "DeRozan",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black braids back / goatee",
+   "full_name": "DeMar DeRozan",
+   "player_id": 201942
+  },
+  {
+   "id": "diallo",
+   "label": "#11",
+   "number": "11",
+   "name": "Diallo",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "chinstrap",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black fade short / chinstrap",
+   "full_name": "Alpha Diallo",
+   "player_id": 1643813
+  },
+  {
+   "id": "hopkins",
+   "label": "#13",
+   "number": "13",
+   "name": "Hopkins",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black cornrows / goatee",
+   "full_name": "Bryce Hopkins",
+   "player_id": 1643624
+  },
+  {
+   "id": "holmes",
+   "label": "#14",
+   "number": "14",
+   "name": "Holmes",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "locs_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black locs band / goatee / white headband",
+   "full_name": "DaRon Holmes II",
+   "player_id": 1641747
+  },
+  {
+   "id": "jokic",
+   "label": "#15",
+   "number": "15",
+   "name": "Jokic",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "short",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: dark brown buzz / short",
+   "full_name": "Nikola Jokić",
+   "player_id": 203999
+  },
+  {
+   "id": "spencer_jones",
+   "label": "#21",
+   "number": "21",
+   "name": "Jones",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black curly top / goatee",
+   "full_name": "Spencer Jones",
+   "player_id": 1642461
+  },
+  {
+   "id": "nnaji",
+   "label": "#22",
+   "number": "22",
+   "name": "Nnaji",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black short band / full / white headband",
+   "full_name": "Zeke Nnaji",
+   "player_id": 1630192
+  },
+  {
+   "id": "johnson",
+   "label": "#23",
+   "number": "23",
+   "name": "Johnson",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black curly high / full",
+   "full_name": "Cameron Johnson",
+   "player_id": 1629661
+  },
+  {
+   "id": "murray",
+   "label": "#27",
+   "number": "27",
+   "name": "Murray",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: black twists spiky / full",
+   "full_name": "Jamal Murray",
+   "player_id": 1627750
+  },
+  {
+   "id": "gordon",
+   "label": "#32",
+   "number": "32",
+   "name": "Gordon",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "goatee",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    13,
+    34,
+    64
+   ],
+   "look_source": "photo: dark brown locs long / goatee / earrings",
+   "full_name": "Aaron Gordon",
+   "player_id": 203932
+  }
+ ]
+}

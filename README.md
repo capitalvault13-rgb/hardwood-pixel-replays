@@ -22,6 +22,8 @@ sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / stat
 sprites/atl/plain/    the same sprites as cut from the sheet: native size, no numbers (used for recoloured stand-ins)
 sprites/bos/          Celtics — full 2026-27 roster (17), drawn by tools/make_sprites.py from sprites/bos/players.json
 sprites/lal/          Lakers — full 2026-27 roster (18), drawn the same way from sprites/lal/players.json
+sprites/<west>/       every other Western Conference team (dal den gsw hou lac mem min nop okc phx por sac sas uta),
+                      full 2026-27 rosters (244 players), drawn the same way from each players.json
 tools/extract_sprites.py   cuts a sheet into sprites/<team>/plain/*.png
 tools/number_sprites.py    adds jersey numbers to cut sprites from sprites/<team>/numbers.json (3x output + sheet.png)
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
@@ -74,7 +76,8 @@ This writes `<id>_<kit>.png` for each kit plus `sheet.png`, a labelled check she
 Hair styles: bald, buzz, crop, high_tight, fade_short, messy_fringe, quiff, swept_back,
 wavy_medium, curly_short, curly_top, curly_high, twists_short, twists_spiky, afro_tail,
 cornrows, cornrows_left, braids_back, locs, locs_long, and the headband styles afro_band,
-short_band, locs_band. Beards: none, goatee, chinstrap, short, full, thick. Extras: earrings,
+short_band, locs_band, long_band, plus afro (big round afro) and locs_top (locs in a high
+top-knot). Beards: none, mustache, goatee, chinstrap, short, full, thick. Extras: glasses, earrings,
 armband, undershirt sleeves, arm sleeve, wristbands, socks.
 
 Drawn sprites are saved at 3x the 23 px chibi grid (69 px wide), so jersey numbers can use finer
@@ -87,6 +90,15 @@ Before drawing a team, pull each player's nba.com headshot
 `sprites/<team>/source/<id>.jpg`, then read hair, beard, skin and extras from it. When two
 players come out looking alike, compare them side by side with their photos and give them
 distinct styles; add a new hair style to `tools/make_sprites.py` rather than reusing a near miss.
+
+### Western Conference sprites
+
+All 15 West teams have sprites. Kits: `home` is the white Association kit, `away` the
+team-colour Icon kit, `statement` the alternate kit. Home and away colours follow the team's
+primary colours; statement colours are approximate and worth checking against the real
+2026-27 uniforms before a team appears in a replay. Looks were read from the nba.com headshots in
+`sprites/<team>/source/`, one per player. Richie Saunders (MEM #5) has no nba.com headshot yet, so
+his sprite is a generic placeholder (`look_source` says so). Redraw it once a photo is up.
 
 ## Render a replay
 
