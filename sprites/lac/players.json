@@ -1,0 +1,761 @@
+{
+ "team": "LA Clippers",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    30,
+    66,
+    140
+   ],
+   "trim2": [
+    200,
+    16,
+    46
+   ],
+   "band": [
+    30,
+    66,
+    140
+   ],
+   "number": [
+    30,
+    66,
+    140
+   ],
+   "number_outline": [
+    200,
+    16,
+    46
+   ]
+  },
+  "away": {
+   "jersey": [
+    30,
+    66,
+    140
+   ],
+   "shade": [
+    22,
+    49,
+    105
+   ],
+   "trim": [
+    246,
+    246,
+    242
+   ],
+   "trim2": [
+    200,
+    16,
+    46
+   ],
+   "band": [
+    246,
+    246,
+    242
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    200,
+    16,
+    46
+   ]
+  },
+  "statement": {
+   "jersey": [
+    200,
+    16,
+    46
+   ],
+   "shade": [
+    150,
+    12,
+    34
+   ],
+   "trim": [
+    18,
+    26,
+    64
+   ],
+   "trim2": [
+    18,
+    26,
+    64
+   ],
+   "band": [
+    18,
+    26,
+    64
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    18,
+    26,
+    64
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "wagler",
+   "label": "#1",
+   "number": "1",
+   "name": "Wagler",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: dark brown curly short / clean-shaven",
+   "full_name": "Keaton Wagler",
+   "player_id": 1643413
+  },
+  {
+   "id": "beal",
+   "label": "#3",
+   "number": "3",
+   "name": "Beal",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black short band / goatee / white headband",
+   "full_name": "Bradley Beal",
+   "player_id": 203078
+  },
+  {
+   "id": "sanders",
+   "label": "#4",
+   "number": "4",
+   "name": "Sanders",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black curly high / mustache",
+   "full_name": "Kobe Sanders",
+   "player_id": 1642920
+  },
+  {
+   "id": "jones",
+   "label": "#5",
+   "number": "5",
+   "name": "Jones",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black braids back / thick",
+   "full_name": "Derrick Jones Jr.",
+   "player_id": 1627884
+  },
+  {
+   "id": "ingram",
+   "label": "#7",
+   "number": "7",
+   "name": "Ingram",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black short band / full / white headband",
+   "full_name": "Brandon Ingram",
+   "player_id": 1627742
+  },
+  {
+   "id": "dunn",
+   "label": "#8",
+   "number": "8",
+   "name": "Dunn",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black buzz / goatee",
+   "full_name": "Kris Dunn",
+   "player_id": 1627739
+  },
+  {
+   "id": "dick",
+   "label": "#9",
+   "number": "9",
+   "name": "Dick",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    200,
+    168,
+    110
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: blond messy fringe / clean-shaven",
+   "full_name": "Gradey Dick",
+   "player_id": 1641711
+  },
+  {
+   "id": "garland",
+   "label": "#10",
+   "number": "10",
+   "name": "Garland",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black locs long / full",
+   "full_name": "Darius Garland",
+   "player_id": 1629636
+  },
+  {
+   "id": "lopez",
+   "label": "#11",
+   "number": "11",
+   "name": "Lopez",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "crop",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: dark brown crop / clean-shaven",
+   "full_name": "Brook Lopez",
+   "player_id": 201572
+  },
+  {
+   "id": "martinelli",
+   "label": "#12",
+   "number": "12",
+   "name": "Martinelli",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: dark brown curly top / mustache",
+   "full_name": "Nick Martinelli",
+   "player_id": 1643568
+  },
+  {
+   "id": "konan_niederhauser",
+   "label": "#14",
+   "number": "14",
+   "name": "Konan Niederhauser",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black fade short / mustache",
+   "full_name": "Yanic Konan Niederhäuser",
+   "player_id": 1642949
+  },
+  {
+   "id": "baba_miller",
+   "label": "#18",
+   "number": "18",
+   "name": "Miller",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black curly high / clean-shaven / earrings",
+   "full_name": "Baba Miller",
+   "player_id": 1642394
+  },
+  {
+   "id": "pickett",
+   "label": "#21",
+   "number": "21",
+   "name": "Pickett",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black twists spiky / goatee",
+   "full_name": "Jalen Pickett",
+   "player_id": 1629618
+  },
+  {
+   "id": "jordan_miller",
+   "label": "#22",
+   "number": "22",
+   "name": "Miller",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black curly top / goatee",
+   "full_name": "Jordan Miller",
+   "player_id": 1641757
+  },
+  {
+   "id": "jackson",
+   "label": "#23",
+   "number": "23",
+   "name": "Jackson",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "locs_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black locs band / full / white headband",
+   "full_name": "Isaiah Jackson",
+   "player_id": 1630543
+  },
+  {
+   "id": "christie",
+   "label": "#24",
+   "number": "24",
+   "name": "Christie",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black wavy medium / clean-shaven",
+   "full_name": "Cam Christie",
+   "player_id": 1642353
+  },
+  {
+   "id": "hachimura",
+   "label": "#28",
+   "number": "28",
+   "name": "Hachimura",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: black high tight / clean-shaven",
+   "full_name": "Rui Hachimura",
+   "player_id": 1629060
+  },
+  {
+   "id": "strus",
+   "label": "#31",
+   "number": "31",
+   "name": "Strus",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "long_band_wide",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "full",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    30,
+    66,
+    140
+   ],
+   "look_source": "photo: dark brown long band / full / white headband",
+   "full_name": "Max Strus",
+   "player_id": 1629622
+  }
+ ]
+}

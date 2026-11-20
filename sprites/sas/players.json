@@ -1,0 +1,715 @@
+{
+ "team": "San Antonio Spurs",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    24,
+    24,
+    26
+   ],
+   "trim2": [
+    196,
+    206,
+    211
+   ],
+   "band": [
+    24,
+    24,
+    26
+   ],
+   "number": [
+    24,
+    24,
+    26
+   ],
+   "number_outline": [
+    196,
+    206,
+    211
+   ]
+  },
+  "away": {
+   "jersey": [
+    24,
+    24,
+    26
+   ],
+   "shade": [
+    18,
+    18,
+    19
+   ],
+   "trim": [
+    196,
+    206,
+    211
+   ],
+   "trim2": [
+    196,
+    206,
+    211
+   ],
+   "band": [
+    196,
+    206,
+    211
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    196,
+    206,
+    211
+   ]
+  },
+  "statement": {
+   "jersey": [
+    196,
+    206,
+    211
+   ],
+   "shade": [
+    160,
+    170,
+    176
+   ],
+   "trim": [
+    24,
+    24,
+    26
+   ],
+   "trim2": [
+    24,
+    24,
+    26
+   ],
+   "band": [
+    24,
+    24,
+    26
+   ],
+   "number": [
+    24,
+    24,
+    26
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "mclaughlin",
+   "label": "#0",
+   "number": "0",
+   "name": "McLaughlin",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "bald",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: bald / thick",
+   "full_name": "Jordan McLaughlin",
+   "player_id": 1629162
+  },
+  {
+   "id": "wembanyama",
+   "label": "#1",
+   "number": "1",
+   "name": "Wembanyama",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black crop / goatee",
+   "full_name": "Victor Wembanyama",
+   "player_id": 1641705
+  },
+  {
+   "id": "harper",
+   "label": "#2",
+   "number": "2",
+   "name": "Harper",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "afro_wide",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black afro / goatee",
+   "full_name": "Dylan Harper",
+   "player_id": 1642844
+  },
+  {
+   "id": "johnson",
+   "label": "#3",
+   "number": "3",
+   "name": "Johnson",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black curly short / mustache",
+   "full_name": "Keldon Johnson",
+   "player_id": 1629640
+  },
+  {
+   "id": "fox",
+   "label": "#4",
+   "number": "4",
+   "name": "Fox",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black buzz / short",
+   "full_name": "De'Aaron Fox",
+   "player_id": 1628368
+  },
+  {
+   "id": "castle",
+   "label": "#5",
+   "number": "5",
+   "name": "Castle",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "locs_knot",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black locs top / mustache",
+   "full_name": "Stephon Castle",
+   "player_id": 1642264
+  },
+  {
+   "id": "kornet",
+   "label": "#7",
+   "number": "7",
+   "name": "Kornet",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "swept_back",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "short",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: dark brown swept back / short",
+   "full_name": "Luke Kornet",
+   "player_id": 1628436
+  },
+  {
+   "id": "reed",
+   "label": "#10",
+   "number": "10",
+   "name": "Reed",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black twists spiky / goatee",
+   "full_name": "Tarris Reed Jr.",
+   "player_id": 1643542
+  },
+  {
+   "id": "bryant",
+   "label": "#11",
+   "number": "11",
+   "name": "Bryant",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "cornrows_left",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black cornrows left / clean-shaven",
+   "full_name": "Carter Bryant",
+   "player_id": 1642868
+  },
+  {
+   "id": "brown",
+   "label": "#15",
+   "number": "15",
+   "name": "Brown",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black braids back / clean-shaven",
+   "full_name": "Maliq Brown",
+   "player_id": 1643576
+  },
+  {
+   "id": "gillespie",
+   "label": "#17",
+   "number": "17",
+   "name": "Gillespie",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "afro_wide",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black afro / short",
+   "full_name": "Ja'Kobi Gillespie",
+   "player_id": 1643551
+  },
+  {
+   "id": "quaintance",
+   "label": "#22",
+   "number": "22",
+   "name": "Quaintance",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black locs / clean-shaven",
+   "full_name": "Jayden Quaintance",
+   "player_id": 1643519
+  },
+  {
+   "id": "harris",
+   "label": "#23",
+   "number": "23",
+   "name": "Harris",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black curly top / full",
+   "full_name": "Tobias Harris",
+   "player_id": 202699
+  },
+  {
+   "id": "vassell",
+   "label": "#24",
+   "number": "24",
+   "name": "Vassell",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black locs long / goatee",
+   "full_name": "Devin Vassell",
+   "player_id": 1630170
+  },
+  {
+   "id": "jones_garcia",
+   "label": "#25",
+   "number": "25",
+   "name": "Jones Garcia",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black high tight / goatee",
+   "full_name": "David Jones Garcia",
+   "player_id": 1642357
+  },
+  {
+   "id": "champagnie",
+   "label": "#30",
+   "number": "30",
+   "name": "Champagnie",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "afro_wide",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black afro / full",
+   "full_name": "Julian Champagnie",
+   "player_id": 1630577
+  },
+  {
+   "id": "barnes",
+   "label": "#40",
+   "number": "40",
+   "name": "Barnes",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    24,
+    24,
+    26
+   ],
+   "look_source": "photo: black fade short / goatee",
+   "full_name": "Harrison Barnes",
+   "player_id": 203084
+  }
+ ]
+}

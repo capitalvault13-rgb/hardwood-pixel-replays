@@ -1,0 +1,746 @@
+{
+ "team": "Oklahoma City Thunder",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    0,
+    125,
+    195
+   ],
+   "trim2": [
+    239,
+    59,
+    36
+   ],
+   "band": [
+    0,
+    125,
+    195
+   ],
+   "number": [
+    0,
+    125,
+    195
+   ],
+   "number_outline": [
+    239,
+    59,
+    36
+   ]
+  },
+  "away": {
+   "jersey": [
+    0,
+    125,
+    195
+   ],
+   "shade": [
+    0,
+    93,
+    146
+   ],
+   "trim": [
+    239,
+    59,
+    36
+   ],
+   "trim2": [
+    0,
+    45,
+    98
+   ],
+   "band": [
+    239,
+    59,
+    36
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    0,
+    45,
+    98
+   ]
+  },
+  "statement": {
+   "jersey": [
+    0,
+    45,
+    98
+   ],
+   "shade": [
+    0,
+    33,
+    73
+   ],
+   "trim": [
+    239,
+    59,
+    36
+   ],
+   "trim2": [
+    239,
+    59,
+    36
+   ],
+   "band": [
+    239,
+    59,
+    36
+   ],
+   "number": [
+    239,
+    59,
+    36
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "gilgeous_alexander",
+   "label": "#2",
+   "number": "2",
+   "name": "Gilgeous-Alexander",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: black short band / goatee / white headband",
+   "full_name": "Shai Gilgeous-Alexander",
+   "player_id": 1628983
+  },
+  {
+   "id": "mccain",
+   "label": "#3",
+   "number": "3",
+   "name": "McCain",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: black curly high / goatee",
+   "full_name": "Jared McCain",
+   "player_id": 1642272
+  },
+  {
+   "id": "jaylin_williams",
+   "label": "#6",
+   "number": "6",
+   "name": "Williams",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: black locs long / goatee",
+   "full_name": "Jaylin Williams",
+   "player_id": 1631119
+  },
+  {
+   "id": "holmgren",
+   "label": "#7",
+   "number": "7",
+   "name": "Holmgren",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "swept_back",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "short",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: dark brown swept back / short",
+   "full_name": "Chet Holmgren",
+   "player_id": 1631096
+  },
+  {
+   "id": "jalen_williams",
+   "label": "#8",
+   "number": "8",
+   "name": "Williams",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: black cornrows / goatee",
+   "full_name": "Jalen Williams",
+   "player_id": 1631114
+  },
+  {
+   "id": "caruso",
+   "label": "#9",
+   "number": "9",
+   "name": "Caruso",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    150,
+    116,
+    74
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    150,
+    116,
+    74
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: light brown short band / goatee / white headband",
+   "full_name": "Alex Caruso",
+   "player_id": 1627936
+  },
+  {
+   "id": "sorber",
+   "label": "#12",
+   "number": "12",
+   "name": "Sorber",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: black crop / clean-shaven",
+   "full_name": "Thomas Sorber",
+   "player_id": 1642850
+  },
+  {
+   "id": "stirtz",
+   "label": "#14",
+   "number": "14",
+   "name": "Stirtz",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "crop",
+   "hair_color": [
+    150,
+    116,
+    74
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: light brown crop / clean-shaven",
+   "full_name": "Bennett Stirtz",
+   "player_id": 1642892
+  },
+  {
+   "id": "mara",
+   "label": "#15",
+   "number": "15",
+   "name": "Mara",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: dark brown messy fringe / goatee",
+   "full_name": "Aday Mara",
+   "player_id": 1643530
+  },
+  {
+   "id": "peavy",
+   "label": "#16",
+   "number": "16",
+   "name": "Peavy",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: black curly short / goatee",
+   "full_name": "Micah Peavy",
+   "player_id": 1642877
+  },
+  {
+   "id": "clifford",
+   "label": "#18",
+   "number": "18",
+   "name": "Clifford",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: dark brown curly top / clean-shaven",
+   "full_name": "Nique Clifford",
+   "player_id": 1642363
+  },
+  {
+   "id": "dix",
+   "label": "#21",
+   "number": "21",
+   "name": "Dix",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    184,
+    124,
+    72
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: ginger quiff / clean-shaven",
+   "full_name": "Josh Dix",
+   "player_id": 1643717
+  },
+  {
+   "id": "wallace",
+   "label": "#22",
+   "number": "22",
+   "name": "Wallace",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: black braids back / goatee",
+   "full_name": "Cason Wallace",
+   "player_id": 1641717
+  },
+  {
+   "id": "barnhizer",
+   "label": "#23",
+   "number": "23",
+   "name": "Barnhizer",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: dark brown messy fringe / clean-shaven",
+   "full_name": "Brooks Barnhizer",
+   "player_id": 1642964
+  },
+  {
+   "id": "mitchell",
+   "label": "#25",
+   "number": "25",
+   "name": "Mitchell",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: black crop / full",
+   "full_name": "Ajay Mitchell",
+   "player_id": 1642349
+  },
+  {
+   "id": "kenrich_williams",
+   "label": "#34",
+   "number": "34",
+   "name": "Williams",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "afro_wide",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: black afro / full",
+   "full_name": "Kenrich Williams",
+   "player_id": 1629026
+  },
+  {
+   "id": "topic",
+   "label": "#44",
+   "number": "44",
+   "name": "Topic",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: dark brown high tight / clean-shaven",
+   "full_name": "Nikola Topić",
+   "player_id": 1642260
+  },
+  {
+   "id": "hartenstein",
+   "label": "#55",
+   "number": "55",
+   "name": "Hartenstein",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    150,
+    78,
+    44
+   ],
+   "beard": "full",
+   "beard_color": [
+    150,
+    78,
+    44
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    125,
+    195
+   ],
+   "look_source": "photo: red fade short / full",
+   "full_name": "Isaiah Hartenstein",
+   "player_id": 1628392
+  }
+ ]
+}

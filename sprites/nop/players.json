@@ -1,0 +1,751 @@
+{
+ "team": "New Orleans Pelicans",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    0,
+    22,
+    65
+   ],
+   "trim2": [
+    180,
+    151,
+    90
+   ],
+   "band": [
+    0,
+    22,
+    65
+   ],
+   "number": [
+    0,
+    22,
+    65
+   ],
+   "number_outline": [
+    180,
+    151,
+    90
+   ]
+  },
+  "away": {
+   "jersey": [
+    0,
+    22,
+    65
+   ],
+   "shade": [
+    0,
+    16,
+    48
+   ],
+   "trim": [
+    225,
+    58,
+    62
+   ],
+   "trim2": [
+    180,
+    151,
+    90
+   ],
+   "band": [
+    225,
+    58,
+    62
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    225,
+    58,
+    62
+   ]
+  },
+  "statement": {
+   "jersey": [
+    225,
+    58,
+    62
+   ],
+   "shade": [
+    168,
+    43,
+    46
+   ],
+   "trim": [
+    0,
+    22,
+    65
+   ],
+   "trim2": [
+    180,
+    151,
+    90
+   ],
+   "band": [
+    0,
+    22,
+    65
+   ],
+   "number": [
+    0,
+    22,
+    65
+   ],
+   "number_outline": [
+    180,
+    151,
+    90
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "fears",
+   "label": "#0",
+   "number": "0",
+   "name": "Fears",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black short band / clean-shaven / white headband",
+   "full_name": "Jeremiah Fears",
+   "player_id": 1642847
+  },
+  {
+   "id": "williamson",
+   "label": "#1",
+   "number": "1",
+   "name": "Williamson",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black crop / full",
+   "full_name": "Zion Williamson",
+   "player_id": 1629627
+  },
+  {
+   "id": "jones",
+   "label": "#2",
+   "number": "2",
+   "name": "Jones",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black braids back / goatee",
+   "full_name": "Herbert Jones",
+   "player_id": 1630529
+  },
+  {
+   "id": "poole",
+   "label": "#3",
+   "number": "3",
+   "name": "Poole",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black curly high / mustache",
+   "full_name": "Jordan Poole",
+   "player_id": 1629673
+  },
+  {
+   "id": "murray",
+   "label": "#5",
+   "number": "5",
+   "name": "Murray",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black fade short / short",
+   "full_name": "Dejounte Murray",
+   "player_id": 1627749
+  },
+  {
+   "id": "jordan",
+   "label": "#6",
+   "number": "6",
+   "name": "Jordan",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black curly short / full",
+   "full_name": "DeAndre Jordan",
+   "player_id": 201599
+  },
+  {
+   "id": "dia",
+   "label": "#8",
+   "number": "8",
+   "name": "Dia",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black curly top / clean-shaven",
+   "full_name": "Malik Dia",
+   "player_id": 1643738
+  },
+  {
+   "id": "watford",
+   "label": "#9",
+   "number": "9",
+   "name": "Watford",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "cornrows_left",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black cornrows left / full",
+   "full_name": "Trendon Watford",
+   "player_id": 1630570
+  },
+  {
+   "id": "pierre",
+   "label": "#10",
+   "number": "10",
+   "name": "Pierre",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "locs_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black locs band / mustache / white headband",
+   "full_name": "Jaron Pierre Jr.",
+   "player_id": 1643555
+  },
+  {
+   "id": "mcgowens",
+   "label": "#11",
+   "number": "11",
+   "name": "McGowens",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black high tight / mustache",
+   "full_name": "Bryce McGowens",
+   "player_id": 1631121
+  },
+  {
+   "id": "reese",
+   "label": "#13",
+   "number": "13",
+   "name": "Reese",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black curly short / clean-shaven",
+   "full_name": "Julian Reese",
+   "player_id": 1642882
+  },
+  {
+   "id": "johnson",
+   "label": "#14",
+   "number": "14",
+   "name": "Johnson",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black twists spiky / clean-shaven",
+   "full_name": "AJ Johnson",
+   "player_id": 1642358
+  },
+  {
+   "id": "matkovic",
+   "label": "#17",
+   "number": "17",
+   "name": "Matkovic",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "crop",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "short",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: dark brown crop / short",
+   "full_name": "Karlo Matković",
+   "player_id": 1631255
+  },
+  {
+   "id": "missi",
+   "label": "#21",
+   "number": "21",
+   "name": "Missi",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black buzz / goatee",
+   "full_name": "Yves Missi",
+   "player_id": 1642274
+  },
+  {
+   "id": "queen",
+   "label": "#22",
+   "number": "22",
+   "name": "Queen",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "twists_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black twists short / clean-shaven",
+   "full_name": "Derik Queen",
+   "player_id": 1642852
+  },
+  {
+   "id": "mathurin",
+   "label": "#24",
+   "number": "24",
+   "name": "Mathurin",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black crop / mustache",
+   "full_name": "Bennedict Mathurin",
+   "player_id": 1631097
+  },
+  {
+   "id": "murphy",
+   "label": "#25",
+   "number": "25",
+   "name": "Murphy",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black cornrows / goatee",
+   "full_name": "Trey Murphy III",
+   "player_id": 1630530
+  },
+  {
+   "id": "bey",
+   "label": "#41",
+   "number": "41",
+   "name": "Bey",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    0,
+    22,
+    65
+   ],
+   "look_source": "photo: black high tight / thick",
+   "full_name": "Saddiq Bey",
+   "player_id": 1630180
+  }
+ ]
+}

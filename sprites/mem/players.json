@@ -1,0 +1,741 @@
+{
+ "team": "Memphis Grizzlies",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    18,
+    23,
+    63
+   ],
+   "trim2": [
+    93,
+    118,
+    169
+   ],
+   "band": [
+    18,
+    23,
+    63
+   ],
+   "number": [
+    18,
+    23,
+    63
+   ],
+   "number_outline": [
+    93,
+    118,
+    169
+   ]
+  },
+  "away": {
+   "jersey": [
+    18,
+    23,
+    63
+   ],
+   "shade": [
+    13,
+    17,
+    47
+   ],
+   "trim": [
+    93,
+    118,
+    169
+   ],
+   "trim2": [
+    93,
+    118,
+    169
+   ],
+   "band": [
+    93,
+    118,
+    169
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    93,
+    118,
+    169
+   ]
+  },
+  "statement": {
+   "jersey": [
+    93,
+    118,
+    169
+   ],
+   "shade": [
+    69,
+    88,
+    126
+   ],
+   "trim": [
+    18,
+    23,
+    63
+   ],
+   "trim2": [
+    255,
+    187,
+    34
+   ],
+   "band": [
+    18,
+    23,
+    63
+   ],
+   "number": [
+    18,
+    23,
+    63
+   ],
+   "number_outline": [
+    255,
+    187,
+    34
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "wells",
+   "label": "#0",
+   "number": "0",
+   "name": "Wells",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "afro_wide",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black afro / clean-shaven",
+   "full_name": "Jaylen Wells",
+   "player_id": 1642377
+  },
+  {
+   "id": "pippen",
+   "label": "#1",
+   "number": "1",
+   "name": "Pippen",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black curly high / short",
+   "full_name": "Scotty Pippen Jr.",
+   "player_id": 1630590
+  },
+  {
+   "id": "jerome",
+   "label": "#2",
+   "number": "2",
+   "name": "Jerome",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black fade short / full",
+   "full_name": "Ty Jerome",
+   "player_id": 1629660
+  },
+  {
+   "id": "grant",
+   "label": "#3",
+   "number": "3",
+   "name": "Grant",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black crop / short",
+   "full_name": "Jerami Grant",
+   "player_id": 203924
+  },
+  {
+   "id": "saunders",
+   "label": "#5",
+   "number": "5",
+   "name": "Saunders",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "crop",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "placeholder: no nba.com headshot yet, generic look",
+   "full_name": "Richie Saunders",
+   "player_id": 1643563
+  },
+  {
+   "id": "small",
+   "label": "#10",
+   "number": "10",
+   "name": "Small",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black braids back / goatee",
+   "full_name": "Javon Small",
+   "player_id": 1642914
+  },
+  {
+   "id": "edey",
+   "label": "#14",
+   "number": "14",
+   "name": "Edey",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black buzz / short",
+   "full_name": "Zach Edey",
+   "player_id": 1641744
+  },
+  {
+   "id": "murray",
+   "label": "#17",
+   "number": "17",
+   "name": "Murray",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black high tight / full",
+   "full_name": "Kris Murray",
+   "player_id": 1631200
+  },
+  {
+   "id": "prosper",
+   "label": "#18",
+   "number": "18",
+   "name": "Prosper",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black curly top / clean-shaven",
+   "full_name": "Olivier-Maxence Prosper",
+   "player_id": 1641765
+  },
+  {
+   "id": "mashack",
+   "label": "#21",
+   "number": "21",
+   "name": "Mashack",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black short band / goatee / white headband",
+   "full_name": "Jahmai Mashack",
+   "player_id": 1642942
+  },
+  {
+   "id": "hendricks",
+   "label": "#22",
+   "number": "22",
+   "name": "Hendricks",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "afro_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black afro band / clean-shaven / white headband",
+   "full_name": "Taylor Hendricks",
+   "player_id": 1641707
+  },
+  {
+   "id": "coward",
+   "label": "#23",
+   "number": "23",
+   "name": "Coward",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black buzz / clean-shaven",
+   "full_name": "Cedric Coward",
+   "player_id": 1642907
+  },
+  {
+   "id": "spencer",
+   "label": "#24",
+   "number": "24",
+   "name": "Spencer",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    150,
+    116,
+    74
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: light brown quiff / clean-shaven",
+   "full_name": "Cam Spencer",
+   "player_id": 1642285
+  },
+  {
+   "id": "boozer",
+   "label": "#27",
+   "number": "27",
+   "name": "Boozer",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black curly top / short",
+   "full_name": "Cameron Boozer",
+   "player_id": 1643409
+  },
+  {
+   "id": "stewart",
+   "label": "#28",
+   "number": "28",
+   "name": "Stewart",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black locs long / full",
+   "full_name": "Isaiah Stewart",
+   "player_id": 1630191
+  },
+  {
+   "id": "lopez",
+   "label": "#35",
+   "number": "35",
+   "name": "Lopez",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black curly short / clean-shaven",
+   "full_name": "Karim López",
+   "player_id": 1643510
+  },
+  {
+   "id": "post",
+   "label": "#41",
+   "number": "41",
+   "name": "Post",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: dark brown messy fringe / mustache",
+   "full_name": "Quinten Post",
+   "player_id": 1642366
+  },
+  {
+   "id": "jackson",
+   "label": "#45",
+   "number": "45",
+   "name": "Jackson",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "locs_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    18,
+    23,
+    63
+   ],
+   "look_source": "photo: black locs band / clean-shaven / white headband",
+   "full_name": "GG Jackson",
+   "player_id": 1641713
+  }
+ ]
+}

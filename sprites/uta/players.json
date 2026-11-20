@@ -1,0 +1,720 @@
+{
+ "team": "Utah Jazz",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    75,
+    38,
+    128
+   ],
+   "trim2": [
+    24,
+    20,
+    22
+   ],
+   "band": [
+    75,
+    38,
+    128
+   ],
+   "number": [
+    75,
+    38,
+    128
+   ],
+   "number_outline": [
+    24,
+    20,
+    22
+   ]
+  },
+  "away": {
+   "jersey": [
+    75,
+    38,
+    128
+   ],
+   "shade": [
+    56,
+    28,
+    96
+   ],
+   "trim": [
+    246,
+    246,
+    242
+   ],
+   "trim2": [
+    24,
+    20,
+    22
+   ],
+   "band": [
+    246,
+    246,
+    242
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    24,
+    20,
+    22
+   ]
+  },
+  "statement": {
+   "jersey": [
+    24,
+    20,
+    22
+   ],
+   "shade": [
+    18,
+    15,
+    16
+   ],
+   "trim": [
+    75,
+    38,
+    128
+   ],
+   "trim2": [
+    75,
+    38,
+    128
+   ],
+   "band": [
+    75,
+    38,
+    128
+   ],
+   "number": [
+    75,
+    38,
+    128
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "bufkin",
+   "label": "#0",
+   "number": "0",
+   "name": "Bufkin",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black high tight / goatee",
+   "full_name": "Kobe Bufkin",
+   "player_id": 1641723
+  },
+  {
+   "id": "ingram",
+   "label": "#00",
+   "number": "00",
+   "name": "Ingram",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black twists spiky / goatee",
+   "full_name": "Harrison Ingram",
+   "player_id": 1631127
+  },
+  {
+   "id": "filipowski",
+   "label": "#2",
+   "number": "2",
+   "name": "Filipowski",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: brown quiff / clean-shaven",
+   "full_name": "Kyle Filipowski",
+   "player_id": 1642271
+  },
+  {
+   "id": "george",
+   "label": "#3",
+   "number": "3",
+   "name": "George",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "cornrows_left",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black cornrows left / mustache",
+   "full_name": "Keyonte George",
+   "player_id": 1641718
+  },
+  {
+   "id": "green",
+   "label": "#5",
+   "number": "5",
+   "name": "Green",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black curly short / goatee",
+   "full_name": "Josh Green",
+   "player_id": 1630182
+  },
+  {
+   "id": "collier",
+   "label": "#8",
+   "number": "8",
+   "name": "Collier",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black locs / mustache",
+   "full_name": "Isaiah Collier",
+   "player_id": 1642268
+  },
+  {
+   "id": "mykhailiuk",
+   "label": "#10",
+   "number": "10",
+   "name": "Mykhailiuk",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "full",
+   "beard_color": [
+    92,
+    62,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: brown buzz / full",
+   "full_name": "Svi Mykhailiuk",
+   "player_id": 1629004
+  },
+  {
+   "id": "hayes",
+   "label": "#11",
+   "number": "11",
+   "name": "Hayes",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black short band / goatee / white headband",
+   "full_name": "Jaxson Hayes",
+   "player_id": 1629637
+  },
+  {
+   "id": "bradley",
+   "label": "#13",
+   "number": "13",
+   "name": "Bradley",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black crop / full",
+   "full_name": "Tony Bradley",
+   "player_id": 1628396
+  },
+  {
+   "id": "bailey",
+   "label": "#19",
+   "number": "19",
+   "name": "Bailey",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black fade short / clean-shaven",
+   "full_name": "Ace Bailey",
+   "player_id": 1642846
+  },
+  {
+   "id": "jackson",
+   "label": "#20",
+   "number": "20",
+   "name": "Jackson",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black curly high / mustache",
+   "full_name": "Jaren Jackson Jr.",
+   "player_id": 1628991
+  },
+  {
+   "id": "okogie",
+   "label": "#21",
+   "number": "21",
+   "name": "Okogie",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black short band / full / white headband",
+   "full_name": "Josh Okogie",
+   "player_id": 1629006
+  },
+  {
+   "id": "peterson",
+   "label": "#22",
+   "number": "22",
+   "name": "Peterson",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black locs long / goatee",
+   "full_name": "Darryn Peterson",
+   "player_id": 1643408
+  },
+  {
+   "id": "markkanen",
+   "label": "#23",
+   "number": "23",
+   "name": "Markkanen",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    150,
+    116,
+    74
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: light brown wavy medium / clean-shaven",
+   "full_name": "Lauri Markkanen",
+   "player_id": 1628374
+  },
+  {
+   "id": "sensabaugh",
+   "label": "#28",
+   "number": "28",
+   "name": "Sensabaugh",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "afro_wide",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black afro / goatee",
+   "full_name": "Brice Sensabaugh",
+   "player_id": 1641729
+  },
+  {
+   "id": "nurkic",
+   "label": "#30",
+   "number": "30",
+   "name": "Nurkic",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "crop",
+   "hair_color": [
+    150,
+    78,
+    44
+   ],
+   "beard": "thick",
+   "beard_color": [
+    150,
+    78,
+    44
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: red crop / thick",
+   "full_name": "Jusuf Nurkić",
+   "player_id": 203994
+  },
+  {
+   "id": "bamba",
+   "label": "#44",
+   "number": "44",
+   "name": "Bamba",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    75,
+    38,
+    128
+   ],
+   "look_source": "photo: black buzz / clean-shaven",
+   "full_name": "Mo Bamba",
+   "player_id": 1628964
+  }
+ ]
+}

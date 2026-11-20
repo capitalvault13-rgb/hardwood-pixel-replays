@@ -22,7 +22,9 @@ sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / stat
 sprites/atl/plain/    the same sprites as cut from the sheet: native size, no numbers (used for recoloured stand-ins)
 sprites/bos/          Celtics — full 2026-27 roster (17), drawn by tools/make_sprites.py from sprites/bos/players.json
 sprites/lal/          Lakers — full 2026-27 roster (18), drawn the same way from sprites/lal/players.json
-sprites/<team>/       the rest of the East drawn the same way: bkn cha chi cle det ind mia mil nyk orl phi tor was
+sprites/<team>/       every other team, drawn the same way from each players.json:
+                      East  bkn cha chi cle det ind mia mil nyk orl phi tor was
+                      West  dal den gsw hou lac mem min nop okc phx por sac sas uta
 tools/extract_sprites.py   cuts a sheet into sprites/<team>/plain/*.png
 tools/number_sprites.py    adds jersey numbers to cut sprites from sprites/<team>/numbers.json (3x output + sheet.png)
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
@@ -81,14 +83,15 @@ Hair styles:
   middle_part, mullet, swept_side, man_bun, cornrows_flat
 - other short cuts: bald, high_tight, fade_short, twists_short, messy_fringe, quiff, swept_back
 - longer straight / wavy: wavy_medium, long_hair
-- curls and afros: curly_high, afro, afro_long, afro_tail, twists_spiky
+- curls and afros: curly_high, afro, afro_wide (a wider round afro), afro_long, afro_tail, twists_spiky
 - braids and locs: cornrows (braid on the right), cornrows_left, braids_back, box_braids, locs,
-  locs_long, locs_top
-- with a built-in headband: short_band, afro_band, locs_band, locs_long_band, long_band.
+  locs_long, locs_top, locs_knot (locs in a high top-knot)
+- with a built-in headband: short_band, afro_band, locs_band, locs_long_band, long_band,
+  long_band_wide.
   `"headband": [r,g,b]` on any other style draws a band over it.
 - dyed tips: `"hair_tip": [r,g,b]` and `"tip_rows": n` colour the hair down to head row n.
 
-Beards: none, mustache, goatee, chinstrap, short, full, thick, huge. Extras: earrings,
+Beards: none, mustache, goatee, chinstrap, short, full, thick, huge. Extras: glasses, earrings,
 armband, undershirt sleeves, arm sleeve, wristbands, socks.
 
 Drawn sprites are saved at 3x the 23 px chibi grid (69 px wide), so jersey numbers can use finer
@@ -109,6 +112,15 @@ writes close-up face sheets to the folder given, and prints the ids, labels and 
 headshot yet gets a plain look with `look_source` starting `guess:`. When two players on a team
 come out looking alike, compare them side by side with their photos and give them distinct
 styles; add a new hair style to `tools/make_sprites.py` rather than reusing a near miss.
+
+### Western Conference sprites
+
+All 15 West teams have sprites. Kits: `home` is the white Association kit, `away` the
+team-colour Icon kit, `statement` the alternate kit. Home and away colours follow the team's
+primary colours; statement colours are approximate and worth checking against the real
+2026-27 uniforms before a team appears in a replay. Looks were read from the nba.com headshots in
+`sprites/<team>/source/`, one per player. Richie Saunders (MEM #5) has no nba.com headshot yet, so
+his sprite is a generic placeholder (`look_source` says so). Redraw it once a photo is up.
 
 ## Render a replay
 

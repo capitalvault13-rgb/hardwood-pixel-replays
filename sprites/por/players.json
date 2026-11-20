@@ -1,0 +1,720 @@
+{
+ "team": "Portland Trail Blazers",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    20,
+    20,
+    22
+   ],
+   "trim2": [
+    224,
+    58,
+    62
+   ],
+   "band": [
+    20,
+    20,
+    22
+   ],
+   "number": [
+    20,
+    20,
+    22
+   ],
+   "number_outline": [
+    224,
+    58,
+    62
+   ]
+  },
+  "away": {
+   "jersey": [
+    20,
+    20,
+    22
+   ],
+   "shade": [
+    15,
+    15,
+    16
+   ],
+   "trim": [
+    224,
+    58,
+    62
+   ],
+   "trim2": [
+    224,
+    58,
+    62
+   ],
+   "band": [
+    224,
+    58,
+    62
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    224,
+    58,
+    62
+   ]
+  },
+  "statement": {
+   "jersey": [
+    224,
+    58,
+    62
+   ],
+   "shade": [
+    168,
+    43,
+    46
+   ],
+   "trim": [
+    20,
+    20,
+    22
+   ],
+   "trim2": [
+    20,
+    20,
+    22
+   ],
+   "band": [
+    20,
+    20,
+    22
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    20,
+    20,
+    22
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "lillard",
+   "label": "#0",
+   "number": "0",
+   "name": "Lillard",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black fade short / full",
+   "full_name": "Damian Lillard",
+   "player_id": 203081
+  },
+  {
+   "id": "henderson",
+   "label": "#00",
+   "number": "00",
+   "name": "Henderson",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black curly high / goatee",
+   "full_name": "Scoot Henderson",
+   "player_id": 1630703
+  },
+  {
+   "id": "morant",
+   "label": "#1",
+   "number": "1",
+   "name": "Morant",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: dark brown locs long / goatee",
+   "full_name": "Ja Morant",
+   "player_id": 1629630
+  },
+  {
+   "id": "tonje",
+   "label": "#2",
+   "number": "2",
+   "name": "Tonje",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black high tight / mustache",
+   "full_name": "John Tonje",
+   "player_id": 1642910
+  },
+  {
+   "id": "holiday",
+   "label": "#5",
+   "number": "5",
+   "name": "Holiday",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black braids back / short",
+   "full_name": "Jrue Holiday",
+   "player_id": 201950
+  },
+  {
+   "id": "avdija",
+   "label": "#8",
+   "number": "8",
+   "name": "Avdija",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "swept_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black swept back / short",
+   "full_name": "Deni Avdija",
+   "player_id": 1630166
+  },
+  {
+   "id": "potter",
+   "label": "#9",
+   "number": "9",
+   "name": "Potter",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "short",
+   "beard_color": [
+    92,
+    62,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: brown quiff / short",
+   "full_name": "Micah Potter",
+   "player_id": 1630695
+  },
+  {
+   "id": "carlson",
+   "label": "#10",
+   "number": "10",
+   "name": "Carlson",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: brown wavy medium / clean-shaven",
+   "full_name": "Branden Carlson",
+   "player_id": 1642382
+  },
+  {
+   "id": "youngblood",
+   "label": "#11",
+   "number": "11",
+   "name": "Youngblood",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black buzz / goatee",
+   "full_name": "Chris Youngblood",
+   "player_id": 1642959
+  },
+  {
+   "id": "hansen",
+   "label": "#16",
+   "number": "16",
+   "name": "Hansen",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "messy_fringe",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black messy fringe / clean-shaven",
+   "full_name": "Yang Hansen",
+   "player_id": 1642905
+  },
+  {
+   "id": "sharpe",
+   "label": "#17",
+   "number": "17",
+   "name": "Sharpe",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "cornrows",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black cornrows / goatee",
+   "full_name": "Shaedon Sharpe",
+   "player_id": 1631101
+  },
+  {
+   "id": "clingan",
+   "label": "#23",
+   "number": "23",
+   "name": "Clingan",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "crop",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "short",
+   "beard_color": [
+    92,
+    62,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: brown crop / short",
+   "full_name": "Donovan Clingan",
+   "player_id": 1642270
+  },
+  {
+   "id": "krejci",
+   "label": "#27",
+   "number": "27",
+   "name": "Krejci",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "short",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: dark brown high tight / short",
+   "full_name": "Vít Krejčí",
+   "player_id": 1630249
+  },
+  {
+   "id": "kent",
+   "label": "#29",
+   "number": "29",
+   "name": "Kent",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black crop / goatee",
+   "full_name": "Jayson Kent",
+   "player_id": 1643257
+  },
+  {
+   "id": "camara",
+   "label": "#33",
+   "number": "33",
+   "name": "Camara",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black braids back / full",
+   "full_name": "Toumani Camara",
+   "player_id": 1641739
+  },
+  {
+   "id": "williams",
+   "label": "#35",
+   "number": "35",
+   "name": "Williams",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "locs_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black locs band / goatee / white headband",
+   "full_name": "Robert Williams III",
+   "player_id": 1629057
+  },
+  {
+   "id": "cissoko",
+   "label": "#91",
+   "number": "91",
+   "name": "Cissoko",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    20,
+    20,
+    22
+   ],
+   "look_source": "photo: black locs long / clean-shaven",
+   "full_name": "Sidy Cissoko",
+   "player_id": 1631321
+  }
+ ]
+}

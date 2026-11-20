@@ -1,0 +1,720 @@
+{
+ "team": "Houston Rockets",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    206,
+    17,
+    65
+   ],
+   "trim2": [
+    6,
+    25,
+    34
+   ],
+   "band": [
+    206,
+    17,
+    65
+   ],
+   "number": [
+    206,
+    17,
+    65
+   ],
+   "number_outline": [
+    6,
+    25,
+    34
+   ]
+  },
+  "away": {
+   "jersey": [
+    206,
+    17,
+    65
+   ],
+   "shade": [
+    154,
+    12,
+    48
+   ],
+   "trim": [
+    246,
+    246,
+    242
+   ],
+   "trim2": [
+    6,
+    25,
+    34
+   ],
+   "band": [
+    246,
+    246,
+    242
+   ],
+   "number": [
+    246,
+    246,
+    242
+   ],
+   "number_outline": [
+    6,
+    25,
+    34
+   ]
+  },
+  "statement": {
+   "jersey": [
+    6,
+    25,
+    34
+   ],
+   "shade": [
+    4,
+    18,
+    25
+   ],
+   "trim": [
+    206,
+    17,
+    65
+   ],
+   "trim2": [
+    206,
+    17,
+    65
+   ],
+   "band": [
+    206,
+    17,
+    65
+   ],
+   "number": [
+    206,
+    17,
+    65
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "thompson",
+   "label": "#1",
+   "number": "1",
+   "name": "Thompson",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black twists spiky / clean-shaven",
+   "full_name": "Amen Thompson",
+   "player_id": 1641708
+  },
+  {
+   "id": "thornton",
+   "label": "#2",
+   "number": "2",
+   "name": "Thornton",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black braids back / full",
+   "full_name": "Bruce Thornton",
+   "player_id": 1643570
+  },
+  {
+   "id": "phillips",
+   "label": "#3",
+   "number": "3",
+   "name": "Phillips",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black locs long / goatee",
+   "full_name": "Julian Phillips",
+   "player_id": 1641763
+  },
+  {
+   "id": "vanvleet",
+   "label": "#5",
+   "number": "5",
+   "name": "VanVleet",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "thick",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black crop / thick",
+   "full_name": "Fred VanVleet",
+   "player_id": 1627832
+  },
+  {
+   "id": "durant",
+   "label": "#7",
+   "number": "7",
+   "name": "Durant",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black buzz / short",
+   "full_name": "Kevin Durant",
+   "player_id": 201142
+  },
+  {
+   "id": "tate",
+   "label": "#8",
+   "number": "8",
+   "name": "Tate",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "curly_high",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black curly high / goatee",
+   "full_name": "Jae'Sean Tate",
+   "player_id": 1630256
+  },
+  {
+   "id": "tshiebwe",
+   "label": "#9",
+   "number": "9",
+   "name": "Tshiebwe",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "glasses": [
+    90,
+    90,
+    104
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black short band / goatee / white headband / glasses",
+   "full_name": "Oscar Tshiebwe",
+   "player_id": 1631131
+  },
+  {
+   "id": "smith",
+   "label": "#10",
+   "number": "10",
+   "name": "Smith",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black fade short / clean-shaven",
+   "full_name": "Jabari Smith Jr.",
+   "player_id": 1631095
+  },
+  {
+   "id": "adams",
+   "label": "#12",
+   "number": "12",
+   "name": "Adams",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "swept_back",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "thick",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: dark brown swept back / thick",
+   "full_name": "Steven Adams",
+   "player_id": 203500
+  },
+  {
+   "id": "sheppard",
+   "label": "#15",
+   "number": "15",
+   "name": "Sheppard",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "wavy_medium",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "mustache",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: dark brown wavy medium / mustache",
+   "full_name": "Reed Sheppard",
+   "player_id": 1642263
+  },
+  {
+   "id": "eason",
+   "label": "#17",
+   "number": "17",
+   "name": "Eason",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "afro_wide",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black afro / short",
+   "full_name": "Tari Eason",
+   "player_id": 1631106
+  },
+  {
+   "id": "copeland",
+   "label": "#25",
+   "number": "25",
+   "name": "Copeland",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black curly top / clean-shaven",
+   "full_name": "Quadir Copeland",
+   "player_id": 1643595
+  },
+  {
+   "id": "crawford",
+   "label": "#27",
+   "number": "27",
+   "name": "Crawford",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black locs / goatee",
+   "full_name": "Isaiah Crawford",
+   "player_id": 1642384
+  },
+  {
+   "id": "sengun",
+   "label": "#28",
+   "number": "28",
+   "name": "Sengun",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "short",
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: dark brown curly short / short",
+   "full_name": "Alperen Sengun",
+   "player_id": 1630578
+  },
+  {
+   "id": "capela",
+   "label": "#30",
+   "number": "30",
+   "name": "Capela",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black crop / goatee",
+   "full_name": "Clint Capela",
+   "player_id": 203991
+  },
+  {
+   "id": "bogdanovic",
+   "label": "#31",
+   "number": "31",
+   "name": "Bogdanovic",
+   "skin": [
+    230,
+    184,
+    156
+   ],
+   "hair": "quiff",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: dark brown quiff / clean-shaven",
+   "full_name": "Bogdan Bogdanović",
+   "player_id": 203992
+  },
+  {
+   "id": "smart",
+   "label": "#36",
+   "number": "36",
+   "name": "Smart",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    206,
+    17,
+    65
+   ],
+   "look_source": "photo: black curly short / short",
+   "full_name": "Marcus Smart",
+   "player_id": 203935
+  }
+ ]
+}

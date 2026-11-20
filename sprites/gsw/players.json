@@ -1,0 +1,791 @@
+{
+ "team": "Golden State Warriors",
+ "kits": {
+  "home": {
+   "jersey": [
+    246,
+    246,
+    242
+   ],
+   "shade": [
+    206,
+    206,
+    210
+   ],
+   "trim": [
+    29,
+    66,
+    138
+   ],
+   "trim2": [
+    255,
+    199,
+    44
+   ],
+   "band": [
+    29,
+    66,
+    138
+   ],
+   "number": [
+    29,
+    66,
+    138
+   ],
+   "number_outline": [
+    255,
+    199,
+    44
+   ]
+  },
+  "away": {
+   "jersey": [
+    29,
+    66,
+    138
+   ],
+   "shade": [
+    21,
+    49,
+    103
+   ],
+   "trim": [
+    255,
+    199,
+    44
+   ],
+   "trim2": [
+    255,
+    199,
+    44
+   ],
+   "band": [
+    255,
+    199,
+    44
+   ],
+   "number": [
+    255,
+    199,
+    44
+   ],
+   "number_outline": [
+    246,
+    246,
+    242
+   ]
+  },
+  "statement": {
+   "jersey": [
+    38,
+    44,
+    62
+   ],
+   "shade": [
+    28,
+    33,
+    46
+   ],
+   "trim": [
+    255,
+    199,
+    44
+   ],
+   "trim2": [
+    255,
+    199,
+    44
+   ],
+   "band": [
+    255,
+    199,
+    44
+   ],
+   "number": [
+    255,
+    199,
+    44
+   ],
+   "number_outline": [
+    29,
+    66,
+    138
+   ]
+  }
+ },
+ "players": [
+  {
+   "id": "payton",
+   "label": "#0",
+   "number": "0",
+   "name": "Payton",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black fade short / full",
+   "full_name": "Gary Payton II",
+   "player_id": 1627780
+  },
+  {
+   "id": "lendeborg",
+   "label": "#1",
+   "number": "1",
+   "name": "Lendeborg",
+   "skin": [
+    176,
+    120,
+    86
+   ],
+   "hair": "twists_spiky",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black twists spiky / goatee",
+   "full_name": "Yaxel Lendeborg",
+   "player_id": 1642865
+  },
+  {
+   "id": "podziemski",
+   "label": "#2",
+   "number": "2",
+   "name": "Podziemski",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "high_tight",
+   "hair_color": [
+    92,
+    62,
+    40
+   ],
+   "beard": "short",
+   "beard_color": [
+    92,
+    62,
+    40
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: brown high tight / short",
+   "full_name": "Brandin Podziemski",
+   "player_id": 1641764
+  },
+  {
+   "id": "richard",
+   "label": "#3",
+   "number": "3",
+   "name": "Richard",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "curly_top",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "none",
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black curly top / clean-shaven",
+   "full_name": "Will Richard",
+   "player_id": 1642954
+  },
+  {
+   "id": "moody",
+   "label": "#4",
+   "number": "4",
+   "name": "Moody",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "braids_back",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black braids back / full",
+   "full_name": "Moses Moody",
+   "player_id": 1630541
+  },
+  {
+   "id": "porzingis",
+   "label": "#7",
+   "number": "7",
+   "name": "Porzingis",
+   "skin": [
+    238,
+    198,
+    174
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    150,
+    116,
+    74
+   ],
+   "beard": "short",
+   "beard_color": [
+    150,
+    116,
+    74
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: light brown buzz / short",
+   "full_name": "Kristaps Porziņģis",
+   "player_id": 204001
+  },
+  {
+   "id": "melton",
+   "label": "#8",
+   "number": "8",
+   "name": "Melton",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black crop / goatee",
+   "full_name": "De'Anthony Melton",
+   "player_id": 1629001
+  },
+  {
+   "id": "butler",
+   "label": "#10",
+   "number": "10",
+   "name": "Butler",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black short band / goatee / white headband / earrings",
+   "full_name": "Jimmy Butler III",
+   "player_id": 202710
+  },
+  {
+   "id": "williams",
+   "label": "#12",
+   "number": "12",
+   "name": "Williams",
+   "skin": [
+    116,
+    72,
+    50
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "earrings": [
+    214,
+    214,
+    220
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black short band / short / white headband / earrings",
+   "full_name": "Brandon Williams",
+   "player_id": 1630314
+  },
+  {
+   "id": "santos",
+   "label": "#15",
+   "number": "15",
+   "name": "Santos",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "afro_band",
+   "hair_color": [
+    48,
+    34,
+    26
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    48,
+    34,
+    26
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: dark brown afro band / goatee / white headband",
+   "full_name": "Gui Santos",
+   "player_id": 1630611
+  },
+  {
+   "id": "cryer",
+   "label": "#18",
+   "number": "18",
+   "name": "Cryer",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "locs",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black locs / short",
+   "full_name": "LJ Cryer",
+   "player_id": 1643018
+  },
+  {
+   "id": "horford",
+   "label": "#20",
+   "number": "20",
+   "name": "Horford",
+   "skin": [
+    154,
+    100,
+    70
+   ],
+   "hair": "bald",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: bald / short",
+   "full_name": "Al Horford",
+   "player_id": 201143
+  },
+  {
+   "id": "green",
+   "label": "#23",
+   "number": "23",
+   "name": "Green",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "buzz",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black buzz / full",
+   "full_name": "Draymond Green",
+   "player_id": 203110
+  },
+  {
+   "id": "bassey",
+   "label": "#28",
+   "number": "28",
+   "name": "Bassey",
+   "skin": [
+    134,
+    86,
+    60
+   ],
+   "hair": "locs_long",
+   "hair_color": [
+    176,
+    132,
+    76
+   ],
+   "beard": "full",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: blond-tipped locs long / full",
+   "full_name": "Charles Bassey",
+   "player_id": 1629646
+  },
+  {
+   "id": "curry",
+   "label": "#30",
+   "number": "30",
+   "name": "Curry",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "crop",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black crop / short",
+   "full_name": "Stephen Curry",
+   "player_id": 201939
+  },
+  {
+   "id": "niang",
+   "label": "#32",
+   "number": "32",
+   "name": "Niang",
+   "skin": [
+    214,
+    164,
+    128
+   ],
+   "hair": "fade_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "short",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black fade short / short",
+   "full_name": "Georges Niang",
+   "player_id": 1627777
+  },
+  {
+   "id": "leons",
+   "label": "#33",
+   "number": "33",
+   "name": "Leons",
+   "skin": [
+    196,
+    140,
+    104
+   ],
+   "hair": "curly_short",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black curly short / goatee",
+   "full_name": "Malevy Leons",
+   "player_id": 1642502
+  },
+  {
+   "id": "ike",
+   "label": "#45",
+   "number": "45",
+   "name": "Ike",
+   "skin": [
+    98,
+    62,
+    44
+   ],
+   "hair": "short_band",
+   "hair_color": [
+    22,
+    18,
+    16
+   ],
+   "beard": "goatee",
+   "headband": [
+    246,
+    246,
+    242
+   ],
+   "beard_color": [
+    22,
+    18,
+    16
+   ],
+   "shoes": [
+    244,
+    244,
+    244
+   ],
+   "shoe_accent": [
+    29,
+    66,
+    138
+   ],
+   "look_source": "photo: black short band / goatee / white headband",
+   "full_name": "Graham Ike",
+   "player_id": 1643633
+  }
+ ]
+}
