@@ -104,9 +104,9 @@
    "label": "#0",
    "name": "Burries",
    "skin": [
-    214,
-    166,
-    132
+    218,
+    158,
+    131
    ],
    "hair": "afro_long",
    "hair_color": [
@@ -132,16 +132,22 @@
    ],
    "look_source": "photo: long curls to the jaw / mustache",
    "full_name": "Brayden Burries",
-   "player_id": 1643415
+   "player_id": 1643415,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sims",
    "label": "#00",
    "name": "Sims",
    "skin": [
-    164,
-    110,
-    80
+    208,
+    148,
+    117
    ],
    "hair": "afro",
    "hair_color": [
@@ -167,16 +173,22 @@
    ],
    "look_source": "photo: big curly afro / mustache",
    "full_name": "Jericho Sims",
-   "player_id": 1630579
+   "player_id": 1630579,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "turner",
    "label": "#3",
    "name": "Turner",
    "skin": [
-    100,
-    62,
-    44
+    168,
+    111,
+    84
    ],
    "hair": "locs_long_band",
    "hair_color": [
@@ -207,16 +219,22 @@
    ],
    "look_source": "photo: long locs + headband / short beard",
    "full_name": "Myles Turner",
-   "player_id": 1626167
+   "player_id": 1626167,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "trent",
    "label": "#5",
    "name": "Trent",
    "skin": [
-    164,
-    110,
-    80
+    199,
+    140,
+    112
    ],
    "hair": "buzz_receding",
    "hair_color": [
@@ -242,16 +260,22 @@
    ],
    "look_source": "photo: receding / thick beard | revised:hair buzz_receding",
    "full_name": "Gary Trent Jr.",
-   "player_id": 1629018
+   "player_id": 1629018,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "ware",
    "label": "#9",
    "name": "Ware",
    "skin": [
-    190,
-    136,
-    100
+    201,
+    145,
+    121
    ],
    "hair": "waves",
    "hair_color": [
@@ -277,16 +301,22 @@
    ],
    "look_source": "photo: low waves / goatee | revised:hair waves",
    "full_name": "Kel'el Ware",
-   "player_id": 1642276
+   "player_id": 1642276,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "herro",
    "label": "#11",
    "name": "Herro",
    "skin": [
-    232,
-    184,
-    158
+    210,
+    154,
+    129
    ],
    "hair": "short_band",
    "hair_color": [
@@ -317,16 +347,22 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Tyler Herro",
-   "player_id": 1629639
+   "player_id": 1629639,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "levert",
    "label": "#12",
    "name": "LeVert",
    "skin": [
-    120,
-    76,
-    52
+    140,
+    94,
+    72
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -352,16 +388,22 @@
    ],
    "look_source": "photo: cornrows + braid / full beard",
    "full_name": "Caris LeVert",
-   "player_id": 1627747
+   "player_id": 1627747,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "rollins",
    "label": "#13",
    "name": "Rollins",
    "skin": [
-    164,
-    110,
-    80
+    221,
+    158,
+    130
    ],
    "hair": "sponge",
    "hair_color": [
@@ -387,16 +429,22 @@
    ],
    "look_source": "photo: short curls / goatee | revised:hair sponge",
    "full_name": "Ryan Rollins",
-   "player_id": 1631157
+   "player_id": 1631157,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "ament",
    "label": "#15",
    "name": "Ament",
    "skin": [
-    164,
-    110,
-    80
+    203,
+    142,
+    114
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -417,16 +465,22 @@
    ],
    "look_source": "photo: curly top / clean-shaven",
    "full_name": "Nate Ament",
-   "player_id": 1643417
+   "player_id": 1643417,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "kuzma",
    "label": "#18",
    "name": "Kuzma",
    "skin": [
-    190,
-    136,
-    100
+    209,
+    150,
+    121
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -457,16 +511,22 @@
    ],
    "look_source": "photo: curly top / goatee / earring | revised:hair curly_short",
    "full_name": "Kyle Kuzma",
-   "player_id": 1628398
+   "player_id": 1628398,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jones",
    "label": "#19",
    "name": "Jones",
    "skin": [
-    100,
-    62,
-    44
+    173,
+    120,
+    97
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -492,16 +552,22 @@
    ],
    "look_source": "photo: tall curls / mustache",
    "full_name": "Kam Jones",
-   "player_id": 1642880
+   "player_id": 1642880,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "green",
    "label": "#20",
    "name": "Green",
    "skin": [
-    240,
-    198,
-    176
+    223,
+    165,
+    141
    ],
    "hair": "crop_fringe",
    "hair_color": [
@@ -522,16 +588,22 @@
    ],
    "look_source": "photo: blond fringe / clean-shaven | revised:hair crop_fringe",
    "full_name": "AJ Green",
-   "player_id": 1631260
+   "player_id": 1631260,
+   "skin_picked": [
+    240,
+    198,
+    176
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "dieng",
    "label": "#21",
    "name": "Dieng",
    "skin": [
-    164,
-    110,
-    80
+    201,
+    140,
+    112
    ],
    "hair": "box_braids",
    "hair_color": [
@@ -557,16 +629,22 @@
    ],
    "look_source": "photo: twists to the jaw / goatee",
    "full_name": "Ousmane Dieng",
-   "player_id": 1631172
+   "player_id": 1631172,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "markovic",
    "label": "#23",
    "name": "Markovic",
    "skin": [
-    232,
-    184,
-    158
+    212,
+    160,
+    136
    ],
    "hair": "crop",
    "hair_color": [
@@ -592,16 +670,22 @@
    ],
    "look_source": "photo: crop / goatee",
    "full_name": "Bogoljub Marković",
-   "player_id": 1642881
+   "player_id": 1642881,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jaquez",
    "label": "#24",
    "name": "Jaquez",
    "skin": [
-    214,
-    166,
-    132
+    213,
+    159,
+    135
    ],
    "hair": "long_band",
    "hair_color": [
@@ -632,16 +716,22 @@
    ],
    "look_source": "photo: long hair + white headband / goatee",
    "full_name": "Jaime Jaquez Jr.",
-   "player_id": 1631170
+   "player_id": 1631170,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jakucionis",
    "label": "#25",
    "name": "Jakucionis",
    "skin": [
-    232,
-    184,
-    158
+    215,
+    161,
+    135
    ],
    "hair": "curls_forward",
    "hair_color": [
@@ -662,16 +752,22 @@
    ],
    "look_source": "photo: light brown curls / clean-shaven | revised:hair curls_forward",
    "full_name": "Kasparas Jakučionis",
-   "player_id": 1642857
+   "player_id": 1642857,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "ryan",
    "label": "#30",
    "name": "Ryan",
    "skin": [
-    232,
-    184,
-    158
+    217,
+    164,
+    140
    ],
    "hair": "middle_part",
    "hair_color": [
@@ -692,16 +788,22 @@
    ],
    "look_source": "photo: dark fringe / clean-shaven | revised:hair middle_part",
    "full_name": "Cormac Ryan",
-   "player_id": 1642504
+   "player_id": 1642504,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "nance",
    "label": "#35",
    "name": "Nance",
    "skin": [
-    190,
-    136,
-    100
+    210,
+    154,
+    129
    ],
    "hair": "buzz_lineup",
    "hair_color": [
@@ -727,7 +829,13 @@
    ],
    "look_source": "photo: short line-up / full beard | revised:hair buzz_lineup",
    "full_name": "Pete Nance",
-   "player_id": 1631250
+   "player_id": 1631250,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

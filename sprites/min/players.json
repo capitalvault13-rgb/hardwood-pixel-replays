@@ -120,9 +120,9 @@
    "number": "0",
    "name": "DiVincenzo",
    "skin": [
-    238,
-    198,
-    174
+    208,
+    156,
+    132
    ],
    "hair": "buzz",
    "hair_color": [
@@ -148,7 +148,13 @@
    ],
    "look_source": "photo: red buzz / full",
    "full_name": "Donte DiVincenzo",
-   "player_id": 1628978
+   "player_id": 1628978,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "ball",
@@ -156,9 +162,9 @@
    "number": "1",
    "name": "Ball",
    "skin": [
-    214,
-    164,
-    128
+    207,
+    162,
+    141
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -189,7 +195,13 @@
    ],
    "look_source": "photo: black fade short / short / earrings",
    "full_name": "LaMelo Ball",
-   "player_id": 1630163
+   "player_id": 1630163,
+   "skin_picked": [
+    214,
+    164,
+    128
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mcdaniels",
@@ -197,9 +209,9 @@
    "number": "3",
    "name": "McDaniels",
    "skin": [
-    116,
-    72,
-    50
+    155,
+    103,
+    81
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -225,7 +237,13 @@
    ],
    "look_source": "photo: black braids back / goatee",
    "full_name": "Jaden McDaniels",
-   "player_id": 1630183
+   "player_id": 1630183,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "shannon",
@@ -233,9 +251,9 @@
    "number": "4",
    "name": "Shannon",
    "skin": [
-    176,
-    120,
-    86
+    208,
+    149,
+    122
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -261,7 +279,13 @@
    ],
    "look_source": "photo: black twists spiky / goatee",
    "full_name": "Terrence Shannon Jr",
-   "player_id": 1630545
+   "player_id": 1630545,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "edwards",
@@ -269,9 +293,9 @@
    "number": "5",
    "name": "Edwards",
    "skin": [
-    116,
-    72,
-    50
+    135,
+    92,
+    71
    ],
    "hair": "crop",
    "hair_color": [
@@ -297,7 +321,13 @@
    ],
    "look_source": "photo: black crop / clean-shaven / earrings",
    "full_name": "Anthony Edwards",
-   "player_id": 1630162
+   "player_id": 1630162,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "clark",
@@ -305,9 +335,9 @@
    "number": "7",
    "name": "Clark",
    "skin": [
-    176,
-    120,
-    86
+    182,
+    125,
+    101
    ],
    "hair": "buzz",
    "hair_color": [
@@ -333,7 +363,13 @@
    ],
    "look_source": "photo: black buzz / clean-shaven / earrings",
    "full_name": "Jaylen Clark",
-   "player_id": 1641740
+   "player_id": 1641740,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hyland",
@@ -341,9 +377,9 @@
    "number": "8",
    "name": "Hyland",
    "skin": [
-    116,
-    72,
-    50
+    150,
+    104,
+    83
    ],
    "hair": "locs",
    "hair_color": [
@@ -374,7 +410,13 @@
    ],
    "look_source": "photo: black locs / goatee / earrings",
    "full_name": "Bones Hyland",
-   "player_id": 1630538
+   "player_id": 1630538,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "williams",
@@ -382,9 +424,9 @@
    "number": "9",
    "name": "Williams",
    "skin": [
-    154,
-    100,
-    70
+    172,
+    118,
+    93
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -405,7 +447,13 @@
    ],
    "look_source": "photo: black cornrows / clean-shaven",
    "full_name": "Cody Williams",
-   "player_id": 1642262
+   "player_id": 1642262,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "dosunmu",
@@ -413,9 +461,9 @@
    "number": "13",
    "name": "Dosunmu",
    "skin": [
-    116,
-    72,
-    50
+    159,
+    107,
+    85
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -441,7 +489,13 @@
    ],
    "look_source": "photo: black locs long / goatee",
    "full_name": "Ayo Dosunmu",
-   "player_id": 1630245
+   "player_id": 1630245,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "pullin",
@@ -449,9 +503,9 @@
    "number": "15",
    "name": "Pullin",
    "skin": [
-    176,
-    120,
-    86
+    200,
+    143,
+    114
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -477,7 +531,13 @@
    ],
    "look_source": "photo: black afro / goatee",
    "full_name": "Zyon Pullin",
-   "player_id": 1642389
+   "player_id": 1642389,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "beringer",
@@ -485,9 +545,9 @@
    "number": "19",
    "name": "Beringer",
    "skin": [
-    196,
-    140,
-    104
+    212,
+    154,
+    125
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -508,7 +568,13 @@
    ],
    "look_source": "photo: dark brown afro / clean-shaven",
    "full_name": "Joan Beringer",
-   "player_id": 1642866
+   "player_id": 1642866,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "broome",
@@ -516,9 +582,9 @@
    "number": "22",
    "name": "Broome",
    "skin": [
-    196,
-    140,
-    104
+    222,
+    159,
+    131
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -544,7 +610,13 @@
    ],
    "look_source": "photo: black high tight / full",
    "full_name": "Johni Broome",
-   "player_id": 1641780
+   "player_id": 1641780,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "kuminga",
@@ -552,9 +624,9 @@
    "number": "24",
    "name": "Kuminga",
    "skin": [
-    116,
-    72,
-    50
+    155,
+    106,
+    83
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -580,7 +652,13 @@
    ],
    "look_source": "photo: black fade short / full",
    "full_name": "Jonathan Kuminga",
-   "player_id": 1630228
+   "player_id": 1630228,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "gobert",
@@ -588,9 +666,9 @@
    "number": "27",
    "name": "Gobert",
    "skin": [
-    196,
-    140,
-    104
+    214,
+    160,
+    134
    ],
    "hair": "bald",
    "hair_color": [
@@ -616,7 +694,13 @@
    ],
    "look_source": "photo: bald / goatee",
    "full_name": "Rudy Gobert",
-   "player_id": 203497
+   "player_id": 203497,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "evans",
@@ -624,9 +708,9 @@
    "number": "33",
    "name": "Evans",
    "skin": [
-    134,
-    86,
-    60
+    194,
+    138,
+    111
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -647,7 +731,13 @@
    ],
    "look_source": "photo: black braids back / clean-shaven",
    "full_name": "Isaiah Evans",
-   "player_id": 1642912
+   "player_id": 1642912,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "lyles",
@@ -655,9 +745,9 @@
    "number": "41",
    "name": "Lyles",
    "skin": [
-    196,
+    199,
     140,
-    104
+    114
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -688,7 +778,13 @@
    ],
    "look_source": "photo: black curly short / short / earrings",
    "full_name": "Trey Lyles",
-   "player_id": 1626168
+   "player_id": 1626168,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "zikarsky",
@@ -696,9 +792,9 @@
    "number": "44",
    "name": "Zikarsky",
    "skin": [
-    238,
-    198,
-    174
+    224,
+    175,
+    153
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -719,7 +815,13 @@
    ],
    "look_source": "photo: brown curly top / clean-shaven",
    "full_name": "Rocco Zikarsky",
-   "player_id": 1642911
+   "player_id": 1642911,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

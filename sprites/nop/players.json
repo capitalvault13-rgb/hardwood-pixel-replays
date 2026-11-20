@@ -120,9 +120,9 @@
    "number": "0",
    "name": "Fears",
    "skin": [
-    176,
-    120,
-    86
+    191,
+    135,
+    108
    ],
    "hair": "short_band",
    "hair_color": [
@@ -148,7 +148,13 @@
    ],
    "look_source": "photo: black short band / clean-shaven / white headband",
    "full_name": "Jeremiah Fears",
-   "player_id": 1642847
+   "player_id": 1642847,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "williamson",
@@ -156,9 +162,9 @@
    "number": "1",
    "name": "Williamson",
    "skin": [
-    116,
-    72,
-    50
+    117,
+    77,
+    60
    ],
    "hair": "crop",
    "hair_color": [
@@ -184,7 +190,13 @@
    ],
    "look_source": "photo: black crop / full",
    "full_name": "Zion Williamson",
-   "player_id": 1629627
+   "player_id": 1629627,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jones",
@@ -192,9 +204,9 @@
    "number": "2",
    "name": "Jones",
    "skin": [
-    116,
-    72,
-    50
+    143,
+    94,
+    72
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -220,7 +232,13 @@
    ],
    "look_source": "photo: black braids back / goatee",
    "full_name": "Herbert Jones",
-   "player_id": 1630529
+   "player_id": 1630529,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "poole",
@@ -228,9 +246,9 @@
    "number": "3",
    "name": "Poole",
    "skin": [
-    154,
-    100,
-    70
+    183,
+    125,
+    98
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -256,7 +274,13 @@
    ],
    "look_source": "photo: black curly high / mustache",
    "full_name": "Jordan Poole",
-   "player_id": 1629673
+   "player_id": 1629673,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "murray",
@@ -264,9 +288,9 @@
    "number": "5",
    "name": "Murray",
    "skin": [
-    154,
-    100,
-    70
+    180,
+    126,
+    101
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -292,7 +316,13 @@
    ],
    "look_source": "photo: black fade short / short",
    "full_name": "Dejounte Murray",
-   "player_id": 1627749
+   "player_id": 1627749,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jordan",
@@ -300,9 +330,9 @@
    "number": "6",
    "name": "Jordan",
    "skin": [
-    116,
-    72,
-    50
+    156,
+    104,
+    82
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -328,7 +358,13 @@
    ],
    "look_source": "photo: black curly short / full",
    "full_name": "DeAndre Jordan",
-   "player_id": 201599
+   "player_id": 201599,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "dia",
@@ -336,9 +372,9 @@
    "number": "8",
    "name": "Dia",
    "skin": [
-    116,
-    72,
-    50
+    144,
+    94,
+    72
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -359,7 +395,13 @@
    ],
    "look_source": "photo: black curly top / clean-shaven",
    "full_name": "Malik Dia",
-   "player_id": 1643738
+   "player_id": 1643738,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "watford",
@@ -367,9 +409,9 @@
    "number": "9",
    "name": "Watford",
    "skin": [
-    176,
-    120,
-    86
+    180,
+    126,
+    101
    ],
    "hair": "cornrows_left",
    "hair_color": [
@@ -395,7 +437,13 @@
    ],
    "look_source": "photo: black cornrows left / full",
    "full_name": "Trendon Watford",
-   "player_id": 1630570
+   "player_id": 1630570,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "pierre",
@@ -403,9 +451,9 @@
    "number": "10",
    "name": "Pierre",
    "skin": [
-    116,
-    72,
-    50
+    153,
+    101,
+    79
    ],
    "hair": "locs_band",
    "hair_color": [
@@ -436,7 +484,13 @@
    ],
    "look_source": "photo: black locs band / mustache / white headband",
    "full_name": "Jaron Pierre Jr.",
-   "player_id": 1643555
+   "player_id": 1643555,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mcgowens",
@@ -444,9 +498,9 @@
    "number": "11",
    "name": "McGowens",
    "skin": [
-    154,
-    100,
-    70
+    195,
+    138,
+    107
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -472,7 +526,13 @@
    ],
    "look_source": "photo: black high tight / mustache",
    "full_name": "Bryce McGowens",
-   "player_id": 1631121
+   "player_id": 1631121,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "reese",
@@ -480,9 +540,9 @@
    "number": "13",
    "name": "Reese",
    "skin": [
-    134,
-    86,
-    60
+    163,
+    108,
+    83
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -503,7 +563,13 @@
    ],
    "look_source": "photo: black curly short / clean-shaven",
    "full_name": "Julian Reese",
-   "player_id": 1642882
+   "player_id": 1642882,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "johnson",
@@ -511,9 +577,9 @@
    "number": "14",
    "name": "Johnson",
    "skin": [
-    134,
-    86,
-    60
+    146,
+    97,
+    74
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -534,7 +600,13 @@
    ],
    "look_source": "photo: black twists spiky / clean-shaven",
    "full_name": "AJ Johnson",
-   "player_id": 1642358
+   "player_id": 1642358,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "matkovic",
@@ -542,9 +614,9 @@
    "number": "17",
    "name": "Matkovic",
    "skin": [
-    230,
-    184,
-    156
+    209,
+    164,
+    145
    ],
    "hair": "crop",
    "hair_color": [
@@ -570,7 +642,13 @@
    ],
    "look_source": "photo: dark brown crop / short",
    "full_name": "Karlo Matković",
-   "player_id": 1631255
+   "player_id": 1631255,
+   "skin_picked": [
+    230,
+    184,
+    156
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "missi",
@@ -578,9 +656,9 @@
    "number": "21",
    "name": "Missi",
    "skin": [
-    116,
-    72,
-    50
+    149,
+    100,
+    77
    ],
    "hair": "buzz",
    "hair_color": [
@@ -606,7 +684,13 @@
    ],
    "look_source": "photo: black buzz / goatee",
    "full_name": "Yves Missi",
-   "player_id": 1642274
+   "player_id": 1642274,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "queen",
@@ -614,9 +698,9 @@
    "number": "22",
    "name": "Queen",
    "skin": [
-    116,
-    72,
-    50
+    153,
+    101,
+    77
    ],
    "hair": "twists_short",
    "hair_color": [
@@ -637,7 +721,13 @@
    ],
    "look_source": "photo: black twists short / clean-shaven",
    "full_name": "Derik Queen",
-   "player_id": 1642852
+   "player_id": 1642852,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mathurin",
@@ -645,9 +735,9 @@
    "number": "24",
    "name": "Mathurin",
    "skin": [
-    98,
-    62,
-    44
+    152,
+    100,
+    76
    ],
    "hair": "crop",
    "hair_color": [
@@ -673,7 +763,13 @@
    ],
    "look_source": "photo: black crop / mustache",
    "full_name": "Bennedict Mathurin",
-   "player_id": 1631097
+   "player_id": 1631097,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "murphy",
@@ -681,9 +777,9 @@
    "number": "25",
    "name": "Murphy",
    "skin": [
-    154,
-    100,
-    70
+    172,
+    115,
+    90
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -709,7 +805,13 @@
    ],
    "look_source": "photo: black cornrows / goatee",
    "full_name": "Trey Murphy III",
-   "player_id": 1630530
+   "player_id": 1630530,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bey",
@@ -717,9 +819,9 @@
    "number": "41",
    "name": "Bey",
    "skin": [
-    134,
-    86,
-    60
+    168,
+    118,
+    96
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -745,7 +847,13 @@
    ],
    "look_source": "photo: black high tight / thick",
    "full_name": "Saddiq Bey",
-   "player_id": 1630180
+   "player_id": 1630180,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

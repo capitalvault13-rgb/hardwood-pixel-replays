@@ -104,9 +104,9 @@
    "label": "#2",
    "name": "Essengue",
    "skin": [
-    190,
-    136,
-    100
+    209,
+    154,
+    129
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -132,16 +132,22 @@
    ],
    "look_source": "photo: braids pulled back / mustache",
    "full_name": "Noa Essengue",
-   "player_id": 1642855
+   "player_id": 1642855,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "giddey",
    "label": "#3",
    "name": "Giddey",
    "skin": [
-    232,
-    184,
-    158
+    220,
+    176,
+    157
    ],
    "hair": "long_hair",
    "hair_color": [
@@ -162,16 +168,22 @@
    ],
    "look_source": "photo: straight hair to the jaw / clean-shaven",
    "full_name": "Josh Giddey",
-   "player_id": 1630581
+   "player_id": 1630581,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "swain",
    "label": "#5",
    "name": "Swain",
    "skin": [
-    142,
-    92,
-    64
+    162,
+    107,
+    82
    ],
    "hair": "sponge",
    "hair_color": [
@@ -202,16 +214,22 @@
    ],
    "look_source": "photo: curly top / mustache / earrings | revised:hair sponge",
    "full_name": "Dailyn Swain",
-   "player_id": 1643517
+   "player_id": 1643517,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "robinson",
    "label": "#7",
    "name": "Robinson",
    "skin": [
-    164,
-    110,
-    80
+    199,
+    142,
+    113
    ],
    "hair": "buzz_lineup",
    "hair_color": [
@@ -237,16 +255,22 @@
    ],
    "look_source": "photo: low cut / goatee | revised:hair buzz_lineup",
    "full_name": "Orlando Robinson",
-   "player_id": 1631115
+   "player_id": 1631115,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hield",
    "label": "#7",
    "name": "Hield",
    "skin": [
-    120,
-    76,
-    52
+    156,
+    104,
+    80
    ],
    "hair": "locs_long_band",
    "hair_color": [
@@ -277,16 +301,22 @@
    ],
    "look_source": "photo: long braids + white headband / short beard",
    "full_name": "Buddy Hield",
-   "player_id": 1627741
+   "player_id": 1627741,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "wilson",
    "label": "#8",
    "name": "Wilson",
    "skin": [
+    128,
     82,
-    52,
-    38
+    61
    ],
    "hair": "locs",
    "hair_color": [
@@ -307,16 +337,22 @@
    ],
    "look_source": "photo: braids to the jaw / clean-shaven",
    "full_name": "Caleb Wilson",
-   "player_id": 1643410
+   "player_id": 1643410,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "claxton",
    "label": "#9",
    "name": "Claxton",
    "skin": [
-    120,
-    76,
-    52
+    159,
+    104,
+    78
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -347,16 +383,22 @@
    ],
    "look_source": "photo: long braids / short beard / earrings",
    "full_name": "Nic Claxton",
-   "player_id": 1629651
+   "player_id": 1629651,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "miller",
    "label": "#11",
    "name": "Miller",
    "skin": [
-    100,
-    62,
-    44
+    147,
+    104,
+    84
    ],
    "hair": "box_braids",
    "hair_color": [
@@ -377,16 +419,22 @@
    ],
    "look_source": "photo: center-parted braids / clean-shaven",
    "full_name": "Leonard Miller",
-   "player_id": 1631159
+   "player_id": 1631159,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "collins",
    "label": "#12",
    "name": "Collins",
    "skin": [
-    232,
-    184,
-    158
+    201,
+    148,
+    125
    ],
    "hair": "swept_side",
    "hair_color": [
@@ -407,16 +455,22 @@
    ],
    "look_source": "photo: swept-back undercut / clean-shaven | revised:hair swept_side",
    "full_name": "Zach Collins",
-   "player_id": 1628380
+   "player_id": 1628380,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "buzelis",
    "label": "#14",
    "name": "Buzelis",
    "skin": [
-    232,
-    184,
-    158
+    224,
+    175,
+    153
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -442,16 +496,22 @@
    ],
    "look_source": "photo: messy fringe / goatee",
    "full_name": "Matas Buzelis",
-   "player_id": 1641824
+   "player_id": 1641824,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hawkins",
    "label": "#15",
    "name": "Hawkins",
    "skin": [
-    142,
-    92,
-    64
+    171,
+    116,
+    84
    ],
    "hair": "waves",
    "hair_color": [
@@ -477,16 +537,22 @@
    ],
    "look_source": "photo: crop / short beard | revised:hair waves",
    "full_name": "Jordan Hawkins",
-   "player_id": 1641722
+   "player_id": 1641722,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "awaka",
    "label": "#19",
    "name": "Awaka",
    "skin": [
-    100,
-    62,
-    44
+    171,
+    112,
+    86
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -512,16 +578,22 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Tobe Awaka",
-   "player_id": 1643591
+   "player_id": 1643591,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sellers",
    "label": "#22",
    "name": "Sellers",
    "skin": [
-    100,
-    62,
-    44
+    136,
+    89,
+    68
    ],
    "hair": "afro",
    "hair_color": [
@@ -547,16 +619,22 @@
    ],
    "look_source": "photo: huge afro / clean-shaven / earrings",
    "full_name": "Jaylin Sellers",
-   "player_id": 1643637
+   "player_id": 1643637,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "powell",
    "label": "#24",
    "name": "Powell",
    "skin": [
-    142,
-    92,
-    64
+    163,
+    106,
+    80
    ],
    "hair": "buzz_receding",
    "hair_color": [
@@ -582,16 +660,22 @@
    ],
    "look_source": "photo: short line-up / full beard | revised:hair buzz_receding",
    "full_name": "Norman Powell",
-   "player_id": 1626181
+   "player_id": 1626181,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "smith",
    "label": "#25",
    "name": "Smith",
    "skin": [
-    82,
-    52,
-    38
+    102,
+    67,
+    51
    ],
    "hair": "buzz",
    "hair_color": [
@@ -612,7 +696,13 @@
    ],
    "look_source": "photo: low cut / clean-shaven",
    "full_name": "Jalen Smith",
-   "player_id": 1630188
+   "player_id": 1630188,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jones",
@@ -620,8 +710,8 @@
    "name": "Jones",
    "skin": [
     190,
-    136,
-    100
+    131,
+    102
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -647,16 +737,22 @@
    ],
    "look_source": "photo: tall curls / goatee",
    "full_name": "Tre Jones",
-   "player_id": 1630200
+   "player_id": 1630200,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "okoro",
    "label": "#35",
    "name": "Okoro",
    "skin": [
-    100,
-    62,
-    44
+    144,
+    89,
+    64
    ],
    "hair": "cornrows_flat",
    "hair_color": [
@@ -682,16 +778,22 @@
    ],
    "look_source": "photo: short waves / mustache | revised:hair cornrows_flat",
    "full_name": "Isaac Okoro",
-   "player_id": 1630171
+   "player_id": 1630171,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "williams",
    "label": "#44",
    "name": "Williams",
    "skin": [
-    82,
-    52,
-    38
+    115,
+    74,
+    56
    ],
    "hair": "twists_short",
    "hair_color": [
@@ -717,7 +819,13 @@
    ],
    "look_source": "photo: receding line-up / goatee",
    "full_name": "Patrick Williams",
-   "player_id": 1630172
+   "player_id": 1630172,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

@@ -104,9 +104,9 @@
    "label": "#1",
    "name": "Shead",
    "skin": [
-    100,
-    62,
-    44
+    143,
+    97,
+    77
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -132,16 +132,22 @@
    ],
    "look_source": "photo: cornrows + short braids / goatee",
    "full_name": "Jamal Shead",
-   "player_id": 1642347
+   "player_id": 1642347,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "leonard",
    "label": "#2",
    "name": "Leonard",
    "skin": [
-    142,
-    92,
-    64
+    154,
+    101,
+    77
    ],
    "hair": "short_band",
    "hair_color": [
@@ -172,16 +178,22 @@
    ],
    "look_source": "photo: black headband / short beard",
    "full_name": "Kawhi Leonard",
-   "player_id": 202695
+   "player_id": 202695,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "barnes",
    "label": "#4",
    "name": "Barnes",
    "skin": [
-    142,
-    92,
-    64
+    184,
+    124,
+    98
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -207,16 +219,22 @@
    ],
    "look_source": "photo: cornrows + braid / mustache",
    "full_name": "Scottie Barnes",
-   "player_id": 1630567
+   "player_id": 1630567,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "quickley",
    "label": "#5",
    "name": "Quickley",
    "skin": [
-    142,
-    92,
-    64
+    152,
+    99,
+    74
    ],
    "hair": "locs_band",
    "hair_color": [
@@ -247,16 +265,22 @@
    ],
    "look_source": "photo: braids + black headband / short beard",
    "full_name": "Immanuel Quickley",
-   "player_id": 1630193
+   "player_id": 1630193,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bradley",
    "label": "#8",
    "name": "Bradley",
    "skin": [
-    100,
-    62,
-    44
+    143,
+    95,
+    74
    ],
    "hair": "cornrows_left",
    "hair_color": [
@@ -282,16 +306,22 @@
    ],
    "look_source": "photo: cornrows + braid / mustache",
    "full_name": "Jaden Bradley",
-   "player_id": 1643558
+   "player_id": 1643558,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "barrett",
    "label": "#9",
    "name": "Barrett",
    "skin": [
-    100,
-    62,
-    44
+    142,
+    93,
+    71
    ],
    "hair": "box_braids",
    "hair_color": [
@@ -322,16 +352,22 @@
    ],
    "look_source": "photo: braids hanging / mustache / earrings",
    "full_name": "RJ Barrett",
-   "player_id": 1629628
+   "player_id": 1629628,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mccullar",
    "label": "#9",
    "name": "McCullar",
    "skin": [
-    190,
-    136,
-    100
+    167,
+    137,
+    110
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -357,16 +393,22 @@
    ],
    "look_source": "photo: short curls / goatee",
    "full_name": "Kevin McCullar Jr.",
-   "player_id": 1641755
+   "player_id": 1641755,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bittle",
    "label": "#12",
    "name": "Bittle",
    "skin": [
-    240,
-    198,
-    176
+    220,
+    176,
+    157
    ],
    "hair": "swept_back",
    "hair_color": [
@@ -392,16 +434,22 @@
    ],
    "look_source": "photo: swept back / goatee",
    "full_name": "Nate Bittle",
-   "player_id": 1642927
+   "player_id": 1642927,
+   "skin_picked": [
+    240,
+    198,
+    176
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "anderson",
    "label": "#13",
    "name": "Anderson",
    "skin": [
-    190,
-    136,
-    100
+    207,
+    149,
+    118
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -427,16 +475,22 @@
    ],
    "look_source": "photo: curly top / full beard",
    "full_name": "Kyle Anderson",
-   "player_id": 203937
+   "player_id": 203937,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "walter",
    "label": "#14",
    "name": "Walter",
    "skin": [
-    100,
-    62,
-    44
+    140,
+    97,
+    77
    ],
    "hair": "afro_band",
    "hair_color": [
@@ -467,16 +521,22 @@
    ],
    "look_source": "photo: afro + black headband / mustache",
    "full_name": "Ja'Kobe Walter",
-   "player_id": 1642266
+   "player_id": 1642266,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "smith",
    "label": "#18",
    "name": "Smith",
    "skin": [
-    100,
-    62,
-    44
+    170,
+    113,
+    84
    ],
    "hair": "sponge",
    "hair_color": [
@@ -502,16 +562,22 @@
    ],
    "look_source": "photo: crop / goatee | revised:hair sponge",
    "full_name": "Malachi Smith",
-   "player_id": 1641869
+   "player_id": 1641869,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "poeltl",
    "label": "#19",
    "name": "Poeltl",
    "skin": [
-    240,
-    198,
-    176
+    229,
+    185,
+    165
    ],
    "hair": "buzz_receding",
    "hair_color": [
@@ -537,16 +603,22 @@
    ],
    "look_source": "photo: short / red stubble | revised:hair buzz_receding",
    "full_name": "Jakob Poeltl",
-   "player_id": 1627751
+   "player_id": 1627751,
+   "skin_picked": [
+    240,
+    198,
+    176
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "graves",
    "label": "#22",
    "name": "Graves",
    "skin": [
-    190,
-    136,
-    100
+    208,
+    151,
+    126
    ],
    "hair": "afro_long",
    "hair_color": [
@@ -572,16 +644,22 @@
    ],
    "look_source": "photo: long curls / full beard",
    "full_name": "Allen Graves",
-   "player_id": 1643512
+   "player_id": 1643512,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "murrayboyles",
    "label": "#30",
    "name": "Murray-Boyles",
    "skin": [
-    100,
-    62,
-    44
+    195,
+    135,
+    107
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -607,16 +685,22 @@
    ],
    "look_source": "photo: long braids / mustache",
    "full_name": "Collin Murray-Boyles",
-   "player_id": 1642867
+   "player_id": 1642867,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jacksondavis",
    "label": "#32",
    "name": "Jackson-Davis",
    "skin": [
-    190,
-    136,
-    100
+    202,
+    146,
+    122
    ],
    "hair": "crop_lineup",
    "hair_color": [
@@ -637,16 +721,22 @@
    ],
    "look_source": "photo: crop / clean-shaven | revised:hair crop_lineup",
    "full_name": "Trayce Jackson-Davis",
-   "player_id": 1631218
+   "player_id": 1631218,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "martin",
    "label": "#55",
    "name": "Martin",
    "skin": [
-    100,
-    62,
-    44
+    176,
+    117,
+    91
    ],
    "hair": "cornrows_flat",
    "hair_color": [
@@ -677,16 +767,22 @@
    ],
    "look_source": "photo: parted cornrows / goatee / earrings",
    "full_name": "Alijah Martin",
-   "player_id": 1642918
+   "player_id": 1642918,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "battle",
    "label": "#77",
    "name": "Battle",
    "skin": [
-    214,
-    166,
-    132
+    213,
+    167,
+    147
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -717,7 +813,13 @@
    ],
    "look_source": "photo: brown curls / red goatee / earrings | revised:hair curly_high",
    "full_name": "Jamison Battle",
-   "player_id": 1642419
+   "player_id": 1642419,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

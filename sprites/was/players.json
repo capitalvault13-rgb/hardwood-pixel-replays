@@ -104,9 +104,9 @@
    "label": "#0",
    "name": "Coulibaly",
    "skin": [
-    100,
-    62,
-    44
+    168,
+    112,
+    85
    ],
    "hair": "locs_long_band",
    "hair_color": [
@@ -137,16 +137,22 @@
    ],
    "look_source": "photo: long locs + white headband / mustache",
    "full_name": "Bilal Coulibaly",
-   "player_id": 1641731
+   "player_id": 1641731,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "vukcevic",
    "label": "#00",
    "name": "Vukcevic",
    "skin": [
-    214,
-    166,
-    132
+    215,
+    172,
+    153
    ],
    "hair": "curls_forward",
    "hair_color": [
@@ -172,16 +178,22 @@
    ],
    "look_source": "photo: messy curls / full beard | revised:hair curls_forward",
    "full_name": "Tristan Vukčević",
-   "player_id": 1641774
+   "player_id": 1641774,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mann",
    "label": "#1",
    "name": "Mann",
    "skin": [
-    190,
-    136,
-    100
+    205,
+    156,
+    129
    ],
    "hair": "short_band",
    "hair_color": [
@@ -212,16 +224,22 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Tre Mann",
-   "player_id": 1630544
+   "player_id": 1630544,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "young",
    "label": "#3",
    "name": "Young",
    "skin": [
-    190,
-    136,
-    100
+    181,
+    134,
+    112
    ],
    "hair": "wavy_medium",
    "hair_color": [
@@ -247,16 +265,22 @@
    ],
    "look_source": "photo: wavy curls / full beard",
    "full_name": "Trae Young",
-   "player_id": 1629027
+   "player_id": 1629027,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "dybantsa",
    "label": "#4",
    "name": "Dybantsa",
    "skin": [
-    100,
-    62,
-    44
+    136,
+    89,
+    66
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -277,16 +301,22 @@
    ],
    "look_source": "photo: high twists / clean-shaven",
    "full_name": "AJ Dybantsa",
-   "player_id": 1643407
+   "player_id": 1643407,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "watkins",
    "label": "#5",
    "name": "Watkins",
    "skin": [
-    100,
-    62,
-    44
+    152,
+    96,
+    70
    ],
    "hair": "locs_top",
    "hair_color": [
@@ -312,16 +342,22 @@
    ],
    "look_source": "photo: locs tied up on top / mustache",
    "full_name": "Jamir Watkins",
-   "player_id": 1642364
+   "player_id": 1642364,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "carrington",
    "label": "#7",
    "name": "Carrington",
    "skin": [
-    100,
-    62,
-    44
+    154,
+    98,
+    72
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -342,16 +378,22 @@
    ],
    "look_source": "photo: long twists / clean-shaven",
    "full_name": "Bub Carrington",
-   "player_id": 1642267
+   "player_id": 1642267,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "ayton",
    "label": "#8",
    "name": "Ayton",
    "skin": [
-    100,
-    62,
-    44
+    122,
+    81,
+    64
    ],
    "hair": "crop_lineup",
    "hair_color": [
@@ -382,16 +424,22 @@
    ],
    "look_source": "photo: crop / goatee / earrings | revised:hair crop_lineup",
    "full_name": "Deandre Ayton",
-   "player_id": 1629028
+   "player_id": 1629028,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "champagnie",
    "label": "#9",
    "name": "Champagnie",
    "skin": [
-    190,
-    136,
-    100
+    196,
+    145,
+    117
    ],
    "hair": "afro",
    "hair_color": [
@@ -417,16 +465,22 @@
    ],
    "look_source": "photo: round afro / full beard",
    "full_name": "Justin Champagnie",
-   "player_id": 1630551
+   "player_id": 1630551,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "johnson",
    "label": "#12",
    "name": "Johnson",
    "skin": [
-    100,
-    62,
-    44
+    171,
+    115,
+    88
    ],
    "hair": "box_braids",
    "hair_color": [
@@ -447,16 +501,22 @@
    ],
    "look_source": "photo: center-parted locs / clean-shaven",
    "full_name": "Tre Johnson",
-   "player_id": 1642848
+   "player_id": 1642848,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "gill",
    "label": "#16",
    "name": "Gill",
    "skin": [
-    190,
-    136,
-    100
+    204,
+    156,
+    133
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -482,16 +542,22 @@
    ],
    "look_source": "photo: short curls / full beard",
    "full_name": "Anthony Gill",
-   "player_id": 1630264
+   "player_id": 1630264,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "george",
    "label": "#18",
    "name": "George",
    "skin": [
-    214,
-    166,
-    132
+    215,
+    165,
+    138
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -517,16 +583,22 @@
    ],
    "look_source": "photo: curly top / mustache",
    "full_name": "Kyshawn George",
-   "player_id": 1642273
+   "player_id": 1642273,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sarr",
    "label": "#20",
    "name": "Sarr",
    "skin": [
-    100,
-    62,
-    44
+    162,
+    105,
+    79
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -557,16 +629,22 @@
    ],
    "look_source": "photo: braids back / full beard / earrings",
    "full_name": "Alex Sarr",
-   "player_id": 1642259
+   "player_id": 1642259,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "middleton",
    "label": "#22",
    "name": "Middleton",
    "skin": [
-    164,
-    110,
-    80
+    155,
+    99,
+    73
    ],
    "hair": "bald",
    "hair_color": [
@@ -592,16 +670,22 @@
    ],
    "look_source": "photo: shaved head / mustache",
    "full_name": "Khris Middleton",
-   "player_id": 203114
+   "player_id": 203114,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "davis",
    "label": "#23",
    "name": "Davis",
    "skin": [
-    164,
-    110,
-    80
+    186,
+    137,
+    115
    ],
    "hair": "short_band",
    "hair_color": [
@@ -637,16 +721,22 @@
    ],
    "look_source": "photo: white headband / full beard / earrings",
    "full_name": "Anthony Davis",
-   "player_id": 203076
+   "player_id": 203076,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "beekman",
    "label": "#26",
    "name": "Beekman",
    "skin": [
-    164,
-    110,
-    80
+    183,
+    126,
+    102
    ],
    "hair": "sponge",
    "hair_color": [
@@ -667,16 +757,22 @@
    ],
    "look_source": "photo: short curls / clean-shaven | revised:hair sponge",
    "full_name": "Reece Beekman",
-   "player_id": 1641736
+   "player_id": 1641736,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "riley",
    "label": "#27",
    "name": "Riley",
    "skin": [
-    190,
-    136,
-    100
+    202,
+    158,
+    139
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -697,16 +793,22 @@
    ],
    "look_source": "photo: tall curls / clean-shaven",
    "full_name": "Will Riley",
-   "player_id": 1642860
+   "player_id": 1642860,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "okpara",
    "label": "#34",
    "name": "Okpara",
    "skin": [
+    131,
     82,
-    52,
-    38
+    61
    ],
    "hair": "locs",
    "hair_color": [
@@ -727,7 +829,13 @@
    ],
    "look_source": "photo: locs to the jaw / clean-shaven",
    "full_name": "Felix Okpara",
-   "player_id": 1643590
+   "player_id": 1643590,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

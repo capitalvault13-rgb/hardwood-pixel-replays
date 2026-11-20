@@ -104,9 +104,9 @@
    "label": "#0",
    "name": "Haliburton",
    "skin": [
-    190,
-    136,
-    100
+    200,
+    139,
+    111
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -132,16 +132,22 @@
    ],
    "look_source": "photo: short curls / short beard",
    "full_name": "Tyrese Haliburton",
-   "player_id": 1630169
+   "player_id": 1630169,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "toppin",
    "label": "#1",
    "name": "Toppin",
    "skin": [
-    164,
-    110,
-    80
+    183,
+    125,
+    96
    ],
    "hair": "box_braids",
    "hair_color": [
@@ -167,16 +173,22 @@
    ],
    "look_source": "photo: box braids / full beard",
    "full_name": "Obi Toppin",
-   "player_id": 1630167
+   "player_id": 1630167,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "nembhard",
    "label": "#2",
    "name": "Nembhard",
    "skin": [
-    214,
-    166,
-    132
+    189,
+    139,
+    115
    ],
    "hair": "short_band",
    "hair_color": [
@@ -207,16 +219,22 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Andrew Nembhard",
-   "player_id": 1629614
+   "player_id": 1629614,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "smith",
    "label": "#3",
    "name": "Smith",
    "skin": [
-    232,
-    184,
-    158
+    219,
+    169,
+    146
    ],
    "hair": "crop_fringe",
    "hair_color": [
@@ -242,16 +260,22 @@
    ],
    "look_source": "photo: high and tight / full beard | revised:hair crop_fringe",
    "full_name": "Braden Smith",
-   "player_id": 1643552
+   "player_id": 1643552,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "walker",
    "label": "#5",
    "name": "Walker",
    "skin": [
-    100,
-    62,
-    44
+    136,
+    90,
+    69
    ],
    "hair": "cornrows_flat",
    "hair_color": [
@@ -277,16 +301,22 @@
    ],
    "look_source": "photo: cornrows / full beard",
    "full_name": "Jarace Walker",
-   "player_id": 1641716
+   "player_id": 1641716,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mcconnell",
    "label": "#9",
    "name": "McConnell",
    "skin": [
-    232,
-    184,
-    158
+    207,
+    159,
+    138
    ],
    "hair": "quiff",
    "hair_color": [
@@ -312,16 +342,22 @@
    ],
    "look_source": "photo: side quiff / stubble",
    "full_name": "T.J. McConnell",
-   "player_id": 204456
+   "player_id": 204456,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "oubre",
    "label": "#10",
    "name": "Oubre",
    "skin": [
-    164,
-    110,
-    80
+    212,
+    150,
+    122
    ],
    "hair": "afro_long",
    "hair_color": [
@@ -352,14 +388,20 @@
    ],
    "look_source": "photo: long brown coils / goatee / earrings",
    "full_name": "Kelly Oubre Jr.",
-   "player_id": 1626162
+   "player_id": 1626162,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "furphy",
    "label": "#12",
    "name": "Furphy",
    "skin": [
-    232,
+    240,
     184,
     158
    ],
@@ -382,16 +424,22 @@
    ],
    "look_source": "photo: messy fringe / clean-shaven | revised:hair mullet",
    "full_name": "Johnny Furphy",
-   "player_id": 1642277
+   "player_id": 1642277,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "slawson",
    "label": "#18",
    "name": "Slawson",
    "skin": [
-    164,
-    110,
-    80
+    217,
+    154,
+    126
    ],
    "hair": "sponge",
    "hair_color": [
@@ -417,16 +465,22 @@
    ],
    "look_source": "photo: curly top / goatee | revised:hair sponge",
    "full_name": "Jalen Slawson",
-   "player_id": 1641771
+   "player_id": 1641771,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "nance",
    "label": "#22",
    "name": "Nance",
    "skin": [
-    190,
-    136,
-    100
+    213,
+    161,
+    137
    ],
    "hair": "short_band",
    "hair_color": [
@@ -457,16 +511,22 @@
    ],
    "look_source": "photo: white headband / full beard",
    "full_name": "Larry Nance Jr.",
-   "player_id": 1626204
+   "player_id": 1626204,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "nesmith",
    "label": "#23",
    "name": "Nesmith",
    "skin": [
-    100,
-    62,
-    44
+    163,
+    106,
+    80
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -492,16 +552,22 @@
    ],
    "look_source": "photo: long box braids / goatee",
    "full_name": "Aaron Nesmith",
-   "player_id": 1630174
+   "player_id": 1630174,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "brown",
    "label": "#24",
    "name": "Brown",
    "skin": [
-    100,
-    62,
-    44
+    139,
+    89,
+    65
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -527,16 +593,22 @@
    ],
    "look_source": "photo: freeform twists / mustache",
    "full_name": "Kobe Brown",
-   "player_id": 1641738
+   "player_id": 1641738,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sheppard",
    "label": "#26",
    "name": "Sheppard",
    "skin": [
-    164,
-    110,
-    80
+    203,
+    142,
+    114
    ],
    "hair": "crop_lineup",
    "hair_color": [
@@ -562,16 +634,22 @@
    ],
    "look_source": "photo: crop / goatee | revised:hair crop_lineup",
    "full_name": "Ben Sheppard",
-   "player_id": 1641767
+   "player_id": 1641767,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jackson",
    "label": "#29",
    "name": "Jackson",
    "skin": [
-    100,
-    62,
-    44
+    161,
+    109,
+    87
    ],
    "hair": "locs",
    "hair_color": [
@@ -597,16 +675,22 @@
    ],
    "look_source": "photo: locs / mustache",
    "full_name": "Quenton Jackson",
-   "player_id": 1631245
+   "player_id": 1631245,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "huff",
    "label": "#32",
    "name": "Huff",
    "skin": [
-    232,
-    184,
-    158
+    221,
+    172,
+    150
    ],
    "hair": "short_band",
    "hair_color": [
@@ -637,16 +721,22 @@
    ],
    "look_source": "photo: white headband / thick red beard",
    "full_name": "Jay Huff",
-   "player_id": 1630643
+   "player_id": 1630643,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "zubac",
    "label": "#40",
    "name": "Zubac",
    "skin": [
-    232,
-    184,
-    158
+    225,
+    167,
+    141
    ],
    "hair": "buzz_lineup",
    "hair_color": [
@@ -672,16 +762,22 @@
    ],
    "look_source": "photo: buzz cut / full beard | revised:hair buzz_lineup",
    "full_name": "Ivica Zubac",
-   "player_id": 1627826
+   "player_id": 1627826,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "siakam",
    "label": "#43",
    "name": "Siakam",
    "skin": [
-    100,
-    62,
-    44
+    114,
+    78,
+    62
    ],
    "hair": "afro_band",
    "hair_color": [
@@ -712,7 +808,13 @@
    ],
    "look_source": "photo: afro + white headband / goatee",
    "full_name": "Pascal Siakam",
-   "player_id": 1627783
+   "player_id": 1627783,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

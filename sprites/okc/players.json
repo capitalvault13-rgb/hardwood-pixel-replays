@@ -120,9 +120,9 @@
    "number": "2",
    "name": "Gilgeous-Alexander",
    "skin": [
-    116,
-    72,
-    50
+    154,
+    100,
+    75
    ],
    "hair": "short_band",
    "hair_color": [
@@ -153,7 +153,13 @@
    ],
    "look_source": "photo: black short band / goatee / white headband",
    "full_name": "Shai Gilgeous-Alexander",
-   "player_id": 1628983
+   "player_id": 1628983,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mccain",
@@ -161,9 +167,9 @@
    "number": "3",
    "name": "McCain",
    "skin": [
-    196,
-    140,
-    104
+    209,
+    150,
+    123
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -189,7 +195,13 @@
    ],
    "look_source": "photo: black curly high / goatee",
    "full_name": "Jared McCain",
-   "player_id": 1642272
+   "player_id": 1642272,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jaylin_williams",
@@ -197,9 +209,9 @@
    "number": "6",
    "name": "Williams",
    "skin": [
-    196,
-    140,
-    104
+    210,
+    152,
+    125
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -225,7 +237,13 @@
    ],
    "look_source": "photo: black locs long / goatee",
    "full_name": "Jaylin Williams",
-   "player_id": 1631119
+   "player_id": 1631119,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "holmgren",
@@ -233,9 +251,9 @@
    "number": "7",
    "name": "Holmgren",
    "skin": [
-    230,
-    184,
-    156
+    204,
+    150,
+    125
    ],
    "hair": "swept_back",
    "hair_color": [
@@ -261,7 +279,13 @@
    ],
    "look_source": "photo: dark brown swept back / short",
    "full_name": "Chet Holmgren",
-   "player_id": 1631096
+   "player_id": 1631096,
+   "skin_picked": [
+    230,
+    184,
+    156
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jalen_williams",
@@ -269,9 +293,9 @@
    "number": "8",
    "name": "Williams",
    "skin": [
-    116,
-    72,
-    50
+    137,
+    90,
+    69
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -297,7 +321,13 @@
    ],
    "look_source": "photo: black cornrows / goatee",
    "full_name": "Jalen Williams",
-   "player_id": 1631114
+   "player_id": 1631114,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "caruso",
@@ -305,9 +335,9 @@
    "number": "9",
    "name": "Caruso",
    "skin": [
-    238,
-    198,
-    174
+    215,
+    163,
+    141
    ],
    "hair": "short_band",
    "hair_color": [
@@ -338,7 +368,13 @@
    ],
    "look_source": "photo: light brown short band / goatee / white headband",
    "full_name": "Alex Caruso",
-   "player_id": 1627936
+   "player_id": 1627936,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sorber",
@@ -346,9 +382,9 @@
    "number": "12",
    "name": "Sorber",
    "skin": [
-    116,
-    72,
-    50
+    172,
+    113,
+    87
    ],
    "hair": "crop",
    "hair_color": [
@@ -369,7 +405,13 @@
    ],
    "look_source": "photo: black crop / clean-shaven",
    "full_name": "Thomas Sorber",
-   "player_id": 1642850
+   "player_id": 1642850,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "stirtz",
@@ -377,9 +419,9 @@
    "number": "14",
    "name": "Stirtz",
    "skin": [
-    238,
-    198,
-    174
+    224,
+    172,
+    149
    ],
    "hair": "crop",
    "hair_color": [
@@ -400,7 +442,13 @@
    ],
    "look_source": "photo: light brown crop / clean-shaven",
    "full_name": "Bennett Stirtz",
-   "player_id": 1642892
+   "player_id": 1642892,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mara",
@@ -408,9 +456,9 @@
    "number": "15",
    "name": "Mara",
    "skin": [
-    238,
-    198,
-    174
+    220,
+    175,
+    150
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -436,7 +484,13 @@
    ],
    "look_source": "photo: dark brown messy fringe / goatee",
    "full_name": "Aday Mara",
-   "player_id": 1643530
+   "player_id": 1643530,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "peavy",
@@ -445,8 +499,8 @@
    "name": "Peavy",
    "skin": [
     196,
-    140,
-    104
+    137,
+    109
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -472,7 +526,13 @@
    ],
    "look_source": "photo: black curly short / goatee",
    "full_name": "Micah Peavy",
-   "player_id": 1642877
+   "player_id": 1642877,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "clifford",
@@ -480,8 +540,8 @@
    "number": "18",
    "name": "Clifford",
    "skin": [
-    214,
-    164,
+    220,
+    159,
     128
    ],
    "hair": "curly_top",
@@ -503,7 +563,13 @@
    ],
    "look_source": "photo: dark brown curly top / clean-shaven",
    "full_name": "Nique Clifford",
-   "player_id": 1642363
+   "player_id": 1642363,
+   "skin_picked": [
+    214,
+    164,
+    128
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "dix",
@@ -511,9 +577,9 @@
    "number": "21",
    "name": "Dix",
    "skin": [
-    238,
-    198,
-    174
+    225,
+    176,
+    154
    ],
    "hair": "quiff",
    "hair_color": [
@@ -534,7 +600,13 @@
    ],
    "look_source": "photo: ginger quiff / clean-shaven",
    "full_name": "Josh Dix",
-   "player_id": 1643717
+   "player_id": 1643717,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "wallace",
@@ -542,9 +614,9 @@
    "number": "22",
    "name": "Wallace",
    "skin": [
-    134,
-    86,
-    60
+    157,
+    101,
+    75
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -570,7 +642,13 @@
    ],
    "look_source": "photo: black braids back / goatee",
    "full_name": "Cason Wallace",
-   "player_id": 1641717
+   "player_id": 1641717,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "barnhizer",
@@ -578,9 +656,9 @@
    "number": "23",
    "name": "Barnhizer",
    "skin": [
-    238,
-    198,
-    174
+    218,
+    161,
+    136
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -601,7 +679,13 @@
    ],
    "look_source": "photo: dark brown messy fringe / clean-shaven",
    "full_name": "Brooks Barnhizer",
-   "player_id": 1642964
+   "player_id": 1642964,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mitchell",
@@ -609,9 +693,9 @@
    "number": "25",
    "name": "Mitchell",
    "skin": [
-    176,
-    120,
-    86
+    204,
+    143,
+    115
    ],
    "hair": "crop",
    "hair_color": [
@@ -637,7 +721,13 @@
    ],
    "look_source": "photo: black crop / full",
    "full_name": "Ajay Mitchell",
-   "player_id": 1642349
+   "player_id": 1642349,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "kenrich_williams",
@@ -645,9 +735,9 @@
    "number": "34",
    "name": "Williams",
    "skin": [
-    176,
-    120,
-    86
+    216,
+    156,
+    123
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -673,7 +763,13 @@
    ],
    "look_source": "photo: black afro / full",
    "full_name": "Kenrich Williams",
-   "player_id": 1629026
+   "player_id": 1629026,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "topic",
@@ -681,9 +777,9 @@
    "number": "44",
    "name": "Topic",
    "skin": [
-    238,
-    198,
-    174
+    222,
+    171,
+    144
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -704,7 +800,13 @@
    ],
    "look_source": "photo: dark brown high tight / clean-shaven",
    "full_name": "Nikola Topić",
-   "player_id": 1642260
+   "player_id": 1642260,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hartenstein",
@@ -712,9 +814,9 @@
    "number": "55",
    "name": "Hartenstein",
    "skin": [
-    230,
-    184,
-    156
+    224,
+    169,
+    144
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -740,7 +842,13 @@
    ],
    "look_source": "photo: red fade short / full",
    "full_name": "Isaiah Hartenstein",
-   "player_id": 1628392
+   "player_id": 1628392,
+   "skin_picked": [
+    230,
+    184,
+    156
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

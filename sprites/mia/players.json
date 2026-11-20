@@ -104,9 +104,9 @@
    "label": "#0",
    "name": "Fontecchio",
    "skin": [
-    214,
-    166,
-    132
+    201,
+    144,
+    115
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -132,16 +132,22 @@
    ],
    "look_source": "photo: short curls / goatee | revised:hair curly_short",
    "full_name": "Simone Fontecchio",
-   "player_id": 1631323
+   "player_id": 1631323,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mitchell",
    "label": "#2",
    "name": "Mitchell",
    "skin": [
-    100,
-    62,
-    44
+    150,
+    104,
+    83
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -172,16 +178,22 @@
    ],
    "look_source": "photo: freeform twists / goatee / earrings",
    "full_name": "Davion Mitchell",
-   "player_id": 1630558
+   "player_id": 1630558,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "conwell",
    "label": "#4",
    "name": "Conwell",
    "skin": [
-    120,
-    76,
-    52
+    144,
+    94,
+    70
    ],
    "hair": "short_band",
    "hair_color": [
@@ -212,16 +224,22 @@
    ],
    "look_source": "photo: white headband / mustache",
    "full_name": "Ryan Conwell",
-   "player_id": 1643553
+   "player_id": 1643553,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jovic",
    "label": "#5",
    "name": "Jovic",
    "skin": [
-    232,
-    184,
-    158
+    202,
+    149,
+    126
    ],
    "hair": "crop_lineup",
    "hair_color": [
@@ -247,16 +265,22 @@
    ],
    "look_source": "photo: crop / mustache | revised:hair crop_lineup",
    "full_name": "Nikola Jović",
-   "player_id": 1631107
+   "player_id": 1631107,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "antetokounmpo",
    "label": "#7",
    "name": "Antetokounmpo",
    "skin": [
-    100,
-    62,
-    44
+    180,
+    120,
+    94
    ],
    "hair": "sponge",
    "hair_color": [
@@ -287,16 +311,22 @@
    ],
    "look_source": "photo: curly top / goatee / earring | revised:hair sponge",
    "full_name": "Giannis Antetokounmpo",
-   "player_id": 203507
+   "player_id": 203507,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "richards",
    "label": "#8",
    "name": "Richards",
    "skin": [
-    100,
-    62,
-    44
+    174,
+    117,
+    90
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -322,16 +352,22 @@
    ],
    "look_source": "photo: cornrows + braid / full beard",
    "full_name": "Nick Richards",
-   "player_id": 1630208
+   "player_id": 1630208,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "larsson",
    "label": "#9",
    "name": "Larsson",
    "skin": [
-    232,
-    184,
-    158
+    220,
+    170,
+    147
    ],
    "hair": "long_hair",
    "hair_color": [
@@ -352,16 +388,22 @@
    ],
    "look_source": "photo: hair to the ears / clean-shaven",
    "full_name": "Pelle Larsson",
-   "player_id": 1641796
+   "player_id": 1641796,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hardaway",
    "label": "#10",
    "name": "Hardaway",
    "skin": [
-    100,
-    62,
-    44
+    139,
+    97,
+    79
    ],
    "hair": "waves",
    "hair_color": [
@@ -387,16 +429,22 @@
    ],
    "look_source": "photo: low cut / thick beard | revised:hair waves",
    "full_name": "Tim Hardaway Jr.",
-   "player_id": 203501
+   "player_id": 203501,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "thompson",
    "label": "#11",
    "name": "Thompson",
    "skin": [
-    164,
-    110,
-    80
+    197,
+    138,
+    112
    ],
    "hair": "buzz_receding",
    "hair_color": [
@@ -422,16 +470,22 @@
    ],
    "look_source": "photo: crop / full beard | revised:hair buzz_receding",
    "full_name": "Klay Thompson",
-   "player_id": 202691
+   "player_id": 202691,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "smith",
    "label": "#12",
    "name": "Smith",
    "skin": [
-    164,
-    110,
-    80
+    178,
+    119,
+    93
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -452,16 +506,22 @@
    ],
    "look_source": "photo: tall curls / clean-shaven | revised:hair curly_top",
    "full_name": "Dru Smith",
-   "player_id": 1630696
+   "player_id": 1630696,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "adebayo",
    "label": "#13",
    "name": "Adebayo",
    "skin": [
-    82,
-    52,
-    38
+    135,
+    92,
+    73
    ],
    "hair": "short_band",
    "hair_color": [
@@ -497,16 +557,22 @@
    ],
    "look_source": "photo: white headband / goatee / earrings",
    "full_name": "Bam Adebayo",
-   "player_id": 1628389
+   "player_id": 1628389,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "gardner",
    "label": "#15",
    "name": "Gardner",
    "skin": [
-    100,
-    62,
-    44
+    162,
+    106,
+    80
    ],
    "hair": "afro",
    "hair_color": [
@@ -537,16 +603,22 @@
    ],
    "look_source": "photo: round afro / goatee / earrings",
    "full_name": "Myron Gardner",
-   "player_id": 1642066
+   "player_id": 1642066,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "johnson",
    "label": "#16",
    "name": "Johnson",
    "skin": [
-    164,
-    110,
-    80
+    183,
+    125,
+    96
    ],
    "hair": "buzz_lineup",
    "hair_color": [
@@ -577,16 +649,22 @@
    ],
    "look_source": "photo: low cut / goatee / earrings | revised:hair buzz_lineup",
    "full_name": "Keshad Johnson",
-   "player_id": 1642352
+   "player_id": 1642352,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "wiggins",
    "label": "#22",
    "name": "Wiggins",
    "skin": [
-    100,
-    62,
-    44
+    130,
+    86,
+    66
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -612,16 +690,22 @@
    ],
    "look_source": "photo: short curls / full beard",
    "full_name": "Andrew Wiggins",
-   "player_id": 203952
+   "player_id": 203952,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "donaldson",
    "label": "#24",
    "name": "Donaldson",
    "skin": [
-    190,
-    136,
-    100
+    197,
+    141,
+    116
    ],
    "hair": "afro_long",
    "hair_color": [
@@ -652,16 +736,22 @@
    ],
    "look_source": "photo: huge afro / goatee / earrings",
    "full_name": "Tre Donaldson",
-   "player_id": 1643621
+   "player_id": 1643621,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "goldin",
    "label": "#50",
    "name": "Goldin",
    "skin": [
-    232,
-    184,
-    158
+    204,
+    146,
+    121
    ],
    "hair": "swept_side",
    "hair_color": [
@@ -682,16 +772,22 @@
    ],
    "look_source": "photo: crop / clean-shaven | revised:hair swept_side",
    "full_name": "Vladislav Goldin",
-   "player_id": 1642884
+   "player_id": 1642884,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "portis",
    "label": "#95",
    "name": "Portis",
    "skin": [
-    100,
-    62,
-    44
+    122,
+    83,
+    67
    ],
    "hair": "short_band",
    "hair_color": [
@@ -722,7 +818,13 @@
    ],
    "look_source": "photo: white headband / full beard",
    "full_name": "Bobby Portis Jr.",
-   "player_id": 1626171
+   "player_id": 1626171,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot (face position assumed)"
   }
  ]
 }

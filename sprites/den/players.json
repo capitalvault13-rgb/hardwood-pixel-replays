@@ -120,9 +120,9 @@
    "number": "0",
    "name": "Braun",
    "skin": [
-    238,
-    198,
-    174
+    222,
+    178,
+    159
    ],
    "hair": "crop",
    "hair_color": [
@@ -148,7 +148,13 @@
    ],
    "look_source": "photo: brown crop / short",
    "full_name": "Christian Braun",
-   "player_id": 1631128
+   "player_id": 1631128,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "whitmore",
@@ -156,9 +162,9 @@
    "number": "00",
    "name": "Whitmore",
    "skin": [
-    116,
-    72,
-    50
+    178,
+    121,
+    92
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -189,7 +195,13 @@
    ],
    "look_source": "photo: black braids back / full / earrings",
    "full_name": "Cam Whitmore",
-   "player_id": 1641715
+   "player_id": 1641715,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "strawther",
@@ -197,9 +209,9 @@
    "number": "1",
    "name": "Strawther",
    "skin": [
-    176,
-    120,
-    86
+    203,
+    154,
+    129
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -230,7 +242,13 @@
    ],
    "look_source": "photo: black curly high / goatee / earrings",
    "full_name": "Julian Strawther",
-   "player_id": 1631124
+   "player_id": 1631124,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bagley",
@@ -238,9 +256,9 @@
    "number": "3",
    "name": "Bagley",
    "skin": [
-    154,
-    100,
-    70
+    184,
+    124,
+    98
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -266,7 +284,13 @@
    ],
    "look_source": "photo: black afro / full",
    "full_name": "Marvin Bagley III",
-   "player_id": 1628963
+   "player_id": 1628963,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "tyus_jones",
@@ -274,9 +298,9 @@
    "number": "5",
    "name": "Jones",
    "skin": [
-    176,
-    120,
-    86
+    187,
+    136,
+    111
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -302,7 +326,13 @@
    ],
    "look_source": "photo: black curly short / full",
    "full_name": "Tyus Jones",
-   "player_id": 1626145
+   "player_id": 1626145,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "brazile",
@@ -310,9 +340,9 @@
    "number": "7",
    "name": "Brazile",
    "skin": [
-    214,
-    164,
-    128
+    204,
+    159,
+    140
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -333,7 +363,13 @@
    ],
    "look_source": "photo: black high tight / clean-shaven",
    "full_name": "Trevon Brazile",
-   "player_id": 1642350
+   "player_id": 1642350,
+   "skin_picked": [
+    214,
+    164,
+    128
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "nembhard",
@@ -341,9 +377,9 @@
    "number": "9",
    "name": "Nembhard",
    "skin": [
-    196,
-    140,
-    104
+    176,
+    132,
+    111
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -369,7 +405,13 @@
    ],
    "look_source": "photo: black messy fringe / short",
    "full_name": "Ryan Nembhard",
-   "player_id": 1642948
+   "player_id": 1642948,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "derozan",
@@ -377,9 +419,9 @@
    "number": "10",
    "name": "DeRozan",
    "skin": [
-    134,
-    86,
-    60
+    164,
+    107,
+    81
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -405,7 +447,13 @@
    ],
    "look_source": "photo: black braids back / goatee",
    "full_name": "DeMar DeRozan",
-   "player_id": 201942
+   "player_id": 201942,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "diallo",
@@ -413,9 +461,9 @@
    "number": "11",
    "name": "Diallo",
    "skin": [
-    98,
-    62,
-    44
+    155,
+    103,
+    79
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -441,7 +489,13 @@
    ],
    "look_source": "photo: black fade short / chinstrap",
    "full_name": "Alpha Diallo",
-   "player_id": 1643813
+   "player_id": 1643813,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hopkins",
@@ -449,9 +503,9 @@
    "number": "13",
    "name": "Hopkins",
    "skin": [
-    154,
-    100,
-    70
+    179,
+    125,
+    100
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -477,7 +531,13 @@
    ],
    "look_source": "photo: black cornrows / goatee",
    "full_name": "Bryce Hopkins",
-   "player_id": 1643624
+   "player_id": 1643624,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "holmes",
@@ -485,9 +545,9 @@
    "number": "14",
    "name": "Holmes",
    "skin": [
-    116,
-    72,
-    50
+    149,
+    97,
+    74
    ],
    "hair": "locs_band",
    "hair_color": [
@@ -518,7 +578,13 @@
    ],
    "look_source": "photo: black locs band / goatee / white headband",
    "full_name": "DaRon Holmes II",
-   "player_id": 1641747
+   "player_id": 1641747,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jokic",
@@ -526,9 +592,9 @@
    "number": "15",
    "name": "Jokic",
    "skin": [
-    238,
-    198,
-    174
+    224,
+    175,
+    153
    ],
    "hair": "buzz",
    "hair_color": [
@@ -554,7 +620,13 @@
    ],
    "look_source": "photo: dark brown buzz / short",
    "full_name": "Nikola Jokić",
-   "player_id": 203999
+   "player_id": 203999,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "spencer_jones",
@@ -562,9 +634,9 @@
    "number": "21",
    "name": "Jones",
    "skin": [
-    176,
-    120,
-    86
+    190,
+    132,
+    106
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -590,7 +662,13 @@
    ],
    "look_source": "photo: black curly top / goatee",
    "full_name": "Spencer Jones",
-   "player_id": 1642461
+   "player_id": 1642461,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "nnaji",
@@ -598,9 +676,9 @@
    "number": "22",
    "name": "Nnaji",
    "skin": [
-    154,
-    100,
-    70
+    180,
+    126,
+    103
    ],
    "hair": "short_band",
    "hair_color": [
@@ -631,7 +709,13 @@
    ],
    "look_source": "photo: black short band / full / white headband",
    "full_name": "Zeke Nnaji",
-   "player_id": 1630192
+   "player_id": 1630192,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "johnson",
@@ -640,8 +724,8 @@
    "name": "Johnson",
    "skin": [
     196,
-    140,
-    104
+    137,
+    111
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -667,7 +751,13 @@
    ],
    "look_source": "photo: black curly high / full",
    "full_name": "Cameron Johnson",
-   "player_id": 1629661
+   "player_id": 1629661,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "murray",
@@ -675,9 +765,9 @@
    "number": "27",
    "name": "Murray",
    "skin": [
-    176,
-    120,
-    86
+    214,
+    164,
+    137
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -703,7 +793,13 @@
    ],
    "look_source": "photo: black twists spiky / full",
    "full_name": "Jamal Murray",
-   "player_id": 1627750
+   "player_id": 1627750,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "gordon",
@@ -711,9 +807,9 @@
    "number": "32",
    "name": "Gordon",
    "skin": [
-    196,
-    140,
-    104
+    193,
+    143,
+    119
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -744,7 +840,13 @@
    ],
    "look_source": "photo: dark brown locs long / goatee / earrings",
    "full_name": "Aaron Gordon",
-   "player_id": 203932
+   "player_id": 203932,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

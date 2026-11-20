@@ -120,9 +120,9 @@
    "number": "0",
    "name": "Christie",
    "skin": [
-    176,
-    120,
-    86
+    187,
+    135,
+    110
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -143,7 +143,13 @@
    ],
    "look_source": "photo: black curly short / clean-shaven",
    "full_name": "Max Christie",
-   "player_id": 1631108
+   "player_id": 1631108,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "clayton",
@@ -151,9 +157,9 @@
    "number": "1",
    "name": "Clayton",
    "skin": [
-    196,
-    140,
-    104
+    205,
+    147,
+    114
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -179,7 +185,13 @@
    ],
    "look_source": "photo: black braids back / goatee",
    "full_name": "Walter Clayton Jr.",
-   "player_id": 1642383
+   "player_id": 1642383,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "lively",
@@ -187,9 +199,9 @@
    "number": "2",
    "name": "Lively",
    "skin": [
-    176,
-    120,
-    86
+    190,
+    134,
+    107
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -215,7 +227,13 @@
    ],
    "look_source": "photo: black afro / short",
    "full_name": "Dereck Lively II",
-   "player_id": 1641726
+   "player_id": 1641726,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "marshall",
@@ -223,9 +241,9 @@
    "number": "3",
    "name": "Marshall",
    "skin": [
-    116,
-    72,
-    50
+    174,
+    121,
+    98
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -251,7 +269,13 @@
    ],
    "look_source": "photo: black cornrows / thick",
    "full_name": "Naji Marshall",
-   "player_id": 1630230
+   "player_id": 1630230,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sasser",
@@ -259,9 +283,9 @@
    "number": "8",
    "name": "Sasser",
    "skin": [
-    116,
-    72,
-    50
+    168,
+    115,
+    90
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -282,7 +306,13 @@
    ],
    "look_source": "photo: black curly high / clean-shaven",
    "full_name": "Marcus Sasser",
-   "player_id": 1631204
+   "player_id": 1631204,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "howard",
@@ -290,9 +320,9 @@
    "number": "9",
    "name": "Howard",
    "skin": [
-    154,
-    100,
-    70
+    176,
+    125,
+    103
    ],
    "hair": "cornrows_left",
    "hair_color": [
@@ -323,7 +353,13 @@
    ],
    "look_source": "photo: black cornrows left / goatee / earrings",
    "full_name": "Jett Howard",
-   "player_id": 1641724
+   "player_id": 1641724,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "risacher",
@@ -331,9 +367,9 @@
    "number": "10",
    "name": "Risacher",
    "skin": [
-    196,
-    140,
-    104
+    202,
+    148,
+    122
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -359,7 +395,13 @@
    ],
    "look_source": "photo: black locs long / goatee",
    "full_name": "Zaccharie Risacher",
-   "player_id": 1642258
+   "player_id": 1642258,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "irving",
@@ -367,9 +409,9 @@
    "number": "11",
    "name": "Irving",
    "skin": [
-    116,
-    72,
-    50
+    145,
+    97,
+    76
    ],
    "hair": "crop",
    "hair_color": [
@@ -395,7 +437,13 @@
    ],
    "look_source": "photo: black crop / full",
    "full_name": "Kyrie Irving",
-   "player_id": 202681
+   "player_id": 202681,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "biberovic",
@@ -403,9 +451,9 @@
    "number": "13",
    "name": "Biberovic",
    "skin": [
-    238,
-    198,
-    174
+    215,
+    166,
+    145
    ],
    "hair": "wavy_medium",
    "hair_color": [
@@ -426,7 +474,13 @@
    ],
    "look_source": "photo: dark brown wavy medium / clean-shaven",
    "full_name": "Tarik Biberović",
-   "player_id": 1641844
+   "player_id": 1641844,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "johnson",
@@ -434,9 +488,9 @@
    "number": "14",
    "name": "Johnson",
    "skin": [
-    98,
-    62,
-    44
+    158,
+    106,
+    84
    ],
    "hair": "twists_short",
    "hair_color": [
@@ -457,7 +511,13 @@
    ],
    "look_source": "photo: black twists short / clean-shaven",
    "full_name": "Morez Johnson Jr.",
-   "player_id": 1643516
+   "player_id": 1643516,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "martin",
@@ -465,9 +525,9 @@
    "number": "16",
    "name": "Martin",
    "skin": [
-    196,
-    140,
-    104
+    191,
+    136,
+    112
    ],
    "hair": "buzz",
    "hair_color": [
@@ -498,7 +558,13 @@
    ],
    "look_source": "photo: black buzz / thick / earrings",
    "full_name": "Caleb Martin",
-   "player_id": 1628997
+   "player_id": 1628997,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "gafford",
@@ -506,9 +572,9 @@
    "number": "21",
    "name": "Gafford",
    "skin": [
-    134,
-    86,
-    60
+    165,
+    112,
+    88
    ],
    "hair": "short_band",
    "hair_color": [
@@ -539,7 +605,13 @@
    ],
    "look_source": "photo: black short band / thick / white headband",
    "full_name": "Daniel Gafford",
-   "player_id": 1629655
+   "player_id": 1629655,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "washington",
@@ -547,9 +619,9 @@
    "number": "25",
    "name": "Washington",
    "skin": [
-    134,
-    86,
-    60
+    173,
+    119,
+    94
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -580,7 +652,13 @@
    ],
    "look_source": "photo: black high tight / goatee / earrings",
    "full_name": "P.J. Washington",
-   "player_id": 1629023
+   "player_id": 1629023,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "cisse",
@@ -588,9 +666,9 @@
    "number": "30",
    "name": "Cisse",
    "skin": [
-    98,
-    62,
-    44
+    122,
+    83,
+    65
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -616,7 +694,13 @@
    ],
    "look_source": "photo: black fade short / full",
    "full_name": "Moussa Cissé",
-   "player_id": 1630619
+   "player_id": 1630619,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "flagg",
@@ -624,9 +708,9 @@
    "number": "32",
    "name": "Flagg",
    "skin": [
-    238,
-    198,
-    174
+    223,
+    174,
+    152
    ],
    "hair": "quiff",
    "hair_color": [
@@ -652,7 +736,13 @@
    ],
    "look_source": "photo: light brown quiff / goatee",
    "full_name": "Cooper Flagg",
-   "player_id": 1642843
+   "player_id": 1642843,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "lawal",
@@ -660,9 +750,9 @@
    "number": "33",
    "name": "Lawal",
    "skin": [
-    98,
-    62,
-    44
+    169,
+    113,
+    88
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -688,7 +778,13 @@
    ],
    "look_source": "photo: black cornrows / clean-shaven / earrings",
    "full_name": "Tobi Lawal",
-   "player_id": 1643588
+   "player_id": 1643588,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "aldama",
@@ -696,9 +792,9 @@
    "number": "34",
    "name": "Aldama",
    "skin": [
-    214,
-    164,
-    128
+    170,
+    120,
+    98
    ],
    "hair": "crop",
    "hair_color": [
@@ -724,7 +820,13 @@
    ],
    "look_source": "photo: black crop / short",
    "full_name": "Santi Aldama",
-   "player_id": 1630583
+   "player_id": 1630583,
+   "skin_picked": [
+    214,
+    164,
+    128
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "de_larrea",
@@ -732,9 +834,9 @@
    "number": "55",
    "name": "de Larrea",
    "skin": [
-    238,
-    198,
-    174
+    222,
+    175,
+    155
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -755,7 +857,13 @@
    ],
    "look_source": "photo: dark brown messy fringe / clean-shaven",
    "full_name": "Sergio de Larrea",
-   "player_id": 1643547
+   "player_id": 1643547,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

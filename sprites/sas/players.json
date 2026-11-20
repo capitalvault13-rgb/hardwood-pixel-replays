@@ -120,9 +120,9 @@
    "number": "0",
    "name": "McLaughlin",
    "skin": [
-    176,
-    120,
-    86
+    196,
+    136,
+    108
    ],
    "hair": "bald",
    "hair_color": [
@@ -148,7 +148,13 @@
    ],
    "look_source": "photo: bald / thick",
    "full_name": "Jordan McLaughlin",
-   "player_id": 1629162
+   "player_id": 1629162,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "wembanyama",
@@ -156,9 +162,9 @@
    "number": "1",
    "name": "Wembanyama",
    "skin": [
-    176,
-    120,
-    86
+    184,
+    124,
+    98
    ],
    "hair": "crop",
    "hair_color": [
@@ -184,7 +190,13 @@
    ],
    "look_source": "photo: black crop / goatee",
    "full_name": "Victor Wembanyama",
-   "player_id": 1641705
+   "player_id": 1641705,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "harper",
@@ -192,9 +204,9 @@
    "number": "2",
    "name": "Harper",
    "skin": [
-    176,
-    120,
-    86
+    195,
+    140,
+    116
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -220,7 +232,13 @@
    ],
    "look_source": "photo: black afro / goatee",
    "full_name": "Dylan Harper",
-   "player_id": 1642844
+   "player_id": 1642844,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "johnson",
@@ -228,9 +246,9 @@
    "number": "3",
    "name": "Johnson",
    "skin": [
-    176,
-    120,
-    86
+    188,
+    131,
+    107
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -256,7 +274,13 @@
    ],
    "look_source": "photo: black curly short / mustache",
    "full_name": "Keldon Johnson",
-   "player_id": 1629640
+   "player_id": 1629640,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "fox",
@@ -264,9 +288,9 @@
    "number": "4",
    "name": "Fox",
    "skin": [
-    116,
-    72,
-    50
+    144,
+    105,
+    87
    ],
    "hair": "buzz",
    "hair_color": [
@@ -292,7 +316,13 @@
    ],
    "look_source": "photo: black buzz / short",
    "full_name": "De'Aaron Fox",
-   "player_id": 1628368
+   "player_id": 1628368,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "castle",
@@ -300,9 +330,9 @@
    "number": "5",
    "name": "Castle",
    "skin": [
-    134,
-    86,
-    60
+    190,
+    135,
+    111
    ],
    "hair": "locs_knot",
    "hair_color": [
@@ -328,7 +358,13 @@
    ],
    "look_source": "photo: black locs top / mustache",
    "full_name": "Stephon Castle",
-   "player_id": 1642264
+   "player_id": 1642264,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "kornet",
@@ -336,9 +372,9 @@
    "number": "7",
    "name": "Kornet",
    "skin": [
-    238,
-    198,
-    174
+    197,
+    155,
+    136
    ],
    "hair": "swept_back",
    "hair_color": [
@@ -364,7 +400,13 @@
    ],
    "look_source": "photo: dark brown swept back / short",
    "full_name": "Luke Kornet",
-   "player_id": 1628436
+   "player_id": 1628436,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "reed",
@@ -372,9 +414,9 @@
    "number": "10",
    "name": "Reed",
    "skin": [
-    116,
-    72,
-    50
+    149,
+    105,
+    86
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -400,7 +442,13 @@
    ],
    "look_source": "photo: black twists spiky / goatee",
    "full_name": "Tarris Reed Jr.",
-   "player_id": 1643542
+   "player_id": 1643542,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bryant",
@@ -408,9 +456,9 @@
    "number": "11",
    "name": "Bryant",
    "skin": [
-    196,
-    140,
-    104
+    214,
+    152,
+    124
    ],
    "hair": "cornrows_left",
    "hair_color": [
@@ -431,7 +479,13 @@
    ],
    "look_source": "photo: black cornrows left / clean-shaven",
    "full_name": "Carter Bryant",
-   "player_id": 1642868
+   "player_id": 1642868,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "brown",
@@ -439,9 +493,9 @@
    "number": "15",
    "name": "Brown",
    "skin": [
-    134,
-    86,
-    60
+    178,
+    124,
+    101
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -462,7 +516,13 @@
    ],
    "look_source": "photo: black braids back / clean-shaven",
    "full_name": "Maliq Brown",
-   "player_id": 1643576
+   "player_id": 1643576,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "gillespie",
@@ -470,9 +530,9 @@
    "number": "17",
    "name": "Gillespie",
    "skin": [
-    196,
-    140,
-    104
+    206,
+    155,
+    133
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -498,7 +558,13 @@
    ],
    "look_source": "photo: black afro / short",
    "full_name": "Ja'Kobi Gillespie",
-   "player_id": 1643551
+   "player_id": 1643551,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "quaintance",
@@ -506,9 +572,9 @@
    "number": "22",
    "name": "Quaintance",
    "skin": [
-    116,
-    72,
-    50
+    146,
+    103,
+    85
    ],
    "hair": "locs",
    "hair_color": [
@@ -529,7 +595,13 @@
    ],
    "look_source": "photo: black locs / clean-shaven",
    "full_name": "Jayden Quaintance",
-   "player_id": 1643519
+   "player_id": 1643519,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "harris",
@@ -537,9 +609,9 @@
    "number": "23",
    "name": "Harris",
    "skin": [
-    196,
-    140,
-    104
+    194,
+    141,
+    116
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -565,7 +637,13 @@
    ],
    "look_source": "photo: black curly top / full",
    "full_name": "Tobias Harris",
-   "player_id": 202699
+   "player_id": 202699,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "vassell",
@@ -573,9 +651,9 @@
    "number": "24",
    "name": "Vassell",
    "skin": [
-    154,
-    100,
-    70
+    200,
+    139,
+    111
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -601,7 +679,13 @@
    ],
    "look_source": "photo: black locs long / goatee",
    "full_name": "Devin Vassell",
-   "player_id": 1630170
+   "player_id": 1630170,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jones_garcia",
@@ -609,9 +693,9 @@
    "number": "25",
    "name": "Jones Garcia",
    "skin": [
-    134,
-    86,
-    60
+    132,
+    94,
+    77
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -637,7 +721,13 @@
    ],
    "look_source": "photo: black high tight / goatee",
    "full_name": "David Jones Garcia",
-   "player_id": 1642357
+   "player_id": 1642357,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "champagnie",
@@ -645,9 +735,9 @@
    "number": "30",
    "name": "Champagnie",
    "skin": [
-    196,
-    140,
-    104
+    204,
+    148,
+    124
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -673,7 +763,13 @@
    ],
    "look_source": "photo: black afro / full",
    "full_name": "Julian Champagnie",
-   "player_id": 1630577
+   "player_id": 1630577,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "barnes",
@@ -681,9 +777,9 @@
    "number": "40",
    "name": "Barnes",
    "skin": [
-    116,
-    72,
-    50
+    131,
+    93,
+    76
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -709,7 +805,13 @@
    ],
    "look_source": "photo: black fade short / goatee",
    "full_name": "Harrison Barnes",
-   "player_id": 203084
+   "player_id": 203084,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

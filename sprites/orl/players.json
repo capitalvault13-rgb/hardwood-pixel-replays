@@ -104,9 +104,9 @@
    "label": "#0",
    "name": "Black",
    "skin": [
-    214,
-    166,
-    132
+    235,
+    177,
+    152
    ],
    "hair": "short_band",
    "hair_color": [
@@ -137,16 +137,22 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Anthony Black",
-   "player_id": 1641710
+   "player_id": 1641710,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "isaac",
    "label": "#1",
    "name": "Isaac",
    "skin": [
-    100,
-    62,
-    44
+    141,
+    103,
+    85
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -172,16 +178,22 @@
    ],
    "look_source": "photo: tall curls / full beard | revised:hair curly_high",
    "full_name": "Jonathan Isaac",
-   "player_id": 1628371
+   "player_id": 1628371,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jcarter",
    "label": "#2",
    "name": "Carter",
    "skin": [
-    164,
-    110,
-    80
+    203,
+    142,
+    116
    ],
    "hair": "bald",
    "hair_color": [
@@ -207,16 +219,22 @@
    ],
    "look_source": "photo: shaved head / full beard",
    "full_name": "Jevon Carter",
-   "player_id": 1628975
+   "player_id": 1628975,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bane",
    "label": "#3",
    "name": "Bane",
    "skin": [
-    164,
-    110,
-    80
+    205,
+    144,
+    116
    ],
    "hair": "buzz_receding",
    "hair_color": [
@@ -242,16 +260,22 @@
    ],
    "look_source": "photo: low cut / goatee | revised:hair buzz_receding",
    "full_name": "Desmond Bane",
-   "player_id": 1630217
+   "player_id": 1630217,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "suggs",
    "label": "#4",
    "name": "Suggs",
    "skin": [
-    214,
-    166,
-    132
+    216,
+    159,
+    133
    ],
    "hair": "bald",
    "hair_color": [
@@ -277,16 +301,22 @@
    ],
    "look_source": "photo: shaved head / goatee",
    "full_name": "Jalen Suggs",
-   "player_id": 1630591
+   "player_id": 1630591,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "banchero",
    "label": "#5",
    "name": "Banchero",
    "skin": [
-    164,
-    110,
-    80
+    233,
+    169,
+    140
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -307,16 +337,22 @@
    ],
    "look_source": "photo: curly top / clean-shaven",
    "full_name": "Paolo Banchero",
-   "player_id": 1631094
+   "player_id": 1631094,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "cain",
    "label": "#8",
    "name": "Cain",
    "skin": [
-    100,
-    62,
-    44
+    210,
+    151,
+    126
    ],
    "hair": "waves",
    "hair_color": [
@@ -337,16 +373,22 @@
    ],
    "look_source": "photo: low line-up / clean-shaven | revised:hair waves",
    "full_name": "Jamal Cain",
-   "player_id": 1631288
+   "player_id": 1631288,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "vucevic",
    "label": "#9",
    "name": "Vucevic",
    "skin": [
-    232,
-    184,
-    158
+    225,
+    176,
+    154
    ],
    "hair": "crop_lineup",
    "hair_color": [
@@ -372,16 +414,22 @@
    ],
    "look_source": "photo: short fade / stubble | revised:hair crop_lineup",
    "full_name": "Nikola Vučević",
-   "player_id": 202696
+   "player_id": 202696,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "richardson",
    "label": "#11",
    "name": "Richardson",
    "skin": [
-    142,
-    92,
-    64
+    196,
+    143,
+    118
    ],
    "hair": "afro",
    "hair_color": [
@@ -407,16 +455,22 @@
    ],
    "look_source": "photo: round afro / goatee",
    "full_name": "Jase Richardson",
-   "player_id": 1642859
+   "player_id": 1642859,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "castleton",
    "label": "#14",
    "name": "Castleton",
    "skin": [
-    240,
-    198,
-    176
+    232,
+    188,
+    168
    ],
    "hair": "quiff",
    "hair_color": [
@@ -442,16 +496,22 @@
    ],
    "look_source": "photo: spiky quiff / goatee",
    "full_name": "Colin Castleton",
-   "player_id": 1630658
+   "player_id": 1630658,
+   "skin_picked": [
+    240,
+    198,
+    176
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "wagner",
    "label": "#22",
    "name": "Wagner",
    "skin": [
-    232,
-    184,
-    158
+    226,
+    174,
+    151
    ],
    "hair": "mullet",
    "hair_color": [
@@ -477,16 +537,22 @@
    ],
    "look_source": "photo: wavy mullet / mustache | revised:hair mullet",
    "full_name": "Franz Wagner",
-   "player_id": 1630532
+   "player_id": 1630532,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "dasilva",
    "label": "#23",
    "name": "da Silva",
    "skin": [
-    190,
-    136,
-    100
+    228,
+    167,
+    140
    ],
    "hair": "textured_crop",
    "hair_color": [
@@ -512,16 +578,22 @@
    ],
    "look_source": "photo: fade / goatee | revised:hair textured_crop",
    "full_name": "Tristan da Silva",
-   "player_id": 1641783
+   "player_id": 1641783,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "nelson",
    "label": "#25",
    "name": "Nelson",
    "skin": [
-    100,
-    62,
-    44
+    191,
+    136,
+    111
    ],
    "hair": "buzz_lineup",
    "hair_color": [
@@ -542,16 +614,22 @@
    ],
    "look_source": "photo: crop / clean-shaven | revised:hair buzz_lineup",
    "full_name": "Izaiyah Nelson",
-   "player_id": 1643593
+   "player_id": 1643593,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "morales",
    "label": "#30",
    "name": "Morales",
    "skin": [
-    164,
-    110,
-    80
+    213,
+    156,
+    130
    ],
    "hair": "crop_lineup",
    "hair_color": [
@@ -577,16 +655,22 @@
    ],
    "look_source": "photo: short line-up / goatee | revised:hair crop_lineup",
    "full_name": "Alex Morales",
-   "player_id": 1631457
+   "player_id": 1631457,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "wcarter",
    "label": "#34",
    "name": "Carter",
    "skin": [
-    100,
-    62,
-    44
+    206,
+    149,
+    124
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -612,16 +696,22 @@
    ],
    "look_source": "photo: cornrows + braid / mustache",
    "full_name": "Wendell Carter Jr.",
-   "player_id": 1628976
+   "player_id": 1628976,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bitadze",
    "label": "#35",
    "name": "Bitadze",
    "skin": [
-    214,
-    166,
-    132
+    225,
+    176,
+    154
    ],
    "hair": "man_bun",
    "hair_color": [
@@ -647,16 +737,22 @@
    ],
    "look_source": "photo: slicked back / full beard | revised:hair man_bun",
    "full_name": "Goga Bitadze",
-   "player_id": 1629048
+   "player_id": 1629048,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "penda",
    "label": "#93",
    "name": "Penda",
    "skin": [
-    190,
-    136,
-    100
+    234,
+    176,
+    149
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -682,7 +778,13 @@
    ],
    "look_source": "photo: bleached curls / goatee",
    "full_name": "Noah Penda",
-   "player_id": 1642869
+   "player_id": 1642869,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

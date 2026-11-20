@@ -99,9 +99,9 @@
    "label": "#27",
    "name": "Walsh",
    "skin": [
-    196,
-    140,
-    104
+    223,
+    162,
+    135
    ],
    "hair": "bald",
    "beard": "none",
@@ -117,16 +117,22 @@
    ],
    "look_source": "photo: bald / clean-shaven",
    "full_name": "Jordan Walsh",
-   "player_id": 1641775
+   "player_id": 1641775,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "tatum",
    "label": "#0",
    "name": "Tatum",
    "skin": [
-    150,
-    98,
-    70
+    212,
+    153,
+    126
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -157,16 +163,22 @@
    ],
    "look_source": "photo: short curls / full beard / green armband",
    "full_name": "Jayson Tatum",
-   "player_id": 1628369
+   "player_id": 1628369,
+   "skin_picked": [
+    150,
+    98,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "scheierman",
    "label": "#55",
    "name": "Scheierman",
    "skin": [
-    236,
-    194,
-    164
+    201,
+    150,
+    126
    ],
    "hair": "crop_fringe",
    "hair_color": [
@@ -192,16 +204,22 @@
    ],
    "look_source": "photo: wavy brown hair / clean-shaven / white undershirt | revised:hair crop_fringe",
    "full_name": "Baylor Scheierman",
-   "player_id": 1631248
+   "player_id": 1631248,
+   "skin_picked": [
+    236,
+    194,
+    164
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "robinson",
    "label": "#4",
    "name": "Robinson",
    "skin": [
-    104,
-    66,
-    50
+    155,
+    108,
+    85
    ],
    "hair": "afro_band",
    "hair_color": [
@@ -232,16 +250,22 @@
    ],
    "look_source": "photo: curly top + white headband / thick full beard",
    "full_name": "Mitchell Robinson",
-   "player_id": 1629011
+   "player_id": 1629011,
+   "skin_picked": [
+    104,
+    66,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "white",
    "label": "#9",
    "name": "White",
    "skin": [
-    188,
-    132,
-    98
+    195,
+    139,
+    114
    ],
    "hair": "bald",
    "beard": "short",
@@ -262,16 +286,22 @@
    ],
    "look_source": "photo: bald / short beard",
    "full_name": "Derrick White",
-   "player_id": 1628401
+   "player_id": 1628401,
+   "skin_picked": [
+    188,
+    132,
+    98
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mitchell",
    "label": "#20",
    "name": "Mitchell",
    "skin": [
-    150,
-    100,
-    72
+    160,
+    110,
+    86
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -307,16 +337,22 @@
    ],
    "look_source": "photo: high-top curls / chinstrap / white wristband / sage shoes",
    "full_name": "Dillon Mitchell",
-   "player_id": 1641759
+   "player_id": 1641759,
+   "skin_picked": [
+    150,
+    100,
+    72
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hauser",
    "label": "#30",
    "name": "Hauser",
    "skin": [
-    230,
-    186,
-    160
+    216,
+    167,
+    146
    ],
    "hair": "buzz_receding",
    "hair_color": [
@@ -342,16 +378,22 @@
    ],
    "look_source": "photo: light-brown buzz cut / short beard | revised:hair buzz_receding",
    "full_name": "Sam Hauser",
-   "player_id": 1630573
+   "player_id": 1630573,
+   "skin_picked": [
+    230,
+    186,
+    160
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "harper",
    "label": "#8",
    "name": "Harper",
    "skin": [
-    178,
-    122,
-    90
+    199,
+    139,
+    109
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -387,16 +429,22 @@
    ],
    "look_source": "photo: cornrows with braids / thin goatee / white wristband",
    "full_name": "Ron Harper Jr.",
-   "player_id": 1631199
+   "player_id": 1631199,
+   "skin_picked": [
+    178,
+    122,
+    90
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "queta",
    "label": "#88",
    "name": "Queta",
    "skin": [
-    82,
-    52,
-    40
+    99,
+    65,
+    49
    ],
    "hair": "short_band",
    "hair_color": [
@@ -437,16 +485,22 @@
    ],
    "look_source": "photo: short hair + white headband / thick full beard / white arm sleeve",
    "full_name": "Neemias Queta",
-   "player_id": 1629674
+   "player_id": 1629674,
+   "skin_picked": [
+    82,
+    52,
+    40
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "pritchard",
    "label": "#11",
    "name": "Pritchard",
    "skin": [
-    232,
-    192,
-    168
+    218,
+    164,
+    140
    ],
    "hair": "crop_lineup",
    "hair_color": [
@@ -467,16 +521,22 @@
    ],
    "look_source": "photo: short dark crop / clean-shaven | revised:hair crop_lineup",
    "full_name": "Payton Pritchard",
-   "player_id": 1630202
+   "player_id": 1630202,
+   "skin_picked": [
+    232,
+    192,
+    168
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "gonzalez",
    "label": "#28",
    "name": "González",
    "skin": [
-    232,
-    196,
-    172
+    222,
+    174,
+    154
    ],
    "hair": "curls_forward",
    "hair_color": [
@@ -497,16 +557,22 @@
    ],
    "look_source": "photo: thick dark wavy hair / clean-shaven | revised:hair curls_forward",
    "full_name": "Hugo González",
-   "player_id": 1642864
+   "player_id": 1642864,
+   "skin_picked": [
+    232,
+    196,
+    172
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "garza",
    "label": "#52",
    "name": "Garza",
    "skin": [
-    234,
-    196,
-    170
+    210,
+    151,
+    124
    ],
    "hair": "crop",
    "hair_color": [
@@ -527,16 +593,22 @@
    ],
    "look_source": "photo: short dark crop / clean-shaven",
    "full_name": "Luka Garza",
-   "player_id": 1630568
+   "player_id": 1630568,
+   "skin_picked": [
+    234,
+    196,
+    170
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "conley",
    "label": "#45",
    "name": "Conley",
    "skin": [
-    150,
-    102,
-    74
+    163,
+    113,
+    89
    ],
    "hair": "short_band",
    "hair_color": [
@@ -572,16 +644,22 @@
    ],
    "look_source": "photo: short hair + white headband / full beard / white undershirt",
    "full_name": "Mike Conley",
-   "player_id": 201144
+   "player_id": 201144,
+   "skin_picked": [
+    150,
+    102,
+    74
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "cenac",
    "label": "#12",
    "name": "Cenac",
    "skin": [
-    190,
-    134,
-    100
+    187,
+    132,
+    107
    ],
    "hair": "sponge",
    "hair_color": [
@@ -602,16 +680,22 @@
    ],
    "look_source": "photo: short curly hair / clean-shaven | revised:hair sponge",
    "full_name": "Chris Cenac Jr.",
-   "player_id": 1643416
+   "player_id": 1643416,
+   "skin_picked": [
+    190,
+    134,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "george",
    "label": "#13",
    "name": "George",
    "skin": [
-    140,
-    92,
-    66
+    195,
+    136,
+    106
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -647,16 +731,22 @@
    ],
    "look_source": "photo: short curly hair / full beard / white arm sleeve | revised:hair curly_top",
    "full_name": "Paul George",
-   "player_id": 202331
+   "player_id": 202331,
+   "skin_picked": [
+    140,
+    92,
+    66
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "carter",
    "label": "#99",
    "name": "Carter",
    "skin": [
-    196,
-    142,
-    108
+    204,
+    148,
+    124
    ],
    "hair": "waves",
    "hair_color": [
@@ -682,16 +772,22 @@
    ],
    "look_source": "photo: short dark hair / full beard | revised:hair waves",
    "full_name": "Devin Carter",
-   "player_id": 1642269
+   "player_id": 1642269,
+   "skin_picked": [
+    196,
+    142,
+    108
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "williams",
    "label": "#77",
    "name": "Williams",
    "skin": [
-    120,
-    78,
-    56
+    154,
+    104,
+    79
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -712,7 +808,13 @@
    ],
    "look_source": "photo: short twists high top / clean-shaven",
    "full_name": "Amari Williams",
-   "player_id": 1642873
+   "player_id": 1642873,
+   "skin_picked": [
+    120,
+    78,
+    56
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

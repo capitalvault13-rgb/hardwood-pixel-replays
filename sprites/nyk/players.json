@@ -104,9 +104,9 @@
    "label": "#0",
    "name": "Drummond",
    "skin": [
-    100,
-    62,
-    44
+    158,
+    103,
+    78
    ],
    "hair": "buzz_receding",
    "hair_color": [
@@ -132,16 +132,22 @@
    ],
    "look_source": "photo: receding line-up / full beard | revised:hair buzz_receding",
    "full_name": "Andre Drummond",
-   "player_id": 203083
+   "player_id": 203083,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "clarkson",
    "label": "#00",
    "name": "Clarkson",
    "skin": [
-    164,
-    110,
-    80
+    182,
+    125,
+    99
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -167,16 +173,22 @@
    ],
    "look_source": "photo: long twists / mustache",
    "full_name": "Jordan Clarkson",
-   "player_id": 203903
+   "player_id": 203903,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "knecht",
    "label": "#1",
    "name": "Knecht",
    "skin": [
-    240,
-    198,
-    176
+    232,
+    168,
+    139
    ],
    "hair": "textured_crop",
    "hair_color": [
@@ -197,16 +209,22 @@
    ],
    "look_source": "photo: messy fringe / clean-shaven | revised:hair textured_crop",
    "full_name": "Dalton Knecht",
-   "player_id": 1642261
+   "player_id": 1642261,
+   "skin_picked": [
+    240,
+    198,
+    176
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mcbride",
    "label": "#2",
    "name": "McBride",
    "skin": [
-    164,
-    110,
-    80
+    162,
+    109,
+    85
    ],
    "hair": "afro_long",
    "hair_color": [
@@ -237,16 +255,22 @@
    ],
    "look_source": "photo: big curls / mustache / earrings",
    "full_name": "Miles McBride",
-   "player_id": 1630540
+   "player_id": 1630540,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hart",
    "label": "#3",
    "name": "Hart",
    "skin": [
-    190,
-    136,
-    100
+    189,
+    131,
+    105
    ],
    "hair": "short_band",
    "hair_color": [
@@ -282,16 +306,22 @@
    ],
    "look_source": "photo: white headband / goatee / earrings",
    "full_name": "Josh Hart",
-   "player_id": 1628404
+   "player_id": 1628404,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "dadiet",
    "label": "#4",
    "name": "Dadiet",
    "skin": [
-    190,
-    136,
-    100
+    204,
+    150,
+    125
    ],
    "hair": "locs",
    "hair_color": [
@@ -312,16 +342,22 @@
    ],
    "look_source": "photo: locs to the jaw / clean-shaven",
    "full_name": "Pacôme Dadiet",
-   "player_id": 1642359
+   "player_id": 1642359,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "alvarado",
    "label": "#5",
    "name": "Alvarado",
    "skin": [
-    214,
-    166,
-    132
+    195,
+    142,
+    119
    ],
    "hair": "short_band",
    "hair_color": [
@@ -352,16 +388,22 @@
    ],
    "look_source": "photo: white headband / full beard",
    "full_name": "Jose Alvarado",
-   "player_id": 1630631
+   "player_id": 1630631,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "anunoby",
    "label": "#8",
    "name": "Anunoby",
    "skin": [
-    100,
-    62,
-    44
+    135,
+    90,
+    70
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -382,16 +424,22 @@
    ],
    "look_source": "photo: freeform twists / clean-shaven",
    "full_name": "OG Anunoby",
-   "player_id": 1628384
+   "player_id": 1628384,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "brunson",
    "label": "#11",
    "name": "Brunson",
    "skin": [
-    164,
-    110,
-    80
+    191,
+    133,
+    107
    ],
    "hair": "box_braids",
    "hair_color": [
@@ -417,16 +465,22 @@
    ],
    "look_source": "photo: center-parted twists / short beard",
    "full_name": "Jalen Brunson",
-   "player_id": 1628973
+   "player_id": 1628973,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "kolek",
    "label": "#13",
    "name": "Kolek",
    "skin": [
-    232,
-    184,
-    158
+    199,
+    156,
+    137
    ],
    "hair": "long_hair",
    "hair_color": [
@@ -447,7 +501,13 @@
    ],
    "look_source": "photo: long hair / clean-shaven",
    "full_name": "Tyler Kolek",
-   "player_id": 1642278
+   "player_id": 1642278,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "akins",
@@ -484,9 +544,9 @@
    "label": "#25",
    "name": "Bridges",
    "skin": [
-    120,
-    76,
-    52
+    176,
+    117,
+    91
    ],
    "hair": "waves",
    "hair_color": [
@@ -512,16 +572,22 @@
    ],
    "look_source": "photo: low cut / full beard | revised:hair waves",
    "full_name": "Mikal Bridges",
-   "player_id": 1628969
+   "player_id": 1628969,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "towns",
    "label": "#32",
    "name": "Towns",
    "skin": [
-    164,
-    110,
-    80
+    196,
+    137,
+    109
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -547,16 +613,22 @@
    ],
    "look_source": "photo: curly top / full beard",
    "full_name": "Karl-Anthony Towns",
-   "player_id": 1626157
+   "player_id": 1626157,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "wiseman",
    "label": "#35",
    "name": "Wiseman",
    "skin": [
-    100,
-    62,
-    44
+    128,
+    86,
+    67
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -582,16 +654,22 @@
    ],
    "look_source": "photo: tall curls / goatee",
    "full_name": "James Wiseman",
-   "player_id": 1630164
+   "player_id": 1630164,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "shamet",
    "label": "#44",
    "name": "Shamet",
    "skin": [
-    214,
-    166,
-    132
+    202,
+    148,
+    123
    ],
    "hair": "curls_forward",
    "hair_color": [
@@ -617,16 +695,22 @@
    ],
    "look_source": "photo: short curls / short beard | revised:hair curls_forward",
    "full_name": "Landry Shamet",
-   "player_id": 1629013
+   "player_id": 1629013,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "diawara",
    "label": "#51",
    "name": "Diawara",
    "skin": [
-    82,
-    52,
-    38
+    100,
+    66,
+    49
    ],
    "hair": "cornrows_flat",
    "hair_color": [
@@ -657,16 +741,22 @@
    ],
    "look_source": "photo: cornrows / goatee / earrings",
    "full_name": "Mohamed Diawara",
-   "player_id": 1642885
+   "player_id": 1642885,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "nickel",
    "label": "#55",
    "name": "Nickel",
    "skin": [
-    240,
-    198,
-    176
+    201,
+    157,
+    138
    ],
    "hair": "swept_side",
    "hair_color": [
@@ -692,7 +782,13 @@
    ],
    "look_source": "photo: red crop / short beard | revised:hair swept_side",
    "full_name": "Tyler Nickel",
-   "player_id": 1643589
+   "player_id": 1643589,
+   "skin_picked": [
+    240,
+    198,
+    176
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

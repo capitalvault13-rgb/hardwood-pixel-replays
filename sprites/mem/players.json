@@ -120,9 +120,9 @@
    "number": "0",
    "name": "Wells",
    "skin": [
-    176,
-    120,
-    86
+    199,
+    139,
+    109
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -143,7 +143,13 @@
    ],
    "look_source": "photo: black afro / clean-shaven",
    "full_name": "Jaylen Wells",
-   "player_id": 1642377
+   "player_id": 1642377,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "pippen",
@@ -151,9 +157,9 @@
    "number": "1",
    "name": "Pippen",
    "skin": [
-    196,
-    140,
-    104
+    206,
+    147,
+    120
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -179,7 +185,13 @@
    ],
    "look_source": "photo: black curly high / short",
    "full_name": "Scotty Pippen Jr.",
-   "player_id": 1630590
+   "player_id": 1630590,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jerome",
@@ -187,9 +199,9 @@
    "number": "2",
    "name": "Jerome",
    "skin": [
-    214,
-    164,
-    128
+    202,
+    141,
+    113
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -215,7 +227,13 @@
    ],
    "look_source": "photo: black fade short / full",
    "full_name": "Ty Jerome",
-   "player_id": 1629660
+   "player_id": 1629660,
+   "skin_picked": [
+    214,
+    164,
+    128
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "grant",
@@ -223,9 +241,9 @@
    "number": "3",
    "name": "Grant",
    "skin": [
-    98,
-    62,
-    44
+    140,
+    97,
+    76
    ],
    "hair": "crop",
    "hair_color": [
@@ -251,7 +269,13 @@
    ],
    "look_source": "photo: black crop / short",
    "full_name": "Jerami Grant",
-   "player_id": 203924
+   "player_id": 203924,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "saunders",
@@ -290,9 +314,9 @@
    "number": "10",
    "name": "Small",
    "skin": [
-    134,
-    86,
-    60
+    164,
+    113,
+    84
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -318,7 +342,13 @@
    ],
    "look_source": "photo: black braids back / goatee",
    "full_name": "Javon Small",
-   "player_id": 1642914
+   "player_id": 1642914,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "edey",
@@ -326,9 +356,9 @@
    "number": "14",
    "name": "Edey",
    "skin": [
-    230,
-    184,
-    156
+    217,
+    160,
+    134
    ],
    "hair": "buzz",
    "hair_color": [
@@ -354,7 +384,13 @@
    ],
    "look_source": "photo: black buzz / short",
    "full_name": "Zach Edey",
-   "player_id": 1641744
+   "player_id": 1641744,
+   "skin_picked": [
+    230,
+    184,
+    156
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "murray",
@@ -362,9 +398,9 @@
    "number": "17",
    "name": "Murray",
    "skin": [
-    176,
-    120,
-    86
+    200,
+    139,
+    111
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -390,7 +426,13 @@
    ],
    "look_source": "photo: black high tight / full",
    "full_name": "Kris Murray",
-   "player_id": 1631200
+   "player_id": 1631200,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "prosper",
@@ -398,9 +440,9 @@
    "number": "18",
    "name": "Prosper",
    "skin": [
-    116,
-    72,
-    50
+    166,
+    109,
+    82
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -421,7 +463,13 @@
    ],
    "look_source": "photo: black curly top / clean-shaven",
    "full_name": "Olivier-Maxence Prosper",
-   "player_id": 1641765
+   "player_id": 1641765,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mashack",
@@ -429,9 +477,9 @@
    "number": "21",
    "name": "Mashack",
    "skin": [
-    116,
-    72,
-    50
+    143,
+    100,
+    79
    ],
    "hair": "short_band",
    "hair_color": [
@@ -462,7 +510,13 @@
    ],
    "look_source": "photo: black short band / goatee / white headband",
    "full_name": "Jahmai Mashack",
-   "player_id": 1642942
+   "player_id": 1642942,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hendricks",
@@ -470,9 +524,9 @@
    "number": "22",
    "name": "Hendricks",
    "skin": [
-    134,
-    86,
-    60
+    135,
+    93,
+    75
    ],
    "hair": "afro_band",
    "hair_color": [
@@ -498,7 +552,13 @@
    ],
    "look_source": "photo: black afro band / clean-shaven / white headband",
    "full_name": "Taylor Hendricks",
-   "player_id": 1641707
+   "player_id": 1641707,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "coward",
@@ -506,9 +566,9 @@
    "number": "23",
    "name": "Coward",
    "skin": [
-    116,
-    72,
-    50
+    147,
+    98,
+    75
    ],
    "hair": "buzz",
    "hair_color": [
@@ -529,7 +589,13 @@
    ],
    "look_source": "photo: black buzz / clean-shaven",
    "full_name": "Cedric Coward",
-   "player_id": 1642907
+   "player_id": 1642907,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "spencer",
@@ -537,9 +603,9 @@
    "number": "24",
    "name": "Spencer",
    "skin": [
-    238,
-    198,
-    174
+    209,
+    153,
+    128
    ],
    "hair": "quiff",
    "hair_color": [
@@ -560,7 +626,13 @@
    ],
    "look_source": "photo: light brown quiff / clean-shaven",
    "full_name": "Cam Spencer",
-   "player_id": 1642285
+   "player_id": 1642285,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "boozer",
@@ -568,9 +640,9 @@
    "number": "27",
    "name": "Boozer",
    "skin": [
-    196,
-    140,
-    104
+    213,
+    151,
+    123
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -596,7 +668,13 @@
    ],
    "look_source": "photo: black curly top / short",
    "full_name": "Cameron Boozer",
-   "player_id": 1643409
+   "player_id": 1643409,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "stewart",
@@ -604,9 +682,9 @@
    "number": "28",
    "name": "Stewart",
    "skin": [
-    98,
-    62,
-    44
+    135,
+    90,
+    70
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -632,7 +710,13 @@
    ],
    "look_source": "photo: black locs long / full",
    "full_name": "Isaiah Stewart",
-   "player_id": 1630191
+   "player_id": 1630191,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "lopez",
@@ -640,9 +724,9 @@
    "number": "35",
    "name": "Lopez",
    "skin": [
-    214,
-    164,
-    128
+    216,
+    156,
+    129
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -663,7 +747,13 @@
    ],
    "look_source": "photo: black curly short / clean-shaven",
    "full_name": "Karim López",
-   "player_id": 1643510
+   "player_id": 1643510,
+   "skin_picked": [
+    214,
+    164,
+    128
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "post",
@@ -671,9 +761,9 @@
    "number": "41",
    "name": "Post",
    "skin": [
-    238,
-    198,
-    174
+    218,
+    163,
+    137
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -699,7 +789,13 @@
    ],
    "look_source": "photo: dark brown messy fringe / mustache",
    "full_name": "Quinten Post",
-   "player_id": 1642366
+   "player_id": 1642366,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jackson",
@@ -707,9 +803,9 @@
    "number": "45",
    "name": "Jackson",
    "skin": [
-    116,
-    72,
-    50
+    158,
+    106,
+    82
    ],
    "hair": "locs_band",
    "hair_color": [
@@ -735,7 +831,13 @@
    ],
    "look_source": "photo: black locs band / clean-shaven / white headband",
    "full_name": "GG Jackson",
-   "player_id": 1641713
+   "player_id": 1641713,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

@@ -120,9 +120,9 @@
    "number": "0",
    "name": "Lillard",
    "skin": [
-    154,
-    100,
-    70
+    184,
+    124,
+    98
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -148,7 +148,13 @@
    ],
    "look_source": "photo: black fade short / full",
    "full_name": "Damian Lillard",
-   "player_id": 203081
+   "player_id": 203081,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "henderson",
@@ -156,9 +162,9 @@
    "number": "00",
    "name": "Henderson",
    "skin": [
-    116,
-    72,
-    50
+    157,
+    101,
+    75
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -184,7 +190,13 @@
    ],
    "look_source": "photo: black curly high / goatee",
    "full_name": "Scoot Henderson",
-   "player_id": 1630703
+   "player_id": 1630703,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "morant",
@@ -192,9 +204,9 @@
    "number": "1",
    "name": "Morant",
    "skin": [
-    134,
-    86,
-    60
+    152,
+    99,
+    74
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -220,7 +232,13 @@
    ],
    "look_source": "photo: dark brown locs long / goatee",
    "full_name": "Ja Morant",
-   "player_id": 1629630
+   "player_id": 1629630,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "tonje",
@@ -228,9 +246,9 @@
    "number": "2",
    "name": "Tonje",
    "skin": [
-    196,
-    140,
-    104
+    202,
+    142,
+    112
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -256,7 +274,13 @@
    ],
    "look_source": "photo: black high tight / mustache",
    "full_name": "John Tonje",
-   "player_id": 1642910
+   "player_id": 1642910,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "holiday",
@@ -264,9 +288,9 @@
    "number": "5",
    "name": "Holiday",
    "skin": [
-    98,
-    62,
-    44
+    104,
+    67,
+    50
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -292,7 +316,13 @@
    ],
    "look_source": "photo: black braids back / short",
    "full_name": "Jrue Holiday",
-   "player_id": 201950
+   "player_id": 201950,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "avdija",
@@ -300,9 +330,9 @@
    "number": "8",
    "name": "Avdija",
    "skin": [
-    230,
-    184,
-    156
+    216,
+    167,
+    146
    ],
    "hair": "swept_back",
    "hair_color": [
@@ -328,7 +358,13 @@
    ],
    "look_source": "photo: black swept back / short",
    "full_name": "Deni Avdija",
-   "player_id": 1630166
+   "player_id": 1630166,
+   "skin_picked": [
+    230,
+    184,
+    156
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "potter",
@@ -336,9 +372,9 @@
    "number": "9",
    "name": "Potter",
    "skin": [
-    238,
-    198,
-    174
+    218,
+    170,
+    150
    ],
    "hair": "quiff",
    "hair_color": [
@@ -364,7 +400,13 @@
    ],
    "look_source": "photo: brown quiff / short",
    "full_name": "Micah Potter",
-   "player_id": 1630695
+   "player_id": 1630695,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "carlson",
@@ -372,9 +414,9 @@
    "number": "10",
    "name": "Carlson",
    "skin": [
-    238,
-    198,
-    174
+    223,
+    177,
+    158
    ],
    "hair": "wavy_medium",
    "hair_color": [
@@ -395,7 +437,13 @@
    ],
    "look_source": "photo: brown wavy medium / clean-shaven",
    "full_name": "Branden Carlson",
-   "player_id": 1642382
+   "player_id": 1642382,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "youngblood",
@@ -403,9 +451,9 @@
    "number": "11",
    "name": "Youngblood",
    "skin": [
-    154,
-    100,
-    70
+    183,
+    123,
+    97
    ],
    "hair": "buzz",
    "hair_color": [
@@ -431,7 +479,13 @@
    ],
    "look_source": "photo: black buzz / goatee",
    "full_name": "Chris Youngblood",
-   "player_id": 1642959
+   "player_id": 1642959,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hansen",
@@ -439,9 +493,9 @@
    "number": "16",
    "name": "Hansen",
    "skin": [
-    238,
-    198,
-    174
+    232,
+    185,
+    164
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -462,7 +516,13 @@
    ],
    "look_source": "photo: black messy fringe / clean-shaven",
    "full_name": "Yang Hansen",
-   "player_id": 1642905
+   "player_id": 1642905,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sharpe",
@@ -470,9 +530,9 @@
    "number": "17",
    "name": "Sharpe",
    "skin": [
-    154,
-    100,
-    70
+    188,
+    132,
+    102
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -498,7 +558,13 @@
    ],
    "look_source": "photo: black cornrows / goatee",
    "full_name": "Shaedon Sharpe",
-   "player_id": 1631101
+   "player_id": 1631101,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "clingan",
@@ -506,9 +572,9 @@
    "number": "23",
    "name": "Clingan",
    "skin": [
-    238,
-    198,
-    174
+    220,
+    172,
+    152
    ],
    "hair": "crop",
    "hair_color": [
@@ -534,7 +600,13 @@
    ],
    "look_source": "photo: brown crop / short",
    "full_name": "Donovan Clingan",
-   "player_id": 1642270
+   "player_id": 1642270,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "krejci",
@@ -542,9 +614,9 @@
    "number": "27",
    "name": "Krejci",
    "skin": [
-    238,
-    198,
-    174
+    221,
+    176,
+    157
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -570,7 +642,13 @@
    ],
    "look_source": "photo: dark brown high tight / short",
    "full_name": "Vít Krejčí",
-   "player_id": 1630249
+   "player_id": 1630249,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "kent",
@@ -578,9 +656,9 @@
    "number": "29",
    "name": "Kent",
    "skin": [
-    154,
-    100,
-    70
+    186,
+    128,
+    99
    ],
    "hair": "crop",
    "hair_color": [
@@ -606,7 +684,13 @@
    ],
    "look_source": "photo: black crop / goatee",
    "full_name": "Jayson Kent",
-   "player_id": 1643257
+   "player_id": 1643257,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "camara",
@@ -614,9 +698,9 @@
    "number": "33",
    "name": "Camara",
    "skin": [
-    154,
-    100,
-    70
+    201,
+    141,
+    111
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -642,7 +726,13 @@
    ],
    "look_source": "photo: black braids back / full",
    "full_name": "Toumani Camara",
-   "player_id": 1641739
+   "player_id": 1641739,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "williams",
@@ -650,9 +740,9 @@
    "number": "35",
    "name": "Williams",
    "skin": [
-    134,
-    86,
-    60
+    139,
+    87,
+    65
    ],
    "hair": "locs_band",
    "hair_color": [
@@ -683,7 +773,13 @@
    ],
    "look_source": "photo: black locs band / goatee / white headband",
    "full_name": "Robert Williams III",
-   "player_id": 1629057
+   "player_id": 1629057,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "cissoko",
@@ -691,9 +787,9 @@
    "number": "91",
    "name": "Cissoko",
    "skin": [
-    98,
-    62,
-    44
+    92,
+    58,
+    43
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -714,7 +810,13 @@
    ],
    "look_source": "photo: black locs long / clean-shaven",
    "full_name": "Sidy Cissoko",
-   "player_id": 1631321
+   "player_id": 1631321,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

@@ -104,9 +104,9 @@
    "label": "#0",
    "name": "Maxey",
    "skin": [
-    100,
-    62,
-    44
+    138,
+    91,
+    70
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -132,16 +132,22 @@
    ],
    "look_source": "photo: cornrows + braids / goatee",
    "full_name": "Tyrese Maxey",
-   "player_id": 1630178
+   "player_id": 1630178,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "philon",
    "label": "#00",
    "name": "Philon",
    "skin": [
-    164,
-    110,
-    80
+    170,
+    114,
+    89
    ],
    "hair": "locs_band",
    "hair_color": [
@@ -172,16 +178,22 @@
    ],
    "look_source": "photo: short braids + white headband / goatee",
    "full_name": "Labaron Philon Jr.",
-   "player_id": 1642889
+   "player_id": 1642889,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "caldwellpope",
    "label": "#1",
    "name": "Caldwell-Pope",
    "skin": [
-    100,
-    62,
-    44
+    141,
+    91,
+    69
    ],
    "hair": "locs_long_band",
    "hair_color": [
@@ -212,16 +224,22 @@
    ],
    "look_source": "photo: long braids + white headband / goatee",
    "full_name": "Kentavious Caldwell-Pope",
-   "player_id": 203484
+   "player_id": 203484,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "simons",
    "label": "#5",
    "name": "Simons",
    "skin": [
-    164,
-    110,
-    80
+    204,
+    144,
+    116
    ],
    "hair": "sponge",
    "hair_color": [
@@ -247,16 +265,22 @@
    ],
    "look_source": "photo: curly top / short beard | revised:hair sponge",
    "full_name": "Anfernee Simons",
-   "player_id": 1629014
+   "player_id": 1629014,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "brown",
    "label": "#7",
    "name": "Brown",
    "skin": [
-    100,
-    62,
-    44
+    133,
+    93,
+    74
    ],
    "hair": "buzz_lineup",
    "hair_color": [
@@ -282,16 +306,22 @@
    ],
    "look_source": "photo: low cut / thick beard | revised:hair buzz_lineup",
    "full_name": "Jaylen Brown",
-   "player_id": 1627759
+   "player_id": 1627759,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "love",
    "label": "#8",
    "name": "Love",
    "skin": [
-    164,
-    110,
-    80
+    178,
+    121,
+    92
    ],
    "hair": "box_braids",
    "hair_color": [
@@ -322,16 +352,22 @@
    ],
    "look_source": "photo: center-parted twists / mustache / earrings",
    "full_name": "Caleb Love",
-   "player_id": 1631126
+   "player_id": 1631126,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "edwards",
    "label": "#11",
    "name": "Edwards",
    "skin": [
-    100,
-    62,
-    44
+    166,
+    111,
+    88
    ],
    "hair": "textured_crop",
    "hair_color": [
@@ -357,16 +393,22 @@
    ],
    "look_source": "photo: short curls / goatee | revised:hair textured_crop",
    "full_name": "Justin Edwards",
-   "player_id": 1642348
+   "player_id": 1642348,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "rupert",
    "label": "#12",
    "name": "Rupert",
    "skin": [
-    190,
-    136,
-    100
+    206,
+    146,
+    116
    ],
    "hair": "waves",
    "hair_color": [
@@ -392,16 +434,22 @@
    ],
    "look_source": "photo: crop / full beard | revised:hair waves",
    "full_name": "Rayan Rupert",
-   "player_id": 1641712
+   "player_id": 1641712,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "embiid",
    "label": "#21",
    "name": "Embiid",
    "skin": [
-    100,
-    62,
-    44
+    173,
+    122,
+    98
    ],
    "hair": "locs_top",
    "hair_color": [
@@ -427,16 +475,22 @@
    ],
    "look_source": "photo: twists on top / short beard",
    "full_name": "Joel Embiid",
-   "player_id": 203954
+   "player_id": 203954,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "james",
    "label": "#23",
    "name": "James",
    "skin": [
-    100,
-    62,
-    44
+    138,
+    92,
+    70
    ],
    "hair": "buzz_receding",
    "hair_color": [
@@ -462,16 +516,22 @@
    ],
    "look_source": "photo: shaved head / thick beard | revised:hair buzz_receding",
    "full_name": "LeBron James",
-   "player_id": 2544
+   "player_id": 2544,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "barlow",
    "label": "#25",
    "name": "Barlow",
    "skin": [
-    190,
-    136,
-    100
+    193,
+    134,
+    106
    ],
    "hair": "afro",
    "hair_color": [
@@ -502,16 +562,22 @@
    ],
    "look_source": "photo: round afro / goatee / earrings",
    "full_name": "Dominick Barlow",
-   "player_id": 1631230
+   "player_id": 1631230,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bona",
    "label": "#30",
    "name": "Bona",
    "skin": [
-    82,
-    52,
-    38
+    120,
+    83,
+    66
    ],
    "hair": "short_band",
    "hair_color": [
@@ -542,16 +608,22 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Adem Bona",
-   "player_id": 1641737
+   "player_id": 1641737,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "walker",
    "label": "#33",
    "name": "Walker",
    "skin": [
-    100,
-    62,
-    44
+    178,
+    119,
+    93
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -572,16 +644,22 @@
    ],
    "look_source": "photo: cornrows + long braids / clean-shaven",
    "full_name": "Jabari Walker",
-   "player_id": 1631133
+   "player_id": 1631133,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "wade",
    "label": "#45",
    "name": "Wade",
    "skin": [
-    232,
-    184,
-    158
+    210,
+    156,
+    133
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -607,16 +685,22 @@
    ],
    "look_source": "photo: messy curls / full beard",
    "full_name": "Dean Wade",
-   "player_id": 1629731
+   "player_id": 1629731,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hukporti",
    "label": "#55",
    "name": "Hukporti",
    "skin": [
-    100,
-    62,
-    44
+    158,
+    113,
+    93
    ],
    "hair": "short_band",
    "hair_color": [
@@ -647,16 +731,22 @@
    ],
    "look_source": "photo: white headband / short beard",
    "full_name": "Ariel Hukporti",
-   "player_id": 1630574
+   "player_id": 1630574,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "edgecombe",
    "label": "#77",
    "name": "Edgecombe",
    "skin": [
-    100,
-    62,
-    44
+    132,
+    90,
+    71
    ],
    "hair": "afro_band",
    "hair_color": [
@@ -692,16 +782,22 @@
    ],
    "look_source": "photo: afro + white headband / mustache / earrings",
    "full_name": "VJ Edgecombe",
-   "player_id": 1642845
+   "player_id": 1642845,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "fall",
    "label": "#99",
    "name": "Fall",
    "skin": [
-    82,
-    52,
-    38
+    97,
+    63,
+    47
    ],
    "hair": "bald",
    "hair_color": [
@@ -727,7 +823,13 @@
    ],
    "look_source": "photo: shaved head / full beard",
    "full_name": "Tacko Fall",
-   "player_id": 1629605
+   "player_id": 1629605,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

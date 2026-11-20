@@ -104,9 +104,9 @@
    "label": "#0",
    "name": "Reid",
    "skin": [
-    82,
-    52,
-    38
+    105,
+    64,
+    43
    ],
    "hair": "locs",
    "hair_color": [
@@ -132,16 +132,22 @@
    ],
    "look_source": "photo: thick braids to the jaw / full beard",
    "full_name": "Naz Reid",
-   "player_id": 1629675
+   "player_id": 1629675,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "oneale",
    "label": "#00",
    "name": "O'Neale",
    "skin": [
-    100,
-    62,
-    44
+    139,
+    89,
+    65
    ],
    "hair": "short_band",
    "hair_color": [
@@ -177,16 +183,22 @@
    ],
    "look_source": "photo: white headband / thick beard / earring",
    "full_name": "Royce O'Neale",
-   "player_id": 1626220
+   "player_id": 1626220,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "williams",
    "label": "#2",
    "name": "Williams",
    "skin": [
-    142,
-    92,
-    64
+    195,
+    136,
+    106
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -212,16 +224,22 @@
    ],
    "look_source": "photo: short curls / goatee | revised:hair curly_top",
    "full_name": "Grant Williams",
-   "player_id": 1629684
+   "player_id": 1629684,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "white",
    "label": "#3",
    "name": "White",
    "skin": [
-    142,
-    92,
-    64
+    128,
+    79,
+    57
    ],
    "hair": "afro_long",
    "hair_color": [
@@ -247,7 +265,13 @@
    ],
    "look_source": "photo: big coils to the jaw / full beard",
    "full_name": "Coby White",
-   "player_id": 1629632
+   "player_id": 1629632,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "james",
@@ -255,8 +279,8 @@
    "name": "James",
    "skin": [
     100,
-    62,
-    44
+    66,
+    49
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -282,16 +306,22 @@
    ],
    "look_source": "photo: braids back / goatee",
    "full_name": "Sion James",
-   "player_id": 1642883
+   "player_id": 1642883,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "anderson",
    "label": "#5",
    "name": "Anderson",
    "skin": [
-    142,
-    92,
-    64
+    184,
+    126,
+    97
    ],
    "hair": "afro",
    "hair_color": [
@@ -317,16 +347,22 @@
    ],
    "look_source": "photo: wide curly afro / mustache",
    "full_name": "Christian Anderson",
-   "player_id": 1643515
+   "player_id": 1643515,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "knueppel",
    "label": "#7",
    "name": "Knueppel",
    "skin": [
-    240,
-    198,
-    176
+    221,
+    164,
+    140
    ],
    "hair": "swept_back",
    "hair_color": [
@@ -352,16 +388,22 @@
    ],
    "look_source": "photo: swept back / red goatee",
    "full_name": "Kon Knueppel",
-   "player_id": 1642851
+   "player_id": 1642851,
+   "skin_picked": [
+    240,
+    198,
+    176
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "allen",
    "label": "#8",
    "name": "Allen",
    "skin": [
-    232,
-    184,
-    158
+    220,
+    162,
+    136
    ],
    "hair": "buzz_lineup",
    "hair_color": [
@@ -382,16 +424,22 @@
    ],
    "look_source": "photo: buzz cut / clean-shaven | revised:hair buzz_lineup",
    "full_name": "Grayson Allen",
-   "player_id": 1628960
+   "player_id": 1628960,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "ajayi",
    "label": "#10",
    "name": "Ajayi",
    "skin": [
-    100,
-    62,
-    44
+    140,
+    88,
+    66
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -417,16 +465,22 @@
    ],
    "look_source": "photo: braids pulled back / goatee",
    "full_name": "Michael Ajayi",
-   "player_id": 1642369
+   "player_id": 1642369,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "kalkbrenner",
    "label": "#11",
    "name": "Kalkbrenner",
    "skin": [
-    232,
-    184,
-    158
+    215,
+    163,
+    139
    ],
    "hair": "curls_forward",
    "hair_color": [
@@ -452,16 +506,22 @@
    ],
    "look_source": "photo: short curls / stubble | revised:hair curls_forward",
    "full_name": "Ryan Kalkbrenner",
-   "player_id": 1641750
+   "player_id": 1641750,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "diabate",
    "label": "#14",
    "name": "Diabate",
    "skin": [
-    82,
-    52,
-    38
+    122,
+    81,
+    62
    ],
    "hair": "crop",
    "hair_color": [
@@ -492,16 +552,22 @@
    ],
    "look_source": "photo: crop / mustache / earrings",
    "full_name": "Moussa Diabaté",
-   "player_id": 1631217
+   "player_id": 1631217,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hall",
    "label": "#16",
    "name": "Hall",
    "skin": [
-    232,
-    184,
-    158
+    218,
+    166,
+    141
    ],
    "hair": "wavy_medium",
    "hair_color": [
@@ -522,16 +588,22 @@
    ],
    "look_source": "photo: dark wavy / clean-shaven",
    "full_name": "PJ Hall",
-   "player_id": 1641790
+   "player_id": 1641790,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "schroder",
    "label": "#17",
    "name": "Schroder",
    "skin": [
-    82,
-    52,
-    38
+    121,
+    84,
+    67
    ],
    "hair": "waves",
    "hair_color": [
@@ -557,16 +629,22 @@
    ],
    "look_source": "photo: low cut / goatee | revised:hair waves",
    "full_name": "Dennis Schröder",
-   "player_id": 203471
+   "player_id": 203471,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "boswell",
    "label": "#18",
    "name": "Boswell",
    "skin": [
-    164,
-    110,
-    80
+    177,
+    118,
+    92
    ],
    "hair": "afro_band",
    "hair_color": [
@@ -597,16 +675,22 @@
    ],
    "look_source": "photo: big afro + white headband / full beard",
    "full_name": "Kylan Boswell",
-   "player_id": 1643573
+   "player_id": 1643573,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "steinbach",
    "label": "#22",
    "name": "Steinbach",
    "skin": [
-    232,
-    184,
-    158
+    218,
+    161,
+    136
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -627,16 +711,22 @@
    ],
    "look_source": "photo: brown curls / clean-shaven",
    "full_name": "Hannes Steinbach",
-   "player_id": 1643419
+   "player_id": 1643419,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "miller",
    "label": "#24",
    "name": "Miller",
    "skin": [
-    100,
-    62,
-    44
+    127,
+    78,
+    56
    ],
    "hair": "short_band",
    "hair_color": [
@@ -667,16 +757,22 @@
    ],
    "look_source": "photo: curls + white headband / short beard",
    "full_name": "Brandon Miller",
-   "player_id": 1641706
+   "player_id": 1641706,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "salaun",
    "label": "#31",
    "name": "Salaun",
    "skin": [
-    190,
-    136,
-    100
+    219,
+    160,
+    126
    ],
    "hair": "cornrows_left",
    "hair_color": [
@@ -702,16 +798,22 @@
    ],
    "look_source": "photo: cornrows + braid / goatee",
    "full_name": "Tidjane Salaün",
-   "player_id": 1642275
+   "player_id": 1642275,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mcneeley",
    "label": "#33",
    "name": "McNeeley",
    "skin": [
-    240,
-    198,
-    176
+    225,
+    172,
+    147
    ],
    "hair": "quiff",
    "hair_color": [
@@ -732,7 +834,13 @@
    ],
    "look_source": "photo: spiky side quiff / clean-shaven",
    "full_name": "Liam McNeeley",
-   "player_id": 1642862
+   "player_id": 1642862,
+   "skin_picked": [
+    240,
+    198,
+    176
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

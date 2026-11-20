@@ -120,9 +120,9 @@
    "number": "0",
    "name": "Dunn",
    "skin": [
-    154,
-    100,
-    70
+    171,
+    112,
+    86
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -143,7 +143,13 @@
    ],
    "look_source": "photo: black curly short / clean-shaven",
    "full_name": "Ryan Dunn",
-   "player_id": 1642346
+   "player_id": 1642346,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "timme",
@@ -151,9 +157,9 @@
    "number": "2",
    "name": "Timme",
    "skin": [
-    238,
-    198,
-    174
+    215,
+    172,
+    153
    ],
    "hair": "wavy_medium",
    "hair_color": [
@@ -179,7 +185,13 @@
    ],
    "look_source": "photo: red wavy medium / mustache",
    "full_name": "Drew Timme",
-   "player_id": 1631166
+   "player_id": 1631166,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "brooks",
@@ -187,9 +199,9 @@
    "number": "3",
    "name": "Brooks",
    "skin": [
-    196,
-    140,
-    104
+    223,
+    168,
+    143
    ],
    "hair": "buzz",
    "hair_color": [
@@ -215,7 +227,13 @@
    ],
    "look_source": "photo: black buzz / full",
    "full_name": "Dillon Brooks",
-   "player_id": 1628415
+   "player_id": 1628415,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "green",
@@ -223,9 +241,9 @@
    "number": "4",
    "name": "Green",
    "skin": [
-    154,
-    100,
-    70
+    193,
+    133,
+    105
    ],
    "hair": "cornrows_left",
    "hair_color": [
@@ -256,7 +274,13 @@
    ],
    "look_source": "photo: black cornrows left / goatee / earrings",
    "full_name": "Jalen Green",
-   "player_id": 1630224
+   "player_id": 1630224,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "kennard",
@@ -264,9 +288,9 @@
    "number": "8",
    "name": "Kennard",
    "skin": [
-    238,
-    198,
-    174
+    223,
+    177,
+    156
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -287,7 +311,13 @@
    ],
    "look_source": "photo: brown high tight / clean-shaven",
    "full_name": "Luke Kennard",
-   "player_id": 1628379
+   "player_id": 1628379,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "maluach",
@@ -295,9 +325,9 @@
    "number": "10",
    "name": "Maluach",
    "skin": [
-    80,
-    50,
-    36
+    109,
+    74,
+    57
    ],
    "hair": "buzz",
    "hair_color": [
@@ -318,7 +348,13 @@
    ],
    "look_source": "photo: black buzz / clean-shaven",
    "full_name": "Khaman Maluach",
-   "player_id": 1642863
+   "player_id": 1642863,
+   "skin_picked": [
+    80,
+    50,
+    36
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "ighodaro",
@@ -326,9 +362,9 @@
    "number": "11",
    "name": "Ighodaro",
    "skin": [
-    176,
-    120,
-    86
+    214,
+    152,
+    124
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -354,7 +390,13 @@
    ],
    "look_source": "photo: black curly high / mustache",
    "full_name": "Oso Ighodaro",
-   "player_id": 1642345
+   "player_id": 1642345,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "gillespie",
@@ -362,9 +404,9 @@
    "number": "12",
    "name": "Gillespie",
    "skin": [
-    230,
-    184,
-    156
+    222,
+    167,
+    143
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -385,7 +427,13 @@
    ],
    "look_source": "photo: dark brown fade short / clean-shaven",
    "full_name": "Collin Gillespie",
-   "player_id": 1631221
+   "player_id": 1631221,
+   "skin_picked": [
+    230,
+    184,
+    156
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "booker",
@@ -393,9 +441,9 @@
    "number": "15",
    "name": "Booker",
    "skin": [
-    196,
-    140,
-    104
+    225,
+    167,
+    141
    ],
    "hair": "crop",
    "hair_color": [
@@ -426,7 +474,13 @@
    ],
    "look_source": "photo: black crop / short / earrings",
    "full_name": "Devin Booker",
-   "player_id": 1626164
+   "player_id": 1626164,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bouyea",
@@ -434,9 +488,9 @@
    "number": "17",
    "name": "Bouyea",
    "skin": [
-    98,
-    62,
-    44
+    156,
+    103,
+    79
    ],
    "hair": "bald",
    "hair_color": [
@@ -462,7 +516,13 @@
    ],
    "look_source": "photo: bald / goatee",
    "full_name": "Jamaree Bouyea",
-   "player_id": 1631123
+   "player_id": 1631123,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "peat",
@@ -470,9 +530,9 @@
    "number": "18",
    "name": "Peat",
    "skin": [
-    196,
-    140,
-    104
+    212,
+    153,
+    128
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -498,7 +558,13 @@
    ],
    "look_source": "photo: black afro / clean-shaven / earrings",
    "full_name": "Koa Peat",
-   "player_id": 1643520
+   "player_id": 1643520,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "fleming",
@@ -506,9 +572,9 @@
    "number": "20",
    "name": "Fleming",
    "skin": [
-    80,
-    50,
-    36
+    104,
+    69,
+    53
    ],
    "hair": "short_band",
    "hair_color": [
@@ -539,7 +605,13 @@
    ],
    "look_source": "photo: black short band / goatee / white headband",
    "full_name": "Rasheer Fleming",
-   "player_id": 1642853
+   "player_id": 1642853,
+   "skin_picked": [
+    80,
+    50,
+    36
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bridges",
@@ -547,9 +619,9 @@
    "number": "22",
    "name": "Bridges",
    "skin": [
-    154,
-    100,
-    70
+    201,
+    140,
+    112
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -575,7 +647,13 @@
    ],
    "look_source": "photo: black braids back / thick",
    "full_name": "Miles Bridges",
-   "player_id": 1628970
+   "player_id": 1628970,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "goodwin",
@@ -583,9 +661,9 @@
    "number": "23",
    "name": "Goodwin",
    "skin": [
-    154,
-    100,
-    70
+    194,
+    138,
+    113
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -611,7 +689,13 @@
    ],
    "look_source": "photo: black cornrows / full",
    "full_name": "Jordan Goodwin",
-   "player_id": 1630692
+   "player_id": 1630692,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "williams",
@@ -619,9 +703,9 @@
    "number": "25",
    "name": "Williams",
    "skin": [
-    98,
-    62,
-    44
+    138,
+    91,
+    70
    ],
    "hair": "twists_short",
    "hair_color": [
@@ -652,7 +736,13 @@
    ],
    "look_source": "photo: black twists short / goatee / earrings",
    "full_name": "Mark Williams",
-   "player_id": 1631109
+   "player_id": 1631109,
+   "skin_picked": [
+    98,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "reath",
@@ -660,8 +750,8 @@
    "number": "26",
    "name": "Reath",
    "skin": [
-    80,
-    50,
+    84,
+    51,
     36
    ],
    "hair": "short_band",
@@ -693,7 +783,13 @@
    ],
    "look_source": "photo: black short band / short / white headband",
    "full_name": "Duop Reath",
-   "player_id": 1641871
+   "player_id": 1641871,
+   "skin_picked": [
+    80,
+    50,
+    36
+   ],
+   "skin_source": "headshot (face position assumed)"
   },
   {
    "id": "spencer",
@@ -701,9 +797,9 @@
    "number": "61",
    "name": "Spencer",
    "skin": [
-    230,
-    184,
-    156
+    215,
+    163,
+    141
    ],
    "hair": "quiff",
    "hair_color": [
@@ -729,7 +825,13 @@
    ],
    "look_source": "photo: brown quiff / short",
    "full_name": "Pat Spencer",
-   "player_id": 1630311
+   "player_id": 1630311,
+   "skin_picked": [
+    230,
+    184,
+    156
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

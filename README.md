@@ -29,6 +29,7 @@ tools/extract_sprites.py   cuts a sheet into sprites/<team>/plain/*.png
 tools/number_sprites.py    adds jersey numbers to cut sprites from sprites/<team>/numbers.json (3x output + sheet.png)
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
 tools/fetch_headshots.py   pulls a team's nba.com headshots into sprites/<team>/source/ and makes face sheets
+tools/sample_skin.py       measures every player's skin tone from their headshot into players.json
 fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
 episodes/NNN-name/    replay.py (visuals), audio.py (chiptune + SFX), render.sh
 renders/              finished MP4s
@@ -121,6 +122,25 @@ primary colours; statement colours are approximate and worth checking against th
 2026-27 uniforms before a team appears in a replay. Looks were read from the nba.com headshots in
 `sprites/<team>/source/`, one per player. Richie Saunders (MEM #5) has no nba.com headshot yet, so
 his sprite is a generic placeholder (`look_source` says so). Redraw it once a photo is up.
+
+### Skin tones
+
+Skin tones are measured from the headshots, not picked by eye:
+
+```bash
+pip install "opencv-python-headless<5"
+```
+
+```bash
+python3 tools/sample_skin.py
+```
+
+It finds the face, keeps the skin-coloured pixels between forehead and chin, removes each team's
+photo-shoot colour cast and brightness, and keeps the result in the natural range of skin hue
+(studio lights flush pale faces pink). It samples every team, because the per-shoot correction
+compares teams, and writes `skin` and `skin_source` into each `players.json`. The original
+hand-picked tone stays as `skin_picked` so a re-run gives the same result. Then rerun
+`tools/make_sprites.py` for each team. Players with no usable headshot keep their tone.
 
 ## Render a replay
 

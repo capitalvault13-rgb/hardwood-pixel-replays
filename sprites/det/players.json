@@ -104,9 +104,9 @@
    "label": "#0",
    "name": "Duren",
    "skin": [
-    120,
-    76,
-    52
+    188,
+    129,
+    101
    ],
    "hair": "short_band",
    "hair_color": [
@@ -137,16 +137,22 @@
    ],
    "look_source": "photo: green-dyed hair + white headband / goatee",
    "full_name": "Jalen Duren",
-   "player_id": 1631105
+   "player_id": 1631105,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "cunningham",
    "label": "#2",
    "name": "Cunningham",
    "skin": [
-    164,
-    110,
-    80
+    210,
+    150,
+    119
    ],
    "hair": "afro",
    "hair_color": [
@@ -172,16 +178,22 @@
    ],
    "look_source": "photo: big afro / short beard",
    "full_name": "Cade Cunningham",
-   "player_id": 1630595
+   "player_id": 1630595,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "holland",
    "label": "#5",
    "name": "Holland",
    "skin": [
-    100,
-    62,
-    44
+    164,
+    111,
+    87
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -207,16 +219,22 @@
    ],
    "look_source": "photo: braids back / short beard",
    "full_name": "Ronald Holland II",
-   "player_id": 1641842
+   "player_id": 1641842,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "reed",
    "label": "#7",
    "name": "Reed",
    "skin": [
-    100,
-    62,
-    44
+    133,
+    91,
+    72
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -248,16 +266,22 @@
     88,
     58
    ],
-   "tip_rows": 0
+   "tip_rows": 0,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "lanier",
    "label": "#8",
    "name": "Lanier",
    "skin": [
-    142,
-    92,
-    64
+    158,
+    103,
+    78
    ],
    "hair": "cornrows_flat",
    "hair_color": [
@@ -283,16 +307,22 @@
    ],
    "look_source": "photo: braids back flat / goatee",
    "full_name": "Chaz Lanier",
-   "player_id": 1642404
+   "player_id": 1642404,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "thompson",
    "label": "#9",
    "name": "Thompson",
    "skin": [
-    120,
-    76,
-    52
+    149,
+    100,
+    77
    ],
    "hair": "locs",
    "hair_color": [
@@ -318,16 +348,22 @@
    ],
    "look_source": "photo: braids to the jaw / short beard",
    "full_name": "Ausar Thompson",
-   "player_id": 1641709
+   "player_id": 1641709,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "prince",
    "label": "#12",
    "name": "Prince",
    "skin": [
-    120,
-    76,
-    52
+    109,
+    74,
+    57
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -353,16 +389,22 @@
    ],
    "look_source": "photo: cornrows + braid / short beard",
    "full_name": "Taurean Prince",
-   "player_id": 1627752
+   "player_id": 1627752,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jones",
    "label": "#13",
    "name": "Jones",
    "skin": [
-    164,
-    110,
-    80
+    156,
+    101,
+    73
    ],
    "hair": "locs_long_band",
    "hair_color": [
@@ -393,16 +435,22 @@
    ],
    "look_source": "photo: long locs + black headband / goatee",
    "full_name": "Isaac Jones",
-   "player_id": 1642403
+   "player_id": 1642403,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "joe",
    "label": "#17",
    "name": "Joe",
    "skin": [
-    164,
-    110,
-    80
+    158,
+    108,
+    85
    ],
    "hair": "box_braids",
    "hair_color": [
@@ -428,16 +476,22 @@
    ],
    "look_source": "photo: box braids / full beard",
    "full_name": "Isaiah Joe",
-   "player_id": 1630198
+   "player_id": 1630198,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "collins",
    "label": "#20",
    "name": "Collins",
    "skin": [
-    164,
-    110,
-    80
+    170,
+    117,
+    92
    ],
    "hair": "sponge",
    "hair_color": [
@@ -463,16 +517,22 @@
    ],
    "look_source": "photo: short curls / goatee | revised:hair sponge",
    "full_name": "John Collins",
-   "player_id": 1628381
+   "player_id": 1628381,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "okorie",
    "label": "#23",
    "name": "Okorie",
    "skin": [
-    100,
-    62,
-    44
+    158,
+    106,
+    84
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -498,16 +558,22 @@
    ],
    "look_source": "photo: tall messy curls / full beard | revised:hair twists_spiky",
    "full_name": "Ebuka Okorie",
-   "player_id": 1643536
+   "player_id": 1643536,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jenkins",
    "label": "#24",
    "name": "Jenkins",
    "skin": [
-    100,
-    62,
-    44
+    152,
+    103,
+    82
    ],
    "hair": "buzz_receding",
    "hair_color": [
@@ -533,16 +599,22 @@
    ],
    "look_source": "photo: receding line-up / goatee | revised:hair buzz_receding",
    "full_name": "Daniss Jenkins",
-   "player_id": 1642450
+   "player_id": 1642450,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "huerter",
    "label": "#27",
    "name": "Huerter",
    "skin": [
-    232,
-    184,
-    158
+    209,
+    155,
+    132
    ],
    "hair": "quiff",
    "hair_color": [
@@ -563,16 +635,22 @@
    ],
    "look_source": "photo: red quiff / clean-shaven",
    "full_name": "Kevin Huerter",
-   "player_id": 1628989
+   "player_id": 1628989,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "green",
    "label": "#31",
    "name": "Green",
    "skin": [
-    82,
-    52,
-    38
+    106,
+    68,
+    51
    ],
    "hair": "buzz",
    "hair_color": [
@@ -598,16 +676,22 @@
    ],
    "look_source": "photo: low cut / goatee",
    "full_name": "Javonte Green",
-   "player_id": 1629750
+   "player_id": 1629750,
+   "skin_picked": [
+    82,
+    52,
+    38
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "onyenso",
    "label": "#34",
    "name": "Onyenso",
    "skin": [
-    100,
-    62,
-    44
+    140,
+    92,
+    70
    ],
    "hair": "waves",
    "hair_color": [
@@ -633,16 +717,22 @@
    ],
    "look_source": "photo: fade / goatee | revised:hair waves",
    "full_name": "Ugonna Onyenso",
-   "player_id": 1642391
+   "player_id": 1642391,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "smith",
    "label": "#35",
    "name": "Smith",
    "skin": [
-    164,
-    110,
-    80
+    170,
+    117,
+    92
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -668,16 +758,22 @@
    ],
    "look_source": "photo: curly top / goatee | revised:hair curly_high",
    "full_name": "Tolu Smith",
-   "player_id": 1642449
+   "player_id": 1642449,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "robinson",
    "label": "#55",
    "name": "Robinson",
    "skin": [
-    232,
-    184,
-    158
+    209,
+    150,
+    123
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -703,16 +799,22 @@
    ],
    "look_source": "photo: messy fringe / mustache",
    "full_name": "Duncan Robinson",
-   "player_id": 1629130
+   "player_id": 1629130,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "harkless",
    "label": "#94",
    "name": "Harkless",
    "skin": [
-    100,
-    62,
-    44
+    150,
+    101,
+    80
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -738,7 +840,13 @@
    ],
    "look_source": "photo: crop / full beard | revised:hair curly_short",
    "full_name": "Elijah Harkless",
-   "player_id": 1641989
+   "player_id": 1641989,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

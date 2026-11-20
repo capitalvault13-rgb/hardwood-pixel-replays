@@ -120,9 +120,9 @@
    "number": "1",
    "name": "Wagler",
    "skin": [
-    214,
-    164,
-    128
+    222,
+    173,
+    151
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -143,7 +143,13 @@
    ],
    "look_source": "photo: dark brown curly short / clean-shaven",
    "full_name": "Keaton Wagler",
-   "player_id": 1643413
+   "player_id": 1643413,
+   "skin_picked": [
+    214,
+    164,
+    128
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "beal",
@@ -151,9 +157,9 @@
    "number": "3",
    "name": "Beal",
    "skin": [
-    134,
-    86,
-    60
+    177,
+    119,
+    94
    ],
    "hair": "short_band",
    "hair_color": [
@@ -184,7 +190,13 @@
    ],
    "look_source": "photo: black short band / goatee / white headband",
    "full_name": "Bradley Beal",
-   "player_id": 203078
+   "player_id": 203078,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sanders",
@@ -192,9 +204,9 @@
    "number": "4",
    "name": "Sanders",
    "skin": [
-    196,
-    140,
-    104
+    218,
+    164,
+    135
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -220,7 +232,13 @@
    ],
    "look_source": "photo: black curly high / mustache",
    "full_name": "Kobe Sanders",
-   "player_id": 1642920
+   "player_id": 1642920,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jones",
@@ -228,9 +246,9 @@
    "number": "5",
    "name": "Jones",
    "skin": [
-    116,
-    72,
-    50
+    179,
+    121,
+    96
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -256,7 +274,13 @@
    ],
    "look_source": "photo: black braids back / thick",
    "full_name": "Derrick Jones Jr.",
-   "player_id": 1627884
+   "player_id": 1627884,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "ingram",
@@ -264,9 +288,9 @@
    "number": "7",
    "name": "Ingram",
    "skin": [
-    154,
-    100,
-    70
+    215,
+    161,
+    135
    ],
    "hair": "short_band",
    "hair_color": [
@@ -297,7 +321,13 @@
    ],
    "look_source": "photo: black short band / full / white headband",
    "full_name": "Brandon Ingram",
-   "player_id": 1627742
+   "player_id": 1627742,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "dunn",
@@ -305,9 +335,9 @@
    "number": "8",
    "name": "Dunn",
    "skin": [
-    116,
-    72,
-    50
+    152,
+    100,
+    76
    ],
    "hair": "buzz",
    "hair_color": [
@@ -333,7 +363,13 @@
    ],
    "look_source": "photo: black buzz / goatee",
    "full_name": "Kris Dunn",
-   "player_id": 1627739
+   "player_id": 1627739,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "dick",
@@ -341,9 +377,9 @@
    "number": "9",
    "name": "Dick",
    "skin": [
-    238,
-    198,
-    174
+    222,
+    178,
+    159
    ],
    "hair": "messy_fringe",
    "hair_color": [
@@ -364,7 +400,13 @@
    ],
    "look_source": "photo: blond messy fringe / clean-shaven",
    "full_name": "Gradey Dick",
-   "player_id": 1641711
+   "player_id": 1641711,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "garland",
@@ -372,9 +414,9 @@
    "number": "10",
    "name": "Garland",
    "skin": [
-    134,
-    86,
-    60
+    139,
+    94,
+    74
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -400,7 +442,13 @@
    ],
    "look_source": "photo: black locs long / full",
    "full_name": "Darius Garland",
-   "player_id": 1629636
+   "player_id": 1629636,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "lopez",
@@ -408,9 +456,9 @@
    "number": "11",
    "name": "Lopez",
    "skin": [
-    230,
-    184,
-    156
+    223,
+    174,
+    152
    ],
    "hair": "crop",
    "hair_color": [
@@ -431,7 +479,13 @@
    ],
    "look_source": "photo: dark brown crop / clean-shaven",
    "full_name": "Brook Lopez",
-   "player_id": 201572
+   "player_id": 201572,
+   "skin_picked": [
+    230,
+    184,
+    156
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "martinelli",
@@ -439,9 +493,9 @@
    "number": "12",
    "name": "Martinelli",
    "skin": [
-    238,
-    198,
-    174
+    215,
+    169,
+    150
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -467,7 +521,13 @@
    ],
    "look_source": "photo: dark brown curly top / mustache",
    "full_name": "Nick Martinelli",
-   "player_id": 1643568
+   "player_id": 1643568,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "konan_niederhauser",
@@ -475,9 +535,9 @@
    "number": "14",
    "name": "Konan Niederhauser",
    "skin": [
-    196,
-    140,
-    104
+    207,
+    148,
+    119
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -503,7 +563,13 @@
    ],
    "look_source": "photo: black fade short / mustache",
    "full_name": "Yanic Konan Niederhäuser",
-   "player_id": 1642949
+   "player_id": 1642949,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "baba_miller",
@@ -511,9 +577,9 @@
    "number": "18",
    "name": "Miller",
    "skin": [
-    154,
-    100,
-    70
+    185,
+    128,
+    102
    ],
    "hair": "curly_high",
    "hair_color": [
@@ -539,7 +605,13 @@
    ],
    "look_source": "photo: black curly high / clean-shaven / earrings",
    "full_name": "Baba Miller",
-   "player_id": 1642394
+   "player_id": 1642394,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "pickett",
@@ -547,9 +619,9 @@
    "number": "21",
    "name": "Pickett",
    "skin": [
-    134,
-    86,
-    60
+    171,
+    115,
+    91
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -575,7 +647,13 @@
    ],
    "look_source": "photo: black twists spiky / goatee",
    "full_name": "Jalen Pickett",
-   "player_id": 1629618
+   "player_id": 1629618,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jordan_miller",
@@ -583,9 +661,9 @@
    "number": "22",
    "name": "Miller",
    "skin": [
-    154,
-    100,
-    70
+    196,
+    143,
+    118
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -611,7 +689,13 @@
    ],
    "look_source": "photo: black curly top / goatee",
    "full_name": "Jordan Miller",
-   "player_id": 1641757
+   "player_id": 1641757,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "jackson",
@@ -619,9 +703,9 @@
    "number": "23",
    "name": "Jackson",
    "skin": [
-    116,
-    72,
-    50
+    147,
+    98,
+    75
    ],
    "hair": "locs_band",
    "hair_color": [
@@ -652,7 +736,13 @@
    ],
    "look_source": "photo: black locs band / full / white headband",
    "full_name": "Isaiah Jackson",
-   "player_id": 1630543
+   "player_id": 1630543,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "christie",
@@ -660,9 +750,9 @@
    "number": "24",
    "name": "Christie",
    "skin": [
-    196,
-    140,
-    104
+    193,
+    135,
+    111
    ],
    "hair": "wavy_medium",
    "hair_color": [
@@ -683,7 +773,13 @@
    ],
    "look_source": "photo: black wavy medium / clean-shaven",
    "full_name": "Cam Christie",
-   "player_id": 1642353
+   "player_id": 1642353,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hachimura",
@@ -691,9 +787,9 @@
    "number": "28",
    "name": "Hachimura",
    "skin": [
-    134,
-    86,
-    60
+    178,
+    119,
+    93
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -714,7 +810,13 @@
    ],
    "look_source": "photo: black high tight / clean-shaven",
    "full_name": "Rui Hachimura",
-   "player_id": 1629060
+   "player_id": 1629060,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "strus",
@@ -722,9 +824,9 @@
    "number": "31",
    "name": "Strus",
    "skin": [
-    214,
-    164,
-    128
+    208,
+    160,
+    139
    ],
    "hair": "long_band_wide",
    "hair_color": [
@@ -755,7 +857,13 @@
    ],
    "look_source": "photo: dark brown long band / full / white headband",
    "full_name": "Max Strus",
-   "player_id": 1629622
+   "player_id": 1629622,
+   "skin_picked": [
+    214,
+    164,
+    128
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

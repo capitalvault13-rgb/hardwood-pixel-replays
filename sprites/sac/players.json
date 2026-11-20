@@ -120,9 +120,9 @@
    "number": "0",
    "name": "Monk",
    "skin": [
-    134,
-    86,
-    60
+    150,
+    94,
+    69
    ],
    "hair": "afro_wide",
    "hair_color": [
@@ -148,7 +148,13 @@
    ],
    "look_source": "photo: black afro / full",
    "full_name": "Malik Monk",
-   "player_id": 1628370
+   "player_id": 1628370,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "pedulla",
@@ -156,9 +162,9 @@
    "number": "3",
    "name": "Pedulla",
    "skin": [
-    238,
-    198,
-    174
+    213,
+    170,
+    150
    ],
    "hair": "crop",
    "hair_color": [
@@ -179,7 +185,13 @@
    ],
    "look_source": "photo: brown crop / clean-shaven",
    "full_name": "Sean Pedulla",
-   "player_id": 1642951
+   "player_id": 1642951,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "acuff",
@@ -187,9 +199,9 @@
    "number": "5",
    "name": "Acuff",
    "skin": [
-    176,
-    120,
-    86
+    196,
+    143,
+    118
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -215,7 +227,13 @@
    ],
    "look_source": "photo: black cornrows / goatee",
    "full_name": "Darius Acuff Jr.",
-   "player_id": 1643411
+   "player_id": 1643411,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "lavine",
@@ -223,9 +241,9 @@
    "number": "8",
    "name": "LaVine",
    "skin": [
-    196,
-    140,
-    104
+    208,
+    152,
+    127
    ],
    "hair": "fade_short",
    "hair_color": [
@@ -251,7 +269,13 @@
    ],
    "look_source": "photo: black fade short / short",
    "full_name": "Zach LaVine",
-   "player_id": 203897
+   "player_id": 203897,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "achiuwa",
@@ -259,9 +283,9 @@
    "number": "9",
    "name": "Achiuwa",
    "skin": [
-    116,
-    72,
-    50
+    156,
+    104,
+    80
    ],
    "hair": "short_band",
    "hair_color": [
@@ -292,7 +316,13 @@
    ],
    "look_source": "photo: black short band / goatee / black headband",
    "full_name": "Precious Achiuwa",
-   "player_id": 1630173
+   "player_id": 1630173,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sabonis",
@@ -300,9 +330,9 @@
    "number": "11",
    "name": "Sabonis",
    "skin": [
-    238,
-    198,
-    174
+    215,
+    161,
+    137
    ],
    "hair": "swept_back",
    "hair_color": [
@@ -328,7 +358,13 @@
    ],
    "look_source": "photo: light brown swept back / thick",
    "full_name": "Domantas Sabonis",
-   "player_id": 1627734
+   "player_id": 1627734,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "murray",
@@ -336,9 +372,9 @@
    "number": "13",
    "name": "Murray",
    "skin": [
-    196,
-    140,
-    104
+    205,
+    150,
+    122
    ],
    "hair": "crop",
    "hair_color": [
@@ -364,7 +400,13 @@
    ],
    "look_source": "photo: black crop / goatee",
    "full_name": "Keegan Murray",
-   "player_id": 1631099
+   "player_id": 1631099,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hunter",
@@ -372,9 +414,9 @@
    "number": "15",
    "name": "Hunter",
    "skin": [
-    134,
-    86,
-    60
+    151,
+    98,
+    73
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -400,7 +442,13 @@
    ],
    "look_source": "photo: black high tight / mustache",
    "full_name": "De'Andre Hunter",
-   "player_id": 1629631
+   "player_id": 1629631,
+   "skin_picked": [
+    134,
+    86,
+    60
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "black",
@@ -408,9 +456,9 @@
    "number": "19",
    "name": "Black",
    "skin": [
-    154,
-    100,
-    70
+    178,
+    119,
+    93
    ],
    "hair": "twists_spiky",
    "hair_color": [
@@ -436,7 +484,13 @@
    ],
    "look_source": "photo: black twists spiky / short",
    "full_name": "Leaky Black",
-   "player_id": 1641778
+   "player_id": 1641778,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mogbo",
@@ -444,9 +498,9 @@
    "number": "22",
    "name": "Mogbo",
    "skin": [
-    116,
-    72,
-    50
+    134,
+    85,
+    64
    ],
    "hair": "locs_long",
    "hair_color": [
@@ -472,7 +526,13 @@
    ],
    "look_source": "photo: black locs long / goatee",
    "full_name": "Jonathan Mogbo",
-   "player_id": 1642367
+   "player_id": 1642367,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "simmons",
@@ -480,9 +540,9 @@
    "number": "25",
    "name": "Simmons",
    "skin": [
-    196,
-    140,
-    104
+    223,
+    162,
+    133
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -508,7 +568,13 @@
    ],
    "look_source": "photo: black curly short / full",
    "full_name": "Ben Simmons",
-   "player_id": 1627732
+   "player_id": 1627732,
+   "skin_picked": [
+    196,
+    140,
+    104
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "plowden",
@@ -516,9 +582,9 @@
    "number": "29",
    "name": "Plowden",
    "skin": [
-    116,
-    72,
-    50
+    134,
+    87,
+    66
    ],
    "hair": "short_band",
    "hair_color": [
@@ -549,7 +615,13 @@
    ],
    "look_source": "photo: black short band / mustache / black headband",
    "full_name": "Daeqwon Plowden",
-   "player_id": 1631342
+   "player_id": 1631342,
+   "skin_picked": [
+    116,
+    72,
+    50
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "cardwell",
@@ -557,9 +629,9 @@
    "number": "32",
    "name": "Cardwell",
    "skin": [
-    154,
-    100,
-    70
+    182,
+    122,
+    96
    ],
    "hair": "buzz",
    "hair_color": [
@@ -585,7 +657,13 @@
    ],
    "look_source": "photo: black buzz / mustache",
    "full_name": "Dylan Cardwell",
-   "player_id": 1642928
+   "player_id": 1642928,
+   "skin_picked": [
+    154,
+    100,
+    70
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "karaban",
@@ -593,9 +671,9 @@
    "number": "33",
    "name": "Karaban",
    "skin": [
-    238,
-    198,
-    174
+    214,
+    171,
+    152
    ],
    "hair": "high_tight",
    "hair_color": [
@@ -621,7 +699,13 @@
    ],
    "look_source": "photo: dark brown high tight / short",
    "full_name": "Alex Karaban",
-   "player_id": 1642284
+   "player_id": 1642284,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "sharp",
@@ -629,9 +713,9 @@
    "number": "34",
    "name": "Sharp",
    "skin": [
-    176,
-    120,
-    86
+    199,
+    146,
+    121
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -657,7 +741,13 @@
    ],
    "look_source": "photo: black braids back / full",
    "full_name": "Emanuel Sharp",
-   "player_id": 1643567
+   "player_id": 1643567,
+   "skin_picked": [
+    176,
+    120,
+    86
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "raynaud",
@@ -665,9 +755,9 @@
    "number": "42",
    "name": "Raynaud",
    "skin": [
-    230,
-    184,
-    156
+    212,
+    169,
+    149
    ],
    "hair": "quiff",
    "hair_color": [
@@ -688,7 +778,13 @@
    ],
    "look_source": "photo: dark brown quiff / clean-shaven",
    "full_name": "Maxime Raynaud",
-   "player_id": 1642875
+   "player_id": 1642875,
+   "skin_picked": [
+    230,
+    184,
+    156
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "plumlee",
@@ -696,9 +792,9 @@
    "number": "45",
    "name": "Plumlee",
    "skin": [
-    238,
-    198,
-    174
+    199,
+    156,
+    137
    ],
    "hair": "bald",
    "hair_color": [
@@ -719,7 +815,13 @@
    ],
    "look_source": "photo: bald / clean-shaven",
    "full_name": "Mason Plumlee",
-   "player_id": 203486
+   "player_id": 203486,
+   "skin_picked": [
+    238,
+    198,
+    174
+   ],
+   "skin_source": "headshot"
   }
  ]
 }

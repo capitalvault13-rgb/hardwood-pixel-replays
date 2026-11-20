@@ -104,9 +104,9 @@
    "label": "#1",
    "name": "Harden",
    "skin": [
-    120,
-    76,
-    52
+    111,
+    73,
+    56
    ],
    "hair": "cornrows_flat",
    "hair_color": [
@@ -132,16 +132,22 @@
    ],
    "look_source": "photo: cornrows / huge beard",
    "full_name": "James Harden",
-   "player_id": 201935
+   "player_id": 201935,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "bryant",
    "label": "#3",
    "name": "Bryant",
    "skin": [
-    100,
-    62,
-    44
+    137,
+    94,
+    75
    ],
    "hair": "sponge",
    "hair_color": [
@@ -167,16 +173,22 @@
    ],
    "look_source": "photo: short curls / goatee | revised:hair sponge",
    "full_name": "Thomas Bryant",
-   "player_id": 1628418
+   "player_id": 1628418,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "mobley",
    "label": "#4",
    "name": "Mobley",
    "skin": [
-    100,
-    62,
-    44
+    151,
+    95,
+    69
    ],
    "hair": "twists_short",
    "hair_color": [
@@ -202,16 +214,22 @@
    ],
    "look_source": "photo: receding line-up / goatee",
    "full_name": "Evan Mobley",
-   "player_id": 1630596
+   "player_id": 1630596,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "merrill",
    "label": "#5",
    "name": "Merrill",
    "skin": [
-    232,
-    184,
-    158
+    220,
+    165,
+    139
    ],
    "hair": "crop_lineup",
    "hair_color": [
@@ -232,16 +250,22 @@
    ],
    "look_source": "photo: high and tight / clean-shaven | revised:hair crop_lineup",
    "full_name": "Sam Merrill",
-   "player_id": 1630241
+   "player_id": 1630241,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "watson",
    "label": "#8",
    "name": "Watson",
    "skin": [
-    100,
-    62,
-    44
+    134,
+    85,
+    64
    ],
    "hair": "locs_band",
    "hair_color": [
@@ -272,16 +296,22 @@
    ],
    "look_source": "photo: braids + white headband / earrings",
    "full_name": "Peyton Watson",
-   "player_id": 1631212
+   "player_id": 1631212,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot (face position assumed)"
   },
   {
    "id": "porter",
    "label": "#9",
    "name": "Porter",
    "skin": [
-    164,
-    110,
-    80
+    196,
+    137,
+    107
    ],
    "hair": "curly_top",
    "hair_color": [
@@ -307,16 +337,22 @@
    ],
    "look_source": "photo: curly top / goatee",
    "full_name": "Craig Porter Jr.",
-   "player_id": 1641854
+   "player_id": 1641854,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "thomas",
    "label": "#15",
    "name": "Thomas",
    "skin": [
-    164,
-    110,
-    80
+    177,
+    118,
+    92
    ],
    "hair": "braids_back",
    "hair_color": [
@@ -347,16 +383,22 @@
    ],
    "look_source": "photo: braids back / mustache / earrings",
    "full_name": "Meleek Thomas",
-   "player_id": 1643509
+   "player_id": 1643509,
+   "skin_picked": [
+    164,
+    110,
+    80
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "diop",
    "label": "#18",
    "name": "Diop",
    "skin": [
-    100,
-    62,
-    44
+    133,
+    93,
+    74
    ],
    "hair": "locs",
    "hair_color": [
@@ -377,16 +419,22 @@
    ],
    "look_source": "photo: locs falling forward / clean-shaven",
    "full_name": "Khalifa Diop",
-   "player_id": 1631215
+   "player_id": 1631215,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "tyson",
    "label": "#20",
    "name": "Tyson",
    "skin": [
-    190,
-    136,
-    100
+    199,
+    138,
+    110
    ],
    "hair": "cornrows",
    "hair_color": [
@@ -417,16 +465,22 @@
    ],
    "look_source": "photo: cornrows + braid / goatee / earrings",
    "full_name": "Jaylon Tyson",
-   "player_id": 1642281
+   "player_id": 1642281,
+   "skin_picked": [
+    190,
+    136,
+    100
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "proctor",
    "label": "#24",
    "name": "Proctor",
    "skin": [
-    214,
-    166,
-    132
+    206,
+    150,
+    116
    ],
    "hair": "afro",
    "hair_color": [
@@ -457,16 +511,22 @@
    ],
    "look_source": "photo: wide curls / goatee / earrings",
    "full_name": "Tyrese Proctor",
-   "player_id": 1642878
+   "player_id": 1642878,
+   "skin_picked": [
+    214,
+    166,
+    132
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "allen",
    "label": "#31",
    "name": "Allen",
    "skin": [
-    120,
-    76,
-    52
+    153,
+    101,
+    77
    ],
    "hair": "afro_band",
    "hair_color": [
@@ -497,16 +557,22 @@
    ],
    "look_source": "photo: afro + white headband / full beard",
    "full_name": "Jarrett Allen",
-   "player_id": 1628386
+   "player_id": 1628386,
+   "skin_picked": [
+    120,
+    76,
+    52
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "hezonja",
    "label": "#33",
    "name": "Hezonja",
    "skin": [
-    232,
-    184,
-    158
+    207,
+    153,
+    128
    ],
    "hair": "swept_back",
    "hair_color": [
@@ -527,16 +593,22 @@
    ],
    "look_source": "photo: slicked back / clean-shaven",
    "full_name": "Mario Hezonja",
-   "player_id": 1626209
+   "player_id": 1626209,
+   "skin_picked": [
+    232,
+    184,
+    158
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "tomlin",
    "label": "#35",
    "name": "Tomlin",
    "skin": [
-    100,
-    62,
-    44
+    144,
+    94,
+    72
    ],
    "hair": "short_band",
    "hair_color": [
@@ -572,16 +644,22 @@
    ],
    "look_source": "photo: white headband / mustache / earrings",
    "full_name": "Nae'Qwan Tomlin",
-   "player_id": 1641772
+   "player_id": 1641772,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot (face position assumed)"
   },
   {
    "id": "mitchell",
    "label": "#45",
    "name": "Mitchell",
    "skin": [
-    100,
-    62,
-    44
+    146,
+    93,
+    70
    ],
    "hair": "curly_short",
    "hair_color": [
@@ -607,16 +685,22 @@
    ],
    "look_source": "photo: short curls / full beard",
    "full_name": "Donovan Mitchell",
-   "player_id": 1628378
+   "player_id": 1628378,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "omier",
    "label": "#77",
    "name": "Omier",
    "skin": [
-    142,
-    92,
-    64
+    163,
+    108,
+    83
    ],
    "hair": "afro_long",
    "hair_color": [
@@ -642,16 +726,22 @@
    ],
    "look_source": "photo: wild afro / full beard",
    "full_name": "Norchad Omier",
-   "player_id": 1641807
+   "player_id": 1641807,
+   "skin_picked": [
+    142,
+    92,
+    64
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "udeh",
    "label": "#88",
    "name": "Udeh",
    "skin": [
-    100,
-    62,
-    44
+    121,
+    80,
+    61
    ],
    "hair": "buzz_lineup",
    "hair_color": [
@@ -677,16 +767,22 @@
    ],
    "look_source": "photo: crop / full beard | revised:hair buzz_lineup",
    "full_name": "Ernest Udeh Jr.",
-   "player_id": 1643640
+   "player_id": 1643640,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot"
   },
   {
    "id": "austin",
    "label": "#",
    "name": "Austin",
    "skin": [
-    100,
-    62,
-    44
+    132,
+    85,
+    64
    ],
    "hair": "short_band",
    "hair_color": [
@@ -717,7 +813,13 @@
    ],
    "look_source": "photo: white headband / goatee",
    "full_name": "Zack Austin",
-   "player_id": 1643113
+   "player_id": 1643113,
+   "skin_picked": [
+    100,
+    62,
+    44
+   ],
+   "skin_source": "headshot (face position assumed)"
   }
  ]
 }
