@@ -27,19 +27,24 @@ CW, CH = 56, 92
 OX = (CW - 23) // 2
 Y0 = CH - 2 - 17
 
+# Torso: 13 px wide (with outline) and 12 rows, drawn from template row -LIFT so the
+# jersey has room for a 3x5 number between the arms. Hips stay at row 10.
+LIFT = 2
 TORSO_SIDE = [
-    "......##TSSSSST##......",
-    ".......#TJTTTJT#.......",
-    ".......#TJJJJKT#.......",
-    ".......#TJJJJKT#.......",
-    ".......#TJJJJKT#.......",
-    ".......#TJJJJKT#.......",
-    ".......#NNNNNNN#.......",
-    ".......#UJJJJKU#.......",
-    "......#UJJJJJJKU#......",
-    "......#UJJJ#JJKU#......",
+    "......###TSSST###......",
+    ".....#TJJJTTTJJKT#.....",
+    ".....#TJJJJJJJJKT#.....",
+    ".....#TJJJJJJJJKT#.....",
+    ".....#TJJJJJJJJKT#.....",
+    ".....#TJJJJJJJJKT#.....",
+    ".....#TJJJJJJJJKT#.....",
+    ".....#TJJJJJJJJKT#.....",
+    ".....#NNNNNNNNNNN#.....",
+    ".....#UJJJJJJJJKU#.....",
+    "....#UJJJJJJJJJJKU#....",
+    "....#UJJJJJ#JJJJKU#....",
 ]
-SH = {"L": (9, 2), "R": (14, 2)}      # far / near shoulder
+SH = {"L": (7, 2 - LIFT), "R": (16, 2 - LIFT)}   # far / near shoulder, at the torso edges
 HP = {"L": (10, 10), "R": (13, 10)}   # far / near hip
 
 def P(**k):
@@ -234,24 +239,8 @@ def side_head(p):
     _heads[key] = im
     return im
 
-def _limb(px, pts, fill_of, r_in=1.05, r_out=2.0):
-    segs = list(zip(pts, pts[1:]))
-    lens = [math.dist(a, b) for a, b in segs]
-    xs = [q[0] for q in pts]; ys = [q[1] for q in pts]
-    for y in range(int(min(ys)) - 3, int(max(ys)) + 4):
-        for x in range(int(min(xs)) - 3, int(max(xs)) + 4):
-            if not (0 <= x < CW and 0 <= y < CH):
-                continue
-            best, arc, acc = 1e9, 0, 0
-            for (a, b), L in zip(segs, lens):
-                d, s = v1._seg_dist(x, y, a, b)
-                if d < best:
-                    best, arc = d, acc + s
-                acc += L
-            if best <= r_in:
-                px[x, y] = fill_of(arc, sum(lens)) + (255,)
-            elif best <= r_out:
-                px[x, y] = ms.OUTLINE + (255,)
+def _limb(px, pts, fill_of, r_in=None, r_out=None):
+    v1.limb(px, pts, fill_of, r_out=r_out, size=(CW, CH))
 
 def _shoe(px, ax, ay, pal):
     rows = [".#XXX#", "#ZZZZ#", "#ZZQZ#", "#XXXX#", ".####."]
@@ -264,7 +253,7 @@ def _shoe(px, ax, ay, pal):
 def _dim(pal, k=0.78):
     return {c: (ms.OUTLINE if c == '#' else ms.shade(v, k)) for c, v in pal.items()}
 
-def _render_side(p, kit, pose, with_ball):
+def _render_side(p, kit, pose, with_ball, face=1):
     pal = v1.palette(p, kit)
     far = _dim(pal)
     im = Image.new('RGBA', (CW, CH), (0, 0, 0, 0))
@@ -320,36 +309,33 @@ def _render_side(p, kit, pose, with_ball):
     for j, row in enumerate(TORSO_SIDE):
         for i, ch in enumerate(row):
             if ch != '.':
-                x, y = T((i, j))
+                x, y = T((i, j - LIFT))
                 px[x, y] = pal[ch] + (255,)
+    num = v1.jersey_number(p)
+    if num:   # drawn reversed when the sprite will be flipped, so it reads right afterwards
+        cx, cy = T((11, 3 - LIFT))
+        v1.stamp_number(px, num, cx, cy, v1.number_color(kit), mirror=face < 0, size=(CW, CH))
     if pose.get("ball_back"):
         ball()
     arm("R", pal)
-    hx, hy = T((pose["head"][0], -18 + pose["head"][1]))
+    hx, hy = T((pose["head"][0], -18 - LIFT + pose["head"][1]))
     im.alpha_composite(side_head(p), (int(hx), int(hy)))
     for s in pose["front"]:
         arm(s, pal if s == "R" else far, forearm_only=True)
     if not pose.get("ball_back"):
         ball()
-    return im
+    return v1.selout(im)
 
 def render(p, kit, pose, with_ball=True, face=1):
     """One frame, RGBA CW x CH, feet on row CH-2, template column 11 at x = OX + 11."""
     if pose.get("view") == "front":
-        fr = v1.render(p, kit, pose, with_ball)
+        fr = v1.render(dict(p, _mirror_num=face < 0), kit, pose, with_ball)
         im = Image.new('RGBA', (CW, CH), (0, 0, 0, 0))
         im.alpha_composite(fr, (OX - v1.OX, Y0 - v1.Y0))
     else:
-        im = _render_side(p, kit, pose, with_ball)
-    sq = pose.get("sq", 1.0)
-    if sq != 1.0:                      # squash / stretch, anchored at the feet
-        nh = round(CH * sq); nw = round(CW / math.sqrt(sq))
-        big = im.resize((nw, nh), Image.NEAREST)
-        out = Image.new('RGBA', (CW, CH), (0, 0, 0, 0))
-        out.alpha_composite(big.crop((max(0, (nw - CW) // 2), max(0, nh - CH),
-                                      max(0, (nw - CW) // 2) + min(nw, CW), nh)),
-                            (max(0, (CW - nw) // 2), max(0, CH - nh)))
-        im = out
+        im = _render_side(p, kit, pose, with_ball, face)
+    # "sq" (squash/stretch) is no longer applied by resampling: that broke the pixel grid.
+    # Poses carry their squash in dy / leg bend instead.
     if face < 0:
         im = im.transpose(Image.FLIP_LEFT_RIGHT)
     return im

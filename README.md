@@ -25,7 +25,8 @@ sprites/bos/          Celtics — full 2026-27 roster (17), drawn by tools/make_
 tools/extract_sprites.py   cuts a sheet into sprites/<team>/*.png
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
 tools/animate_sprites.py     animation set 1: camera-facing pose rig (idle, dribble, pass, jump, shoot, dunk)
-tools/animate_sprites_v2.py  animation set 2: side-facing 3/4 rig, lean/squash, 11 moves + effect tags
+tools/animate_sprites_v2.py  animation set 2: side-facing 3/4 rig, 11 moves + effect tags; jersey numbers
+                             (from the sprite label or "number"), clean 1-px pixel grid (no resampling)
 tools/anim_demo.py           set-1 demo possession video;  tools/anim_compare.py  set 1 vs set 2 video
 fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
 episodes/NNN-name/    replay.py (visuals), audio.py (chiptune + SFX), render.sh
@@ -119,7 +120,9 @@ First replay animated with sprite set 2 (side view). Spurs 114, Pelicans 91, Nov
 - Halftime (AP via NBA.com): 32 PTS, 13 REB, 3 BLK, 3 STL; Spurs led 61-45. NBA.com Starting 5 gives 12 rebounds for
   his big half; we use AP's 13.
 - The slam: AP — after a shove, he "scored the next seven points, including a one-handed slam over Yves Missi", first
-  half (9:27 mark nearby). The defender sprite is a generic, unlabelled Pelican.
+  half (9:27 mark nearby). The defender wears Missi's #21 (nba.com roster); his look is not checked against a photo.
+- The other Pelican (shooter on the block, closeout on the 50th) is generic and wears #30, a number no current
+  Pelican wears, so he stands for no one.
 - The block scene is illustrative (he had 3 blocks by halftime, 5 total); no specific block is claimed.
 - 50th point: a 3-pointer for 108-82 with 6:29 left (AP); he then exited. The pre-shot 105-82 and his 47 are derived.
 - Records (AP via NBA.com): first player since 1973-74 with 50 PTS, 15 REB, 4 STL, 5 BLK in a game; first with 50 PTS,

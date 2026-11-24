@@ -175,26 +175,119 @@ def _seg_dist(px_, py_, a, b):
     t = 0 if L2 == 0 else max(0, min(1, ((px_ - ax) * vx + (py_ - ay) * vy) / L2))
     return math.hypot(px_ - (ax + t * vx), py_ - (ay + t * vy)), t * math.sqrt(L2)
 
-def limb(px, pts, fill_of, r_in=1.05, r_out=2.0):
-    """Outlined 3-px limb along pts (cell coords). fill_of(arc, total) -> rgb for skin pixels."""
+PLUS = ((0, 0), (1, 0), (-1, 0), (0, 1), (0, -1))
+
+def _line(a, b):
+    """Bresenham pixels from a to b (rounded)."""
+    x0, y0 = int(round(a[0])), int(round(a[1])); x1, y1 = int(round(b[0])), int(round(b[1]))
+    dx, dy = abs(x1 - x0), -abs(y1 - y0)
+    sx, sy = (1 if x0 < x1 else -1), (1 if y0 < y1 else -1)
+    err, out = dx + dy, []
+    while True:
+        out.append((x0, y0))
+        if x0 == x1 and y0 == y1:
+            return out
+        e2 = 2 * err
+        if e2 >= dy: err += dy; x0 += sx
+        if e2 <= dx: err += dx; y0 += sy
+
+def limb(px, pts, fill_of, r_in=None, r_out=None, size=None):
+    """Outlined 3-px limb along pts (cell coords), on a clean pixel grid:
+    a Bresenham centreline thickened with a plus brush, then a 4-neighbour outline.
+    fill_of(arc, total) -> rgb for the fill pixels (arc = distance along the limb)."""
+    W_, H_ = size or (CW, CH)
     segs = list(zip(pts, pts[1:]))
     lens = [math.dist(a, b) for a, b in segs]
     total = sum(lens)
-    xs = [p[0] for p in pts]; ys = [p[1] for p in pts]
-    for y in range(int(min(ys)) - 3, int(max(ys)) + 4):
-        for x in range(int(min(xs)) - 3, int(max(xs)) + 4):
-            if not (0 <= x < CW and 0 <= y < CH):
+    centre = []
+    for a, b in segs:
+        centre += _line(a, b)
+    fill = {(x + ox, y + oy) for x, y in centre for ox, oy in PLUS}
+    ring = {(x + ox, y + oy) for x, y in fill for ox, oy in PLUS} - fill
+    if r_out is not None and r_out < 2.0:   # forearm-only redraw: thinner ring at the elbow end
+        ring = {q for q in ring if math.dist(q, pts[0]) > 1.5}
+    for x, y in ring:
+        if 0 <= x < W_ and 0 <= y < H_:
+            px[x, y] = OUTLINE_RGBA
+    for x, y in fill:
+        if not (0 <= x < W_ and 0 <= y < H_):
+            continue
+        best, arc, acc = 1e9, 0.0, 0.0
+        for (a, b), L in zip(segs, lens):
+            d, s_ = _seg_dist(x, y, a, b)
+            if d < best:
+                best, arc = d, acc + s_
+            acc += L
+        px[x, y] = fill_of(arc, total) + (255,)
+
+OUTLINE_RGBA = ms.OUTLINE + (255,)
+
+# 3x5 jersey digits
+DIGITS = {
+    "0": ["###", "#.#", "#.#", "#.#", "###"], "1": [".#.", "##.", ".#.", ".#.", "###"],
+    "2": ["###", "..#", "###", "#..", "###"], "3": ["###", "..#", ".##", "..#", "###"],
+    "4": ["#.#", "#.#", "###", "..#", "..#"], "5": ["###", "#..", "###", "..#", "###"],
+    "6": ["###", "#..", "###", "#.#", "###"], "7": ["###", "..#", "..#", ".#.", ".#."],
+    "8": ["###", "#.#", "###", "#.#", "###"], "9": ["###", "#.#", "###", "..#", "###"],
+}
+
+def jersey_number(p):
+    """"number" if given, else the digits of the sprite label ("#27" -> "27")."""
+    n = p.get("number")
+    if n is None:
+        n = "".join(c for c in p.get("label", "") if c.isdigit())
+    return str(n) if str(n) else None
+
+def number_color(kit):
+    if kit.get("num"):
+        return tuple(kit["num"])
+    j = kit["jersey"]
+    return tuple(kit["trim"]) if sum(j) > 450 else (244, 244, 240)
+
+def stamp_number(px, num, cx, y0, col, mirror=False, size=None):
+    """Jersey number centred on column cx, top row y0. mirror=True draws it reversed so a
+    later horizontal flip of the whole sprite reads correctly."""
+    W_, H_ = size or (CW, CH)
+    s = str(num)
+    glyphs = [DIGITS[c] for c in s if c in DIGITS]
+    if not glyphs:
+        return
+    width = 4 * len(glyphs) - 1
+    x = cx - width // 2
+    rows = [["."] * width for _ in range(5)]
+    for gi, g in enumerate(glyphs):
+        for r in range(5):
+            for c in range(3):
+                rows[r][gi * 4 + c] = g[r][c]
+    for r in range(5):
+        row = rows[r][::-1] if mirror else rows[r]
+        for i, ch in enumerate(row):
+            if ch == "#" and 0 <= x + i < W_ and 0 <= y0 + r < H_:
+                px[x + i, y0 + r] = col + (255,)
+
+def selout(im):
+    """Selective outline: inner dark lines take a dark tone of the colour beside them,
+    the silhouette keeps the near-black outline. Eyes (next to white) are left alone."""
+    px = im.load()
+    W_, H_ = im.size
+    o = ms.OUTLINE
+    changes = []
+    for y in range(1, H_ - 1):
+        for x in range(1, W_ - 1):
+            if px[x, y][:3] != o or px[x, y][3] == 0:
                 continue
-            best, arc, acc = 1e9, 0, 0
-            for (a, b), L in zip(segs, lens):
-                d, s = _seg_dist(x, y, a, b)
-                if d < best:
-                    best, arc = d, acc + s
-                acc += L
-            if best <= r_in:
-                px[x, y] = fill_of(arc, total) + (255,)
-            elif best <= r_out:
-                px[x, y] = ms.OUTLINE + (255,)
+            nb = [px[x + 1, y], px[x - 1, y], px[x, y + 1], px[x, y - 1]]
+            if any(n[3] == 0 for n in nb):
+                continue
+            cols = [n[:3] for n in nb if n[:3] != o]
+            if not cols or any(min(c) > 235 for c in cols):
+                continue
+            # darkest neighbour fill, darkened: keeps edges readable but softer
+            c = min(cols, key=sum)
+            changes.append((x, y, tuple(int(v * 0.5) for v in c)))
+    for x, y, c in changes:
+        px[x, y] = c + (255,)
+    return im
 
 def shoe(px, ax, ay, side, pal):
     rows = ["#XXX#.", "#ZZZZ#", "#ZQZZ#", "#XXXX#", ".####."]
@@ -214,7 +307,9 @@ def ball_img(squash=False):
         for x, ch in enumerate(row):
             if ch == '#': px[x, y] = (60, 24, 10, 255)
             elif ch == 'o': px[x, y] = (236, 112, 36, 255)
-    px[2, 1] = px[3, 1] = (255, 180, 110, 255)
+    px[2, 1] = px[3, 1] = (255, 180, 110, 255); px[1, 2] = (252, 150, 80, 255)
+    for (x, y) in ((5, 5), (4, 6), (5, 6), (6, 4), (6, 5)):
+        if px[x, y][:3] == (236, 112, 36): px[x, y] = (190, 82, 26, 255)
     if squash:
         im = im.resize((9, 7), Image.NEAREST)
     return im
@@ -241,6 +336,9 @@ def render(p, kit, pose, with_ball=True):
             if ch != '.':
                 x, y = T((i, j))
                 px[x, y] = pal[ch] + (255,)
+    if jersey_number(p):
+        cx, cy = T((11, 1))
+        stamp_number(px, jersey_number(p), cx, cy, number_color(kit), mirror=p.get("_mirror_num", False))
 
     def arm_fill(side):
         sleeve = p.get("sleeves")
@@ -289,7 +387,7 @@ def render(p, kit, pose, with_ball=True):
         draw_arm(s, forearm_only=True)
     if not pose.get("ball_back"):
         draw_ball()
-    return im
+    return selout(im)
 
 # ---------------------------------------------------------------- previews
 COURT = (196, 142, 88)

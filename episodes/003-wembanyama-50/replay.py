@@ -22,7 +22,9 @@ WW = 360                         # native world width (camera pans)
 DUR = 32.4
 NF = int(FPS * DUR)
 
-def F(name, size): return ImageFont.truetype(os.path.join(HERE, 'fonts', name), size)
+def F(name, size):
+    # both fonts are drawn on an 8 px grid: only multiples of 8 keep every font pixel square
+    return ImageFont.truetype(os.path.join(HERE, 'fonts', name), max(8, int(round(size / 8)) * 8))
 PS = lambda s: F('PressStart2P-Regular.ttf', s)
 SK = lambda s: F('Silkscreen-Regular.ttf', s)
 SKB = lambda s: F('Silkscreen-Bold.ttf', s)
@@ -39,10 +41,12 @@ TALL = WEMBY.get("tall", 0)
 NOP_KIT = {"jersey": [12, 35, 64], "shade": [8, 24, 46], "trim": [200, 16, 46],
            "trim2": [180, 151, 90], "band": [180, 151, 90]}
 # generic Pelicans stand-ins: never labelled (same rule as the recoloured opponents in 002)
+# PEL_A wears Yves Missi's #21: AP says the one-handed slam came over Missi (look not checked).
+# PEL_B is generic: #30 is worn by no current Pelican, so he stands for no one.
 PEL_A = {"skin": [150, 100, 72], "hair": "buzz", "hair_color": [20, 16, 14], "beard": "short",
-         "beard_color": [26, 20, 18], "shoes": [244, 244, 244], "shoe_accent": [200, 16, 46]}
+         "beard_color": [26, 20, 18], "shoes": [244, 244, 244], "shoe_accent": [200, 16, 46], "number": "21"}
 PEL_B = {"skin": [200, 150, 112], "hair": "curly_short", "hair_color": [30, 22, 18], "beard": "none",
-         "shoes": [30, 30, 34], "shoe_accent": [180, 151, 90]}
+         "shoes": [30, 30, 34], "shoe_accent": [180, 151, 90], "number": "30"}
 
 # ---------------------------------------------------------------- world
 GY = 205                  # ground line (feet), native
@@ -75,23 +79,26 @@ def build_world():
     for x in range(0, WW, 6):
         d.point((x + 2, FLOOR_TOP - 5), fill=(70, 74, 96))
     # floor
-    shades = [(204, 150, 96), (194, 140, 88), (210, 156, 100)]
-    for y in range(FLOOR_TOP, NH):
-        d.line([(0, y), (WW, y)], fill=shades[(y // 3) % 3])
+    # maple planks: 3-px boards of uneven length, a tone each, dark seam at the joins
+    tones = [(226, 192, 144), (218, 182, 134), (232, 200, 152), (222, 186, 138)]
     for y in range(FLOOR_TOP, NH, 3):
-        off = (y * 37) % 60
-        for x in range(off, WW, 60):
-            d.point((x, y), fill=(176, 124, 76))
+        x = -int(rng.integers(0, 40))
+        while x < WW:
+            L = int(rng.integers(24, 64))
+            d.rectangle([x, y, x + L - 1, y + 2], fill=tones[int(rng.integers(0, 4))])
+            d.line([(x, y), (x, y + 2)], fill=(196, 158, 112))
+            x += L
+        d.line([(0, y + 2), (WW, y + 2)], fill=(210, 172, 126))
     sl = lambda x: [(x + 4, FLOOR_TOP), (x - 4, NH)]     # court lines lean a little (depth)
     # paint between free-throw line and baseline
     ft = RIM[0] - 15 * 6 + 4
-    d.polygon([(ft + 4, FLOOR_TOP), (BASELINE_X + 4, FLOOR_TOP), (BASELINE_X - 4, NH), (ft - 4, NH)],
-              fill=(176, 128, 82))
-    for y in range(FLOOR_TOP, NH, 3):
-        d.line([(ft + 4 - (y - FLOOR_TOP) * 8 / (NH - FLOOR_TOP), y),
-                (BASELINE_X + 4 - (y - FLOOR_TOP) * 8 / (NH - FLOOR_TOP), y)], fill=(166, 120, 76))
+    stain = Image.new('RGBA', im.size, (0, 0, 0, 0))     # paint: a stain over the planks, grain shows
+    ImageDraw.Draw(stain).polygon([(ft + 4, FLOOR_TOP), (BASELINE_X + 4, FLOOR_TOP), (BASELINE_X - 4, NH),
+                                   (ft - 4, NH)], fill=(110, 112, 124, 70))
+    im.paste(Image.alpha_composite(im.convert('RGBA'), stain).convert('RGB'))
+    d = ImageDraw.Draw(im)
     for x in (ft, BASELINE_X, THREE_X, RIM[0] - 47 * 6):
-        d.line(sl(x), fill=LINE)
+        d.line(sl(x), fill=(30, 30, 36))
     # hoop, side on: stanchion, arm, backboard edge, rim, net
     d.rectangle([343, GY - 18, 357, GY + 2], fill=(70, 74, 86), outline=(30, 30, 36))
     d.rectangle([348, GY - 86, 351, GY - 18], fill=(150, 156, 166))
@@ -186,17 +193,17 @@ def pel_a(t):
         seq = [("bk0", 3, 0, 0, ""), ("bk1", 8, 6, 0, ""), ("land", 5, 0, 0, "dust"), ("df0", 40, 0, 0, "")]
         i, p, air, tr, tags, loc = state(seq, t - (T_SLAM - 0.3))
         return 326, p, air, -1, False, tags, loc
-    if t < T_E:
-        return None
-    if t < T_JS + 0.05:
-        return 210, "df0", 0, -1, False, "", 0
-    seq = [("bk0", 4, 0, 0, ""), ("bk1", 10, 9, 0, ""), ("land", 5, 0, 0, "dust"), ("df1", 60, 0, 0, "")]
-    i, p, air, tr, tags, loc = state(seq, t - T_JS - 0.05)
-    return 210, p, air, -1, False, tags, loc
+    return None
 
 def pel_b(t):
     """The shooter Wemby blocks."""
-    if not (T_C <= t < T_E):
+    if t >= T_E:          # closes out on the 50th point
+        if t < T_JS + 0.05:
+            return 210, "df0", 0, -1, False, "", 0
+        seq = [("bk0", 4, 0, 0, ""), ("bk1", 10, 9, 0, ""), ("land", 5, 0, 0, "dust"), ("df1", 60, 0, 0, "")]
+        i, p, air, tr, tags, loc = state(seq, t - T_JS - 0.05)
+        return 210, p, air, -1, False, tags, loc
+    if t < T_C:
         return None
     if t < T_SHOOT_C:
         return 246, idle(t), 0, 1, True, "", 0
@@ -280,14 +287,14 @@ def cam_x(t):
 # ---------------------------------------------------------------- overlay helpers
 def text_c(d, y, s, font, fill, cx=W // 2):
     tw = d.textlength(s, font=font)
-    d.text((cx - tw / 2, y), s, font=font, fill=fill)
+    d.text((int(cx - tw / 2), int(y)), s, font=font, fill=fill)
 
 def text_rich(d, y, s, font, base=WHITE, hi=GOLD, cx=W // 2):
     parts = [(p, hi if i % 2 else base) for i, p in enumerate(s.split('*')) if p]
     tw = sum(d.textlength(p, font=font) for p, _ in parts)
     x = cx - tw / 2
     for p, c in parts:
-        d.text((x, y), p, font=font, fill=c); x += d.textlength(p, font=font)
+        d.text((int(x), int(y)), p, font=font, fill=c); x += d.textlength(p, font=font)
 
 CAPS = [(0.0, '50 POINTS.', 'IN *32* MINUTES.'),
         (T_B, 'SECOND QUARTER.', 'ONE-HANDED *SLAM.*'),
@@ -365,13 +372,15 @@ def world_frame(t):
     for p, kit, fn in ACTORS:
         st = fn(t)
         if st: acts.append((p, kit, st))
-    # shadows
+    # shadows: translucent, on whole pixels, shrinking with height
+    sh = Image.new('RGBA', im.size, (0, 0, 0, 0)); sd = ImageDraw.Draw(sh)
     for p, kit, (x, pose, air, face, wb, tags, loc) in acts:
-        sw = max(4, 10 - air * 0.3)
-        d.ellipse([x - sw, GY - 1, x + sw, GY + 2], fill=(150, 104, 62, 255))
+        sw = int(max(4, 10 - air * 0.3)); x = int(round(x))
+        sd.ellipse([x - sw, GY - 1, x + sw, GY + 2], fill=(60, 30, 10, 80))
     fb = free_ball(t)
     if fb:
-        d.ellipse([fb[0] - 4, GY - 1, fb[0] + 4, GY + 1], fill=(150, 104, 62, 255))
+        bx = int(round(fb[0])); sd.ellipse([bx - 4, GY - 1, bx + 4, GY + 1], fill=(60, 30, 10, 80))
+    im.alpha_composite(sh)
     # back to front: Pelicans behind Wemby
     wemby_head = None
     for p, kit, (x, pose, air, face, wb, tags, loc) in acts:
@@ -407,6 +416,7 @@ def frame(n):
     view = world.crop((int(round(cx)), 0, int(round(cx)) + NW, NH)).convert('RGB')
     img = view.resize((W, H), Image.NEAREST)
     d = ImageDraw.Draw(img, 'RGBA')
+    d.fontmode = "1"   # no antialiasing: text stays on hard pixels like the sprites
     hx, hy = (head[0] - cx) * Z, head[1] * Z
     # hook
     if t < T_B:
