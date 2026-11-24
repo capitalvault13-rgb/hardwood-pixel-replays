@@ -45,8 +45,6 @@ INTER_XB = lambda s: font('Inter-ExtraBold.otf', s)
 INTER_BK = lambda s: font('Inter-Black.otf', s)
 
 # ---------- palette ----------
-WOOD = [(237, 221, 189), (234, 217, 184), (240, 225, 194), (235, 219, 186)]
-WOOD_SEAM = (224, 206, 172)
 LINE_DARK = (34, 32, 38)
 OUTLINE = (24, 22, 30)
 LIME = (158, 222, 0)        # caption fill
@@ -96,14 +94,43 @@ def ellipse_pts(cx, cy, rx, ry, a0, a1, step=None):
 
 # ---------- team look ----------
 def home_look(abbr, city, paint, apron, paint_line=(236, 236, 236), accent=None, logo_ring=None,
-              seats=None, shirts=None):
-    """Colours for the home floor. paint/apron are the team's two main colours."""
+              seats=None, shirts=None, wood=(237, 221, 189), floor='planks', line=LINE_DARK, border=None,
+              wordmark=None, wordmark_color=(255, 255, 255), emblem=None, emblem_text=(255, 255, 255),
+              floor_text_color=None):
+    """Colours for the home floor.
+
+    paint / apron / border may be None for natural wood (no painted lane, wood baseline aprons, wood
+    sidelines). floor is 'planks', 'parquet' or 'herringbone'. emblem is the centre-circle fill.
+    """
+    team = [c for c in (paint, apron, border, emblem) if c]
+    base = emblem or apron or paint or border or LINE_DARK
     return dict(abbr=abbr, city=city, paint=paint, apron=apron, paint_line=paint_line,
-                accent=accent or paint, logo_ring=logo_ring or paint_line,
-                seats=seats or mix(apron, (20, 20, 24), 0.35),
-                shirts=shirts or [paint, paint, paint, apron, apron, (236, 236, 236), (236, 236, 236),
-                                  (236, 236, 236), (40, 40, 46), (150, 150, 160), (200, 60, 60),
-                                  (230, 190, 60)])
+                accent=accent or paint or base, logo_ring=logo_ring or paint_line,
+                seats=seats or mix(base, (20, 20, 24), 0.35),
+                shirts=shirts or [team[0], team[0], team[0], team[-1], team[-1], (236, 236, 236),
+                                  (236, 236, 236), (236, 236, 236), (40, 40, 46), (150, 150, 160),
+                                  (200, 60, 60), (230, 190, 60)],
+                wood=tuple(wood), floor=floor, line=tuple(line), border=border,
+                wordmark=wordmark or city.upper(), wordmark_color=tuple(wordmark_color),
+                emblem=emblem or base, emblem_text=tuple(emblem_text),
+                floor_text_color=floor_text_color or (line if not border else wordmark_color))
+
+
+def _rgb(v):
+    if v is None: return None
+    v = v.lstrip('#'); return tuple(int(v[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def court_look(abbr):
+    """The home floor of a team from data/courts.json (abbr like 'DAL' or 'dal')."""
+    import json
+    db = json.load(open(os.path.join(ROOT, 'data', 'courts.json')))
+    c = db['courts'][abbr.lower()]
+    return home_look(c['abbr'], c['city'], paint=_rgb(c['paint']), apron=_rgb(c['apron']),
+                     paint_line=_rgb(c['paint_line']), logo_ring=_rgb(c['emblem_ring']),
+                     wood=_rgb(c['wood']), floor=c['floor'], line=_rgb(c['line']), border=_rgb(c['border']),
+                     wordmark=c['wordmark'], wordmark_color=_rgb(c['wordmark_color']),
+                     emblem=_rgb(c['emblem']), emblem_text=_rgb(c['emblem_text']))
 
 
 # ---------- crowd ----------
@@ -267,34 +294,29 @@ class Arena:
             d.rectangle([0, y + 7, WL, y + 13], fill=mix((0, 0, 0), L['seats'], 0.8))
             d.line([0, y + 13, WL, y + 13], fill=(18, 18, 24))
         fx0, fy0, fx1, fy1 = FLOOR
-        # wood: planks run along the court, 2 art px deep, staggered seams
-        rng = np.random.default_rng(5)
-        for y in range(fy0, fy1, 2):
-            x = fx0 - int(rng.integers(0, 50))
-            while x < fx1:
-                ln = int(rng.integers(26, 72))
-                c = WOOD[int(rng.integers(len(WOOD)))]
-                if x + ln > fx0:
-                    d.rectangle([max(x, fx0), y, min(x + ln, fx1) - 1, y + 1], fill=c)
-                if x > fx0: im.putpixel((x, y), WOOD_SEAM)
-                x += ln
-        d.rectangle([fx0, fy1 - 1, fx1 - 1, fy1 + 1], fill=(120, 104, 84))     # near floor edge
+        self._wood(im, d, L)
+        d.rectangle([fx0, fy1 - 1, fx1 - 1, fy1 + 1], fill=mix(L['wood'], (0, 0, 0), 0.5))  # near floor edge
+        # sideline border band (out of bounds along both sidelines)
+        if L['border']:
+            d.rectangle([fx0, fy0, fx1 - 1, ay(0) - 1], fill=L['border'])
+            d.rectangle([fx0, ay(50) + 1, fx1 - 1, fy1 - 2], fill=L['border'])
         # baseline aprons
-        for xa, xb in ((fx0, XOFF - 1), (WL - XOFF, fx1 - 1)):
-            d.rectangle([xa, fy0, xb, fy1], fill=L['apron'])
-        # city wordmark running up/down the aprons (pixel font, then rotated)
+        if L['apron']:
+            for xa, xb in ((fx0, XOFF - 1), (WL - XOFF, fx1 - 1)):
+                d.rectangle([xa, fy0, xb, fy1 - 2], fill=L['apron'])
+        # wordmark running up/down each apron, beside the baseline (pixel font, then rotated)
         f = PS(16)
-        tw = int(d.textlength(L['city'], font=f))
+        tw = int(d.textlength(L['wordmark'], font=f))
         tim = Image.new('RGBA', (tw + 4, 20), (0, 0, 0, 0))
         td = ImageDraw.Draw(tim); td.fontmode = '1'
-        td.text((2, 2), L['city'], font=f, fill=(255, 255, 255, 255))
+        td.text((2, 2), L['wordmark'], font=f, fill=L['wordmark_color'] + (255,))
         left = tim.rotate(90, expand=True); right = tim.rotate(-90, expand=True)
-        cy = ay(41)
-        im.paste(left, (int((fx0 + XOFF) / 2 - left.width / 2), int(cy - left.height / 2)), left)
-        im.paste(right, (int((WL - XOFF + fx1) / 2 - right.width / 2), int(cy - right.height / 2)), right)
+        cy = ay(25)
+        im.paste(left, (int(ax(-1.4) - left.width / 2), int(cy - left.height / 2)), left)
+        im.paste(right, (int(ax(95.4) - right.width / 2), int(cy - right.height / 2)), right)
         # paints with a gloss band
-        gl = mix(L['paint'], (255, 255, 255), 0.16)
-        for side in (0, 1):
+        gl = mix(L['paint'], (255, 255, 255), 0.16) if L['paint'] else None
+        for side in (0, 1) if L['paint'] else ():
             x0 = ax(0) if side == 0 else ax(94 - 19)
             pw, ph = 19 * PX + 1, 16 * PZ + 1
             tile = Image.new('RGB', (pw, ph), L['paint'])
@@ -305,7 +327,7 @@ class Arena:
             if side == 1: tile = tile.transpose(Image.FLIP_LEFT_RIGHT)
             im.paste(tile, (int(x0), int(ay(17))))
         px = im
-        dk, pl = LINE_DARK, L['paint_line']
+        dk, pl = L['line'], L['paint_line']
         # court outline + half-court line + centre circle
         d = ImageDraw.Draw(im); d.fontmode = '1'
         self._centre_logo(im)
@@ -341,15 +363,52 @@ class Arena:
             # stanchion base pad on the apron
             bx0, bx1 = sorted((ax(m(-8)), ax(m(-3))))
             top0, top1 = ay(21, 3), ay(29, 3)
-            d.rectangle([bx0, top0, bx1, top1], fill=mix(L['apron'], (255, 255, 255), 0.25), outline=OUTLINE)
-            d.rectangle([bx0, top1, bx1, ay(29)], fill=mix(L['apron'], (0, 0, 0), 0.25), outline=OUTLINE)
+            pad = L['apron'] or L['emblem']
+            d.rectangle([bx0, top0, bx1, top1], fill=mix(pad, (255, 255, 255), 0.25), outline=OUTLINE)
+            d.rectangle([bx0, top1, bx1, ay(29)], fill=mix(pad, (0, 0, 0), 0.25), outline=OUTLINE)
             d.line([bx0 + 1, top1 + 3, bx1 - 1, top1 + 3], fill=(236, 236, 236))
         # brand text on the floor along the far sideline, like arena signage
         f8 = PS(8)
         for xc in (24, 70):
             tw = d.textlength(self.floor_text, font=f8)
-            d.text((ax(xc) - tw / 2, ay(0) - 13), self.floor_text, font=f8, fill=L['apron'])
+            d.text((ax(xc) - tw / 2, ay(0) - 13), self.floor_text, font=f8, fill=L['floor_text_color'])
         return im
+
+    @staticmethod
+    def _wood(im, d, L):
+        """Floor boards in the team's stain: planks, parquet squares or herringbone."""
+        fx0, fy0, fx1, fy1 = FLOOR
+        base = L['wood']
+        tones = [base, mix(base, (0, 0, 0), 0.015), mix(base, (255, 255, 255), 0.07), mix(base, (0, 0, 0), 0.035)]
+        seam = mix(base, (0, 0, 0), 0.07)
+        rng = np.random.default_rng(5)
+        if L['floor'] == 'planks':      # boards run along the court, 2 art px deep, staggered seams
+            for y in range(fy0, fy1, 2):
+                x = fx0 - int(rng.integers(0, 50))
+                while x < fx1:
+                    ln = int(rng.integers(26, 72))
+                    c = tones[int(rng.integers(len(tones)))]
+                    if x + ln > fx0:
+                        d.rectangle([max(x, fx0), y, min(x + ln, fx1) - 1, y + 1], fill=c)
+                    if x > fx0: im.putpixel((x, y), seam)
+                    x += ln
+            return
+        a = np.zeros((fy1 - fy0, fx1 - fx0, 3), np.uint8)
+        yy, xx = np.mgrid[0:fy1 - fy0, 0:fx1 - fx0]
+        T = np.array(tones + [seam], np.uint8)
+        if L['floor'] == 'parquet':     # 10 x 6 art-px squares, boards turning 90 degrees square to square
+            bx, by = xx // 10, yy // 6
+            across = (bx + by) % 2 == 0
+            stripe = np.where(across, (yy % 6) // 2, (xx % 10) // 3)
+            idx = (stripe + bx * 3 + by * 5) % 4
+            idx = np.where((xx % 10 == 0) | (yy % 6 == 0), 4, idx)
+        else:                           # herringbone: short boards zig-zagging along the court
+            col = xx // 6
+            k = np.where(col % 2 == 0, yy + (xx % 6), yy - (xx % 6) + 6)
+            idx = (k // 3 + col * 2) % 4
+            idx = np.where(k % 3 == 0, 4, idx)
+        a[:] = T[idx]
+        im.paste(Image.fromarray(a), (fx0, fy0))
 
     def _centre_logo(self, im):
         """Original Hardwood Index emblem in the home colours (never a team's real logo)."""
@@ -359,12 +418,12 @@ class Arena:
         d = ImageDraw.Draw(lg); d.fontmode = '1'
         d.ellipse([2, 2, n - 3, n - 3], fill=OUTLINE)
         d.ellipse([5, 5, n - 6, n - 6], fill=L['logo_ring'])
-        d.ellipse([12, 12, n - 13, n - 13], fill=L['apron'])
-        d.ellipse([18, 18, n - 19, n - 19], outline=L['paint'], width=3)
+        d.ellipse([12, 12, n - 13, n - 13], fill=L['emblem'])
+        d.ellipse([18, 18, n - 19, n - 19], outline=L['logo_ring'], width=3)
         f = PS(24)
         tw = d.textlength(L['abbr'], font=f)
         d.text(((n - tw) / 2 + 2, n / 2 - 10), L['abbr'], font=f, fill=OUTLINE)
-        d.text(((n - tw) / 2, n / 2 - 12), L['abbr'], font=f, fill=(255, 255, 255))
+        d.text(((n - tw) / 2, n / 2 - 12), L['abbr'], font=f, fill=L['emblem_text'])
         lg = lg.resize((n, int(n * PZ / PX)), Image.NEAREST)   # lay it flat on the floor
         im.paste(lg, (int(ax(47) - lg.width / 2), int(ay(25) - lg.height / 2)), lg)
 
@@ -431,8 +490,8 @@ class Arena:
         xx = -off
         while xx < bar.width:
             d.text((xx, 2), msg, font=f, fill=col); xx += tw
-        d.line([0, 0, bar.width, 0], fill=L['paint'])
-        d.line([0, bar.height - 1, bar.width, bar.height - 1], fill=L['paint'])
+        d.line([0, 0, bar.width, 0], fill=L['accent'])
+        d.line([0, bar.height - 1, bar.width, bar.height - 1], fill=L['accent'])
         big = up(bar)
         img.paste(big, (x0 * S - cam_x, y0 * S + VIEW_Y))
 

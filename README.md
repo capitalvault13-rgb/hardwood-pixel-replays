@@ -15,6 +15,8 @@ to `renders/`.
 data/teams.json       all 30 NBA teams (abbr, city, name, conference, division, nba.com link)
 data/rosters/<abbr>.json   each team's current roster + coaches from nba.com (number, name, position, height, ...)
 data/players.csv      every rostered player in one sheet
+data/courts.json      home floor for all 30 teams (stain, paint, aprons, sidelines, lines, wordmark, centre emblem)
+data/courts_sheet.png all 30 floors on one labelled check sheet (tools/court_sheet.py)
 tools/fetch_rosters.py     refreshes data/ from nba.com
 sprites/<team>/       one folder per team (NBA 3-letter code, lower case); cut sheets at native size, drawn teams at 3x
 sprites/<team>/source/  the original sprite sheet that team's PNGs were cut from
@@ -30,6 +32,7 @@ tools/number_sprites.py    adds jersey numbers to cut sprites from sprites/<team
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
 tools/fetch_headshots.py   pulls a team's nba.com headshots into sprites/<team>/source/ and makes face sheets
 tools/sample_skin.py       measures every player's skin tone from their headshot into players.json
+tools/court_sheet.py       redraws data/courts_sheet.png from data/courts.json
 lib/broadcast.py      shared renderer: side-on court, crowd, hoops, camera, captions, arrows, word cards
 fonts/                Press Start 2P, Silkscreen, Inter ExtraBold/Black (all SIL Open Font License)
 episodes/NNN-name/    replay.py (visuals), audio.py (chiptune + SFX), render.sh
@@ -152,9 +155,10 @@ Since replay 002's re-render, every replay uses the broadcast-camera look in `li
   with the ball and never zooms. The court sits in the middle of the frame, with crowd above and below.
 - **Pixel grid**: one art pixel = 3 screen pixels, the same scale as the 3x sprites, and every
   position snaps to it so the floor, crowd, hoops and players read as one piece.
-- **Floor**: light maple planks, thin dark lines, home-team paint with a diagonal gloss band.
-  The inner half of each free-throw circle is dashed. Baseline aprons are in the home team's
-  second colour with the city running up them. The centre emblem shows the home team's
+- **Floor**: the home team's floor from `data/courts.json`. That sets the wood stain and pattern
+  (planks, parquet, herringbone), the paint with its diagonal gloss band, the baseline aprons,
+  the sideline border and the line colours. The inner half of each free-throw circle is dashed,
+  and the city runs up each apron beside the baseline. The centre emblem shows the home team's
   abbreviation in our own design, never a real team logo. `HARDWOOD INDEX` sits along the far
   sideline and scrolls on the LED board.
 - **Hoops**: stanchion pad on the apron, post and boom, a leaned glass board with a shooter's
@@ -173,10 +177,29 @@ Since replay 002's re-render, every replay uses the broadcast-camera look in `li
 - **Header/footer**: the Hardwood Index header and scorebug stay above the court. The source line
   sits at the bottom.
 
-New episodes build an `Arena(home_look(...))` for the home team, then for each frame call
+New episodes build an `Arena(court_look('dal'))` for the home team, then for each frame call
 `arena.begin(camera_x, t, cheer_t, led)`, then `arena.draw_actors(img, actors, ball)`, and then the
 overlays (`caption`, `dashed_ellipse`, `dashed_arrow`, `word_card`). `episodes/002-kuminga/replay.py`
 is the worked example.
+
+## Home floors
+
+`data/courts.json` holds the home floor for all 30 teams. Each team's Main court is matched for
+wood stain, paint, aprons, sideline border, line colour and wordmark, using the real floor and
+the team's official colours. Only the colours and layout are taken: there are no team logos,
+NBA marks or sponsor names, and the centre emblem is our own. `null` means natural wood:
+Detroit, Toronto and New Orleans have unpainted lanes, and Denver and Memphis have wood
+aprons. Houston's floor was read from broadcast-style gameplay footage (red lane, red apron),
+not from a full-floor reference, so check it against the real Toyota Center floor before a
+Rockets home replay.
+
+After changing a floor, redraw the check sheet and look at it:
+
+```bash
+python3 tools/court_sheet.py
+```
+
+Alternate floors (City Edition, playoffs, NBA Cup) are not in the database yet.
 
 ## Render a replay
 
@@ -200,7 +223,7 @@ python3 episodes/002-kuminga/replay.py stills /tmp 1.6 3.3 4.8 6.6 8.8 11.5 13.0
 
 1. Copy `episodes/002-kuminga/` to `episodes/003-<name>/` and bump `PIXEL REPLAY #00N` in `replay.py`.
 2. Edit the top of `replay.py`: timeline constants (`T_REL`, `T_LAND`, ...), the home floor
-   (`home_look`: abbreviation, city, paint and apron colours), the shooter's spot in court feet
+   (`court_look('<team>')`), the shooter's spot in court feet
    (`KX`, `KZ`, derived from the real shot distance), the two team lists (court feet), the
    camera path (`cam_center`), scorebug states (`score_state`), captions (`CAPS`, sentence case),
    the record card text and the footer source line.
@@ -219,6 +242,6 @@ python3 episodes/002-kuminga/replay.py stills /tmp 1.6 3.3 4.8 6.6 8.8 11.5 13.0
   buzzer three; it is not quoted directly by a source.
 - Player positions are illustrative. Kuminga's spot is computed from the 74-ft distance to the far rim
   (14.8 ft from his own baseline, 3 ft off the rim line: inside his own paint).
-- The floor is drawn as a generic Dallas home floor (blue paint, navy aprons) with our own centre emblem.
-  It is not the Mavericks' real court design.
+- The floor is the Dallas home floor from `data/courts.json` (silver-grey stain, navy lanes, aprons and
+  sidelines) with our own centre emblem. It has no Mavericks logo, arena name or sponsor marks.
 - Left out on purpose: the claim that the heave was a pass intended for Jock Landale (single source, contradicted).

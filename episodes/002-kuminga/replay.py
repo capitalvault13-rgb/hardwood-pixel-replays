@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw
 
 HERE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # repo root
 sys.path.insert(0, os.path.join(HERE, 'lib'))
-from broadcast import (Arena, home_look, caption, dashed_ellipse, dashed_arrow, word_card,
+from broadcast import (Arena, court_look, caption, dashed_ellipse, dashed_arrow, word_card,
                        W, H, FPS, S, PH, wx, PS, SK, INTER_XB, INTER_BK,
                        NAVY, WHITE, GREY, LIME, PINK, lerp, clamp, ease, seg, snap)
 
@@ -70,7 +70,7 @@ def cam_center(t):
 
 class Scene:
     def __init__(self):
-        self.arena = Arena(home_look('DAL', 'DALLAS', paint=DAL_BLUE, apron=DAL_NAVY, logo_ring=DAL_SILVER))
+        self.arena = Arena(court_look('dal'))           # data/courts.json
         self.atl = [(load(n), p) for n, p in TEAM_ATL]
         self.dal = [(load(n, True), p) for n, p in TEAM_DAL]
 
