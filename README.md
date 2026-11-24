@@ -8,6 +8,7 @@ to `renders/`.
 |---|------|--------|--------|
 | 001 | Luka Dončić 61-ft halftime heave (POR @ LAL, Nov 6 2026) | — (reference only) | `reference/pixel-replay-001-luka.mp4` |
 | 002 | Jonathan Kuminga 74-ft 3rd-quarter buzzer heave (ATL @ DAL, Mar 18 2026) | `episodes/002-kuminga/` | `renders/pixel-replay-002-kuminga.mp4` |
+| 003 | Victor Wembanyama 50 vs Pelicans + his MVP case (NOP @ SAS, Nov 21 2026) | `episodes/003-wembanyama-50/` | `renders/pixel-replay-003-wembanyama-50.mp4` |
 
 ## Layout
 
@@ -19,9 +20,13 @@ tools/fetch_rosters.py     refreshes data/ from nba.com
 sprites/<team>/       one folder per team (NBA 3-letter code, lower case), native pixel size
 sprites/<team>/source/  the original sprite sheet that team's PNGs were cut from
 sprites/atl/          Hawks chibi v2 — 19 players x 3 kits (home / away / statement)
+sprites/sas/          Spurs — Wembanyama only so far (drawn by tools/make_sprites.py; "tall": 4 for the rig)
 sprites/bos/          Celtics — full 2026-27 roster (17), drawn by tools/make_sprites.py from sprites/bos/players.json
 tools/extract_sprites.py   cuts a sheet into sprites/<team>/*.png
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
+tools/animate_sprites.py     animation set 1: camera-facing pose rig (idle, dribble, pass, jump, shoot, dunk)
+tools/animate_sprites_v2.py  animation set 2: side-facing 3/4 rig, lean/squash, 11 moves + effect tags
+tools/anim_demo.py           set-1 demo possession video;  tools/anim_compare.py  set 1 vs set 2 video
 fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
 episodes/NNN-name/    replay.py (visuals), audio.py (chiptune + SFX), render.sh
 renders/              finished MP4s
@@ -106,3 +111,22 @@ python3 episodes/002-kuminga/replay.py stills /tmp 0.4 3.4 5.6 7.0 10.8 13.0
   buzzer three; it is not quoted directly by a source.
 - Player positions are illustrative. Kuminga's spot is computed from the 74-ft distance (inside his own paint).
 - Left out on purpose: the claim that the heave was a pass intended for Jock Landale (single source, contradicted).
+
+### 003 — Wembanyama 50, and the MVP case
+First replay animated with sprite set 2 (side view). Spurs 114, Pelicans 91, Nov 21 2026, Frost Bank Center.
+- Line (NBA.com player game log): 50 PTS, 18 REB, 5 BLK, 4 STL, 1 AST, 32 MIN, 20-29 FG, 5-11 3PT, 5-6 FT, +35.
+  Some NBA.com text and the NBA's post say 19 rebounds; we use the game log's 18.
+- Halftime (AP via NBA.com): 32 PTS, 13 REB, 3 BLK, 3 STL; Spurs led 61-45. NBA.com Starting 5 gives 12 rebounds for
+  his big half; we use AP's 13.
+- The slam: AP — after a shove, he "scored the next seven points, including a one-handed slam over Yves Missi", first
+  half (9:27 mark nearby). The defender sprite is a generic, unlabelled Pelican.
+- The block scene is illustrative (he had 3 blocks by halftime, 5 total); no specific block is claimed.
+- 50th point: a 3-pointer for 108-82 with 6:29 left (AP); he then exited. The pre-shot 105-82 and his 47 are derived.
+- Records (AP via NBA.com): first player since 1973-74 with 50 PTS, 15 REB, 4 STL, 5 BLK in a game; first with 50 PTS,
+  5 BLK and five 3-pointers since 1979-80. Second 50 this month; career high 52 vs DAL, Nov 4.
+- MVP (NBA.com Kia MVP Ladder, Nov 20 2026, i.e. before this game): 1 Doncic 38.1 PPG, 2 Wembanyama 28.6 PPG / 11.9 RPG /
+  3.9 BPG, 3 Antetokounmpo 28.2 PPG. Per 36: 34.1 PTS, 14.2 REB, 4.6 BLK; "right at 30 minutes per game".
+- Spurs "14th win in 15 games" (NBA post in the AP story). Ruled out Monday Nov 23 vs SAC with a back issue (NBA.com player news).
+- Left out: betting odds (only reachable via ESPN, not verifiable this session).
+- Wembanyama's sprite look (short dark hair, light goatee) was set from description, not checked against a photo.
+  Pelicans kit colours and court are illustrative.

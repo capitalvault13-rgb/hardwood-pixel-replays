@@ -1,0 +1,13 @@
+{
+  "team": "San Antonio Spurs",
+  "kits": {
+    "home": {"jersey": [246, 246, 242], "shade": [206, 208, 210], "trim": [22, 22, 26], "trim2": [150, 156, 162], "band": [22, 22, 26]},
+    "away": {"jersey": [22, 22, 26], "shade": [44, 44, 50], "trim": [246, 246, 242], "trim2": [150, 156, 162], "band": [246, 246, 242]}
+  },
+  "players": [
+    {"id": "wembanyama", "label": "#1", "name": "Wembanyama", "full_name": "Victor Wembanyama", "player_id": 1641705,
+     "skin": [108, 70, 52], "hair": "crop", "hair_color": [20, 16, 14], "beard": "goatee", "beard_color": [24, 18, 16],
+     "shoes": [244, 244, 244], "shoe_accent": [22, 22, 26], "tall": 4,
+     "look_source": "description: short dark hair / light goatee (not checked against a photo this session)"}
+  ]
+}

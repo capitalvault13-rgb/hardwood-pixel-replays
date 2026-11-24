@@ -269,7 +269,7 @@ def _render_side(p, kit, pose, with_ball):
     far = _dim(pal)
     im = Image.new('RGBA', (CW, CH), (0, 0, 0, 0))
     px = im.load()
-    dx, dy = pose["dx"], pose["dy"]
+    dx, dy = pose["dx"], pose["dy"] - p.get("tall", 0)   # "tall": longer legs, feet stay put
     T = lambda q: (OX + q[0] + dx, Y0 + q[1] + dy)
     A = lambda q: (OX + q[0], Y0 + q[1])
 
@@ -354,7 +354,7 @@ def render(p, kit, pose, with_ball=True, face=1):
         im = im.transpose(Image.FLIP_LEFT_RIGHT)
     return im
 
-def ball_pos(pose, face=1):
+def ball_pos(pose, face=1, tall=0):
     """Ball centre in cell coords for a pose (before squash), or None."""
     if not pose.get("ball"):
         return None
@@ -366,7 +366,7 @@ def ball_pos(pose, face=1):
     else:
         bx, by = pose["ball"]
         if not pose.get("ball_abs"):
-            bx += pose["dx"]; by += pose["dy"]
+            bx += pose["dx"]; by += pose["dy"] - tall
         x, y = OX + bx, Y0 + by
     return (x if face > 0 else CW - 1 - x), y
 
