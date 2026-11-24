@@ -1,7 +1,7 @@
 # Hardwood Index — Pixel Replays
 
 15-second vertical (1080x1920, 30fps) pixel-art recreations of real NBA plays, in the
-Hardwood Index style. Each replay lives in its own folder under `episodes/` and renders
+Hardwood Index broadcast-camera style (see "Animation style" below). Each replay lives in its own folder under `episodes/` and renders
 to `renders/`.
 
 | # | Play | Folder | Render |
@@ -30,10 +30,11 @@ tools/number_sprites.py    adds jersey numbers to cut sprites from sprites/<team
 tools/make_sprites.py      draws a team's sprites from players.json (look per player + kit colours)
 tools/fetch_headshots.py   pulls a team's nba.com headshots into sprites/<team>/source/ and makes face sheets
 tools/sample_skin.py       measures every player's skin tone from their headshot into players.json
-fonts/                Press Start 2P + Silkscreen (both SIL Open Font License)
+lib/broadcast.py      shared renderer: side-on court, crowd, hoops, camera, captions, arrows, word cards
+fonts/                Press Start 2P, Silkscreen, Inter ExtraBold/Black (all SIL Open Font License)
 episodes/NNN-name/    replay.py (visuals), audio.py (chiptune + SFX), render.sh
 renders/              finished MP4s
-reference/            earlier replays used as the style reference
+reference/            replay 001 in the original top-down style (kept for reference)
 ```
 
 Sprite file names: `sprites/<team>/<player>_<kit>.png`, e.g. `sprites/atl/kuminga_away.png`.
@@ -142,6 +143,41 @@ compares teams, and writes `skin` and `skin_source` into each `players.json`. Th
 hand-picked tone stays as `skin_picked` so a re-run gives the same result. Then rerun
 `tools/make_sprites.py` for each team. Players with no usable headshot keep their tone.
 
+## Animation style
+
+Since replay 002's re-render, every replay uses the broadcast-camera look in `lib/broadcast.py`:
+
+- **Camera**: side-on and slightly raised. The court runs left to right; depth is squashed to 5/8
+  of the length scale (8 art px per foot along the court, 5 across it, 5.3 up). The camera pans
+  with the ball and never zooms. The court sits in the middle of the frame, with crowd above and below.
+- **Pixel grid**: one art pixel = 3 screen pixels, the same scale as the 3x sprites, and every
+  position snaps to it so the floor, crowd, hoops and players read as one piece.
+- **Floor**: light maple planks, thin dark lines, home-team paint with a diagonal gloss band.
+  The inner half of each free-throw circle is dashed. Baseline aprons are in the home team's
+  second colour with the city running up them. The centre emblem shows the home team's
+  abbreviation in our own design, never a real team logo. `HARDWOOD INDEX` sits along the far
+  sideline and scrolls on the LED board.
+- **Hoops**: stanchion pad on the apron, post and boom, a leaned glass board with a shooter's
+  square, an orange rim and a white net. These are depth-sorted with the players at z = 25 ft.
+- **Crowd**: fans facing the court in the far and baseline stands, and the backs of heads in the
+  near stands (dimmer, so captions read on top). They wear mostly home colours and jump with
+  their arms up after a make (`cheer_t`).
+- **Players**: soft drop shadow under every player and the ball, a one-pixel walking bob, and
+  sprites flip to face the way they move.
+- **Captions**: sentence case, Inter ExtraBold, lime `(158,222,0)`, 7 px black outline plus a
+  soft shadow, laid over the near stands. No highlight words.
+- **Graphics**: pink `(240,40,110)` dashed rings round a player and dashed arrows that draw on.
+  Distances are a white dashed line on the floor with a lime `NN ft` label.
+- **Cut-aways**: full-frame black word cards with big white Inter Black text (one word may
+  be coloured), used for the record card and the end card.
+- **Header/footer**: the Hardwood Index header and scorebug stay above the court. The source line
+  sits at the bottom.
+
+New episodes build an `Arena(home_look(...))` for the home team, then for each frame call
+`arena.begin(camera_x, t, cheer_t, led)`, then `arena.draw_actors(img, actors, ball)`, and then the
+overlays (`caption`, `dashed_ellipse`, `dashed_arrow`, `word_card`). `episodes/002-kuminga/replay.py`
+is the worked example.
+
 ## Render a replay
 
 Needs Python 3 with `numpy`, `Pillow` (and `scipy` only for `tools/extract_sprites.py`), plus `ffmpeg`.
@@ -157,16 +193,17 @@ episodes/002-kuminga/render.sh
 Quick check of a few frames before a full render (writes PNGs into the given folder):
 
 ```bash
-python3 episodes/002-kuminga/replay.py stills /tmp 0.4 3.4 5.6 7.0 10.8 13.0
+python3 episodes/002-kuminga/replay.py stills /tmp 1.6 3.3 4.8 6.6 8.8 11.5 13.0
 ```
 
 ## Making the next replay
 
 1. Copy `episodes/002-kuminga/` to `episodes/003-<name>/` and bump `PIXEL REPLAY #00N` in `replay.py`.
-2. Edit the top of `replay.py`: timeline constants (`T_REL`, `T_LAND`, ...), shooter position
-   (`KPOS`, derived from the real shot distance), the two team lists, scorebug states
-   (`score_state`), captions (`CAPS` — `*word*` = gold, one gold word per caption), the hook box,
-   record card text and footer source line.
+2. Edit the top of `replay.py`: timeline constants (`T_REL`, `T_LAND`, ...), the home floor
+   (`home_look`: abbreviation, city, paint and apron colours), the shooter's spot in court feet
+   (`KX`, `KZ`, derived from the real shot distance), the two team lists (court feet), the
+   camera path (`cam_center`), scorebug states (`score_state`), captions (`CAPS`, sentence case),
+   the record card text and the footer source line.
 3. Every number on screen must come from a source; list them in the episode notes below.
 4. Render, check, commit the MP4 to `renders/`.
 
@@ -180,5 +217,8 @@ python3 episodes/002-kuminga/replay.py stills /tmp 0.4 3.4 5.6 7.0 10.8 13.0
   sixth-longest make in NBA history (Fox News / Wikipedia "List of longest NBA field goals").
 - Pre-shot scorebug 98-82 is derived from the quarter line (ATL 37-30-34, DAL 30-26-26) minus the
   buzzer three; it is not quoted directly by a source.
-- Player positions are illustrative. Kuminga's spot is computed from the 74-ft distance (inside his own paint).
+- Player positions are illustrative. Kuminga's spot is computed from the 74-ft distance to the far rim
+  (14.8 ft from his own baseline, 3 ft off the rim line: inside his own paint).
+- The floor is drawn as a generic Dallas home floor (blue paint, navy aprons) with our own centre emblem.
+  It is not the Mavericks' real court design.
 - Left out on purpose: the claim that the heave was a pass intended for Jock Landale (single source, contradicted).
